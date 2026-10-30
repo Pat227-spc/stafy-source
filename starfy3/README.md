@@ -75,8 +75,17 @@ All translation credit belongs to the original translators. Starfy is (c) Ninten
 
 An in-game translator credits page is planned for a future update.
 
-### Third-party tools
-- armips by Kingcom (MIT) - https://github.com/Kingcom/armips (bundled Linux build of commit 62adab4, licence in thirdparty/armips/)
-- Floating IPS (flips) by Alcaro (GPL-3.0) - https://github.com/Alcaro/Flips (bundled Linux build of commit ff216a7, licence in thirdparty/flips/)
+### Tools
+Everyone who built a tool we used:
+
+- armips by Kingcom, with contributors sp1187, unknownbrackets, Prof9, Fothsid, StraDaMa, queueRAM, Normmatt, hrydgard, Blade2187, Zeturic, tclamb, kabochi, adakite1, PeterLemon, LemonBoy, warmenhoven, radimerry, nekopsykose, onlymx13, GermanAizek, kwyxz, jeffman, archshift, aliaspider, dfuchsgruber, Thar0, Bigpet, socram8888, lioncash, joeydumont, bentley, Amjad50 - https://github.com/Kingcom/armips (MIT; bundled Linux build of commit 62adab4, licence in thirdparty/armips/)
+- Floating IPS (flips) by Alcaro, with contributors Sir-Walrus, Miepee, orbea, Kekun, mrexodia, althonos, foxsouns, bbhtt, trillllian - https://github.com/Alcaro/Flips (GPL-3.0; bundled Linux build of commit ff216a7, licence in thirdparty/flips/)
 - Atlas 1.11 by Klarth - https://www.romhacking.net/utilities/224/ (not bundled: no redistribution licence)
 - LZSS (CUE's GBA/DS compressors, 2011) by CUE - https://www.romhacking.net/utilities/826/ (not bundled: no redistribution licence)
+- VWF (variable-width font) code by RayCarrot, integrated by Luckylodeon98 - https://github.com/Luckylodeon98/Densetsu_no_Starfy_2_Translation_ENG
+- Normmatt's VWF/text insertion tool - https://www.starfywiki.org/wiki/Fan_translation
+- mGBA by endrift - https://github.com/mgba-emu/mgba (testing)
+- NanoBoyAdvance by fleroviux - https://github.com/nba-emu/NanoBoyAdvance (testing)
+- VisualBoyAdvance-M by the VBA-M project - https://github.com/visualboyadvance-m/visualboyadvance-m (testing)
+- Wine by the Wine project - https://www.winehq.org/ (runs Atlas and lzss on Linux)
+- Python, NumPy, SciPy and Pillow by their projects - https://www.python.org/, https://numpy.org/, https://scipy.org/, https://python-pillow.org/
