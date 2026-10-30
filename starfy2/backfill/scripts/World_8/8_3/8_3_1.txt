@@ -1,0 +1,230 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-3 scene 1 (in-level table #88)
+//Block Range: $0 - $10A6
+//POINTER: 0x0814E38C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_3/8_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><3><1><2> <go> <3><line>
+<:if> <8><3><1><1> <go> <2><line>
+<:if> <8><3><0><0> <go> <1><line>
+<:flagon> <8><3><0><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Bawss<line>
+HEY-OH!!!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+H-huh? Wha- Um... *whispering* h-hey-oh...<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Bawss<line>
+What're you whispering for!? Once more,<line>
+with feeling! HEY-OH!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+HEY-OH!!!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Bawss<line>
+That's more like it! Passing marks! You two<line>
+have great timing, too!<line>
+<redname><diamond>Bawss<line>
+I came to protect Pufftop. Hired help, if<line>
+you will.<line>
+<redname><diamond>Bawss<line>
+I'm Bawss, the leader of <textcolor_d>the Squirts<textcolor_0>. We<line>
+Spear Squids always get the job done!<line>
+<redname><diamond>Bawss<line>
+But, my 4 lackeys haven't shown up yet!<line>
+<redname><diamond>Bawss<line>
+And of course, that Ogura kid attacked,<line>
+and they're nowhere to be seen! *grumble*<line>
+<redname><diamond>Bawss<line>
+And that's that! I need you guys to tell<line>
+those 4 knuckleheads to get back here!<line>
+<redname><diamond>Bawss<line>
+All 4 of 'em should be around here<line>
+somewhere. You'll know 'em when you see<line>
+'em, they look like me.<line>
+<redname><diamond>Bawss<line>
+Once ya find 'em, bring 'em back here! I'll<line>
+leave it to you!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+T-the heck? What a pushy geezer...<line>
+<redname><diamond>Moe<line>
+But there's somethin' about him...<line>
+<redname><diamond>Moe<line>
+We'd better just do what he says for<line>
+now... *mumble mumble*<line>
+<wait><:obj> <1> <9> <2><line>
+<rname><diamond>Moe<line>
+Alright, Starf, let's go!<line>
+<redname><diamond>Moe<line>
+We're lookin' for 4 guys who look like this<line>
+old guy!<line>
+<:c><line>
+<wait><:flagon> <8><3><2><1><line>
+<:flagon> <8><3><2><2><line>
+<:flagon> <8><3><2><3><line>
+<:flagon> <8><3><2><4><line>
+<:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+We're lookin' for 4 guys who look like this<line>
+old guy!<line>
+<redname><diamond>Moe<line>
+I can't hate this geezer...<line>
+<redname><diamond>Moe<line>
+Turns out he's an old pal of the King of<line>
+Pufftop.<line>
+<redname><diamond>Moe<line>
+You Pufftop folks can't handle things on<line>
+your own...<line>
+<redname><diamond>Moe<line>
+...so these guys sure have it rough.<line>
+<:end><line>
+<wait>:<2><line>
+<:flagon> <8><3><1><2><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <4> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Bawss<line>
+Where the heck were you boneheads!?<line>
+Slacking off!?<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Squirt #1<line>
+B-but that Ogura guy's super scary...<line>
+<:c><line>
+<wait><:obj> <6> <4><line>
+<rname><diamond>Squirt #2<line>
+Exactly! Don't make us do this, Bawss!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Bawss<line>
+Shut yer yaps! We came here on an<line>
+important mission. To protect Pufftop!<line>
+<redname><diamond>Bawss<line>
+Did you dolts even think about what<line>
+happens if we get cold feet!?<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Squirt #4<line>
+Don't get angry! It's not our fault that<line>
+we're delicate...<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<rname><diamond>Squirt #3<line>
+Yeah *achoo*! Because of this cold, I can't<line>
+move...sniffle<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Bawss<line>
+I ain't the complaints department! I should<line>
+thank ya, Starfy and Moe.<line>
+<redname><diamond>Bawss<line>
+Now we can start our mission!<line>
+<wait><:flagon> <8><3><0><6><line>
+<rname><diamond>Bawss<line>
+Your reward'll be through that door.<line>
+<redname><diamond>Bawss<line>
+Do your best on your adventure too!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <4> <1><6><line>
+<:obj> <5> <1><6><line>
+<:obj> <6> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <4> <3><line>
+<:obj> <5> <3><line>
+<:obj> <6> <3><line>
+<:flagoff> <1><5><5><2><9><line>
+<:flagoff> <1><5><5><3><0><line>
+<:flagoff> <1><5><5><3><1><line>
+<:flagoff> <1><5><5><3><2><line>
+<:func> <1> <0><line>
+<:flagon> <8><3><1><3><line>
+<:obj> <2> <0> <5><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>The Squirts<line>
+Aaaand step and step... Step and step...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+What the heck kinda dance is that?<line>
+<:c><line>
+<redname><diamond>Squirt #4<line>
+Isn't it so lame...? *sob*<line>
+<:c><line>
+<redname><diamond>Bawss<line>
+Shut yer yap! These are important<line>
+exercises so we can get ready for the<line>
+mission. Don't you dare slow down!<line>
+<:c><line>
+<redname><diamond>Squirt #4 & Co.<line>
+Yes, Bawss... *sniffle*<line>
+<:end><line>
+<wait><:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Is there an arrow on that cloud? Well,<line>
+guess there's nothin' else to do but Jump<line>
+on it and see what happens.<line>
+<:end><line>
+<end>
+

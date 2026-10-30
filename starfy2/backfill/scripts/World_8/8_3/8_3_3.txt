@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-3 scene 3 (in-level table #90)
+//Block Range: $0 - $248
+//POINTER: 0x0814E394
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_3/8_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <8><3><0><1><line>
+<:flagon> <1><5><5><2><9><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #1<line>
+Uwah! You scared me! I thought Bawss had<line>
+found me...<line>
+<redname><diamond>Squirt #1<line>
+You made it all the way here? Even with my<line>
+special lightning goin' off?<line>
+<redname><diamond>Squirt #1<line>
+Huh? Bawss's looking for me? I'm late for<line>
+our mission?<line>
+<wait><:obj> <1> <1><7> <3><0><line>
+<rname><diamond>Squirt #1<line>
+No way! Hey, let me go! That bad guy is<line>
+scaryyyyyyyy~!<line>
+<:c><line>
+<wait><:obj> <1> <2><line>
+You decided to take <textcolor_d>Squirt #1<textcolor_0> along!<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <8><3><0><7><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 post-game revisit chat (in-level table #452)
+//Block Range: $0 - $1F4
+//POINTER: 0x0814E93C
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><2><line>
+<:se><line>
+<rname><diamond>Gellato<line>
+Oh it's chu, Starfy! Hello there!<line>
+<redname><diamond>Gellato<line>
+We'll keep the peace here on the Slippery<line>
+Glacier.<line>
+<redname><diamond>Gellato<line>
+No need for chu to worry, Starfy.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Gellato<line>
+By the way, you're looking for treasure,<line>
+aren't chu, Starfy?<line>
+<redname><diamond>Gellato<line>
+My treasure's a "Fight! Wakasagi-Robo!"<line>
+Shell Tape.<line>
+<:end><line>
+<end>
+

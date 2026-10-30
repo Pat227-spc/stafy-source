@@ -1,0 +1,91 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-4 scene 1 (in-level table #28)
+//Block Range: $0 - $542
+//POINTER: 0x0814E29C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_4/2_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><4><0><0><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <5> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+C'mere!! I got a bone to pick with you!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+Gyahahahaha! What does a weirdo of a clam<line>
+like you want with me!?<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+WHAT'D YOU SAY ABOUT ME!?...Oh, Starf! This<line>
+is the guy who messed with Ms. Ruby's<line>
+stuff!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+Hmph, you gave Papa some trouble didn't<line>
+you...? But you're just a brat aren't you?<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Look who's talkin', brat! I'm gonna catch ya<line>
+and teach you a lesson!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+Then catch me if you can, slowpokes! Just<line>
+try to keep up with my speed!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:obj> <2> <1><0> <3> <2><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+That kid's really gettin' on my nerves...<line>
+<:obj> <1> <9> <2><line>
+After him, Starf! This is for Ms. Ruby!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5><line>
+<:func> <1><1> <0> <1><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+These currents are crazy strong! With the<line>
+strength ya got right now, Starf, you can't<line>
+swim against 'em!<line>
+<redname><diamond>Moe<line>
+Make sure ya don't get swept up in those<line>
+currents!<line>
+<:end><line>
+<end>
+

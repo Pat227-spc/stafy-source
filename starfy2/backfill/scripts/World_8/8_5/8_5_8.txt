@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 8 (in-level table #103)
+//Block Range: $0 - $F6
+//POINTER: 0x0814E3C8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+You'll find that Squirt with a cold beyond<line>
+here.<line>
+<redname><diamond>Moe<line>
+Have ya asked him about the key yet?<line>
+<:end><line>
+<end>
+

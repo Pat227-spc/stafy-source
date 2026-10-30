@@ -1,0 +1,24 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 58 (table 0x0814EA2C entry 114; stage key 0xFFFF)
+//Block Range: $0 - $AA
+//POINTER: 0x0814EBF4
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+Have you found all the treasures? Collect<line>
+every last piece of <textcolor_d>Stuff<textcolor_0>, every <textcolor_d>Photo<textcolor_0>, all<line>
+the <textcolor_d>Sheet Music<textcolor_0> and the whole <textcolor_d>Picture<line>
+Book<textcolor_0>!<line>
+<:end><line>
+<end>
+

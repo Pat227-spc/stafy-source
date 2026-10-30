@@ -1,0 +1,47 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 post-game revisit chat (in-level table #464)
+//Block Range: $0 - $1BE
+//POINTER: 0x0814E96C
+//Backfill: English from SUT post-game post postgame_w06_r1qaeq.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:flagon> <1><0><0><1><line>
+<:obj> <1> <6><line>
+[<wait_time> <4><0>]<line>
+<:se><line>
+<rname><diamond>Barrel Squid<line>
+The Boss said that he wanted to see you.<line>
+If you aren't busy, why not go and see<line>
+him?<line>
+<:end><line>
+<wait>:<1><line>
+<:if> <1><0><0><1> <go> <1><0><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><1><line>
+<:obj> <1> <6><line>
+[<wait_time> <4><0>]<line>
+<:se><line>
+:<1><0><line>
+<rname><diamond>Barrel Squid<line>
+Hey, just between you and me... which d'ya<line>
+think is tastier, ikayaki or takoyaki?<line>
+<redname><diamond>Barrel Squid<line>
+If you ask me, Ikayaki's WAY better, hands<line>
+down!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,100 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 2 (in-level table #211)
+//Block Range: $0 - $676
+//POINTER: 0x0814E578
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <3> <2> <1><line>
+<:func> <1> <4><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Shh! Keep it down!!...What am I doin'? Isn't it<line>
+obvious?<line>
+<redname><diamond>Moe<line>
+I'm scoutin' the competition.<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+<:obj> <3> <4><line>
+Hirao, are you really going to enter that<line>
+Blimp Race? Please don't, it's too<line>
+dangerous!<line>
+<:c><line>
+<redname><diamond>Hirao<line>
+<:obj> <2> <4><line>
+I'll be fine! After all, after I win the race,<line>
+I'll use the prize to make our honeymoon<line>
+even better!<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+<:obj> <3> <4><line>
+You're wonderful, darling!! Oh, and the door<line>
+just below here leads to the practice<line>
+corner.<line>
+<redname><diamond>Hirarin<line>
+You're confident in your skill, but shouldn't<line>
+you still practice, just in case?<line>
+<:c><line>
+<redname><diamond>Hirao<line>
+<:obj> <2> <4><line>
+That's a great idea! Well then, I'll head over<line>
+to practice immediately!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Hirarin<line>
+Do your best, darling!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Hirao<line>
+Of course, honey! *Lovey-dovey*<line>
+*lovey-dovey*...<line>
+<:c><line>
+<wait><:obj> <3> <9> <2> <1><line>
+<:obj> <2> <7> <1><4><0> <1><2><8> <1><0><line>
+<:obj> <3> <7> <1><4><0> <1><2><8> <1><0><line>
+[<wait_time> <1><4><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Those two are still as irritating as ever...!<line>
+AUGH!<line>
+<redname><diamond>Moe<line>
+But...didn't those two mention some sorta<line>
+Practice place or whatever?<line>
+<redname><diamond>Moe<line>
+Anyways, sounds like you can practice<line>
+before competing. Just go through the<line>
+door at the bottom.<line>
+<redname><diamond>Moe<line>
+If ya wanna skip practice and wing it, head<line>
+straight for the door at the lower left.<line>
+<redname><diamond>Moe<line>
+Got it!? I don't care how ya do it, just make<line>
+sure you win!<line>
+<redname><diamond>Moe<line>
+What I'm sayin' is...Don't you DARE lose to<line>
+Hirao! Got it!?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:flagon> <4><3><0><1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

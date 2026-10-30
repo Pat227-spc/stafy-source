@@ -1,0 +1,37 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 post-game revisit chat (in-level table #489)
+//Block Range: $0 - $174
+//POINTER: 0x0814E9D0
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Chonmagyo<line>
+Ah!!! Starfy! Thanks to you, our business<line>
+went belly-up-gyo!<line>
+<redname><diamond>Chonmagyo<line>
+What're you gonna do about it-gyo!? Take<line>
+responsibility and get Pufftop to hire<line>
+us-gyo!!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Chonmagyo<line>
+Findin' a new job this time of year is<line>
+rough-gyo...<line>
+<:end><line>
+<end>
+

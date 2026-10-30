@@ -1,0 +1,63 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 scene 8 (in-level table #359)
+//Block Range: $0 - $364
+//POINTER: 0x0814E7C8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_1/10_1_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><2><line>
+<rname><diamond>Ogyan<line>
+Hm!? Dubious individual, identify<line>
+yourself!...A <textcolor_d>secret message<textcolor_0>!?<line>
+<wait><:func> <1><8> <1> <7><1><line>
+<:obj> <2> <2> <1><line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <2> <0><line>
+<rname><diamond>Ogyan<line>
+...What!? Such a sinister plot... I must warn<line>
+my comrades at once!<line>
+<redname><diamond>Ogyan<line>
+My deepest gratitude, Lord Starfy! I shall<line>
+not forget this kindness!<line>
+<redname><diamond>Ogyan<line>
+Beyond here, I have located some<line>
+treasure. You may take it with you.<line>
+<redname><diamond>Ogyan<line>
+Now, if you excuse me!!!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <1><2><8> <0> <2><0><line>
+[<wait_time> <8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><1><2><2><line>
+<:flagoff> <1><5><6><1><0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Anyways, this place's called the 'Torrential<line>
+Falls'.<line>
+<redname><diamond>Moe<line>
+It got its name cause of the loads of<line>
+waterfalls here. We gotta move carefully!<line>
+<:end><line>
+<end>
+

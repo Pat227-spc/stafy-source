@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-2 Goal (goal table #5)
+//Block Range: $0 - $11C
+//POINTER: 0x082C8998
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_2/2_2_Goal_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the treasure chest was...<line>
+some <textcolor_d>Swirly Glasses<textcolor_1>!<line>
+<:c><line>
+<wait>There seems to be an old man that lives<line>
+here that studies Blimps! I wonder what<line>
+kind of person he is...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

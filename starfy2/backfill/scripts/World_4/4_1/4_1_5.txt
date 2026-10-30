@@ -1,0 +1,85 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 scene 5 (in-level table #204)
+//Block Range: $0 - $482
+//POINTER: 0x0814E55C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_1/4_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><1><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><1><0><2><line>
+<:flagoff> <1><5><5><1><6><line>
+<:flagon> <1><5><5><1><8><line>
+<:se><line>
+<rname><diamond>Gellato<line>
+Chu saved me! I was patrolling around here,<line>
+when I suddenly got trapped behind that<line>
+wall!<line>
+<redname><diamond>Gellato<line>
+Fighting really is no good, chu...<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><1><line>
+<:obj> <2> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <0><7><2><line>
+<:obj> <2> <2> <0><line>
+You gave Jellato's letter to Gellato!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+It says he wants to make up, chu...<line>
+<redname><diamond>Gellato<line>
+W-well then! If chu're really that<line>
+desperate, I guess I can forgive chu,<line>
+Jellato!<line>
+<redname><diamond>Gellato<line>
+Fine, I'll make up with him, chu! Please take<line>
+my reply to Jellato!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><1><line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <0><7><2><line>
+<:obj> <3> <2> <0><line>
+You received <textcolor_d>Gellato's Response<textcolor_0>.<line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <5><2><line>
+<:sd><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Gellato<line>
+Want to go back to the entrance, chu?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Gellato<line>
+Well then, I'll see chu later!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <2> <3><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Gellato<line>
+Are chu sure? Well just tell me if chu<line>
+change your mind.<line>
+<:end><line>
+<end>
+

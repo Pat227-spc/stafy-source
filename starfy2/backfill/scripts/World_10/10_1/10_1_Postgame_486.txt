@@ -1,0 +1,45 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 post-game revisit chat (in-level table #486)
+//Block Range: $0 - $260
+//POINTER: 0x0814E9C4
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Ogyon<line>
+Greetings, Lord Starfy. It truly has been<line>
+too long.<line>
+<redname><diamond>Ogyon<line>
+For lending us your cooperation in foiling<line>
+Echigyoya's plot...<line>
+<redname><diamond>Ogyon<line>
+We, the Kunoichi clan, offer you our<line>
+sincerest gratitude.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Ogyon<line>
+The clan members have discussed what<line>
+Echigyoya's punishment should be.<line>
+<redname><diamond>Ogyon<line>
+As punishment, we're having him pick up all<line>
+the litter around Loch Ress.<line>
+<redname><diamond>Ogyon<line>
+It's what they call 'volunteering' in a<line>
+foreign tongue.<line>
+<:end><line>
+<end>
+

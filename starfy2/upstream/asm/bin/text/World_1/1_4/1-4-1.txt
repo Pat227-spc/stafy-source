@@ -1,0 +1,103 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $634
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:flagon> <1><4><0><0><line>
+<:obj> <2> <6><line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <1><0> <3> <1><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<:func> <7> <2><5><5> <0> <0><line>
+<:func> <1><8> <1> <7><6><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+W-Whoa...! W-what's happening!?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <8><line>
+<:obj> <2> <7> <2><5><6> <1><2><8> <4><0><line>
+<:func> <9><line>
+<:obj> <2> <7> <2><2><0> <0> <4><0><line>
+<:func> <9><line>
+<:obj> <2> <7> <2><2><0> <1><2><8> <4><0><line>
+<:func> <9><line>
+<:obj> <2> <7> <1><8><0> <4><0> <4><0><line>
+<:func> <9><line>
+<rname><diamond>Konk<line>
+Konk Konk Konk! What a nice Konk day!<line>
+<:c><line>
+<wait><:obj> <1> <5> <0><line>
+<:func> <8> <0> <9><9><line>
+<rname><diamond>Moe<line>
+Wait a minute...!<line>
+You're that guy from last time!!!<line>
+<:c><line>
+<redname><diamond>Konk<line>
+Ohh! I spy with my little Konk eye...<line>
+A lame clam, Konk!<line>
+<redname><diamond>Konk<line>
+The same lame clam that got<line>
+rejected by Ruby! Konk Konk Konk!<line>
+<:c><line>
+<wait><:obj> <1> <5> <4><line>
+<rname><diamond>Puchi Ogura #1<line>
+Ahaha! Rejected! Rejected~!<line>
+Ahahahaaaaa!<line>
+<redname><diamond>Puchi Ogura #1<line>
+Hey, mister lame-o clam!<line>
+If you're mad,<line>
+why don'tcha do something about it!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <7> <1><0><0> <0> <4><0><line>
+<:func> <9><line>
+<:func> <1><8> <7><line>
+<:func> <7><line>
+<:obj> <1> <5><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Wait you-! Rgh, I'm never forgiving<line>
+that spinning idiot!!!<line>
+<redname><diamond>Moe<line>
+I wasn't even rejected yet!<line>
+Ms.Ruby just said that she<line>
+"wanted to stay friends for now"!<line>
+<wait><:obj> <1> <9> <2><line>
+<rname><diamond>Moe<line>
+Starf'! What're you standing around for!?<line>
+Hurry up and follow me!<line>
+<redname><diamond>Moe<line>
+When I get my hands on those two,<line>
+I'm gonna beat'em to a pulp!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <2><0><0> <2><4><0> <5><0><line>
+[<wait_time> <6><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:func> <1><8> <7><line>
+<:obj> <2> <2><line>
+<:obj> <1> <5><line>
+<:obj> <1> <2><line>
+<:func> <1><0><line>
+<:func> <7><line>
+<:func> <8> <0> <9><9><line>
+<:func> <1><1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

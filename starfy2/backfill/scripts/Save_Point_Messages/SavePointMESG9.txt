@@ -1,0 +1,22 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 9 (table 0x0814EA2C entry 16; stage key 0x12E)
+//Block Range: $0 - $66
+//POINTER: 0x0814EA6C
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+Follow the mysterious loud <textcolor_d>voice<textcolor_0> and find<line>
+out who it belongs to!<line>
+<:end><line>
+<end>
+

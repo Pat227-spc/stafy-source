@@ -1,0 +1,102 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 scene 3 (in-level table #68)
+//Block Range: $0 - $61C
+//POINTER: 0x0814E33C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_4/5_4_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><4><2><5> <go> <3><line>
+<:if> <5><4><2><4> <go> <2><line>
+<:if> <5><4><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><4><0><3><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+*Sniff* Wait...this smell... I SMELL TREASURE<line>
+PAST HERE!<line>
+<redname><diamond>Moe<line>
+Hm? How would I know that? Look, I just<line>
+have a knack for these kinda things,<line>
+alright?<line>
+<redname><diamond>Moe<line>
+And I'm gettin' a good feelin' about this!<line>
+<redname><diamond>Moe<line>
+But these roots are in the way!<line>
+<redname><diamond>Moe<line>
+Hey! Go find a way to get rid of these<line>
+things!<line>
+<redname><diamond>Moe<line>
+There's a door to the upper left... That's<line>
+gotta be it!<line>
+<redname><diamond>Moe<line>
+Start by goin' there, Starf!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Why're you still here!? Go through that<line>
+upper left door!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:func> <1><8> <1> <1><0><3><line>
+<:flagon> <5><4><2><6><line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <7> <3><2> <0> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:func> <1><8> <1> <1><0><3><line>
+<:flagon> <5><4><2><7><line>
+[<wait_time> <8><0>]<line>
+<:obj> <2> <0> <1><line>
+<:obj> <2> <4><line>
+<rname><diamond>Viva<line>
+And that's that! Thanks to my teeth, this<line>
+was nothing!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Whoa...! This chick made those roots look<line>
+like nothin'!<line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+You know...she'd make a great can-opener!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Viva<line>
+You'll end up just like those roots if you<line>
+keep talking...!<line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <2> <1><1> <3> <0> <-><1><6><line>
+<:obj> <2> <0> <1><line>
+<:obj> <2> <4><line>
+<:obj> <1> <2><line>
+<:func> <1> <0><line>
+<:flagon> <5><4><2><5><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Viva<line>
+If you find that little jerk, give 'er what<line>
+for for me!<line>
+<:end><line>
+<end>
+

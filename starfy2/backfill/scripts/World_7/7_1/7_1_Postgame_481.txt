@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 post-game revisit chat (in-level table #481)
+//Block Range: $0 - $1AA
+//POINTER: 0x0814E9B0
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Kit Fish<line>
+Where're all the pearls!? There's next to<line>
+nothing here! What gives!?<line>
+<wait>[<wait_time> <1>]<line>
+<rname><diamond>Kit Fish<line>
+Oh, Starfy! Do you know a place where we<line>
+can find loads of pearls!?<line>
+<wait>[<wait_time> <1>]<line>
+<rname><diamond>Kit Fish<line>
+C'mon, tell me already! Spill it!<line>
+<:c><line>
+<redname><diamond>Fat Cat<line>
+I-I don't remember raising you this way... It's<line>
+bringing me to tears...<line>
+<:end><line>
+<end>
+

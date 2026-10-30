@@ -1,0 +1,65 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Minigame Descriptions (Pointer) - backfill own translation, refit 2026-10-25, on-screen check passed (test worker, Task 5); promoted from pending/ 2026-10-25
+
+//NOTE (2026-10-25 quality pass): ROM 0x080E88E2 maps a 17x7-tile window (136x56 px, BG map 0x0600E000 rows 13-19, cols 1-17);
+//  renderer 0x080E9046 advances 14 px per <line> -> max 4 lines (use 3, like JP). JP max line = 10 full-width cells (~130 px).
+//  Lines refit to <=17 chars so they fit even at a fixed 8 px/char; VWF width model max 96 px. Same text class as dialogue (ctor 0x0800DF14),
+//  VWF applies; confirmed rendering cleanly on screen by the test worker (Task 5). Replaces the upstream file of the same name (whose WRITEs are commented out).
+
+#ACTIVETBL(Story)
+
+//POINTER #0 @ $2C32D4 - JP STRING @ $357F04
+//JP: ふってくるばくだんが/下におちるまえに/うちこわそう
+
+#WRITE(GBA,$2C32D4)
+Shoot the falling<line>
+bombs before they<line>
+hit the ground!<line>
+<:end><line>
+<end>
+
+
+//POINTER #1 @ $2C32D8 - JP STRING @ $357F44
+//JP: 同じいろの/ブロックを３つ/ならべてけそう
+
+#WRITE(GBA,$2C32D8)
+Line up 3 blocks<line>
+of the same color<line>
+to clear them!<line>
+<:end><line>
+<end>
+
+
+//POINTER #2 @ $2C32DC - JP STRING @ $357F80
+//JP: しろいねずみを/おとさないように/わたらせよう
+
+#WRITE(GBA,$2C32DC)
+Don't drop the<line>
+white mice as you<line>
+carry them over!<line>
+<:end><line>
+<end>
+
+
+//POINTER #3 @ $2C32E0 - JP STRING @ $357FB8
+//JP: おとうとたちが/下におちるまえに/ふきあげよう
+
+#WRITE(GBA,$2C32E0)
+Blow your little<line>
+brothers back up<line>
+before they fall!<line>
+<:end><line>
+<end>
+
+
+//POINTER #4 @ $2C32E4 - JP STRING @ $357FF4
+//JP: スタフィーをテキに/ぶつけないようにして/はたをとっていこう
+
+#WRITE(GBA,$2C32E4)
+Keep Starfy away<line>
+from enemies and<line>
+grab the flags!<line>
+<:end><line>
+<end>
+

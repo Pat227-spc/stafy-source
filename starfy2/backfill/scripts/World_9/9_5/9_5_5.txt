@@ -1,0 +1,148 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 scene 5 (in-level table #342)
+//Block Range: $0 - $96A
+//POINTER: 0x0814E784
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><5><0><7> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:obj> <3> <1><0> <0> <0><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+There he is! Listen up, criminal!<line>
+<redname><diamond>Moe<line>
+We already know you're the culprit, so give<line>
+us back the kid, or we'll have to do this<line>
+the hard way!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+No, please! I'm telling you, it's not like that!<line>
+Honest!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You're still playin' dumb...!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+I'm not trying to! I did kidnap her, but I let<line>
+her go!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+...Huh???<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Ressie's daughter's an awful kid... That<line>
+Savako girl...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Wh-whoa, hold on!! You mean... the race<line>
+queen!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+That's her...I just couldn't stand her<line>
+anymore...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <1><2><line>
+<:func> <1><0><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+B-but Sabako still hasn't come home...?<line>
+<:c><line>
+<wait>:<1><0><0><line>
+<rname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+She said that she was going to some<line>
+southern island resort.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+...You've been through a lot, huh...<line>
+<:c><line>
+<redname><diamond>Jiiyan<line>
+Young masterrrrr!<line>
+<:c><line>
+<wait><:obj> <3> <2> <1><line>
+<:obj> <3> <7> <9><6> <1><2><8> <1><0><line>
+[<wait_time> <1><4><0>]<line>
+<rname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Ah, Jiiyan! These guys're bullying me!<line>
+<:c><line>
+<redname><diamond>Jiiyan<line>
+<:obj> <3> <4><line>
+We must take our leave for now, young<line>
+master.<line>
+<redname><diamond>Jiiyan<line>
+We can enact our revenge at any time...<line>
+Remember that, you wretches!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Wah-!?<line>
+<wait><:func> <1><8> <1> <1><1><3><line>
+<:obj> <1> <9> <2> <0><line>
+<:obj> <4> <1><0> <0> <1><line>
+<:obj> <4> <6><line>
+<:obj> <4> <2> <1><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+...They got away. Welp, at least we know<line>
+Sabako's safe.<line>
+<redname><diamond>Moe<line>
+And Ressie doesn't have to worry anymore.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <1><0> <0> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:flagon> <9><5><0><7><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+But still...to think Sabako is Ressie's<line>
+daughter...<line>
+<redname><diamond>Moe<line>
+There is no resemblance at ALL.<line>
+<:end><line>
+<end>
+

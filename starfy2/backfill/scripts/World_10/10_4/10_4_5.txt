@@ -1,0 +1,104 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 scene 5 (in-level table #370)
+//Block Range: $0 - $67E
+//POINTER: 0x0814E7F4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_4/10_4_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><4><0><9> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Ogyon<line>
+<:obj> <2> <4><line>
+Oh, Lord Starfy! I must thank you once<line>
+again for the favor earlier.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Yo, Kunoichi Gals! It ain't safe here, ya<line>
+gotta get outta here!<line>
+<redname><diamond>Moe<line>
+Listen...<line>
+<:c><line>
+<redname><diamond>Ogyon<line>
+<:obj> <2> <4><line>
+Understood. I shall immediately contact our<line>
+comrades in order to remove the bombs.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Are you dense!? That won't be enough, so<line>
+just get outta here!!!<line>
+<:c><line>
+<redname><diamond>Ogyon<line>
+<:obj> <2> <4><line>
+Not to worry, we have more than enough<line>
+allies for this.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+How many friends do you have that can<line>
+get rid of 500 bombs!?<line>
+<:c><line>
+<redname><diamond>Ogyan<line>
+<:obj> <3> <4><line>
+We have roughly two hundred million<line>
+comrades.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+TW-TWO HUNDRED MILLION!?<line>
+<:c><line>
+<redname><diamond>Ogyon<line>
+<:obj> <2> <4><line>
+Ocean Sunfish families are very large.<line>
+Leave the bombs to us.<line>
+<redname><diamond>Ogyon<line>
+Lord Starfy, I would like for you to pursue<line>
+Echigyoya.<line>
+<:c><line>
+<redname><diamond>Ogyan<line>
+<:obj> <3> <4><line>
+Our comrades have told us that you may<line>
+find him in the next room.<line>
+<:c><line>
+<redname><diamond>Ogyon<line>
+<:obj> <2> <4><line>
+Well then, I leave this in your hands.<line>
+<:c><line>
+<wait><:obj> <2> <7> <1><2><8> <1><9><2> <1><0><line>
+<:obj> <3> <7> <1><2><8> <1><9><2> <1><0><line>
+[<wait_time> <1><6><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><4><0><9><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Let's leave the bombs to those Kunoichi<line>
+gals. We gotta go find Echigyoya!<line>
+<redname><diamond>Moe<line>
+But still...Two hundred million...<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $5F
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<x_pos> <2>]<line>
+[<y_pos> <2>]<line>
+PUFFTOP 8-7<line>
+[<x_pos> <6><4>]<line>
+[<y_pos> <2><0>]<line>
+    A Storm of Bones!<line>
+A Storm of Spike Balls!<line>
+<end>
+

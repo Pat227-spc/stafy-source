@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $6E
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+You found the <textcolor_d>Round Key<textcolor_0>!<line>
+<:sd><line>
+<:obj> <1> <3><line>
+<:flagon> <1><4><0><1><line>
+<:flagon> <1><5><5><0><0><line>
+<:end><line>
+<end>
+

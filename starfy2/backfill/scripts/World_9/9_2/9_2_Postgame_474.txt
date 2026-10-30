@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-2 post-game revisit chat (in-level table #474)
+//Block Range: $0 - $DE
+//POINTER: 0x0814E994
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jawjiro<line>
+Hey, Starfy. How much time do you spend in<line>
+Lovely's Shop?<line>
+<redname><diamond>Jawjiro<line>
+Rumor has it her stock gets swapped out<line>
+up to 4 times.<line>
+<:end><line>
+<end>
+

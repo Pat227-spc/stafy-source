@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 post-game revisit chat (in-level table #454)
+//Block Range: $0 - $17C
+//POINTER: 0x0814E944
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:flagon> <1><5><7><0><5><line>
+<:se><line>
+<rname><diamond>Torito<line>
+Not bad. Looks like you've already<line>
+mastered the Super Sea Skater.<line>
+<redname><diamond>Torito<line>
+I'll put it in the same places you've been<line>
+using the <textcolor_d>Sea Skater<textcolor_0> up til now.<line>
+<redname><diamond>Torito<line>
+Use it as much as you'd like.<line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><0><1><line>
+<:exit><line>
+<end>
+

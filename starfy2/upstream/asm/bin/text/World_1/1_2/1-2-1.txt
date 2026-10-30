@@ -1,0 +1,128 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $A32
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><2><5><2> <go> <3><line>
+<:if> <1><2><4><1> <go> <2><line>
+<:if> <1><2><5><1> <go> <1><line>
+<:sd><line>
+<:flagon> <1><2><5><1><line>
+<:flagon> <1><5><0><0><0><line>
+<:func> <6> <2> <1><line>
+<:func> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Herman<line>
+<:obj> <1> <4><line>
+Oh, Starfy and Moe! Just in time!<line>
+Listen to this...<line>
+<redname><diamond>Herman<line>
+Some Ogura looking kid was<line>
+running amok through here a little while ago...<line>
+<redname><diamond>Herman<line>
+And thanks to them,<line>
+I'm having trouble with those<line>
+green things everywhere...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Oh yeah,<line>
+We saw a bunch of those on the way here.<line>
+They made it a real pain to get here...<line>
+<:c><line>
+<redname><diamond>Herman<line>
+<:obj> <1> <4><line>
+Yeah, exactly!<line>
+It's probably a prank<line>
+pulled by that Ogura look-alike.<line>
+<redname><diamond>Herman<line>
+You should be able to get rid of them<line>
+with your <textcolor_d>"Star Spin"<textcolor_0> though, Starfy.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+I got some bad news for ya.<line>
+Starf' here's useless.<line>
+<redname><diamond>Moe<line>
+This clumsy oaf forgot<line>
+All of his Abilities from before!<line>
+Unbelievable...<line>
+<:c><line>
+<redname><diamond>Herman<line>
+<:obj> <1> <4><line>
+Oh no! In that case,<line>
+I'll teach you the Star Spin one more time.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+*sigh*... How annoying...<line>
+I'm going on ahead.<line>
+Herman, take care of this blockhead, will ya?<line>
+<:c><line>
+<redname><diamond>Herman<line>
+<:obj> <1> <4><line>
+If you wanna see how to use the Star Spin,<line>
+take a look at the sign above us.<line>
+<redname><diamond>Herman<line>
+There are <textcolor_d>40 of those weird green things<textcolor_0><line>
+in total.<line>
+<redname><diamond>Herman<line>
+Oh, that's right!<line>
+If you use the Star Spin too much,<line>
+You'll get dizzy...<line>
+<redname><diamond>Herman<line>
+But you can recover quickly<line>
+by <textcolor_d>mashing the <Dpad><textcolor_0>! Good luck!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Herman<line>
+Use your <textcolor_d>Star Spin<textcolor_0> to get rid of<line>
+<textcolor_d>40 of those wierd green things<textcolor_0>!<line>
+<redname><diamond>Herman<line>
+If you use the <textcolor_d>Star Spin<textcolor_0> too much and get dizzy...<line>
+<redname><diamond>Herman<line>
+You can recover from it quicker by,<line>
+mashing the <textcolor_d><Dpad><textcolor_0><line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Herman<line>
+Wow, you got rid of all of them!<line>
+Thanks, Starfy!<line>
+<redname><diamond>Herman<line>
+In return, I'll open the door next to me.<line>
+<:flagon> <1><2><5><2><line>
+<:func> <1><8> <1> <7><4><line>
+<redname><diamond>Herman<line>
+I found something that looked rare in there!<line>
+Why don't you take a look?<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Herman<line>
+By the way, have you already remembered<line>
+the ins and outs of the <textcolor_d>Star Spin<textcolor_0>?<line>
+<redname><diamond>Herman<line>
+I beg you'll be using it in all sorts of situations,<line>
+so make sure to properly practice using it!<line>
+<:end><line>
+<end>
+

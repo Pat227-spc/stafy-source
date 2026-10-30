@@ -1,0 +1,139 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 scene 3 (in-level table #368)
+//Block Range: $0 - $A84
+//POINTER: 0x0814E7EC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_4/10_4_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><4><0><5> <go> <3><line>
+<:if> <1><0><4><0><3> <go> <2><line>
+<:if> <1><0><4><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:flagon> <1><0><4><0><2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Ol' Topknot's real fast... It's not gonna be<line>
+easy to catch 'im.<line>
+<redname><diamond>Moe<line>
+Huh... Come to think of it, weren't there 4<line>
+shutters and 4 switches in this room?<line>
+<redname><diamond>Moe<line>
+Looks like if ya hit a switch with a Spin, it<line>
+controls those shutters...<line>
+<redname><diamond>Moe<line>
+Wait, I got it! Ol' Topknot's always gonna<line>
+run away from ya...<line>
+<redname><diamond>Moe<line>
+But if you close a shutter in his face, he<line>
+can't run away anymore!<line>
+<redname><diamond>Moe<line>
+The perfect plan! If ya get it, go already!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+If ya Spin into a switch, it'll close a<line>
+shutter. Then, Ol' Topknot'll have nowhere<line>
+to run!<line>
+<redname><diamond>Moe<line>
+Then it'll be super easy to catch him!<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <1><8> <1> <7><9><line>
+[<wait_time> <3><0>]<line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><4><0><4><line>
+<:obj> <0> <9> <2> <0><line>
+<:obj> <2> <2> <1><line>
+<:obj> <0> <1><1> <7> <3><8> <-><2><line>
+<:func> <2><8><line>
+[<wait_time> <8>]<line>
+<:func> <1><1> <7> <1><line>
+<:func> <3> <2><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Alright, start talkin'! What're ya plannin' to<line>
+do with those 500 bombs?<line>
+<:c><line>
+<redname><diamond>Chonmagyo<line>
+<:obj> <2> <4><line>
+I-I was only doin' what I was asked, gyo! By<line>
+Master Echigyoya...<line>
+<redname><diamond>Chonmagyo<line>
+W-well, the Kunoichi that live here are<line>
+hindrances so...<line>
+<:c><line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+I get it! That jerk's plannin' on getting his<line>
+revenge!<line>
+<redname><diamond>Moe<line>
+With those bombs planted, this place'll be<line>
+history!<line>
+<redname><diamond>Moe<line>
+Wait, so this is what he meant by<line>
+'preparations'! This is bad!!!<line>
+<:c><line>
+<redname><diamond>Chonmagyo<line>
+<:obj> <2> <4><line>
+Master Echigyoya is in possession of the<line>
+ignition switch for the bombs.<line>
+<redname><diamond>Chonmagyo<line>
+That's all I know-gyo! N-now, for my<line>
+escape-gyo!!!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:obj> <2> <7> <8><0> <1><9><2> <2><0><line>
+[<wait_time> <5><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+He got away again! Whatever, he's not<line>
+important!<line>
+<redname><diamond>Moe<line>
+What're we supposed to do!? There's no<line>
+way we can find all of those bombs!<line>
+<redname><diamond>Moe<line>
+But if we stand around here, we'll get hit<line>
+by the blast too...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <5> <0><line>
+<:func> <1><0><line>
+<:obj> <2> <2> <0><line>
+<:flagon> <1><0><4><0><5><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+We're in a real bad spot... There's no way<line>
+we'll find all those bombs...<line>
+<redname><diamond>Moe<line>
+The heck're we supposed to<line>
+do...?...Whaddaya want, Starf?<line>
+<redname><diamond>Moe<line>
+I'm in the middle of thinkin'! Looks like some<line>
+door opened, so you go check it out!<line>
+<:end><line>
+<end>
+

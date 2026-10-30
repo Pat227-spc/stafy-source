@@ -1,0 +1,91 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 5 (in-level table #100)
+//Block Range: $0 - $59A
+//POINTER: 0x0814E3BC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><5><1><1> <go> <2><line>
+<:if> <8><5><0><3> <go> <1><line>
+:<go> <3><line>
+<wait>:<1><line>
+<:flagon> <8><5><1><1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #3<line>
+Achooo! It's no use... I can't look for the<line>
+<textcolor_d>Cell Key<textcolor_0> with this cold...<line>
+<redname><diamond>Squirt #3<line>
+Wish I could find some <textcolor_d>Cold Medicine<textcolor_0> lyin'<line>
+around somewhere... *sniffle*<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Squirt #3<line>
+Wait, could it be...? Did you find my<line>
+medicine?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <1><5> <1> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <2> <2><line>
+<rname><diamond>Squirt #3<line>
+Thanks! Here, take this.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <3> <1><5> <0> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <3> <2><line>
+Starfy received the <textcolor_d>Make-up Set<textcolor_0>!<line>
+<:c><line>
+<redname><diamond>Squirt #3<line>
+I found this earlier, but I don't need it.<line>
+<redname><diamond>Squirt #3<line>
+Thanks a bunch! And brush your teeth<line>
+before bed, ya hear?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagoff> <1><5><5><3><5><line>
+<:flagon> <1><5><5><3><6><line>
+<:flagon> <8><5><0><4><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <3> <2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #3<line>
+Achooo! It's no use... I can't look for the<line>
+<textcolor_d>Cell Key<textcolor_0> with this cold...<line>
+<redname><diamond>Squirt #3<line>
+Wish I could find some <textcolor_d>Cold Medicine<textcolor_0> lyin'<line>
+around somewhere... *sniffle*<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #3<line>
+Thanks to you, my cold's gone! When you<line>
+get home, make sure to wash your hands<line>
+and gargle!<line>
+<:end><line>
+<end>
+

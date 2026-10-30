@@ -1,0 +1,320 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-1 scene 1 (in-level table #82)
+//Block Range: $0 - $15D2
+//POINTER: 0x0814E374
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_1/8_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><1><1><6> <go> <3><line>
+<:if> <8><1><1><5> <go> <2><line>
+<:if> <8><1><0><0> <go> <1><line>
+<:flagon> <8><1><0><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pufftop Soldier<line>
+My Prince! Thank goodness you're alright!<line>
+Have you found the Queen yet?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Not yet! But we were worried somethin'<line>
+happened to Pufftop, so we came back.<line>
+<redname><diamond>Moe<line>
+Looks like this place's been hit bad...<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Yes, exactly... And after that, a villain who<line>
+looked like a tiny Ogura showed up...<line>
+<redname><diamond>Pufftop Soldier<line>
+And it's only gotten worse, what with the<line>
+rampages everywhere...<line>
+<redname><diamond>Pufftop Soldier<line>
+Please look at that statue. Thanks to<line>
+that villain, it's completely destroyed...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <1><0><line>
+<:func> <1><0><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+This statue is very important to Pufftop...<line>
+<redname><diamond>Pufftop Soldier<line>
+Oh... What'll I do... I can't leave it like this...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+So what? It's just a dusty old statue, who<line>
+cares?<line>
+<wait><:obj> <1> <9> <2><line>
+<rname><diamond>Moe<line>
+Alright, let's get goin', Starf! We already<line>
+got our hands full.<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Please, wait! You must help me!<line>
+<wait><:obj> <1> <5> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+If you help me, I'm sure the King will reward<line>
+you handsomely!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Didn't you hear me!? We're busy-<line>
+<:c><line>
+<wait><:obj> <1> <5><line>
+<rname><diamond>Moe<line>
+Wait, what did you just say? Lots of<line>
+treasure...?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Yes, of course! I'm sure the King would give<line>
+you as much as you'd like!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Really!? Alright! After Starfy helps ya, we<line>
+can talk about how big my reward'll be!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+The statue was shattered and its<line>
+fragments went in 4 different directions...<line>
+<redname><diamond>Pufftop Soldier<line>
+But I'm sure that they're still in the<line>
+perimeter...<line>
+<:c><line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+So basically, you gotta find all 4 pieces<line>
+of the statue and bring 'em back here,<line>
+Starf.<line>
+<:c><line>
+<wait>:<1><0><0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <5><line>
+<:obj> <1> <9> <2><line>
+<:flagon> <8><1><0><1><line>
+<:flagon> <8><1><2><0><line>
+<:flagon> <8><1><2><1><line>
+<:flagon> <8><1><2><2><line>
+<:flagon> <8><1><2><3><line>
+<:flagon> <8><1><2><4><line>
+<:func> <1> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+When you find all 4 pieces of the statue,<line>
+bring 'em back here.<line>
+<redname><diamond>Moe<line>
+But what makes some dusty old statue so<line>
+important...? *mumble mumble*<line>
+<redname><diamond>Moe<line>
+Plus, that other statue... Where have I<line>
+seen that guy before? Hmm...<line>
+<:end><line>
+<wait>:<2><line>
+<:flagon> <8><1><1><6><line>
+<:sd><line>
+<:obj> <3> <6><line>
+<:obj> <2> <1><4> <1><0><0><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <7> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <8> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Pufftop Soldier<line>
+You found all 4 shards! Thank you so<line>
+much!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <5> <1><5> <2> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <6> <1><5> <2> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <7> <1><5> <2> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <8> <1><5> <2> <2><0><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<:obj> <7> <2><line>
+<:obj> <8> <2><line>
+<rname><diamond>Pufftop Soldier<line>
+Without further ado, I shall repair the<line>
+statue...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1> <3><line>
+<:obj> <2> <0> <0><line>
+<:obj> <2> <7> <9><5> <1><2><8> <2><0><line>
+[<wait_time> <9><2>]<line>
+<:obj> <2> <0> <6><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <5><8><line>
+[<wait_time> <2><0>]<line>
+<:func> <2> <2><line>
+<:flagon> <8><1><0><3><line>
+<:obj> <2> <0> <4><line>
+<:flagon> <8><1><0><2><line>
+<:func> <3> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Perfect! As good as new!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1> <1><line>
+<:obj> <2> <0> <3><line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+This statue was built a long time ago...<line>
+[<wait_time> <2><0>]<line>
+<wait><:obj> <2> <0> <1><line>
+<:obj> <2> <7> <5><0> <0> <1><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Pufftop Soldier<line>
+Pufftop had been under attack from<line>
+Ogura...<line>
+<wait><:obj> <2> <0> <1><line>
+<:obj> <2> <7> <5><0> <0> <1><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <2> <0> <2><line>
+<rname><diamond>Pufftop Soldier<line>
+We were saved by our current King, though<line>
+that was in his younger years.<line>
+<redname><diamond>Pufftop Soldier<line>
+Now they're honored as the guardians of<line>
+Pufftop...<line>
+<:c><line>
+<wait><:obj> <2> <0> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+I see... So then this statue to the left... Is<line>
+that Starfy's pops?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+That's correct.<line>
+<:func> <1> <4><line>
+And the statue to my right is of the man<line>
+who achieved victory alongside our King.<line>
+<redname><diamond>Pufftop Soldier<line>
+I believe you two are already well<line>
+acquainted with him...Fufufu<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hmm... No matter how ya look at it, it looks<line>
+like that geezer...<line>
+<redname><diamond>Moe<line>
+Nah... It can't be. There's no way it's that<line>
+senile lobster.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1> <1><line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Fufufu. Oh, of course! Your reward for<line>
+helping me...<line>
+<redname><diamond>Pufftop Soldier<line>
+I've unlocked the door that was shut, just<line>
+to the left of here.<line>
+<redname><diamond>Pufftop Soldier<line>
+My Prince! Please hurry and rescue the<line>
+Queen...<line>
+<redname><diamond>Pufftop Soldier<line>
+I shall earnestly await your safe return!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <1><4> <-><1><0><0><line>
+<:obj> <2> <1><1> <9> <0> <-><1><6><line>
+<:obj> <2> <0> <2><line>
+<:obj> <3> <6><line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<:obj> <7> <2><line>
+<:obj> <8> <2><line>
+<:flagoff> <1><5><5><2><5><line>
+<:flagoff> <1><5><5><2><6><line>
+<:flagoff> <1><5><5><2><7><line>
+<:flagoff> <1><5><5><2><8><line>
+<:obj> <1> <5><line>
+<:obj> <1> <9> <2><line>
+<:func> <1> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Huh...I still can't believe it...<line>
+<redname><diamond>Moe<line>
+Heh, whatever. It's not like that senile<line>
+geezer's more heroic than yours truly.<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,60 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 scene 5 (in-level table #356)
+//Block Range: $0 - $304
+//POINTER: 0x0814E7BC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_1/10_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><1><1><0> <go> <2><line>
+<:if> <1><0><1><0><9> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:flagon> <1><0><1><0><9><line>
+<:se><line>
+<rname><diamond>Moe<line>
+No doubt about it! This one has the secret<line>
+message!<line>
+<redname><diamond>Moe<line>
+Looks like this guy moves between the top<line>
+and bottom holes.<line>
+<redname><diamond>Moe<line>
+Just like last time, he'll shoot some<line>
+fireballs when he pops outta those holes.<line>
+Stay sharp!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Looks like this guy moves between the top<line>
+and bottom holes.<line>
+<redname><diamond>Moe<line>
+Just like last time, he'll shoot some<line>
+fireballs when he pops outta those holes.<line>
+Stay sharp!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I thought that one was a fake too. It's<line>
+just as I predicted.<line>
+<redname><diamond>Moe<line>
+Just where the heck is the real one?<line>
+<:end><line>
+<end>
+

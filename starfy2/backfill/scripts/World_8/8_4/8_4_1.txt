@@ -1,0 +1,140 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-4 scene 1 (in-level table #94)
+//Block Range: $0 - $8FE
+//POINTER: 0x0814E3A4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_4/8_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:flagon> <8><4><0><0><line>
+<:obj> <3> <6><line>
+<:func> <1><1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pufftop Soldier<line>
+Ah! I'm sorry, but this area is still under<line>
+inspection. I must ask you to wait.<line>
+<redname><diamond>Pufftop Soldier<line>
+And please do not touch anything. It's<line>
+dangerous...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Of course...It's just one annoying thing<line>
+after the other...<line>
+<redname><diamond>Moe<line>
+So? You gonna tell us what's goin' on?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <8> <0> <7><1> <1><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <8> <0> <7><2><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+A while ago, that tiny Ogura went on a<line>
+rampage, damaging parts of the castle in<line>
+the process...<line>
+<redname><diamond>Pufftop Soldier<line>
+Various traps in the castle have been<line>
+sprung and are being fixed.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <8> <0> <7><3><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <8> <0> <7><4><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <8> <0> <7><5><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <8> <0> <7><6><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+There're traps in the castle? What're they<line>
+even there for?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+The King ordered they be installed in case<line>
+of an invasion.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Tch, fine... Just hurry it up, will ya!<line>
+<:c><line>
+<wait><:func> <4><line>
+[<wait_time> <6><0>]<line>
+<:obj> <3> <1><0> <0> <1><line>
+<:func> <8> <0> <7><7><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Prince Starfy, no! You shouldn't have<line>
+touched that!<line>
+<:c><line>
+<wait><:func> <7> <2><5><5> <2> <0><line>
+<:func> <1><8> <1> <7><6><line>
+<:obj> <2> <0> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Wo-woah...! What's happening!?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Wah! The Prince pushed the switch that<line>
+activates the traps!!!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+WHA-!? THE HECK'RE YOU DOING, YOU IDIOT!?<line>
+<:c><line>
+<redname><diamond>Pufftop Soldier<line>
+This is bad... We can't stay here! Hurry, we<line>
+have to go!<line>
+<redname><diamond>Pufftop Soldier<line>
+I told you not to touch anything! Well, so<line>
+long!<line>
+<:c><line>
+<wait><:obj> <2> <0> <2><line>
+<:obj> <2> <7> <2><0><0> <2><1><0> <2><0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Crap, he wasn't kiddin'! The walls're closing<line>
+in!<line>
+<redname><diamond>Moe<line>
+Dangit, Starf, this is all your-! Nono, that's<line>
+not important right now... C'mon, we gotta<line>
+get outta here!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <2><0><0> <2><1><0> <2><0><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:func> <8> <0> <9><9><line>
+<:func> <7><line>
+<:func> <1><8> <7><line>
+<:func> <3> <2><line>
+<:flagon> <8><4><0><1><line>
+<:exit><line>
+<end>
+

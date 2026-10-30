@@ -1,0 +1,340 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-4 scene 1 (in-level table #45)
+//Block Range: $0 - $1A4A
+//POINTER: 0x0814E2E0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_4/3_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><4><1><1> <go> <2><line>
+<:if> <3><4><0><0> <go> <1><line>
+<:flagon> <3><4><0><0><line>
+[<wait_time> <6><0>]<line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Hold up, Starf! I found somethin' else here<line>
+too!<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Moe<line>
+Looks like this one tells ya where those<line>
+brats are...<line>
+<redname><diamond>Moe<line>
+...with beeps and signals on the screen!<line>
+<wait><:obj> <2> <2><line>
+<:func> <1><8> <1> <7><2><line>
+<rname><diamond>Moe<line>
+Here, you take it!<line>
+<redname><diamond>Moe<line>
+Those brats are hiding just like last time...<line>
+<redname><diamond>Moe<line>
+You'll know when those kids are close when<line>
+the radar starts makin' noise.<line>
+<redname><diamond>Moe<line>
+Once you find where they're hiding, use<line>
+your <textcolor_d>Star Spin<textcolor_0> to catch 'em!<line>
+<redname><diamond>Moe<line>
+You know the drill already. Catch those<line>
+three brats and bring 'em back here!<line>
+<wait><:sd><line>
+<:obj> <2> <2><line>
+<:flagon> <1><5><5><1><9><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+The radar'll let you know when one of<line>
+those brats is close.<line>
+<redname><diamond>Moe<line>
+When it makes a real loud, constant noise,<line>
+use your <textcolor_d>Star Spin<textcolor_0> to catch those kids!<line>
+<redname><diamond>Moe<line>
+Get goin' already! There are three of 'em<line>
+to bring back here.<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:flagon> <3><4><1><2><line>
+<:func> <6> <1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <4> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Ah! It looks like all of our troublemakers<line>
+are here! You ain't gettin' away this time!<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>Turtle Kids<line>
+D-dangit!!!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+You brats have caused enough of a<line>
+headache for your mom!<line>
+<redname><diamond>Moe<line>
+She's worried sick about ya! Stop bein'<line>
+difficult and go home!<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Shelldest<line>
+Oh shove it will ya!? Why should we listen<line>
+to anything you have to say, huh!?<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Brotle<line>
+Yeah! 'Sides, why would we go back to that<line>
+hag's constant nagging?<line>
+<redname><diamond>Brotle<line>
+'Study, study, study'. I'm sick of it!<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<rname><diamond>Sisturt<line>
+Yeah, yeah! And why would I go back to<line>
+eating green peppers, huh? They're awful!<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Shelldest<line>
+And that's that! Come on guys, we're<line>
+leaving!<line>
+<redname><diamond>Shelldest<line>
+We don't gotta listen to some weird clam<line>
+who doesn't get it.<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<rname><diamond>Brotle & Sisturt<line>
+Right behind ya, bro!<line>
+<:c><line>
+<wait><:obj> <1> <5> <4><line>
+<rname><diamond>Moe<line>
+Y-you... How...<line>
+<wait><:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:func> <1><8> <1> <7><6><line>
+<:obj> <1> <5> <5><line>
+<rname><diamond>Moe<line>
+HOW DUMB CAN YOU BRAINDEAD MORONS<line>
+BEEEEEEEEEEEEEEEEE!?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <2> <4><line>
+<:func> <1><8> <7><line>
+<:obj> <1> <1><1> <1> <3><2> <6><4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <5> <6><line>
+<:obj> <0> <1><1> <6><line>
+<:obj> <3> <1><1> <6> <3><2> <-><2><0><line>
+<:obj> <3> <0> <3><line>
+<:obj> <4> <1><1> <6> <1><8> <-><4><6><line>
+<:obj> <4> <0> <5><line>
+<:obj> <5> <1><1> <6> <0> <-><3><0><line>
+<:obj> <5> <0> <1><line>
+<:func> <8> <0> <1><5><line>
+<:func> <3> <4><line>
+<rname><diamond>Moe<line>
+Who the heck do you think raised you, you<line>
+sorry excuse for kids! Huh!?<line>
+<redname><diamond>Moe<line>
+When you get hungry, or get your clothes<line>
+dirty, who fills your stomach with tasty<line>
+meals and washes your clothes every<line>
+<redname><diamond>Moe<line>
+DAY!?<line>
+<redname><diamond>Moe<line>
+When you're sick, who nurses you back to<line>
+health!?<line>
+<redname><diamond>Moe<line>
+And when you got in trouble at school, who<line>
+went and apologized to your teacher for<line>
+you...?<line>
+<redname><diamond>Moe<line>
+Where would you be without your mother,<line>
+huh!? Answer me that!!!<line>
+<redname><diamond>Moe<line>
+Clean out your ears and listen good!<line>
+<redname><diamond>Moe<line>
+She went through so much to bring you<line>
+into this world...<line>
+<redname><diamond>Moe<line>
+There ain't a parent alive who doesn't love<line>
+their own kids!<line>
+<redname><diamond>Moe<line>
+When she tells ya to study, or not to be<line>
+picky with your food...<line>
+<redname><diamond>Moe<line>
+But you gotta realize it's all for you! To<line>
+have a strong body and mind!<line>
+<redname><diamond>Moe<line>
+'Cause by the time ya realize how much<line>
+your parents did for you, it might be too<line>
+late!<line>
+<redname><diamond>Moe<line>
+Money and parents are a lot alike, you<line>
+can't expect 'em to be around forever!<line>
+<redname><diamond>Moe<line>
+So think hard about how you act, so ya<line>
+don't regret it later! Got it, ya brats!?<line>
+<:c><line>
+<wait><:obj> <1> <5> <0><line>
+<:obj> <4> <4><line>
+<rname><diamond>Sisturt<line>
+Urg... That's right... I remember...<line>
+<redname><diamond>Sisturt<line>
+When I had a fever, Mama kept making sure<line>
+I was okay until I was healthy again...<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Brotle<line>
+When I got in a fight at school, Mama went<line>
+and apologized for me...<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Shelldest<line>
+That...that's right... No matter what<line>
+happened to us or what we did, Mama was<line>
+there for us when we needed her...<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>Turtle Kids<line>
+Argh...my head hurts...<line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <1><8> <1> <9><6><line>
+<:obj> <4> <6><line>
+<:obj> <3> <6><line>
+<:obj> <5> <6><line>
+<:obj> <4> <1><0> <0> <1><line>
+<:obj> <3> <1><0> <0> <1><line>
+<:obj> <5> <1><0> <0> <1><line>
+<:obj> <4> <1><0> <0> <2><line>
+<:obj> <3> <1><0> <0> <2><line>
+<:obj> <5> <1><0> <0> <2><line>
+[<wait_time> <6><0>]]<line>
+<:func> <8> <0> <9><9><line>
+<:func> <2><2> <-><2><line>
+Whoa! Kiremoth's curse is broken, and the<line>
+Turtle Kids are back to being good kids<line>
+again!<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Shelldest<line>
+Thanks, you guys! We really messed up<line>
+back there.<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<:obj> <7> <1><0> <0> <2><line>
+<rname><diamond>Brotle<line>
+Someone was controlling us...<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<rname><diamond>Sisturt<line>
+Yeah... We're sorry, Mama!<line>
+<:c><line>
+<wait><:obj> <5> <4><line>
+<rname><diamond>Shelldest<line>
+We're gonna go back to Mom and say sorry<line>
+now. Thank you so much!<line>
+<:c><line>
+<wait>:<1><0><0><line>
+<:obj> <4> <7> <2><0><0> <2><2><0> <2><0><line>
+[<wait_time> <1><7>]<line>
+<:obj> <3> <7> <2><0><0> <2><1><0> <2><6><line>
+[<wait_time> <9>]<line>
+<:obj> <5> <7> <2><0><0> <2><3><0> <3><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+*Sigh*... Finally, it's all over...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <7> <6><line>
+<:obj> <7> <1><0> <0> <1><line>
+<:obj> <7> <2> <1><line>
+<:obj> <7> <7> <1><4><0> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <7> <4><line>
+<:func> <1><8> <0> <2><1><line>
+<rname><diamond>Puchi Ogura #3<line>
+Hrm! You undid all of our hard work! What's<line>
+your problem Clam!?<line>
+<:c><line>
+<redname><diamond>Kiremoth<line>
+Moth mooooth! My magic spell...broken...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Who the heck are you...!? Wait, you're the<line>
+reason those kids turned bad!?<line>
+<:c><line>
+<wait><:obj> <7> <4><line>
+<rname><diamond>Puchi Ogura #3<line>
+Don't you forget this, hrm! I'll get my<line>
+revenge for sure, hrm!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <7> <7> <1><1><0> <1><6> <3><0><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <3><4><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <2>]<line>
+<:obj> <7> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hold it right there! Anyone who tries to<line>
+wreck a happy family...<line>
+<redname><diamond>Moe<line>
+...won't get away with it, not on my watch!<line>
+Let's go, Starf!<line>
+<redname><diamond>Moe<line>
+We gotta get a move on! We gotta catch<line>
+that guy and the bug he rides on!<line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <6><4> <0> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:func> <1><8> <7><line>
+<:func> <1><0><line>
+<:obj> <1> <2><line>
+<:obj> <3> <2><line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:obj> <7> <2><line>
+<:func> <8> <0> <9><9><line>
+<:flagoff> <1><5><5><1><3><line>
+<:flagoff> <1><5><5><1><4><line>
+<:flagoff> <1><5><5><2><0><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

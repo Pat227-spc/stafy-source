@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 5 (in-level table #214)
+//Block Range: $0 - $B8
+//POINTER: 0x0814E584
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Hirarin<line>
+Oh, if it isn't Starfy. You're also entering<line>
+this race? I'm sorry to say that you're out<line>
+of luck.<line>
+<redname><diamond>Hirarin<line>
+Why? Well because no one's beating my<line>
+darling, of course!<line>
+<:end><line>
+<end>
+

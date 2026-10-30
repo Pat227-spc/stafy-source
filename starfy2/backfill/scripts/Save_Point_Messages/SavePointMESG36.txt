@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 36 (table 0x0814EA2C entry 70; stage key 0x324)
+//Block Range: $0 - $118
+//POINTER: 0x0814EB44
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><3><1><2> <go> <2><line>
+<:func> <2><2> <-><1><line>
+Did you find all <textcolor_d>4<textcolor_0> of <textcolor_d>The Squirts<textcolor_0>? When<line>
+you find them, take them to Bawss!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+The Squirts were fun guys, weren't they?<line>
+If you have time, try dancing with them!<line>
+<:end><line>
+<end>
+

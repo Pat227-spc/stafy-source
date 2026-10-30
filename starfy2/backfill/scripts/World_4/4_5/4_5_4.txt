@@ -1,0 +1,428 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 4 (in-level table #225)
+//Block Range: $0 - $1A62
+//POINTER: 0x0814E5B0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:flagoff> <4><5><1><7><line>
+<:flagoff> <4><5><1><8><line>
+<:obj> <1> <1><3> <3> <0> <4><5><1><7><line>
+<:obj> <1> <1><3> <3> <1> <4><5><1><8><line>
+<:if> <4><5><1><7> <go> <1><0><line>
+<:if> <4><5><1><8> <go> <2><0><line>
+:<go> <3><0><line>
+:<1><0><line>
+<:if> <4><5><0><8> <go> <1><1><line>
+<:if> <4><5><0><9> <go> <1><2><line>
+:<go> <1><3><line>
+:<1><1><line>
+<:if> <4><5><0><5> <go> <4><1><line>
+:<go> <4><0><line>
+:<1><2><line>
+<:if> <4><5><0><6> <go> <5><1><line>
+:<go> <5><0><line>
+:<1><3><line>
+<:if> <4><5><0><7> <go> <6><1><line>
+:<go> <6><0><line>
+:<2><0><line>
+<:if> <4><5><1><1> <go> <2><1><line>
+<:if> <4><5><1><2> <go> <2><2><line>
+:<go> <2><3><line>
+:<2><1><line>
+<:if> <4><5><0><5> <go> <4><1><line>
+:<go> <4><0><line>
+:<2><2><line>
+<:if> <4><5><0><6> <go> <5><1><line>
+:<go> <5><0><line>
+:<2><3><line>
+<:if> <4><5><0><7> <go> <6><1><line>
+:<go> <6><0><line>
+:<3><0><line>
+<:if> <4><5><1><4> <go> <3><1><line>
+<:if> <4><5><1><5> <go> <3><2><line>
+:<go> <3><3><line>
+:<3><1><line>
+<:if> <4><5><0><5> <go> <4><1><line>
+:<go> <4><0><line>
+:<3><2><line>
+<:if> <4><5><0><6> <go> <5><1><line>
+:<go> <5><0><line>
+:<3><3><line>
+<:if> <4><5><0><7> <go> <6><1><line>
+:<go> <6><0><line>
+<:se><line>
+<wait>:<4><0><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <4><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+What're you doing!? Don't get any closer!!!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+Pipe down, you stupid kelp! I'm going to<line>
+make seaweed rolls outta you if you don't<line>
+shut up!<line>
+<:c><line>
+<redname><diamond>Coalbies<line>
+Eek! Please, anything but that! St-Starfy!<line>
+Help us!!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Huh? Starfy...?<line>
+<wait><:obj> <3> <0> <4><line>
+<rname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Tch, guess I got company... Ya better<line>
+remember this, ya stinkin' kelp!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <7> <1><6><0> <1><9><2> <2><0><line>
+[<wait_time> <9><6>]<line>
+<:obj> <3> <2><line>
+<:func> <2><4> <9><9><line>
+<:func> <1><4> <1> <-><7><2><line>
+[<wait_time> <3><2>]<line>
+<rname><diamond>Coalbies<line>
+You're a lifesaver, Starfy... if it weren't<line>
+for you, we'd still be in trouble thanks to<line>
+that thug.<line>
+<redname><diamond>Coalbies<line>
+What's that? You want us to make the Hot<line>
+Spring a little hotter? No problemo!<line>
+<wait><:obj> <1> <0> <1><line>
+<:func> <1><8> <1> <6><5><line>
+<rname><diamond>Coalbies<line>
+Hah!<line>
+<redname><diamond>Coalbies<line>
+The Hot Spring should be a little hotter<line>
+now!<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <3> <2><line>
+<:flagon> <4><5><0><5><line>
+<:obj> <1> <0> <1><line>
+<rname><diamond>Coalbies<line>
+You want us to take you back there now?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><1><0><line>
+<rname><diamond>Coalbies<line>
+Well then, see you later!<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<1><1><0><line>
+<rname><diamond>Coalbies<line>
+We can take you back anytime.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<4><1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Coalbies<line>
+Whoever that was, he seemed like a bad<line>
+guy... Do you think he's actually some sort<line>
+of hoodlum...?<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+Oh, did you want to go back near the Hot<line>
+<redname><diamond>Coalbies<line>
+Spring?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <4><2><line>
+<rname><diamond>Coalbies<line>
+Well then, see you later!<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<4><2><line>
+<rname><diamond>Coalbies<line>
+We can take you back anytime.<line>
+<:end><line>
+<wait>:<5><0><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <4><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+Aaaaaah! What are you gonna do to us!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <2><line>
+Ufufu what ugly creatures. They would<line>
+make perfect subjects.<line>
+<redname><diamond>Puchi Ogura #4<line>
+With them as my muse, they shall be<line>
+beautiful, eternal ice sculptures.<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+You may now thank me for choosing you to<line>
+be my subjects...Ufufufufufufu.<line>
+<:c><line>
+<redname><diamond>Coalbies<line>
+Why would we ever thank you for freezing<line>
+us!? Starfy! Just in time!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Starfy...?<line>
+<wait><:obj> <3> <0> <4><line>
+<rname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+What a shame. Now you're making a face<line>
+unfit for my vision. Maybe next we meet...<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Ufufu ufu ufu ufufufufufuf<line>
+ufufufufufuf ufufufufufuf ufufufufufu<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <7> <1><6><0> <1><9><2> <2><0><line>
+[<wait_time> <9><6>]<line>
+<:obj> <3> <2><line>
+<:func> <2><4> <9><9><line>
+<:func> <1><4> <1> <-><7><2><line>
+[<wait_time> <3><2>]<line>
+<rname><diamond>Coalbies<line>
+Whew, great timin', Starfy! We were this<line>
+close to freezin' solid!<line>
+<redname><diamond>Coalbies<line>
+Huh? You want us to heat up the Hot<line>
+Spring? I think it's hot enough, but if you<line>
+say so...<line>
+<wait><:obj> <1> <0> <1><line>
+<:func> <1><8> <1> <6><5><line>
+<rname><diamond>Coalbies<line>
+Hyah!!<line>
+<redname><diamond>Coalbies<line>
+Just be careful, Starfy. You might get<line>
+burned if it gets any hotter...<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <4><5><0><6><line>
+<:obj> <1> <0> <1><line>
+<:obj> <3> <2><line>
+<rname><diamond>Coalbies<line>
+Oh, did you want to go? We can send you<line>
+<redname><diamond>Coalbies<line>
+back if you want<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><2><0><line>
+<rname><diamond>Coalbies<line>
+In that case, go on ahead.<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<1><2><0><line>
+<rname><diamond>Coalbies<line>
+Okay, take your time out there!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<5><1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Coalbies<line>
+That Puchi Ogura #4 is super creepy! He's<line>
+so gloomy...<line>
+<redname><diamond>Coalbies<line>
+Even after he's gone, I'm still shaking...<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+You wanna head to the Hot Spring?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <5><2><line>
+<rname><diamond>Coalbies<line>
+In that case, go on ahead.<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<5><2><line>
+<rname><diamond>Coalbies<line>
+Okay, take your time out there!<line>
+<:end><line>
+<wait>:<6><0><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <4><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+Gah!! Wh-wha-wha-what!!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+Pipe down! I've been interrupted all day<line>
+and I'm sick of it!<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <1><0> <0> <2><line>
+Ufufufu... That fool has no concept of<line>
+art...<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <1><0> <0> <1><line>
+Whatever! I'll cover you in flames!<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <1><0> <0> <2><line>
+That doesn't matter. I shall turn you into a<line>
+work of ice art...<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <1><0> <0> <1><line>
+...that's what I'll do, dummy!!<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <1><0> <0> <2><line>
+...that's what I shall do... Ufufufufu...<line>
+<:c><line>
+<redname><diamond>Coalbies<line>
+Wh-wh-what's with you!? Talkin' like two<line>
+different people is creepy!<line>
+<redname><diamond>Coalbies<line>
+Starfy! What's up with this guy!?<line>
+<:c><line>
+<wait><:obj> <3> <0> <4><line>
+<rname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Grrrrrrr...! The pain in the neck's back!<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Ufufufufu...I see, you're here to get in the<line>
+way of my craft again hm?<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Listen up, you stupid prince! I'll make you<line>
+pay!!!<line>
+<redname><diamond>Puchi Ogura #4<line>
+<:obj> <3> <4><line>
+Just you wait and<line>
+see...ufufufu...fufufu...ufu...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <7> <1><6><0> <1><9><2> <2><0><line>
+[<wait_time> <9><6>]<line>
+<:obj> <3> <2><line>
+<:func> <2><4> <9><9><line>
+<:func> <1><4> <1> <-><7><2><line>
+[<wait_time> <3><2>]<line>
+<rname><diamond>Coalbies<line>
+Waaaah, you saved uuuuus! What was with<line>
+that guy and how he talked!?<line>
+<redname><diamond>Coalbies<line>
+Huh? You want us to heat up the Hot<line>
+Spring? But won't it be too hot to get in?<line>
+<redname><diamond>Coalbies<line>
+Well...we do owe you one...<line>
+<wait><:obj> <1> <0> <1><line>
+<:func> <1><8> <1> <6><5><line>
+<rname><diamond>Coalbies<line>
+There!!!<line>
+<redname><diamond>Coalbies<line>
+We heated up the Hot Spring. But it's<line>
+basically boiling now, you really shouldn't<line>
+get in!<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <4><5><0><7><line>
+<:obj> <1> <0> <1><line>
+<:obj> <3> <2><line>
+<rname><diamond>Coalbies<line>
+Then, wanna head back to the exit?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><3><0><line>
+<rname><diamond>Coalbies<line>
+Then, we'll take you back, Starfy!<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<1><3><0><line>
+<rname><diamond>Coalbies<line>
+When you want to go back, just say so.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<6><1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Coalbies<line>
+I don't understand that person...what's<line>
+with the way he talks?<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+Anyways, you're going back to the Hot<line>
+<redname><diamond>Coalbies<line>
+Spring, right?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <6><2><line>
+<rname><diamond>Coalbies<line>
+Then, we'll take you back, Starfy!<line>
+<:c><line>
+<wait>:<go> <9><0><line>
+<wait>:<6><2><line>
+<rname><diamond>Coalbies<line>
+When you want to go back, just say so.<line>
+<:end><line>
+<wait>:<9><0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:if> <4><5><1><7> <go> <9><1><line>
+<:if> <4><5><1><8> <go> <9><2><line>
+:<go> <9><3><line>
+:<9><1><line>
+<:func> <1><2> <3> <2><line>
+<:exit><line>
+:<9><2><line>
+<:func> <1><2> <3> <1><line>
+<:exit><line>
+:<9><3><line>
+<:func> <1><2> <3> <4><line>
+<:exit><line>
+<end>
+

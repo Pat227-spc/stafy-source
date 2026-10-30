@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 Goal (goal table #21)
+//Block Range: $0 - $FC
+//POINTER: 0x082C89D8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_4/5_4_Goal_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the treasure chest was...<line>
+a <textcolor_d>Blond Wig<textcolor_1>!<line>
+<:c><line>
+<wait>You kept getting pushed around by the<line>
+river! In the next stage, let's corner Puchi<line>
+Ogura #5!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

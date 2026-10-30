@@ -1,0 +1,144 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-3 cutscene (0x88ee084)
+//Block Range: $0 - $792
+//POINTER: 0x8125000
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_3/11_3_Cutscene_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <0> <0><line>
+<:func> <0> <1><2><line>
+<line>
+...Did...did he... get us...?<line>
+<:func> <0> <1><3><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<wait>...Hm? N... No... Nothing hurts! Starfy's<line>
+okay too... right? What in the world<line>
+happened...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><line>
+Aaaaaaaaaaaaaah!<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <0> <1><line>
+<:func> <3> <2> <4><line>
+<:se><line>
+<rname><diamond>Moe<line>
+O... Old man!!<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Old Man Lobber<line>
+That was a close one... You were very<line>
+nearly at 'The End'...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+Hmph! Y... You...!<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Old Man Lobber<line>
+Ogura... It's high time you put an end to<line>
+your mischief...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<redname><diamond>Old Man Lobber<line>
+Or do you want to be sealed in a jar<line>
+again!?<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <3><line>
+<rname><diamond>Ogura<line>
+It can't be! You're the one from back<line>
+then...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Ogura<line>
+I won't forgive you! I'll repay the grudge<line>
+from my defeat twice over, right here and<line>
+now!<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Old Man Lobber<line>
+So words won't get through to you...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<redname><diamond>Old Man Lobber<line>
+Then I'll just have to teach you a little<line>
+lesson! Now! Come at me!<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <4><line>
+<:func> <0> <1><5><line>
+<:c><line>
+<:se><line>
+<wait><:sd><line>
+<:func> <0> <5><line>
+<:func> <3> <2> <4><line>
+<:se><line>
+[<wait_time> <6><0>]<line>
+<:func> <0> <6><line>
+[<wait_time> <6><0>]<line>
+<:func> <0> <7><line>
+[<wait_time> <6><0>]<line>
+<:func> <0> <8><line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+[<wait_time> <2><0><0>]<line>
+<:func> <0> <9><line>
+<rname><diamond>Ogura<line>
+Y... You... Even at your age, such<line>
+strength... You really are no ordinary old<line>
+man...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Old Man Lobber<line>
+Hmm... It seems you've grown stronger too...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<redname><diamond>Old Man Lobber<line>
+You're on a whole other level from the you<line>
+of long ago...<line>
+[<wait_time> <1><2><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+I... I'll retreat for now... You'll regret<line>
+this...!<line>
+<:func> <0> <1><0><line>
+[<wait_time> <1><2><0>]<line>
+<:func> <0> <1><1><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <4><line>
+<:func> <0> <1><5><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 8 (in-level table #217)
+//Block Range: $0 - $188
+//POINTER: 0x0814E590
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+You pulled it off! As expected of an<line>
+underling of mine!<line>
+<redname><diamond>Moe<line>
+Not that you could've won without my<line>
+expert advice, of course!<line>
+<redname><diamond>Moe<line>
+Huh? Is Sabako fiddlin' with her phone over<line>
+there?<line>
+<redname><diamond>Moe<line>
+W-what if she's writin' me a love text!?<line>
+<heart>...Wait, I don't even have a phone...<line>
+<:end><line>
+<end>
+

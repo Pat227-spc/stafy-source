@@ -1,0 +1,49 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 1 (in-level table #234)
+//Block Range: $0 - $2E0
+//POINTER: 0x0814E5D4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><2><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><2><0><0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf, you know this place? It's called<line>
+the 'Indoor Cave'.<line>
+<redname><diamond>Moe<line>
+It's the one cave that famous adventurer<line>
+Indoor Jaws could never beat...<line>
+<redname><diamond>Moe<line>
+A cave full of riddles and traps!<line>
+<redname><diamond>Moe<line>
+I dunno where or what kind of traps<line>
+there'll be, but that's the fun! Let's go,<line>
+Starf!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+the Indoor Cave, huh...? Maybe there's<line>
+some amazin' treasure sleepin' in here...<line>
+<redname><diamond>Moe<line>
+Maybe the treasure's some valuable coin,<line>
+or a diamond, or-or a pretty lady...!<line>
+<:end><line>
+<end>
+

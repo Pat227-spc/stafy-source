@@ -1,0 +1,78 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-4 scene 2 (in-level table #29)
+//Block Range: $0 - $3EC
+//POINTER: 0x0814E2A0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_4/2_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <2><line>
+<:se><line>
+<:if> <2><4><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><4><0><1><line>
+<:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+Hehe! What took you so long? Weren't you<line>
+gonna catch me?<line>
+<:c><line>
+<wait><:obj> <2> <7> <8> <1><2><7> <5><line>
+[<wait_time> <3><0>]<line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hah!!!<line>
+<redname><diamond>Moe<line>
+I thought you might've come this way, so I<line>
+hid myself here! Now there's nowhere left<line>
+to run!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Puchi Ogura #2<line>
+'Nowhere left to run' huh? You're a funny<line>
+clam, you know that? Too bad you're wrong!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><5><line>
+<:func> <4><line>
+<:obj> <2> <7> <1><6> <2><2><4> <1><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <7> <1><4><0> <6><4> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Wh-what's with this guy!? We can barely<line>
+fight the current, and he just powers<line>
+through it!<line>
+<redname><diamond>Moe<line>
+Starfy, get yourself together! It'll be your<line>
+fault if that brat gets away!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <2><line>
+<:func> <1><1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+To be able to swim against the current<line>
+that easily...that's some power...<line>
+<:end><line>
+<end>
+

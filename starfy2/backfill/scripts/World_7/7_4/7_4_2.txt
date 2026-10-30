@@ -1,0 +1,92 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-4 scene 2 (in-level table #293)
+//Block Range: $0 - $67C
+//POINTER: 0x0814E6C0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_4/7_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><4><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Horun<line>
+<:obj> <2> <4><line>
+Finally, you came! Long time no see, Starfy!<line>
+Sorry to cut this short, but <textcolor_d>Pufftop<textcolor_0>'s in<line>
+trouble!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+There's no time to waste! We have to get<line>
+you back up there!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Wait, we still got some business down here!<line>
+That Puchi brat still needs a spanking!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+<:obj> <2> <4><line>
+No problem! That guy's on the clouds right<line>
+below Pufftop!<line>
+<redname><diamond>Horun<line>
+You can get back to dealing with that guy<line>
+once we're done!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+So we're just gonna-!? Ugh, whatever, fine!<line>
+We can deal with the brat later!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+<:obj> <2> <4><line>
+Just past here is a shortcut to Pufftop...<line>
+Or at least there would be if this machine<line>
+wasn't in the way!<line>
+<redname><diamond>Horun<line>
+We can't get to the door with this thing<line>
+shooting eye beams!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+And weird guys in sunglasses keep<line>
+attackin' around here...<line>
+<redname><diamond>Horun<line>
+We're counting on you, Starfy!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><4><0><2><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What're we supposed to do about that<line>
+laser...?<line>
+<redname><diamond>Moe<line>
+Say, those guys flyin' around here are<line>
+wearin' sunglasses, right?<line>
+<redname><diamond>Moe<line>
+If we put their sunglasses on that<line>
+beam-shootin' thing, maybe the beam'll<line>
+stop...<line>
+<redname><diamond>Moe<line>
+............Nah, no way...<line>
+<:end><line>
+<end>
+

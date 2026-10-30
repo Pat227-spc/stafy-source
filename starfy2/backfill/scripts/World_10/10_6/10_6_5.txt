@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 5 (in-level table #382)
+//Block Range: $0 - $15E
+//POINTER: 0x0814E824
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #10<line>
+Fufufu... While I don't know how you've<line>
+managed to follow me this far...<line>
+<redname><diamond>Puchi Ogura #10<line>
+Time I showed you my true power... Come<line>
+forth!!<line>
+<:c><line>
+<wait><:obj> <1> <1><5> <7> <2><0><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <2> <0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><6><0><7><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

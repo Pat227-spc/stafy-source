@@ -1,0 +1,100 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 scene 1 (in-level table #70)
+//Block Range: $0 - $568
+//POINTER: 0x0814E344
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_5/5_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <3> <2> <1><line>
+<:func> <3> <2><line>
+<:se><line>
+<:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+I found you, you little brat! Get over here!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <1><5> <4> <1><5><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <1><5> <5> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <0> <4><line>
+<:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #5<line>
+O~hohoho! You must be a fool if you<line>
+thought you'd catch me!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <0><line>
+<:func> <1><1> <2> <1><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:flagon> <5><5><0><0><line>
+<:obj> <3> <1><1> <4><line>
+<:obj> <1> <1><1> <5><line>
+<:func> <1><8> <1> <7><6><line>
+<:func> <3> <0><line>
+<:se><line>
+[<wait_time> <3><6><0>]<line>
+<:sd><line>
+<:func> <2> <0><line>
+<:obj> <2> <1><0> <0> <0><line>
+<:func> <2> <2><line>
+<:func> <3> <0><line>
+<:func> <1><8> <7><line>
+<:func> <1><1> <0> <1><line>
+[<wait_time> <6><0>]<line>
+<:func> <1><9><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:se><line>
+<:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+Th-the water's gone! Tch, just when we had<line>
+you...!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #5<line>
+O~hohoho! I wonder if you simpletons can<line>
+bring the water back!<line>
+<:c><line>
+<wait><:obj> <1> <7> <1><2><8> <2><2><0> <2><0><line>
+<:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+You callin' me an idiot!? Why you little...!<line>
+<wait><:obj> <3> <9> <2><line>
+<rname><diamond>Moe<line>
+Hey, Starf! You know what to do when the<line>
+water's gone, right?<line>
+<redname><diamond>Moe<line>
+What? Ya don't know!? Ya blockhead!<line>
+What've you been doin' this whole time!?<line>
+<redname><diamond>Moe<line>
+Guess we only have one option. We gotta<line>
+find where the water's plugged up.<line>
+<redname><diamond>Moe<line>
+Hurry up, c'mon!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <5><5><0><1><line>
+<:obj> <1> <2><line>
+<:obj> <3> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

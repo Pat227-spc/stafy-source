@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-5 Goal (goal table #32)
+//Block Range: $0 - $168
+//POINTER: 0x082C8A04
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_5/7_5_Goal_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the treasure chest was...<line>
+a <textcolor_d>Hairband<textcolor_1>!<line>
+<:c><line>
+[<y_pos> <1><8>]<line>
+<wait>The minigame <textcolor_d>Squeak Squeak Panic<textcolor_1> has<line>
+been added to <textcolor_d>Moe's House<textcolor_1>!<line>
+<:c><line>
+[<y_pos> <1><8>]<line>
+<wait>What in the world is happening in Pufftop?<line>
+Let's hurry to Pufftop!<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <1><5><0><6><2><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

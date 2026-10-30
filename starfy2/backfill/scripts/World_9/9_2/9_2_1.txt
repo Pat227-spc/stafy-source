@@ -1,0 +1,47 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-2 scene 1 (in-level table #325)
+//Block Range: $0 - $252
+//POINTER: 0x0814E740
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_2/9_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Alright! Let's get fired up! We gotta find<line>
+Ressie's daughter...err...<line>
+<redname><diamond>Moe<line>
+We uh... We don't know her name or what<line>
+she looks like, huh...?<line>
+<redname><diamond>Moe<line>
+Hmm... It'd probably be easier to ask<line>
+around about her.<line>
+<redname><diamond>Moe<line>
+Starf, you should go and look for people<line>
+who might know Ressie's daughter. Got<line>
+that?<line>
+<redname><diamond>Moe<line>
+I think talkin' to 3 people should be<line>
+enough for us.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><2><0><0><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,134 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-5 scene 1 (in-level table #50)
+//Block Range: $0 - $A6E
+//POINTER: 0x0814E2F4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_5/3_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><5><0><0> <go> <1><line>
+<:sd><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <3><5><0><0><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Tortamama<line>
+Oh, Moe! Moe!<line>
+<redname><diamond>Tortamama<line>
+Look! My children, they're back safe and<line>
+sound!<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Ah, that's a relief... Looks like my lecture<line>
+worked, huh?<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>Tortamama<line>
+Thanks to you, Moe, the curse that was<line>
+controlling them seems to be broken!<line>
+<redname><diamond>Tortamama<line>
+To be honest...I was a bit scared... It seems<line>
+like a villain had been close by...<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Don't worry about it! I'll get rid of those<line>
+pests lickety split!<line>
+<redname><diamond>Moe<line>
+I think I might know where they might be<line>
+too!<line>
+<redname><diamond>Moe<line>
+Just ahead of us, if my instincts are<line>
+right...<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0> <1><line>
+<rname><diamond>Tortamama<line>
+Truly I have to thank you! If there's any<line>
+way I can reward you...<line>
+<:c><line>
+<wait><:obj> <2> <1><0> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Nah, it's on the house! You're all good.<line>
+<redname><diamond>Moe<line>
+More importantly, you kids better treat<line>
+your mom right, got it?<line>
+<:c><line>
+<wait><:obj> <4> <4><line>
+<:obj> <3> <4><line>
+<:obj> <5> <4><line>
+<rname><diamond>Turtle Kids<line>
+We sure are! Thank you, Moe!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Heh, alright! Now that that's settled, let's<line>
+give that insect a run for his money! Let's<line>
+go, Starf!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Hm? 'Why was I actin' all nice before'?<line>
+What's with that...?<line>
+<redname><diamond>Moe<line>
+Well, I... Let's just say I've been in those<line>
+kids' position before...<line>
+<redname><diamond>Moe<line>
+And there's something about that that<line>
+makes me want to help!<line>
+<redname><diamond>Moe<line>
+But a pampered little prince like you<line>
+wouldn't get it, huh?<line>
+<redname><diamond>Moe<line>
+Eh, well, family's nice, no matter whose it is.<line>
+<redname><diamond>Moe<line>
+Heh, seein' them reminded me of my little<line>
+brothers.<line>
+<redname><diamond>Moe<line>
+Actually, Starf, at some point, we gotta<line>
+visit my place!<line>
+<redname><diamond>Moe<line>
+It's near here. Well, it ain't as fancy as<line>
+your place...<line>
+<redname><diamond>Moe<line>
+<:func> <1><8> <1> <5><2><line>
+Alright. Now, when you're on the map<line>
+screen, you can go to my place anytime<line>
+you'd like.<line>
+<redname><diamond>Moe<line>
+Drop by sometime later if ya feel like it.<line>
+<redname><diamond>Moe<line>
+We gotta get a move on! There's some runt<line>
+causing trouble, and we're gonna stop him!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+On the Map Screen, you can visit my place<line>
+anytime you'd like.<line>
+<redname><diamond>Moe<line>
+Drop by sometime later if ya feel like it.<line>
+<:end><line>
+<end>
+

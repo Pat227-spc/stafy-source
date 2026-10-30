@@ -1,0 +1,49 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-4 scene 2 (in-level table #221)
+//Block Range: $0 - $356
+//POINTER: 0x0814E5A0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_4/4_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<:if> <4><4><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+GAH! A PUCHI OGURA! WHY IS IT HERE!?<line>
+<redname><diamond>Moe<line>
+Sorry sorry sorry! It's all this guy's fault!<line>
+It's not my... Huh?<line>
+<redname><diamond>Moe<line>
+This...THIS IS JUST A STATUE! I got scared<line>
+of this!?<line>
+<redname><diamond>Moe<line>
+Rgh...! I swear, it'll take 100 million years<line>
+for that Puchi Ogura to take me by<line>
+surprise again!<line>
+<redname><diamond>Moe<line>
+Hey, Starf! Hit this dumb statue! No one<line>
+gets away with startling the Great and<line>
+Powerful Moe! NO ONE!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Whoa whoa whoa! What the heck!? That<line>
+<textcolor_d>statue<textcolor_0> just breathed fire!<line>
+<redname><diamond>Moe<line>
+And it melted the ice a little... Hmm, we might<line>
+be able to use that somehow...<line>
+<:end><line>
+<end>
+

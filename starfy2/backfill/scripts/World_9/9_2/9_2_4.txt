@@ -1,0 +1,53 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-2 scene 4 (in-level table #328)
+//Block Range: $0 - $360
+//POINTER: 0x0814E74C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_2/9_2_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><2><0><8> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Lovelove<line>
+Starfy! Well ain't you a sight for sore<line>
+eyes? How've you been?<line>
+<redname><diamond>Lovelove<line>
+Hm? Ressie's daughter?...Oh I see...<line>
+<redname><diamond>Lovelove<line>
+I'm friends with Ressie, but I don't think<line>
+we've talked much about his daughter...<line>
+Ooh, wait!<line>
+<redname><diamond>Lovelove<line>
+I think Ressie said something like 'My little<line>
+girl barely ever comes home'.<line>
+<redname><diamond>Lovelove<line>
+Well, did that help you any, hon?<line>
+<redname><diamond>Lovelove<line>
+I think our darling Papa knows more about<line>
+the situation, though.<line>
+<redname><diamond>Lovelove<line>
+Papa should be around here somewhere.<line>
+Why don'tcha look for him?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><2><0><8><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Lovelove<line>
+I reckon Papa knows all about Ressie's<line>
+daughter, hon.<line>
+<:end><line>
+<end>
+

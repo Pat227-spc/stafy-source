@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 post-game revisit chat (in-level table #477)
+//Block Range: $0 - $160
+//POINTER: 0x0814E9A0
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+Did you find that Puchi Ogura #9 kid?<line>
+Looked like he was holdin' somethin'.<line>
+<:obj> <1> <0> <3><line>
+<wait><:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+If you haven't, try looking around this<line>
+area. Gotta be around here somewhere.<line>
+<:obj> <1> <0> <3><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <0> <3><line>
+<:func> <1><4> <1> <-><6><4> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,223 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-4 scene 1 (in-level table #129)
+//Block Range: $0 - $D66
+//POINTER: 0x0814E430
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_4/11_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><1><4><1><6> <go> <2><line>
+<:if> <1><1><4><0><0> <go> <1><line>
+<:flagon> <1><1><4><0><0><line>
+<:sd><line>
+<:obj> <3> <6><line>
+<:obj> <4> <6><line>
+<:se><line>
+<:sd><line>
+<:func> <4> <3><line>
+<:func> <2><2> <-><1><line>
+<:func> <1> <1><line>
+<:se><line>
+<:obj> <1> <1><1> <6> <-><1><4><8> <4><0><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <7> <3><8> <0> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Ahhhh! Ms. Ruby~! <textcolor_d><heart><heart><heart><textcolor_0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><2> <1><0> <-><2><5><line>
+[<wait_time> <4><0>]<line>
+<:obj> <1> <7> <7><8> <0> <2><0><line>
+[<wait_time> <6><0>]<line>
+Why are you in a place like this?<line>
+<redname><diamond>Moe<line>
+It's really dangerous here!<line>
+<redname><diamond>Moe<line>
+Don't worry, Ol' Moe'll see you to the exit!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Ruby?<line>
+Oh, Moe~! Did you come here for little old<line>
+me~? Kekeke...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+But of course! I'd march through the<line>
+hottest fires and the deepest waters for<line>
+you!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Ruby?<line>
+That makes me so happy! In that case...how<line>
+about getting in a cage? Keekekeke!<line>
+<:obj> <2> <0> <1><line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <0> <1><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <1> <9> <2> <0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <9> <2> <0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><1><4><1><1><line>
+[<wait_time> <3><0>]<line>
+<:func> <7> <6><0> <2> <0><line>
+<:func> <1><8> <0> <2><1><line>
+<:obj> <1> <5> <1><3><line>
+<:func> <8> <0> <1><9><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <1><0>]<line>
+[<wait_time> <1><0>]<line>
+[<wait_time> <1><0>]<line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Moe<line>
+WAUGH!!!<line>
+<:c><line>
+<wait><:obj> <5> <2> <1><line>
+<rname><diamond>Ogura's Voice<line>
+Gwahaha! You fell for the illusion! What a<line>
+gullible fool! Gwahaha!<line>
+<:c><line>
+<wait><:func> <8> <0> <9><9><line>
+<:obj> <1> <5> <0><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+D-don't screw with me you little-!<line>
+<wait><:obj> <1> <9> <2><line>
+<:func> <8> <0> <1><9><line>
+<rname><diamond>Moe<line>
+RAAAAAAUGH! Starf! What're you just<line>
+standing around for!?<line>
+<redname><diamond>Moe<line>
+Hurry up and get me outta here, dangit!<line>
+<wait><:func> <8> <0> <9><9><line>
+<rname><diamond>Moe<line>
+You see those keyholes up there!? Go look<line>
+for <textcolor_d>keys<textcolor_0> with the same shape as 'em!<line>
+<redname><diamond>Moe<line>
+Once you have the <textcolor_d>keys<textcolor_0>, touch the<line>
+keyholes to open this cage! Hurry up and<line>
+get to it! Sheesh!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <5> <1><6><line>
+<:obj> <5> <3><line>
+<:obj> <5> <2><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:func> <1> <0><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <0> <9><9><line>
+<:flagon> <1><1><4><2><2><line>
+<:flagon> <1><1><4><2><3><line>
+<:flagon> <1><1><4><2><4><line>
+<:flagon> <1><1><4><2><5><line>
+<:flagon> <1><1><4><1><2><line>
+<:flagon> <1><1><4><1><3><line>
+<:flagon> <1><1><4><1><4><line>
+<:flagon> <1><1><4><1><5><line>
+<:obj> <3> <1><0> <2> <1><line>
+<:obj> <4> <1><0> <2> <1><line>
+<:flagoff> <1><1><4><1><1><line>
+<:obj> <1> <1><8><line>
+<:obj> <1> <1><1> <6> <0> <2><0><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <9> <2><line>
+<:obj> <3> <2> <1><line>
+<:obj> <4> <2> <1><line>
+<:obj> <3> <1><1> <6> <-><1><6> <8><line>
+<:obj> <4> <1><1> <6> <1><6> <8><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Go find the <textcolor_d>keys<textcolor_0> that match the keyholes'<line>
+shapes so you can bust me outta here!<line>
+Chop chop!<line>
+<redname><diamond>Moe<line>
+Once you have the <textcolor_d>keys<textcolor_0>, touch the<line>
+keyholes to open this cage! Hurry up and<line>
+get to it! Sheesh!<line>
+<redname><diamond>Moe<line>
+But still, that Ogura...!<line>
+<redname><diamond>Moe<line>
+Usin' a guy's first love like that... Is<line>
+absolutely...UNFORGIVABLEEEEEEE!!!<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:obj> <3> <6><line>
+<:obj> <4> <6><line>
+<:se><line>
+<:func> <2><2> <-><2><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Ngaaaaah!!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <1><2> <0> <-><4><0><line>
+[<wait_time> <3>]<line>
+<:func> <1><8> <1> <7><4><line>
+<:flagon> <1><1><4><1><7><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+Alright! Ya did it, Starf!<line>
+<redname><diamond>Moe<line>
+Ogura... You better wait for me, you<line>
+lowlife...!<line>
+<redname><diamond>Moe<line>
+I'll pay you back for this a hundred times<line>
+over! Hyaaaaah!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <1><2> <-><1><0> <-><4><0><line>
+<:func> <1><1> <7><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <1><2> <2><3> <-><5><0><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <1><2> <5> <-><1><5><line>
+[<wait_time> <6><0>]<line>
+<:func> <1><8> <1> <7><4><line>
+<:flagon> <1><1><4><0><2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <2><line>
+[<wait_time> <6><0>]<line>
+<:func> <1><1> <0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <3> <2><line>
+<:obj> <4> <1><6><line>
+<:obj> <4> <3><line>
+<:obj> <4> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:obj> <1> <2><line>
+<:func> <1><1> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

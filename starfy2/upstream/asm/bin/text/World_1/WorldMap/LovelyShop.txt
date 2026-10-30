@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $73
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<x_pos> <2>]<line>
+[<y_pos> <2>]<line>
+Lovely's Shop<line>
+[<x_pos> <auto>]<line>
+[<y_pos> <2><0>]<line>
+Collect Pearls to buy<line>
+Photos and all kinds of Stuff!<line>
+<end>
+

@@ -1,0 +1,76 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-1 cutscene (0x88ed544)
+//Block Range: $0 - $3D6
+//POINTER: 0x81202fc
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_1/8_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:func> <0> <0><line>
+<rname><diamond>Puchi Ogura #8<line>
+Lantata~ Lantata~<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #8<line>
+Mischief, bad things, they're all super<line>
+fun!...Huh?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <7><line>
+<rname><diamond>Puchi Ogura #8<line>
+Ahhh! Y-you're! Papa told us that you're<line>
+our enemy!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <5><line>
+<rname><diamond>Puchi Ogura #8<line>
+Take this, and that, and some of this!<line>
+[<wait_time> <3><0>]<line>
+<:func> <0> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <0> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <0> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <0> <1><line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Puchi Ogura #8<line>
+Gyahahaaaa! Serves you right!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <3><line>
+<rname><diamond>Puchi Ogura #8<line>
+Lantata~ Lantata~<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Waaaaaah! The King's glorious statueeeee!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Pufftop Soldier<line>
+What'll I do... What'll I do...<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,74 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 post-game revisit chat (in-level table #460)
+//Block Range: $0 - $318
+//POINTER: 0x0814E95C
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><2><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+*sigh*... Will this hot spring ever be more<line>
+prosperous...?<line>
+<redname><diamond>Coalbies<line>
+If you want a hot spring, you want a<line>
+pretty hostess, right?...Are the Ookids not<line>
+enough?<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+Huh? Didja wanna leave?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Coalbies<line>
+Later~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Coalbies<line>
+That right? Well, you can say so at any<line>
+time.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Coalbies<line>
+Huh? Didja wanna leave?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Coalbies<line>
+Later~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Coalbies<line>
+That right? Well, you can say so at any<line>
+time.<line>
+<:end><line>
+<end>
+

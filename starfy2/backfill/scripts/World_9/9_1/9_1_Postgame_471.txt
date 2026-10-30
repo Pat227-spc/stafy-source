@@ -1,0 +1,66 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 post-game revisit chat (in-level table #471)
+//Block Range: $0 - $2FC
+//POINTER: 0x0814E988
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+Yo. Sorry my daughter... Savako caused ya<line>
+so much trouble the other day.<line>
+<:obj> <1> <0> <3><line>
+<wait><:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+She's not a bad kid by any means... But<line>
+she is very selfish.<line>
+<:obj> <1> <0> <3><line>
+<wait><:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+Guess raisin' a girl as a single dad's just<line>
+plain tough, huh...<line>
+<:c><line>
+<:obj> <1> <0> <3><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><0><1><line>
+<:obj> <1> <0> <3><line>
+<:func> <1><4> <1> <-><6><4> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+By the way, that Puchi Ogura #9 kid's<line>
+back, and he's lookin' for a brawl.<line>
+<:obj> <1> <0> <3><line>
+<wait><:obj> <1> <0> <4><line>
+<rname><diamond>Ressie<line>
+Eh, it'll be a cakewalk for you though.<line>
+<:c><line>
+<:obj> <1> <0> <3><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <0> <3><line>
+<:func> <1><4> <1> <-><6><4> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

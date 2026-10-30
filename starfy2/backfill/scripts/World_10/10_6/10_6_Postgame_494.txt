@@ -1,0 +1,53 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 post-game revisit chat (in-level table #494)
+//Block Range: $0 - $21E
+//POINTER: 0x0814E9E4
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:if> <1><0><0><3> <go> <3><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><0><3><line>
+:<3><line>
+<:se><line>
+<rname><diamond>Shmoe<line>
+Finally done cleaning up all those seaweed<line>
+rolls! Now to go to the dump...<line>
+<wait><:sd><line>
+<rname><diamond>Shmoe<line>
+Want me to drop you off on the way?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Shmoe<line>
+Then can you help me carry the seaweed<line>
+rolls?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <3> <3><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Shmoe<line>
+Fair enough... Actually, I still don't know<line>
+who put all this stuff here...<line>
+<:end><line>
+<end>
+

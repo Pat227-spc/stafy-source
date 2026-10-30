@@ -1,0 +1,60 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 1 (in-level table #260)
+//Block Range: $0 - $2E6
+//POINTER: 0x0814E63C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><1><6><1> <go> <3><line>
+<:if> <7><1><0><0> <go> <2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <7><1><0><0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf...do you hear a voice below us?<line>
+<redname><diamond>Moe<line>
+Not like we can check it out with that rock<line>
+in the way... Unless we smash it!<line>
+<redname><diamond>Moe<line>
+There should be another boulder around<line>
+here somewhere. Try usin' that!<line>
+<redname><diamond>Moe<line>
+And if ya mess up, just gimme a shout!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+So ya messed up, eh? Alright, gimme a sec...<line>
+Hrrragh!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <7><line>
+<:flagoff> <7><1><6><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Oh! It opened! Well then, let's get goin'!<line>
+<:end><line>
+<end>
+

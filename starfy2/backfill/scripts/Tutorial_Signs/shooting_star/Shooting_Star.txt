@@ -1,0 +1,24 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override (tools/gen_overrides.py): upstream file + "Using an enemy to<line> / perform another<line> / Air Jump is an<line> / important aspect<line> / of this technique.<line>" -> "Using an enemy<line> / to perform<line> / another<line> / Air Jump is an<line> / important<line> / aspect of this<line> / technique.<line>" (rewrap only: ran past the sign divider on screen)
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $4C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+Using an enemy<line>
+to perform<line>
+another<line>
+Air Jump is an<line>
+important<line>
+aspect of this<line>
+technique.<line>
+<end>
+

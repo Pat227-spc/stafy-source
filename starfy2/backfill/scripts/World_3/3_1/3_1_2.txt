@@ -1,0 +1,82 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-1 scene 2 (in-level table #33)
+//Block Range: $0 - $42C
+//POINTER: 0x0814E2B0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_1/3_1_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <3><1><0><3><line>
+<:flagon> <3><1><1><4><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+It sounds like that voice is getting closer!<line>
+Alright, it should be near here somewhere...<line>
+<:c><line>
+<wait><:flagon> <3><1><1><4><line>
+<:flagon> <3><1><1><1><line>
+<:func> <4><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+Ah...ah...ACHOO! Ugh...this wind sure is<line>
+harsh...<line>
+<:c><line>
+<wait><:flagon> <3><1><1><2><line>
+<:func> <4><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <9> <2><line>
+<rname><diamond>Moe<line>
+Hey...waitaminute, is the wind getting<line>
+worse? Don't tell me there's a typhoon...!<line>
+<:c><line>
+<wait><:flagon> <3><1><1><3><line>
+<:func> <4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><5><line>
+<:obj> <1> <7> <1><6> <0> <8><0><line>
+<:func> <1><8> <1> <6><5><line>
+<:func> <1><4> <1> <3><6><line>
+<rname><diamond>Moe<line>
+What the HECK!?<line>
+[<wait_time> <4><0>]<line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Holy...!...Heh! Like some wind is gonna stop<line>
+the Great and Powerful Moe!<line>
+<wait><:func> <8> <0> <9><9><line>
+<rname><diamond>Moe<line>
+My body can weather anything! That's how<line>
+strong the Great and Powerful Moe is!<line>
+RAAAAAGH!!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <9> <2><line>
+<:obj> <1> <7> <8><2> <1><2><8> <3><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <1> <7> <2><0><0> <1><6><0> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:func> <1> <0><line>
+<:func> <1><0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <3> <2><line>
+<:flagoff> <3><1><1><4><line>
+<:flagon> <3><1><1><0><line>
+<:exit><line>
+<end>
+

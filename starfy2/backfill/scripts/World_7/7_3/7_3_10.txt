@@ -1,0 +1,52 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 10 (in-level table #290)
+//Block Range: $0 - $25E
+//POINTER: 0x0814E6B4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_10.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><1><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <0> <1><1> <1> <-><4><8> <-><1><6><line>
+<:func> <1> <0> <1><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Phew... Ya saved me... I-I mean you did it<line>
+again!<line>
+<redname><diamond>Moe<line>
+Y-you just love sticking your nose in<line>
+other people's business, huh? I was<line>
+supposed to beat 'em this time!<line>
+<redname><diamond>Moe<line>
+A-anyways, didja find that hidden door<line>
+yet?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><1><1><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+C'mon, let's get back to <textcolor_d>Taiblond<textcolor_0> already!<line>
+<:end><line>
+<end>
+

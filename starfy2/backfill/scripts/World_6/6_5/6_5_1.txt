@@ -1,0 +1,154 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 1 (in-level table #247)
+//Block Range: $0 - $9D0
+//POINTER: 0x0814E608
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><5><0><9> <go> <2><line>
+<:if> <6><5><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <6><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #6<line>
+<:obj> <2> <4><line>
+I've been waitin' for ya, Starfy! But if ya<line>
+think you can catch me, you're dreamin'!<line>
+<redname><diamond>Puchi Ogura #6<line>
+Take this!!!<line>
+<wait><:sd><line>
+<:obj> <5> <1><2> <0> <0><line>
+<:func> <1><8> <1> <1><1><5><line>
+[<wait_time> <6><0>]<line>
+<:obj> <6> <1><2> <0> <0><line>
+<:func> <1><8> <1> <1><1><5><line>
+[<wait_time> <6><0>]<line>
+<:obj> <7> <1><2> <0> <0><line>
+<:func> <1><8> <1> <1><1><5><line>
+[<wait_time> <6><0>]<line>
+<:se><line>
+<rname><diamond>Puchi Ogura #6<line>
+<:obj> <2> <4><line>
+How's that!? Can't chase me now can you?<line>
+All thanks to these titanium shutters!<line>
+<redname><diamond>Puchi Ogura #6<line>
+But, you can still open them using the<line>
+password I scribbled on three Hint Memos.<line>
+<redname><diamond>Puchi Ogura #6<line>
+Which, by the way, are in the hands of my<line>
+loyal minions~!<line>
+<redname><diamond>Puchi Ogura #6<line>
+A guy like you ain't even worth me fightin'<line>
+personally!<line>
+<redname><diamond>Puchi Ogura #6<line>
+I've beaten 1067 of the strongest men<line>
+alive!!!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+<:obj> <2> <7> <5><6> <3><2> <1><0><line>
+[<wait_time> <7><0>]<line>
+<:obj> <2> <2><line>
+<:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+1067 guys? The number went up... Eh,<line>
+whatever. Go find those Hint Memos.<line>
+<redname><diamond>Moe<line>
+There's 3 in total, so don't miss any,<line>
+Starf.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:obj> <1> <9> <2> <0><line>
+<:flagon> <6><5><0><0><line>
+<:flagon> <6><5><1><1><line>
+<:flagon> <6><5><1><2><line>
+<:flagon> <6><5><1><3><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+The password for the door's written on<line>
+those Hint Memos. Go get 'em!<line>
+<redname><diamond>Moe<line>
+Then we can raise these shutters.<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <6><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Alright, you did collect all the Hint Memos,<line>
+right?<line>
+<redname><diamond>Moe<line>
+So, which of these passwords is right?<line>
+<:c><line>
+<wait><:sd><line>
+Which one is it?<line>
+　　1 "Water Flea"<line>
+　　2 "Clam"<line>
+　　3 "Baby Mackerel"<line>
+<:decide> <3> <0> <1> <1> <0><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <0> <go> <1><0><line>
+<:sel> <2> <go> <1><0><line>
+<:func> <1><8> <1> <7><9><line>
+[<wait_time> <5><0>]<line>
+<:sd><line>
+<:obj> <5> <7> <8><0> <1><9><2> <2><0><line>
+<:func> <1><8> <1> <6><1><line>
+[<wait_time> <5><0>]<line>
+<:obj> <6> <7> <8><0> <1><9><2> <2><0><line>
+<:func> <1><8> <1> <6><1><line>
+[<wait_time> <5><0>]<line>
+<:obj> <7> <7> <8><0> <1><9><2> <2><0><line>
+<:func> <1><8> <1> <6><1><line>
+[<wait_time> <5><0>]<line>
+<:se><line>
+<rname><diamond>Moe<line>
+Whoa, the shutters opened! Now all we<line>
+gotta do is chase that brat down!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:flagon> <6><5><1><0><line>
+<:flagoff> <1><5><6><0><2><line>
+<:flagoff> <1><5><6><0><3><line>
+<:flagoff> <1><5><6><0><4><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<:func> <1><8> <1> <8><0><line>
+<rname><diamond>Moe<line>
+That was wrong, you idiot!<line>
+<redname><diamond>Moe<line>
+C'mon, check the Key Items menu with<line>
+the Start Button again!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <-><6><4><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

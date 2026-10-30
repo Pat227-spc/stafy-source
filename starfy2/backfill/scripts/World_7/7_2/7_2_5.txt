@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 scene 5 (in-level table #276)
+//Block Range: $0 - $17A
+//POINTER: 0x0814E67C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_2/7_2_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf! Good news! You don't hafta<line>
+wait for these boulders anymore!<line>
+<redname><diamond>Moe<line>
+If ya wanna hurry, push the boulder into<line>
+the ledges on the left or right!<line>
+<redname><diamond>Moe<line>
+Once the boulder's outta your way, just<line>
+hoof it to the top!<line>
+<:end><line>
+<end>
+

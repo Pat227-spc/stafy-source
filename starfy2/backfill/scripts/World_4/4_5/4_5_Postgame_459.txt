@@ -1,0 +1,73 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 post-game revisit chat (in-level table #459)
+//Block Range: $0 - $338
+//POINTER: 0x0814E958
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+Oh, Starfy! Listen to this! It's about that<line>
+guy you beat the other day...<line>
+<redname><diamond>Coalbies<line>
+Well... He's back again!<line>
+<redname><diamond>Coalbies<line>
+And it looks like he's got some kinda<line>
+treasure chest... Anyways...<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+Did you want to go to the exit?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Coalbies<line>
+Got it. Seeya later.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Coalbies<line>
+Okay, come again soon!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Coalbies<line>
+Did you want to go to the exit?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Coalbies<line>
+Got it. Seeya later.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <2><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Coalbies<line>
+Okay, come again soon!<line>
+<:end><line>
+<end>
+

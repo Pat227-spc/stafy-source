@@ -1,0 +1,57 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-1 scene 5 (in-level table #36)
+//Block Range: $0 - $26E
+//POINTER: 0x0814E2BC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_1/3_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <3><1><1><4><line>
+<:if> <3><1><2><3> <go> <1><line>
+<:flagon> <3><1><2><3><line>
+<:sd><line>
+<:obj> <1> <1><1> <2> <-><8><0><line>
+<:obj> <0> <2> <1><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <7> <4><8> <0> <1><0><line>
+<:func> <1><4> <2> <8><line>
+<:se><line>
+<:obj> <0> <9> <2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Alright, let's get started on finding those<line>
+kids.<line>
+<redname><diamond>Moe<line>
+The Great and Powerful Moe is already<line>
+thinking of what to tell those awful punks.<line>
+<:c><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <0> <1><1> <2> <3><2><line>
+<:func> <1> <0> <1><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:flagoff> <3><1><1><4><line>
+<:flagon> <3><1><1><0><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Hey! What're ya doin', Starf? Get a move on<line>
+already!<line>
+<redname><diamond>Moe<line>
+We still got a lot of work ahead of us!<line>
+<:c><line>
+<wait>:<go> <2><line>
+<end>
+

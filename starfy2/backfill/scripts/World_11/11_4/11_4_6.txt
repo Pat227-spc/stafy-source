@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-4 scene 6 (in-level table #134)
+//Block Range: $0 - $142
+//POINTER: 0x0814E444
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_4/11_4_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+Something is written on a piece of paper...<line>
+<:c><line>
+<wait>"That Ogura, building such a clever trap...<line>
+But it won't work on the likes of me! Ho ho<line>
+ho..."<line>
+<:c><line>
+<wait>All I have to do is either Swim or <textcolor_d>Turbo Swim<textcolor_0><line>
+depending on the picture on the statue.<line>
+This is child's play...<line>
+<:end><line>
+<end>
+

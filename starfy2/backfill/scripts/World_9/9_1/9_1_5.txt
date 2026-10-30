@@ -1,0 +1,138 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 scene 5 (in-level table #324)
+//Block Range: $0 - $86C
+//POINTER: 0x0814E73C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_1/9_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><1><0><3> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <5> <0> <4><line>
+Owowowowow... Huh? Who're you two?<line>
+<:c><line>
+<:obj> <5> <0> <3><line>
+<wait><:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+I'm Moe, the Great and Power- Wait, you're<line>
+hurt!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Wait here! I'm gonna call that geezer,<line>
+Funazou!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <1><line>
+<:obj> <0> <1><1> <2> <-><3><2> <0><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+<:obj> <2> <4><line>
+Waaah! Ressie, what happened to you!? Are<line>
+you ok!?<line>
+<:c><line>
+<wait><:obj> <5> <0> <4><line>
+<rname><diamond>Ressie<line>
+They used my daughter as a shield... I<line>
+couldn't fight back<line>
+<:c><line>
+<:obj> <5> <0> <3><line>
+<redname><diamond>Funazou<line>
+<:obj> <2> <4><line>
+And then? What of the young lady?<line>
+<:c><line>
+<wait><:obj> <5> <0> <4><line>
+<rname><diamond>Ressie<line>
+They took her with them... What do I do...?<line>
+<:c><line>
+<:obj> <5> <0> <3><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Then all we gotta do is take her back!<line>
+Right, Starf!?<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <2> <4><line>
+That's right! With Detective Polmes here,<line>
+everything will be alright!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+What's that, Starf? 'I'm weirdly motivated'?<line>
+<redname><diamond>Moe<line>
+Hmph! I just can't stand anybody who's<line>
+mean to kids!<line>
+<:c><line>
+<wait><:obj> <5> <0> <4><line>
+<rname><diamond>Ressie<line>
+M-my bad, guys... Here, I'll open the door to<line>
+some treasure I found.<line>
+<:obj> <5> <0> <3><line>
+<wait><:obj> <5> <0> <4><line>
+<rname><diamond>Ressie<line>
+I dunno what it is, or if it's helpful. But it's<line>
+my way of saying thanks.<line>
+<:c><line>
+<:obj> <5> <0> <3><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><1><0><3><line>
+<:func> <1><4> <1> <-><8><0> <0><line>
+<:obj> <5> <0> <3><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <5> <0> <4><line>
+<rname><diamond>Ressie<line>
+I opened the door to that treasure I<line>
+found. My way of saying thanks.<line>
+<:c><line>
+<:obj> <5> <0> <3><line>
+<redname><diamond>Funazou<line>
+<:obj> <2> <4><line>
+Best of luck to you, Detective Polmes,<line>
+Moeston.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Leave it to us! Someone who uses a kid as<line>
+a shield like that *deserves* a walloping!<line>
+<redname><diamond>Moe<line>
+Let's go, Starf! Let's give these low-lives<line>
+what's comin' to 'em!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <-><8><0> <0><line>
+<:obj> <5> <0> <3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

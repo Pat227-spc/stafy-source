@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 Goal (goal table #28)
+//Block Range: $0 - $F4
+//POINTER: 0x082C89F4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_Goal_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the treasure chest was...<line>
+a <textcolor_d>Sea Perfume<textcolor_1>!<line>
+<:c><line>
+<wait>Who could have been dropping those<line>
+rocks? Maybe you'll find out in the next<line>
+area!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

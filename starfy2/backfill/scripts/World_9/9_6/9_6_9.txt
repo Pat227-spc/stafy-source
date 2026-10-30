@@ -1,0 +1,74 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-6 scene 9 (in-level table #351)
+//Block Range: $0 - $416
+//POINTER: 0x0814E7A8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_6/9_6_9.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><2> <1><1> <1><0><1><line>
+<:func> <1><3><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<:if> <9><6><1><7> <go> <1><line>
+<rname><diamond>Jiiyan<line>
+<:obj> <1> <4><line>
+Fufufu... That's right, I have the last<line>
+Stache-ccine in my possession.<line>
+<redname><diamond>Jiiyan<line>
+If you want to save your friend, you must<line>
+defeat me.<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Waaaaaah! I'm hungry~! I wanna go home and<line>
+eat pudding~!<line>
+<:c><line>
+<redname><diamond>Jiiyan<line>
+<:obj> <1> <4><line>
+Is that right? Well then, let me deal with<line>
+this eyesore, and we can go home.<line>
+<redname><diamond>Jiiyan<line>
+Now, it's time for your defeat, Sir Starfy!<line>
+<:c><line>
+<wait><:obj> <3> <1><0> <0> <1><line>
+<:func> <1><8> <1> <1><1><3><line>
+<:obj> <3> <6><line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <1><6>]<line>
+<:obj> <1> <0> <0><line>
+[<wait_time> <1><0><0>]<line>
+<:sd><line>
+<:flagon> <9><6><1><7><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<rname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Oh, he's back... Can we just go home<line>
+already? I'm hungryyyy~<line>
+<:c><line>
+<redname><diamond>Jiiyan<line>
+<:obj> <1> <4><line>
+Do not worry, young master, this won't take<line>
+long.<line>
+<redname><diamond>Jiiyan<line>
+This old coot'll defeat him. As the butler<line>
+of the Ogura family!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

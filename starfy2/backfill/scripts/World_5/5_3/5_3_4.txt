@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-3 scene 4 (in-level table #65)
+//Block Range: $0 - $162
+//POINTER: 0x0814E330
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_3/5_3_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey! Starfy! This place is what they call a<line>
+<textcolor_d>river<textcolor_0>!<line>
+<redname><diamond>Moe<line>
+Unlike the sea, it looks like it's full of<line>
+spots where <textcolor_d>the current<textcolor_0> is <textcolor_d>real strong<textcolor_0>...<line>
+<redname><diamond>Moe<line>
+If we look for <textcolor_d>spots where the current is<line>
+weaker<textcolor_0>, maybe we can keep moving forward!<line>
+<:end><line>
+<end>
+

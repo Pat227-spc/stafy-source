@@ -1,0 +1,102 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 1 (in-level table #210)
+//Block Range: $0 - $77E
+//POINTER: 0x0814E574
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><3><0><0><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+WOOOOOAH!!! Woman with a Marvelous Body,<line>
+Located!<line>
+<redname><diamond>Moe<line>
+My Cutie Radar is goin' off like there's no<line>
+tomorrow!!!<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <2> <4><line>
+Please come down to the First <textcolor_d>Blimp<textcolor_0> Race~<line>
+Everyone's welcome to join and it's already<line>
+underway~!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Blimp Race...? The heck is that- Wait no...<line>
+Excuse me, fair lady, what are you<line>
+referring to?<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <2> <4><line>
+What, you haven't heard of a race~? The<line>
+fastest Blimp wins you know~.<line>
+<redname><diamond>Savako<line>
+I've got a part-time job as, like, the race<line>
+queen~? I'm <textcolor_d>Savako<textcolor_0>~.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Sabako, huh? Wh-what's with the bored way<line>
+she talks...?<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <2> <4><line>
+Sa-VA-ko~! I want you to get it right next<line>
+time, okay~?<line>
+<redname><diamond>Savako<line>
+Ugh~, I gotta go or I'll get yelled at~.<line>
+Seeya~.<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <0><line>
+<:obj> <2> <7> <1><4><0> <1><2><8> <1><0><line>
+[<wait_time> <1><4><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Did you see her, Starf? That Sabako...<line>
+<redname><diamond>Moe<line>
+Huh? Y-you dummy!! Who cares how flashy<line>
+her parasol is!!<line>
+<redname><diamond>Moe<line>
+That perfect dynamite BOD' of hers! Drop<line>
+dead GORGEOUS I tell ya!<line>
+<redname><diamond>Moe<line>
+And one day, if she'll be my bride, I'll... I'll...!<line>
+<redname><diamond>Moe<line>
+<:obj> <1> <5> <3><line>
+<:func> <8> <1> <3><line>
+GAHAAAAH!!!<line>
+[<wait_time> <6><0>]<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Blimp Race huh...? Heh heh heh...<line>
+<redname><diamond>Moe<line>
+You're joinin' that race, Starf! Maybe you'll<line>
+get somethin' good for winning.<line>
+<redname><diamond>Moe<line>
+Huh? We're here to look for your Mom? We<line>
+can do that later, you idiot!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

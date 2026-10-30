@@ -1,0 +1,44 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 scene 3 (in-level table #332)
+//Block Range: $0 - $220
+//POINTER: 0x0814E75C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_3/9_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><3><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <9><3><0><2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Oh, there're some <textcolor_d>Ginjis<textcolor_0> over there!<line>
+<redname><diamond>Moe<line>
+Wait, you dunno what they are? I shoulda<line>
+guessed, huh?<line>
+<redname><diamond>Moe<line>
+It's fine to mess around with 'em, they ain't<line>
+bad guys...I think...<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What, you scared? Sheesh, what a pain...<line>
+<redname><diamond>Moe<line>
+It's fine, really. They won't punch ya or<line>
+anything...probably.<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-4 scene 3 (in-level table #30)
+//Block Range: $0 - $132
+//POINTER: 0x0814E2A4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_4/2_4_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I just saw that kid ridin' some kinda<line>
+fire-breathin' vehicle...<line>
+<redname><diamond>Moe<line>
+Just make sure not to touch it and get<line>
+burned, you got that?<line>
+<redname><diamond>Moe<line>
+But that brat has to run outta gas at<line>
+some point! That's your chance to get him<line>
+good!<line>
+<end>
+

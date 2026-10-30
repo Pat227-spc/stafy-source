@@ -1,0 +1,98 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 8 (in-level table #385)
+//Block Range: $0 - $48C
+//POINTER: 0x0814E830
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><6><1><1> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:if> <1><0><6><1><0> <go> <3><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><6><1><0><line>
+:<3><line>
+<:se><line>
+<rname><diamond>Joe<line>
+Huh? Moe? Never heard of 'im. The name's<line>
+<textcolor_d>Joe<textcolor_0>.<line>
+<redname><diamond>Joe<line>
+You got the wrong guy? Whatever...I'll take<line>
+ya back to the exit.<line>
+<wait><:sd><line>
+<rname><diamond>Joe<line>
+You wanna go to the exit?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Joe<line>
+Got it. Seeya.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><6><1><1><line>
+<:func> <1><2> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Joe<line>
+Fine by me...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><6><1><1><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:if> <1><0><6><1><0> <go> <5><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><6><1><0><line>
+<:se><line>
+:<5><line>
+<rname><diamond>Joe<line>
+Like I keep sayin', I'm Joe! I don't know any<line>
+Moe! You've got the wrong guy!!!<line>
+<wait><:sd><line>
+<rname><diamond>Joe<line>
+Geez, now that you get it, go home already.<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Joe<line>
+Alright, I'll walk ya to the exit.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <3> <2><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Joe<line>
+...You're a stubborn one, you know that?<line>
+<:end><line>
+<end>
+

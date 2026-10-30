@@ -1,0 +1,1208 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Pause Screen Hints (Pointer) Part 1
+
+//POINTER #0 @ $107A8C - STRING #0 @ $640F28
+
+#ACTIVETBL(Story)
+
+#WRITE(GBA,$107A8C)
+Press the <textcolor_d>Start Button<textcolor_1> while <textcolor_d>holding<line>
+the Select Button<textcolor_1> to exit the stage<line>
+while keeping everything you've collected.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #001 NAME:		Pause Screen Hints (Pointer) Part 2 (87 pointers)
+
+//POINTER #0 @ $2C6208 - STRING #0 @ $640FB0
+
+#WRITE(GBA,$2C6208)
+#WRITE(GBA,$2C6220)
+#WRITE(GBA,$2C6240)
+#WRITE(GBA,$2C6250)
+#WRITE(GBA,$2C6260)
+#WRITE(GBA,$2C6270)
+#WRITE(GBA,$2C6288)
+#WRITE(GBA,$2C62A0)
+#WRITE(GBA,$2C62B0)
+#WRITE(GBA,$2C62C0)
+#WRITE(GBA,$2C62D8)
+#WRITE(GBA,$2C62E8)
+#WRITE(GBA,$2C6300)
+#WRITE(GBA,$2C6310)
+#WRITE(GBA,$2C6320)
+#WRITE(GBA,$2C6330)
+#WRITE(GBA,$2C6360)
+#WRITE(GBA,$2C6370)
+#WRITE(GBA,$2C6380)
+#WRITE(GBA,$2C6390)
+#WRITE(GBA,$2C63A0)
+#WRITE(GBA,$2C63B0)
+#WRITE(GBA,$2C63C0)
+#WRITE(GBA,$2C63D8)
+#WRITE(GBA,$2C6400)
+#WRITE(GBA,$2C6448)
+#WRITE(GBA,$2C6460)
+#WRITE(GBA,$2C6498)
+#WRITE(GBA,$2C64A8)
+#WRITE(GBA,$2C64B8)
+#WRITE(GBA,$2C64C8)
+#WRITE(GBA,$2C64D8)
+#WRITE(GBA,$2C64E8)
+#WRITE(GBA,$2C64F8)
+#WRITE(GBA,$2C6508)
+#WRITE(GBA,$2C6588)
+#WRITE(GBA,$2C6628)
+#WRITE(GBA,$2C6638)
+#WRITE(GBA,$2C6648)
+#WRITE(GBA,$2C6658)
+#WRITE(GBA,$2C6668)
+#WRITE(GBA,$2C6678)
+#WRITE(GBA,$2C6688)
+#WRITE(GBA,$2C6698)
+#WRITE(GBA,$2C66A8)
+#WRITE(GBA,$2C66B8)
+#WRITE(GBA,$2C66E0)
+#WRITE(GBA,$2C66F0)
+#WRITE(GBA,$2C6708)
+#WRITE(GBA,$2C6718)
+#WRITE(GBA,$2C6728)
+#WRITE(GBA,$2C6738)
+#WRITE(GBA,$2C6750)
+#WRITE(GBA,$2C6768)
+#WRITE(GBA,$2C6778)
+#WRITE(GBA,$2C6790)
+#WRITE(GBA,$2C67A0)
+#WRITE(GBA,$2C67B0)
+#WRITE(GBA,$2C67C8)
+#WRITE(GBA,$2C67D8)
+#WRITE(GBA,$2C67E8)
+#WRITE(GBA,$2C67F8)
+#WRITE(GBA,$2C6808)
+#WRITE(GBA,$2C6818)
+#WRITE(GBA,$2C6828)
+#WRITE(GBA,$2C6838)
+#WRITE(GBA,$2C6850)
+#WRITE(GBA,$2C6890)
+#WRITE(GBA,$2C68A0)
+#WRITE(GBA,$2C68B0)
+#WRITE(GBA,$2C68C0)
+#WRITE(GBA,$2C68D0)
+#WRITE(GBA,$2C68E0)
+#WRITE(GBA,$2C68F8)
+#WRITE(GBA,$2C6908)
+#WRITE(GBA,$2C6918)
+#WRITE(GBA,$2C6928)
+#WRITE(GBA,$2C6940)
+#WRITE(GBA,$2C6950)
+#WRITE(GBA,$2C6960)
+#WRITE(GBA,$2C6978)
+#WRITE(GBA,$2C6988)
+#WRITE(GBA,$2C6998)
+#WRITE(GBA,$2C69A8)
+#WRITE(GBA,$2C69B8)
+#WRITE(GBA,$2C69C8)
+#WRITE(GBA,$2C69D8)
+<line>
+Follow the trail of Stuff<line>
+Mama Star left for you to save her!<line>
+<line>
+<:end><line>
+<end>
+
+
+//BLOCK #002 NAME:		Pause Screen Hints Part 3 (Pointer)
+
+//POINTER #0 @ $2C6210 - STRING #0 @ $64103C
+
+#WRITE(GBA,$2C6210)
+<line>
+Deliver Jellato's <textcolor_d>letters<textcolor_1> to<line>
+Jellata and Gellato.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #003 NAME:		Pause Screen Hints Part 4 (Pointer)
+
+//POINTER #0 @ $2C6218 - STRING #0 @ $641094
+
+#WRITE(GBA,$2C6218)
+<line>
+Make your way back to Jellato and<line>
+give them Jellata and Gellato's <textcolor_d>responses<textcolor_1>.<line>
+<line>
+<:end><line>
+<end>
+
+
+//BLOCK #004 NAME:		Pause Screen Hints Part 5 (Pointer)
+
+//POINTER #0 @ $2C6238 - STRING #0 @ $64114C
+
+#WRITE(GBA,$2C6238)
+Looks like you've gotten the hang of<line>
+the Sea Skater!<line>
+You'll be able to access areas<line>
+you couldn't before.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #005 NAME:		Pause Screen Hints Part 6 (Pointer)
+
+//POINTER #0 @ $2C6258 - STRING #0 @ $6411A4
+
+#WRITE(GBA,$2C6258)
+Join the <textcolor_d>Blimp Race<textcolor_1><line>
+and win the first place prize!<line>
+Sounds like it'll be well worth the effort!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #006 NAME:		Pause Screen Hints Part 7 (Pointer)
+
+//POINTER #0 @ $2C6278 - STRING #0 @ $641208
+
+#WRITE(GBA,$2C6278)
+Those red statues spit fire<line>
+when you hit them with a Star Spin.<line>
+Use that to melt the ice and press forward.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #007 NAME:		Pause Screen Hints Part 8 (Pointer)
+
+//POINTER #0 @ $2C6290 - STRING #0 @ $641278
+
+#WRITE(GBA,$2C6290)
+Find a way to unfreeze Moe!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #008 NAME:		Pause Screen Hints Part 9 (Pointer)
+
+//POINTER #0 @ $2C6298 - STRING #0 @ $6412B0
+
+#WRITE(GBA,$2C6298)
+The Coalbies are scattered about<line>
+in 3 different areas.<line>
+Find them so you can<line>
+make the hot springs hotter.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #009 NAME:		Pause Screen Hints Part 10 (Pointer)
+
+//POINTER #0 @ $2C62B8 - STRING #0 @ $641310
+
+#WRITE(GBA,$2C62B8)
+<line>
+Puchi Ogura #6 Kidnapped Wozart!<line>
+After him!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #010 NAME:		Pause Screen Hints Part 11 (Pointer)
+
+//POINTER #0 @ $2C62D0 - STRING #0 @ $64135C
+
+#WRITE(GBA,$2C62D0)
+The <textcolor_d>Indoor Cave<textcolor_1> is full of<line>
+riddles and gimmicks!<line>
+Try asking Moe for help if you<line>
+ever get lost or stumped.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #011 NAME:		Pause Screen Hints Part 12 (Pointer)
+
+//POINTER #0 @ $2C62F0 - STRING #0 @ $6413D8
+
+#WRITE(GBA,$2C62F0)
+Chuta isn't feeling well!<line>
+Go find Big Barrel Squid<line>
+and ask him what to do!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #012 NAME:		Pause Screen Hints Part 13 (Pointer)
+
+//POINTER #0 @ $2C62F8 - STRING #0 @ $641434
+
+#WRITE(GBA,$2C62F8)
+Deliver the <textcolor_d>barrel<textcolor_1> to Chuta.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #013 NAME:		Pause Screen Hints Part 14 (Pointer)
+
+//POINTER #0 @ $2C6318 - STRING #0 @ $641470
+
+#WRITE(GBA,$2C6318)
+<line>
+It looks like destroying these dotted pillars<line>
+opens the path somewhere...<line>
+<:end><line>
+<end>
+
+
+//BLOCK #014 NAME:		Pause Screen Hints Part 15 (Pointer)
+
+//POINTER #0 @ $2C6338 - STRING #0 @ $6414BC
+
+#WRITE(GBA,$2C6338)
+You'll have to collect the three<line>
+<textcolor_d>Hint Memos<textcolor_1> to get the password<line>
+that opens the shutters.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #015 NAME:		Pause Screen Hints Part 16 (Pointer)
+
+//POINTER #0 @ $2C6340 - STRING #0 @ $641528
+
+#WRITE(GBA,$2C6340)
+<line>
+Go catch that braggart,<line>
+Puchi Ogura #6!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #016 NAME:		Pause Screen Hints Part 17 (Pointer)
+
+//POINTER #0 @ $2C6348 - STRING #0 @ $641564
+
+#WRITE(GBA,$2C6348)
+<line>
+Go catch Puchi Ogura #6!<line>
+Is there a pattern to the way he moves...?<line>
+<line>
+<:end><line>
+<end>
+
+
+//BLOCK #017 NAME:		Pause Screen Hints Part 18 (Pointer)
+
+//POINTER #0 @ $2C6350 - STRING #0 @ $6415D0
+
+#WRITE(GBA,$2C6350)
+<line>
+Time to chase down and defeat<line>
+Puchi Ogura #6!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #018 NAME:		Pause Screen Hints Part 19 (Pointer)
+
+//POINTER #0 @ $2C6368 - STRING #0 @ $641608
+
+#WRITE(GBA,$2C6368)
+Smash two <textcolor_d>boulders<textcolor_1> against each other<line>
+to get rid of them!<line>
+Use that to save anyone trapped under one<line>
+or open the way forward!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #019 NAME:		Pause Screen Hints Part 20 (Pointer)
+
+//POINTER #0 @ $2C6388 - STRING #0 @ $641690
+
+#WRITE(GBA,$2C6388)
+Find something that can be<line>
+used as a <textcolor_d>platform<textcolor_1> and<line>
+take it back to the Tutweets!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #020 NAME:		Pause Screen Hints Part 21 (Pointer)
+
+//POINTER #0 @ $2C63A8 - STRING #0 @ $6416F0
+
+#WRITE(GBA,$2C63A8)
+Use Taiblond's <textcolor_d>pictures<textcolor_1><line>
+to find <textcolor_d>hidden doors<textcolor_1>!<line>
+Ask Moe for advice<line>
+whenever you feel stuck!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #021 NAME:		Pause Screen Hints Part 22 (Pointer)
+
+//POINTER #0 @ $2C63C8 - STRING #0 @ $64177C
+
+#WRITE(GBA,$2C63C8)
+Find a way to stop<line>
+that machine from firing it's beam!<line>
+<textcolor_d>Moe's strange idea might just work...<textcolor_1><line>
+<:end><line>
+<end>
+
+
+//BLOCK #022 NAME:		Pause Screen Hints Part 23 (Pointer)
+
+//POINTER #0 @ $2C63E0 - STRING #0 @ $64180C
+
+#WRITE(GBA,$2C63E0)
+Ignore Puchi Ogura #7 for now.<line>
+Climb this mountain and<line>
+set your sights on reaching Pufftop!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #023 NAME:		Pause Screen Hints Part 24 (Pointer)
+
+//POINTER #0 @ $2C63E8 - STRING #0 @ $64186C
+
+#WRITE(GBA,$2C63E8)
+Make it to the top of this area<line>
+while dodging the <textcolor_d>bombs<textcolor_1> that<line>
+Puch Ogura #7 throws at you!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #024 NAME:		Pause Screen Hints Part 25 (Pointer)
+
+//POINTER #0 @ $2C63F0 - STRING #0 @ $6418E0
+
+#WRITE(GBA,$2C63F0)
+Use th info Moe and Horun gave to you<line>
+to find Puchi Ogura #7's weakpoint<line>
+and teach him a lesson!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #025 NAME:		Pause Screen Hints Part 26 (Pointer)
+
+//POINTER #0 @ $2C6408 - STRING #0 @ $641958
+
+#WRITE(GBA,$2C6408)
+<line>
+Ressie's gone missing!<line>
+Go find him!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #026 NAME:		Pause Screen Hints Part 27 (Pointer)
+
+//POINTER #0 @ $2C6410 - STRING #0 @ $641990
+
+#WRITE(GBA,$2C6410)
+That threatening letter mentioned<line>
+something about the <textcolor_d>sandbar<textcolor_1>.<line>
+Head there, pronto!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #027 NAME:		Pause Screen Hints Part 28 (Pointer)
+
+//POINTER #0 @ $2C6418 - STRING #0 @ $6419DC
+
+#WRITE(GBA,$2C6418)
+After promising to save Ressie's daughter,<line>
+he gave you some treasure as thanks.<line>
+Bring his daughter home!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #028 NAME:		Pause Screen Hints Part 29 (5 Pointers)
+
+//POINTER #0 @ $2C6428 - STRING #0 @ $641A38
+
+#WRITE(GBA,$2C6428)
+#WRITE(GBA,$2C6438)
+#WRITE(GBA,$2C6470)
+#WRITE(GBA,$2C6478)
+#WRITE(GBA,$2C6488)
+Go find Ressie's kidnapped daughter!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #029 NAME:		Pause Screen Hints Part 30 (Pointer)
+
+//POINTER #0 @ $2C6430 - STRING #0 @ $641A78
+
+#WRITE(GBA,$2C6430)
+Go ask around about Ressie's daughter.<line>
+<textcolor_d>3 people<textcolor_1> should give you<line>
+enough information.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #030 NAME:		Pause Screen Hints Part 31 (Pointer)
+
+//POINTER #0 @ $2C6450 - STRING #0 @ $641AD4
+
+#WRITE(GBA,$2C6450)
+Fluffy's head's feeling fuzzy!<line>
+Go find something that'll<line>
+help them cool down!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #031 NAME:		Pause Screen Hints Part 32 (Pointer)
+
+//POINTER #0 @ $2C6458 - STRING #0 @ $641B24
+
+#WRITE(GBA,$2C6458)
+With the Koala Costume in tow,<line>
+you can scale up high areas<line>
+you couldn't before!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #032 NAME:		Pause Screen Hints Part 33 (Pointer)
+
+//POINTER #0 @ $2C6490 - STRING #0 @ $641B78
+
+#WRITE(GBA,$2C6490)
+Now that Ressie moved that boulder for you,<line>
+you can go to new places<line>
+and catch Puchi Ogura #9.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #033 NAME:		Pause Screen Hints Part 34 (Pointer)
+
+//POINTER #0 @ $2C64B0 - STRING #0 @ $641BE4
+
+#WRITE(GBA,$2C64B0)
+People have been infected with<line>
+the <textcolor_d>'Stache Virus<textcolor_1>!<line>
+Go find <textcolor_d>'Stache-ccines<textcolor_1><line>
+so you can cure them!<line>
+<line>
+<:end><line>
+<end>
+
+
+//BLOCK #034 NAME:		Pause Screen Hints Part 35 (Pointer)
+
+//POINTER #0 @ $2C64D0 - STRING #0 @ $641C58
+
+#WRITE(GBA,$2C64D0)
+Echigyoya and Puchi Ogura #10's evil plans<line>
+are written on this <textcolor_d>secret message<textcolor_1>.<line>
+Deliver this to the other Kunoichi!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #035 NAME:		Pause Screen Hints Part 36 (Pointer)
+
+//POINTER #0 @ $2C64F0 - STRING #0 @ $641CC8
+
+#WRITE(GBA,$2C64F0)
+<line>
+Master the secret art of<line>
+Master Croak's Dojo: the <textcolor_d>Ultra Star Spin<textcolor_1>!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #036 NAME:		Pause Screen Hints Part 37 (2 Pointers)
+
+//POINTER #0 @ $2C6510 - STRING #0 @ $641D1C
+
+#WRITE(GBA,$2C6510)
+#WRITE(GBA,$2C6520)
+<line>
+Echigyoya's up to something...<line>
+You have to warn the Kunoichi!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #037 NAME:		Pause Screen Hints Part 38 (Pointer)
+
+//POINTER #0 @ $2C6528 - STRING #0 @ $641D74
+
+#WRITE(GBA,$2C6528)
+Use the shutters to catch that<line>
+super fast <textcolor_d>Chonmagyo<textcolor_1>!<line>
+Ask Moe for a hint if you need one!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #038 NAME:		Pause Screen Hints Part 39 (Pointer)
+
+//POINTER #0 @ $2C6530 - STRING #0 @ $641DF4
+
+#WRITE(GBA,$2C6530)
+The bombs around the Kunoichi's home<line>
+are set to blow!<line>
+You have to warn them, and fast!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #039 NAME:		Pause Screen Hints Part 40 (Pointer)
+
+//POINTER #0 @ $2C6538 - STRING #0 @ $641E40
+
+#WRITE(GBA,$2C6538)
+Chase after the wicked merchant,<line>
+<textcolor_d>Echigyoya<textcolor_1>, and stop him from<line>
+detonating those bombs!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #040 NAME:		Pause Screen Hints Part 41 (Pointer)
+
+//POINTER #0 @ $2C6540 - STRING #0 @ $641EA4
+
+#WRITE(GBA,$2C6540)
+Dodge the shurikens and catch Echigyoya!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #041 NAME:		Pause Screen Hints Part 42 (2 Pointers)
+
+//POINTER #0 @ $2C6558 - STRING #0 @ $641EEC
+
+#WRITE(GBA,$2C6558)
+#WRITE(GBA,$2C6548)
+That explosion sent you flying!<line>
+Let's go look for Moe!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #042 NAME:		Pause Screen Hints Part 43 (Pointer)
+
+//POINTER #0 @ $2C6560 - STRING #0 @ $641F30
+
+#WRITE(GBA,$2C6560)
+Find the <textcolor_d>Cell Key<textcolor_1> and save Lumi!<line>
+Listen to what she says to unveil<line>
+the secrets to opening the doors!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #043 NAME:		Pause Screen Hints Part 44 (2 Pointers)
+
+//POINTER #0 @ $2C6568 - STRING #0 @ $641FC0
+
+#WRITE(GBA,$2C6568)
+#WRITE(GBA,$2C6578)
+Go find the friend you've<line>
+been seperated from, Moe.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #044 NAME:		Pause Screen Hints Part 45 (Pointer)
+
+//POINTER #0 @ $2C6580 - STRING #0 @ $641FFC
+
+#WRITE(GBA,$2C6580)
+Follow the trail of <textcolor_d>kelp rolls<textcolor_1> to find Moe!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #045 NAME:		Pause Screen Hints Part 46 (Pointer)
+
+//POINTER #0 @ $2C6590 - STRING #0 @ $642054
+
+#WRITE(GBA,$2C6590)
+<line>
+Chase after Puchi Ogura #10 while avoiding<line>
+the rain of porcupinefish he throws at you!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #046 NAME:		Pause Screen Hints Part 47 (Pointer)
+
+//POINTER #0 @ $2C6598 - STRING #0 @ $6420A8
+
+#WRITE(GBA,$2C6598)
+Defeat Puchi Ogura #10!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #047 NAME:		Pause Screen Hints Part 48 (12 Pointers)
+
+//POINTER #0 @ $2C65A8 - STRING #0 @ $6420D8
+
+#WRITE(GBA,$2C65A8)
+#WRITE(GBA,$2C65C0)
+#WRITE(GBA,$2C65D8)
+#WRITE(GBA,$2C65F0)
+#WRITE(GBA,$2C6608)
+#WRITE(GBA,$2C6620)
+#WRITE(GBA,$2C69F0)
+#WRITE(GBA,$2C6A08)
+#WRITE(GBA,$2C6A20)
+#WRITE(GBA,$2C6A38)
+#WRITE(GBA,$2C6A50)
+#WRITE(GBA,$2C6A68)
+<line>
+Read the signs to remember your Abilities<line>
+so you can save Mama Star!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #048 NAME:		Pause Screen Hints Part 49 (12 Pointers)
+
+//POINTER #0 @ $2C65B0 - STRING #0 @ $642134
+
+#WRITE(GBA,$2C65B0)
+#WRITE(GBA,$2C65C8)
+#WRITE(GBA,$2C65E0)
+#WRITE(GBA,$2C65F8)
+#WRITE(GBA,$2C6610)
+#WRITE(GBA,$2C6640)
+#WRITE(GBA,$2C69F8)
+#WRITE(GBA,$2C6A10)
+#WRITE(GBA,$2C6A28)
+#WRITE(GBA,$2C6A40)
+#WRITE(GBA,$2C6A58)
+#WRITE(GBA,$2C6A70)
+<line>
+Report back to Herman after you've<line>
+beaten all <textcolor_d>40<textcolor_1> of those green creatures.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #049 NAME:		Pause Screen Hints Part 50 (Pointer)
+
+//POINTER #0 @ $2C6660 - STRING #0 @ $642190
+
+#WRITE(GBA,$2C6660)
+Use the info from the pamphlet<line>
+to find the shop!<line>
+If you're in a bind, ask Moe for a hint!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #050 NAME:		Pause Screen Hints Part 51 (Pointer)
+
+//POINTER #0 @ $2C6680 - STRING #0 @ $6421F0
+
+#WRITE(GBA,$2C6680)
+Find the <textcolor_d>3 keys<textcolor_1> that open the Boss Door!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #051 NAME:		Pause Screen Hints Part 52 (Pointer)
+
+//POINTER #0 @ $2C66A0 - STRING #0 @ $642234
+
+#WRITE(GBA,$2C66A0)
+Go find the <textcolor_d>3 pieces<textcolor_1> of furniture<line>
+Ruby lost!<line>
+If you don't know what to do, ask Moe!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #052 NAME:		Pause Screen Hints Part 53 (Pointer)
+
+//POINTER #0 @ $2C66C0 - STRING #0 @ $6422AC
+
+#WRITE(GBA,$2C66C0)
+Use the switches to operate the water<line>
+and find the treasure chest!<line>
+Ask Moe to give you<line>
+a hint if you get confused!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #053 NAME:		Pause Screen Hints Part 54 (Pointer)
+
+//POINTER #0 @ $2C66D0 - STRING #0 @ $642328
+
+#WRITE(GBA,$2C66D0)
+<line>
+Let's go meet the <textcolor_d>Blimp<textcolor_1> researcher,<line>
+Old Man Mechani!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #054 NAME:		Pause Screen Hints Part 55 (Pointer)
+
+//POINTER #0 @ $2C66D8 - STRING #0 @ $642388
+
+#WRITE(GBA,$2C66D8)
+<line>
+Let's help out Old Man Mechani<line>
+by trying out his Blimp!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #055 NAME:		Pause Screen Hints Part 56 (Pointer)
+
+//POINTER #0 @ $2C66F8 - STRING #0 @ $6423D8
+
+#WRITE(GBA,$2C66F8)
+Chase after that prankster,<line>
+Puchi Ogura #2!<line>
+Be careful of the water currents!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #056 NAME:		Pause Screen Hints Part 57 (Pointer)
+
+//POINTER #0 @ $2C6710 - STRING #0 @ $642430
+
+#WRITE(GBA,$2C6710)
+<line>
+Who's the one crying so loudly?<line>
+Keep moving to find out!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #057 NAME:		Pause Screen Hints Part 58 (Pointer)
+
+//POINTER #0 @ $2C6730 - STRING #0 @ $642478
+
+#WRITE(GBA,$2C6730)
+Sisturt ran away!<line>
+Quick, we have to catch her!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #058 NAME:		Pause Screen Hints Part 59 (Pointer)
+
+//POINTER #0 @ $2C6748 - STRING #0 @ $6424BC
+
+#WRITE(GBA,$2C6748)
+Use the turtle radar to<line>
+catch the Turtle kids<line>
+and bring them back to Moe.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #059 NAME:		Pause Screen Hints Part 60 (Pointer)
+
+//POINTER #0 @ $2C6760 - STRING #0 @ $642518
+
+#WRITE(GBA,$2C6760)
+Use the turtle radar to<line>
+catch the Turtle kids<line>
+and bring them back to Moe.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #060 NAME:		Pause Screen Hints Part 61 (Pointer)
+
+//POINTER #0 @ $2C6780 - STRING #0 @ $642574
+
+#WRITE(GBA,$2C6780)
+<line>
+Take down the bad guy who turned<line>
+the Turtle Kids into delinquents!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #061 NAME:		Pause Screen Hints Part 62 (Pointer)
+
+//POINTER #0 @ $2C6798 - STRING #0 @ $6425B4
+
+#WRITE(GBA,$2C6798)
+With the water drained,<line>
+we can't move forward!<line>
+Take out the <textcolor_d>cork<textcolor_1> and<line>
+make the water flow again!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #062 NAME:		Pause Screen Hints Part 63 (Pointer)
+
+//POINTER #0 @ $2C67B8 - STRING #0 @ $642638
+
+#WRITE(GBA,$2C67B8)
+Shurikit can't swim,<line>
+so they asked us to go underwater<line>
+and get their <textcolor_d>bell<textcolor_1> back!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #063 NAME:		Pause Screen Hints Part 64 (Pointer)
+
+//POINTER #0 @ $2C67C0 - STRING #0 @ $642698
+
+#WRITE(GBA,$2C67C0)
+Use the technique Shurikit taught you,<line>
+the <textcolor_d>Air Jump<textcolor_1>, to get past the room<line>
+with the sign in it!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #064 NAME:		Pause Screen Hints Part 65 (Pointer)
+
+//POINTER #0 @ $2C67E0 - STRING #0 @ $64272C
+
+#WRITE(GBA,$2C67E0)
+Use the <textcolor_d>bombs<textcolor_1> to destroy the <textcolor_d>blocks<textcolor_1><line>
+in your way to reach the bottom!<line>
+The trick is to go for the buried bombs!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #065 NAME:		Pause Screen Hints Part 66 (Pointer)
+
+//POINTER #0 @ $2C67F0 - STRING #0 @ $6427C4
+
+#WRITE(GBA,$2C67F0)
+<line>
+Head inside Old Man Grizzly's <textcolor_d>storage room<textcolor_1><line>
+and go get him some <textcolor_d>honey<textcolor_1>!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #066 NAME:		Pause Screen Hints Part 67 (Pointer)
+
+//POINTER #0 @ $2C6810 - STRING #0 @ $642830
+
+#WRITE(GBA,$2C6810)
+While one <textcolor_d>switch<textcolor_1> is still lit,<line>
+make the other <textcolor_d>switches<textcolor_1> light up<line>
+by spinning into it!<line>
+<:end><line>
+<end>
+
+//BLOCK #066 NAME:		Pause Screen Hints Part 68 (Pointer)
+
+//POINTER #0 @ $2C6820 - STRING #0 @ $6428BC
+
+#WRITE(GBA,$2C6820)
+<line>
+Just like before, aim for the buried <textcolor_d>bombs<textcolor_1><line>
+to destroy all the <textcolor_d>blocks<textcolor_1> and move forward!<line>
+<:end><line>
+<end>
+
+//BLOCK #066 NAME:		Pause Screen Hints Part 69 (Pointer)
+
+//POINTER #0 @ $2C6830 - STRING #0 @ $642940
+#WRITE(GBA,$2C6830)
+Gather some <textcolor_d>sticks<textcolor_1> to<line>
+make a <textcolor_d>bundle<textcolor_1> for Viva!<line>
+Making bundles closer to her<line>
+means a shorter trip!<line>
+<:end><line>
+<end>
+
+//BLOCK #066 NAME:		Pause Screen Hints Part 70 (Pointer)
+
+//POINTER #0 @ $2C6840 - STRING #0 @ $6429C4
+#WRITE(GBA,$2C6840)
+<textcolor_d>Star Spin<textcolor_1> into the <textcolor_d>switch<textcolor_1> to stop<line>
+the <textcolor_d>current<textcolor_1> for a short time.<line>
+Use what time you have to hurry onwards!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #067 NAME:		Pause Screen Hints Part 71 (Pointer)
+
+//POINTER #0 @ $2C6858 - STRING #0 @ $642A4C
+
+#WRITE(GBA,$2C6858)
+<line>
+Take out the <textcolor_d>cork<textcolor_1> plugging up the water<line>
+so you can stay hot on Puchi #5's trail!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #068 NAME:		Pause Screen Hints Part 72 (2 Pointers)
+
+//POINTER #0 @ $2C6860 - STRING #0 @ $642AB8
+
+#WRITE(GBA,$2C6860)
+#WRITE(GBA,$2C6870)
+<line>
+Puchi Ogura #5's kidnapped <textcolor_d>Pursley<textcolor_1>!<line>
+Let's save him together with Moon!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #069 NAME:		Pause Screen Hints Part 73 (Pointer)
+
+//POINTER #0 @ $2C6868 - STRING #0 @ $642B30
+
+#WRITE(GBA,$2C6868)
+Puchi Ogura #5's put a curse on the door!<line>
+Using Moe's hint, <textcolor_d>defeat the enemies<line>
+in the right order<textcolor_1> so you can open it!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #070 NAME:		Pause Screen Hints Part 74 (Pointer)
+
+//POINTER #0 @ $2C6878 - STRING #0 @ $642BBC
+
+#WRITE(GBA,$2C6878)
+<line>
+Steal the <textcolor_d>Cell Key<textcolor_1> from Puchi Ogura #5<line>
+so we can open Pursley's prison door!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #071 NAME:		Pause Screen Hints Part 75 (Pointer)
+
+//POINTER #0 @ $2C6880 - STRING #0 @ $642C30
+
+#WRITE(GBA,$2C6880)
+<line>
+Puchi Ogura #5 ran away!<line>
+Chase after her and settle things!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #072 NAME:		Pause Screen Hints Part 76 (Pointer)
+
+//POINTER #0 @ $2C6898 - STRING #0 @ $642C7C
+
+#WRITE(GBA,$2C6898)
+Gather the <textcolor_d>4 fragments<textcolor_1> of<line>
+the destroyed statue and<line>
+bring them back to the Pufftop Soldier.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #073 NAME:		Pause Screen Hints Part 77 (Pointer)
+
+//POINTER #0 @ $2C68B8 - STRING #0 @ $642CF0
+
+#WRITE(GBA,$2C68B8)
+<line>
+Clear the <textcolor_d>three Ride trials<textcolor_1> and<line>
+meet back up with the Pufftop Soldier!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #074 NAME:		Pause Screen Hints Part 78 (Pointer)
+
+//POINTER #0 @ $2C68D8 - STRING #0 @ $642D48
+
+#WRITE(GBA,$2C68D8)
+<line>
+Find the <textcolor_d>four missing members of the Squirts<textcolor_1><line>
+and bring them back to Bawss.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #075 NAME:		Pause Screen Hints Part 79 (Pointer)
+
+//POINTER #0 @ $2C68F0 - STRING #0 @ $642D9C
+
+#WRITE(GBA,$2C68F0)
+This doesn't look good!<line>
+There is no time to lose!<line>
+Keep moving so you don't<line>
+get crushed by the wall!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #076 NAME:		Pause Screen Hints Part 80 (Pointer)
+
+//POINTER #0 @ $2C6910 - STRING #0 @ $642DF8
+
+#WRITE(GBA,$2C6910)
+Deliver the items you find to the Squirts<line>
+so you can get the <textcolor_d>Cell Key<textcolor_1><line>
+and hand it over to Bawss.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #077 NAME:		Pause Screen Hints Part 81 (Pointer)
+
+//POINTER #0 @ $2C6930 - STRING #0 @ $642E78
+
+#WRITE(GBA,$2C6930)
+Beat the bad guy just past here<line>
+so we can chart a course for<line>
+Ogura's Castle!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #078 NAME:		Pause Screen Hints Part 82 (Pointer)
+
+//POINTER #0 @ $2C6948 - STRING #0 @ $642ECC
+
+#WRITE(GBA,$2C6948)
+<line>
+Look for <textcolor_d>3 more Shell Tapes<textcolor_1><line>
+and bring them back to Moe.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #079 NAME:		Pause Screen Hints Part 83 (Pointer)
+
+//POINTER #0 @ $2C6968 - STRING #0 @ $642F28
+
+#WRITE(GBA,$2C6968)
+<line>
+Hurry to the next area!<line>
+You can't let Ogura's minions catch you!<line>
+<:end><line>
+<end>
+
+
+//BLOCK #080 NAME:		Pause Screen Hints Part 84 (Pointer)
+
+//POINTER #0 @ $2C6980 - STRING #0 @ $642F74
+
+#WRITE(GBA,$2C6980)
+<line>
+Spin into the pattern-changing block<line>
+so they match the one above the door.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #081 NAME:		Pause Screen Hints Part 85 (Pointer)
+
+//POINTER #0 @ $2C69A0 - STRING #0 @ $642FC4
+
+#WRITE(GBA,$2C69A0)
+You've got to free Moe from the cage!<line>
+When you have the key that matches<line>
+the shape of the cell's keyhole,<line>
+jump into it to unlock it.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #082 NAME:		Pause Screen Hints Part 86 (Pointer)
+
+//POINTER #0 @ $2C69C0 - STRING #0 @ $64304C
+
+#WRITE(GBA,$2C69C0)
+To open the big door,<line>
+you'll need to flip the switches<line>
+at the end of <textcolor_d>all three passages<textcolor_1>.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #083 NAME:		Pause Screen Hints Part 87 (Pointer)
+
+//POINTER #0 @ $2C69E0 - STRING #0 @ $643098
+
+#WRITE(GBA,$2C69E0)
+This is it! The final showdown!<line>
+Pay close attention to Moe's advice<line>
+and give it all you've got!!!<line>
+<:end><line>
+<end>
+
+
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Pause Screen Hints Part 88 (Pointer)
+
+//POINTER #0 @ $107B34 - STRING #0 @ $644290
+
+#WRITE(GBA,$107B34)
+<line>
+Press <A> to go to the "Stuff" menu.<line>
+You can change Starfy's look.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #001 NAME:		Pause Screen Hints Part 89 (Pointer)
+
+//POINTER #0 @ $107B48 - STRING #0 @ $6442E8
+
+#WRITE(GBA,$107B48)
+Press <A> to view the "Key Items" list.<line>
+You can view found items and<line>
+read their description.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #002 NAME:		Pause Screen Hints Part 90 (Pointer)
+
+//POINTER #0 @ $107B5C - STRING #0 @ $644340
+
+#WRITE(GBA,$107B5C)
+Press <A> to view the "Vehicle" list.<line>
+You can see a list of rides<line>
+and review how to use them.<line>
+Press <L> or <R> to scroll up or down a page.<line>
+<:end><line>
+<end>
+
+
+//BLOCK #003 NAME:		Pause Screen Hints Part 91 (Pointer)
+
+//POINTER #0 @ $107BA8 - STRING #0 @ $6443C0
+
+#WRITE(GBA,$107BA8)
+Press <A> to view the "Actions" list.<line>
+You can see a list of actions<line>
+you've learned on your adventure.<line>
+Press <L> or <R> to scroll up or down a page.<<line>
+<:end><line>
+<end>
+

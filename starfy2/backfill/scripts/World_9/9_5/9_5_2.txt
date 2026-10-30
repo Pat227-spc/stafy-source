@@ -1,0 +1,136 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 scene 2 (in-level table #339)
+//Block Range: $0 - $930
+//POINTER: 0x0814E778
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><5><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <7> <0><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+*mumble mumble* What a headache,<line>
+seriously...<line>
+<redname><diamond>Puchi Ogura #9<line>
+I shouldn't have kidnapped her... My plan's<line>
+all up in smoke now...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hey, you! Stop right there!<line>
+<wait><:obj> <2> <9> <2> <0><line>
+<:obj> <1> <7> <4><8> <0> <1><0><line>
+[<wait_time> <6><4>]<line>
+<rname><diamond>Moe<line>
+What were you sayin' about 'kidnapping'<line>
+before!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Bwah-!? Y-you must be mistaken! I didn't<line>
+say anything!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You know something about Ressie's kid,<line>
+don't you! Who's the culprit! Is it you!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+W-what a baseless claim! If that's true,<line>
+where's your evidence!?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+E-evidence...?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Yeah! If I'm some kidnapper, like you say,<line>
+then show me proof!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+W-well...<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+<:obj> <2> <4><line>
+Hmph! You don't have any proof, and yet<line>
+you treat me like a criminal! Whatever, I'm<line>
+outta here!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+<:obj> <2> <7> <9><6> <0> <1><0><line>
+[<wait_time> <1><2><8>]<line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Darnit! That guy was super suspicious<line>
+too... Huh?<line>
+<redname><diamond>Moe<line>
+Looks like he dropped somethin'.<line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <7> <4><8> <1><2><8> <1><0><line>
+[<wait_time> <6><4>]<line>
+<:func> <1><8> <1> <7><1><line>
+<:obj> <3> <2> <1><line>
+<rname><diamond>Moe<line>
+Ain't this that new kind of '<textcolor_d>cell phone<textcolor_0>'?<line>
+<redname><diamond>Moe<line>
+They're useful for talkin' to people far<line>
+away from you.<line>
+<redname><diamond>Moe<line>
+And ya can carry it anywhere, so they're<line>
+super popular!<line>
+<redname><diamond>Moe<line>
+And now it's mine! Serves that brat right-<line>
+*ahem* anyways.<line>
+<wait><:func> <1><8> <1> <7><2><line>
+<:obj> <3> <2> <0><line>
+<rname><diamond>Moe<line>
+There's a door past here, but that<line>
+boulder's in the way.<line>
+<redname><diamond>Moe<line>
+So until we can get rid of it, we gotta head<line>
+somewhere else for now.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><1><line>
+<:flagon> <1><5><6><0><6><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <1><1> <0> <4><0> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+There's a door past here, but that<line>
+boulder's in the way.<line>
+<redname><diamond>Moe<line>
+So until we can get rid of it, we gotta head<line>
+somewhere else for now.<line>
+<:end><line>
+<end>
+

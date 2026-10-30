@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 6 (in-level table #252)
+//Block Range: $0 - $16C
+//POINTER: 0x0814E61C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><5><0><8> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><5><0><8><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+...Does the ground here seem weird to you?<line>
+<redname><diamond>Moe<line>
+It makes a light sound... Think it's hollow<line>
+underneath?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Check out the ground under us. Ya never<line>
+know what's there.<line>
+<:end><line>
+<end>
+

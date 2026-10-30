@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 post-game revisit chat (in-level table #450)
+//Block Range: $0 - $250
+//POINTER: 0x0814E934
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+Hey Starfy. In order to keep the peace,<line>
+we're patrolling the sea today too.<line>
+<redname><diamond>Jellato<line>
+You could also talk to Jellata and Gellato<line>
+if you'd like.<line>
+<redname><diamond>Jellato<line>
+I'm sure that they'd be happy to see you.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jellato<line>
+Actually, I was thinking about a name for<line>
+our patrol team... Wanna hear it?<line>
+<redname><diamond>Jellato<line>
+'The Slippery Force, Jellato Rangers'! How<line>
+about it?<line>
+<redname><diamond>Jellato<line>
+Cool name, right? Do you like it, Starfy?<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,90 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 4 (in-level table #99)
+//Block Range: $0 - $576
+//POINTER: 0x0814E3B8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><5><1><0> <go> <2><line>
+<:if> <8><5><0><2> <go> <1><line>
+:<go> <3><line>
+<wait>:<1><line>
+<:flagon> <8><5><1><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #2<line>
+What's that? The <textcolor_d>Cell Key<textcolor_0>? It's not the time<line>
+for that right now...<line>
+<redname><diamond>Squirt #2<line>
+Do you know where my <textcolor_d>Leotard<textcolor_0> is? It means<line>
+a lot to me...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Squirt #2<line>
+Oh! That's definitely my Leotard! Where did<line>
+you find it!?<line>
+<wait><:func> <4><line>
+<:obj> <2> <1><5> <1> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <2> <2><line>
+<rname><diamond>Squirt #2<line>
+Thank you! Here, you can have this.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <3> <1><5> <0> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <3> <2><line>
+Starfy received the <textcolor_d>Cold Medicine<textcolor_0>!<line>
+<:c><line>
+<redname><diamond>Squirt #2<line>
+I found this earlier, but I don't have a cold<line>
+at the moment...<line>
+<redname><diamond>Squirt #2<line>
+But thank you for finding my Leotard!<line>
+Hee-hee-hee...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagoff> <1><5><5><3><4><line>
+<:flagon> <1><5><5><3><5><line>
+<:flagon> <8><5><0><3><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <3> <2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #2<line>
+What's that? The <textcolor_d>Cell Key<textcolor_0>? It's not the time<line>
+for that right now...<line>
+<redname><diamond>Squirt #2<line>
+Do you know where my <textcolor_d>Leotard<textcolor_0> is? It means<line>
+a lot to me...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #2<line>
+Ahhh, this Leotard really is the best! And<line>
+I'm the best at trampolines!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,7 @@
+*.gba
+*.sav
+out/
+build/
+tools/wineprefix/
+__pycache__/
+tools/bin/*.exe

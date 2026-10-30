@@ -1,0 +1,59 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2_1_1 Cutscene
+//Block Range: $0 - $24C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:func> <0> <0><line>
+<rname><diamond>Ruby<line>
+Kyah!!!<line>
+Kyaaaaaaaah!!!Åv<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Puchi Ogura #2<line>
+I'm going to destroy everything<line>
+for Papa's sake!<line>
+Take this, and that!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Ruby<line>
+Kyaaah!!!!<line>
+[<wait_time> <9><0>]<line>
+<:func> <0> <3><line>
+[<wait_time> <9><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Ruby<line>
+Ah!!!<line>
+My favorite furniture...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <5><line>
+<rname><diamond>Puchi Ogura #2<line>
+Gyahahahahahahahaha!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <6><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <0> <7><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>

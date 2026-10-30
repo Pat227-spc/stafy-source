@@ -1,0 +1,381 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Staff Roll 2
+//Block Range: $0 - $1794
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><$09><$09><$09><$09><$09><$09><line>
+<:func> <5> <0> <1><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+[<x_pos> <5>]<line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+       The Legendary<line>
+            Starfy 2<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+<line>
+        Staff Credits<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<linealt>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <1> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>          Conception<textcolor_0><line>
+ 'Stache Lover Satoko<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+   "Right?" Takasago<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>                Lead<line>
+          Programmer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+         Kesota Egami<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <2> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>         Programmers<textcolor_0><line>
+"Meat Maniac" Furukawa<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+         <star>Hisabou<star><line>
+        Ebiko Noguchi<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+             "Kitano<line>
+     of the New World"<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+       Ultras<star>Hiroshi<line>
+          Fen Ikenaga<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>        Lead Designer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+           "Some guy<line>
+        named Shinoki"<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <3> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>           Designers<textcolor_0><line>
+    Atsuchi Echigyoya<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+          Doodling Eri<line>
+       Akira Nonozuki<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+   Yuuichiro<heart>Tonderu<line>
+   Momokomu<star>Kozuru<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+     Chiemi TaniGucchi<line>
+<line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>   Package & Box Art<line>
+         Illustrations<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+    Yasuko Takahashi<line>
+ "Stag Beetle" Yoshida<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <4> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>             Manual<textcolor_0><line>
+ Sachiko<star>Nakamitchy<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+     "Thanks!" Itoussu<line>
+   Masayuki Okaokada<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>               Music<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+    "Pointy Hat" Iwamo<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <5> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>       Special Thanks<textcolor_0><line>
+      Section Manager<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+            Yamamoto<line>
+     Achako Haruhana<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+        Keiko<heart>Niizuma<line>
+             and the<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+      Super Mario Club<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>           Directors<textcolor_0><line>
+       Zangyura<star>Imai<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+        Azuusa Tajima<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <6> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>          Producers<textcolor_0><line>
+            Yasuhiro<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+     the Spoiled Child<line>
+    Assistant Manager<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+            Yamagami<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <5>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>    General Producers<textcolor_0><line>
+   Head Director Izushi<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+    Executive Director<line>
+             Kondou<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <7> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>   Executive Producer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+      President Iwata<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <8> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <9> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <1><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <1><0> <1><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<:func> <0> <6><$09><$09><$09><$09><$09><$09><line>
+  The End!<line>
+<:func> <1><1> <2><line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+<wait><:func> <2> <2> <0><$09><$09><$09><$09><$09><$09><line>
+<:func> <0> <3><$09><$09><$09><$09><$09><$09><line>
+[<x_pos> <1><2>]<line>
+[<y_pos> <2><8>]<line>
+<:func> <1><0> <0><$09><$09><$09><$09><$09><$09><line>
+This story has reached it's conclusion!!<line>
+Have you collected all the Stuff, Sheet Music,<line>
+Photos, and Picture Book entries?<line>
+The fun, cheerful, and slightly sad<line>
+story of Starfy and his friends isn't<line>
+over yet!<line>
+Stay tuned for the next<line>
+installment of the series!<line>
+<:func> <1><0> <1><$09><$09><$09><$09><$09><$09><line>
+<:func> <0> <7><$09><$09><$09><$09><$09><$09><line>
+<:func> <3> <2> <0><$09><$09><$09><$09><$09><$09><line>
+<:func> <0> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+<wait><:func> <0> <8><$09><$09><$09><$09><$09><$09><line>
+<:func> <2> <2> <0><$09><$09><$09><$09><$09><$09><line>
+<:func> <0> <5><$09><$09><$09><$09><$09><$09><line>
+<:exit><$09><$09><$09><$09><$09><$09><$09><line>
+<end>
+

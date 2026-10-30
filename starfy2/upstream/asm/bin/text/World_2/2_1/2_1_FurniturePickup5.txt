@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2_1_1 Furniture Pickup
+//Block Range: $0 - $142
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+
+<:if> <2><1><0><5> <go> <2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+Will you take this <textcolor_d>furniture<textcolor_0> back with you?<line>
+<rname>     Yes<line>
+<rname>     No<line>
+<:decide> <2> <0> <2> <1> <1><line>
+<:c><line>
+<wait><:sel> <1> <go> <1><line>
+<:flagon> <2><1><2><1><line>
+<:flagon> <1><5><5><0><7><line>
+<:flagon> <2><1><2><4><line>
+<:flagon> <2><1><0><5><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <1><4> <1> <-><2><4><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+//これいじょうは<line>
+//おもくて　もてそうにない・・・<line>
+You can't carry any more furniture!<line>
+It's too heavy.<line>
+<:c><line>
+<wait>:<go> <1><line>
+<end>

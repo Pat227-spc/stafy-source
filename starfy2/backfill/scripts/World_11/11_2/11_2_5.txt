@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-2 scene 5 (in-level table #395)
+//Block Range: $0 - $176
+//POINTER: 0x0814E858
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_2/11_2_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Phew...I think we're okay now that we made<line>
+it this far...<line>
+<redname><diamond>Moe<line>
+Let's hurry and get your mom back so we<line>
+can go back to Pufftop.<line>
+<redname><diamond>Moe<line>
+Plus, I need to get some treasure, and<line>
+fast...<line>
+<redname><diamond>Moe<line>
+My growin' little brothers are waitin' back<line>
+home on empty stomachs, y'know.<line>
+<:end><line>
+<end>
+

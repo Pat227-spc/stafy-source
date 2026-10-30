@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-3 scene 3 (in-level table #64)
+//Block Range: $0 - $142
+//POINTER: 0x0814E32C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_3/5_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What's with this room? Why's food<line>
+everywhere!? A Banana...an Eggplant...<line>
+<redname><diamond>Moe<line>
+That <textcolor_d>sign<textcolor_0> down there has a Banana on it...<line>
+[<wait_time> <3><0>]<line>
+Whatever, just use your <textcolor_d>Star Spin<textcolor_0> on that<line>
+Banana, Starf!<line>
+<:end><line>
+<end>
+

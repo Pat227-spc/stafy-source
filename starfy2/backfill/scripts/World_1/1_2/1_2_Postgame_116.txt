@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 1-2 post-game revisit chat (in-level table #116)
+//Block Range: $0 - $1FC
+//POINTER: 0x0814E3FC
+//Backfill: English from SUT post-game post postgame_w01_qz2k8z.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Herman<line>
+Oh, Starfy! Perfect timing! I have something<line>
+interesting to tell you.<line>
+<redname><diamond>Herman<line>
+Have you gone back to meet up with the<line>
+people who gave you your Vehicles yet?<line>
+<redname><diamond>Herman<line>
+I know you've gotten all kinds of Vehicles<line>
+from them...<line>
+<redname><diamond>Herman<line>
+But it looks like they've all been looking<line>
+into new ways to move with those Vehicles.<line>
+<redname><diamond>Herman<line>
+If you haven't met up with any of those<line>
+people yet, it'd be a good idea to do so.<line>
+<:end><line>
+<end>
+

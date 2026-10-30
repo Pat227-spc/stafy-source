@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-3 post-game revisit chat (in-level table #504)
+//Block Range: $0 - $1AE
+//POINTER: 0x0814EA0C
+//Backfill: English from SUT post-game post postgame_w05_r1jv87.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Grizzly<line>
+Oh, Starfy! I heard you've rescued your<line>
+mother! I'm happy for you, lad!<line>
+<redname><diamond>Old Man Grizzly<line>
+I have the perfect way to celebrate! I'll<line>
+give you something from my Storage Room!<line>
+<redname><diamond>Old Man Grizzly<line>
+...Or at least I would. See, I ate everything<line>
+inside to prevent THAT from happening<line>
+again.<line>
+<redname><diamond>Old Man Grizzly<line>
+But if there's anything left, you are free<line>
+to take it with you!<line>
+<:end><line>
+<end>
+

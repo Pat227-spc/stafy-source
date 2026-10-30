@@ -1,0 +1,355 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 scene 4 (in-level table #341)
+//Block Range: $0 - $18C4
+//POINTER: 0x0814E780
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><5><0><6> <go> <2><line>
+<:if> <9><5><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Well if it isn't the Detective and his<line>
+assistant!<line>
+<:obj> <2> <0> <3><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+But why'dja come through my back door?<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Wait, that door leads to your house?<line>
+<:c><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+That aside, didja find my little girl yet?<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Not yet... But we DID find someone real<line>
+suspicious.<line>
+<:c><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+*sigh* Gotcha... W-wait... Detective, lemme<line>
+see that phone!<line>
+<:obj> <2> <0> <3><line>
+<wait><:func> <1><8> <1> <7><1><line>
+<:obj> <4> <2> <1><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+That's-! That's the same kinda phone my<line>
+daughter has!<line>
+<:obj> <2> <0> <3><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Where did you find it...?<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait>:<go> <1><0><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:func> <6> <1> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<:obj> <4> <2> <1><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+No doubt about it, that phone is definitely<line>
+my little girl's!<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait>:<go> <1><0><line>
+<wait>:<1><0><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+That guy I told ya about dropped it. But<line>
+it's only the same kind right?<line>
+<redname><diamond>Moe<line>
+It can't be your kid's, this is that<line>
+suspicious guy's phone.<line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+Right, Starf?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<:func> <1><8> <1> <8><0><line>
+<rname><diamond>Moe<line>
+Yeah, I didn't think there was any<line>
+connection with Ressie's daughter either.<line>
+<redname><diamond>Moe<line>
+This is all just a coincidence<line>
+<:c><line>
+<wait>:<go> <1><0><0><line>
+<wait>:<2><0><line>
+<:func> <1><8> <1> <7><9><line>
+<rname><diamond>Moe<line>
+Wait what? Whaddaya mean? That guy<line>
+dropped it, it HAS to be his!<line>
+<redname><diamond>Moe<line>
+How do you know this ain't that guy's<line>
+phone?<line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Moe<line>
+If you have a reason, spit it out!<line>
+　　It's a girls-only color<line>
+　　Because it's Starfy's<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><1><line>
+<:func> <1><8> <1> <7><9><line>
+<rname><diamond>Moe<line>
+A color only sold to girls...? Y'know, I heard<line>
+something like that before.<line>
+<redname><diamond>Moe<line>
+Huh, guess that brat having one is kinda<line>
+weird. He is a guy after all...<line>
+<redname><diamond>Moe<line>
+But is it? Maybe some girl let him borrow it<line>
+or something.<line>
+<redname><diamond>Moe<line>
+It still doesn't prove that this is Ressie's<line>
+kid's phone.<line>
+<redname><diamond>Moe<line>
+Wait, that's wrong? You're bein' awfully<line>
+stubborn...<line>
+<redname><diamond>Moe<line>
+Alright, so why can't this be some other<line>
+girl's phone?<line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Moe<line>
+Got a basis for that claim?<line>
+　　Only 3 exist in the world<line>
+　　Only 30,000 exist in the world<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <3><1><line>
+<:func> <1><8> <1> <7><9><line>
+<rname><diamond>Moe<line>
+Wait, really? 'Ms. Moon has one, and Lovely<line>
+has another' you say...?<line>
+<redname><diamond>Moe<line>
+I can't see that guy knowin' Ms. Moon OR<line>
+Lovely...<line>
+<redname><diamond>Moe<line>
+So that means this phone really is Ressie's<line>
+kid's...!?<line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Moe<line>
+That means...!<line>
+　　He's the kidnapper!<line>
+　　He's a nice vitamin!<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <4><1><line>
+<:func> <1><8> <1> <7><9><line>
+<:func> <1><8> <0> <1><8><line>
+<rname><diamond>Moe<line>
+No doubt about it! I knew something about<line>
+that brat was off from the start!<line>
+<:c><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+W-what's happening!? Do you know who the<line>
+kidnapper is?<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Yep, but we still gotta catch 'im! Let's go,<line>
+Starf!<line>
+<:c><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Hold up, there was a boulder blocking your<line>
+guys' way, right?<line>
+<:obj> <2> <0> <3><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+The area behind it is so complicated that<line>
+it's the perfect place for bad guys to<line>
+hide!<line>
+<:obj> <2> <0> <3><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+I'll get that boulder outta your way. Please<line>
+find my little girl!<line>
+<:obj> <2> <0> <3><line>
+<redname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+If ya want, I can take you to the exit.<line>
+<:obj> <2> <0> <3><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Wanna head back to the exit?<line>
+<:obj> <2> <0> <3><line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <5><1><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Alright! In that case, I'm countin' on ya!<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><6><line>
+<:obj> <1> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:func> <1><2> <2> <1><line>
+<:exit><line>
+<wait>:<5><1><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Gotcha. If you ever wanna speed back,<line>
+feel free to ask.<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><6><line>
+<:obj> <1> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:func> <1><4> <1> <-><5><6> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><1><line>
+<:func> <1><8> <1> <8><0><line>
+<rname><diamond>Moe<line>
+I see, so whatever you pick up is yours to<line>
+keep!...Wait a sec.<line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+I can't believe you'd stoop so low, you<line>
+moron!<line>
+<redname><diamond>Moe<line>
+This is serious, so stop messing around!<line>
+<:c><line>
+<wait>:<go> <1><0><0><line>
+<wait>:<3><1><line>
+<:func> <1><8> <1> <8><0><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+The heck do you mean 'only' 30,000,<line>
+you idiot!?<line>
+<redname><diamond>Moe<line>
+If there were 30,000 of these, even<line>
+the plankton over there could have one!<line>
+<:c><line>
+<wait>:<go> <1><0><0><line>
+<wait>:<4><1><line>
+<:func> <1><8> <1> <8><0><line>
+<rname><diamond>Moe<line>
+V-Vitamin???<line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Y-you numbskull! What, is your brain failing<line>
+or something!?<line>
+<redname><diamond>Moe<line>
+Whaddaya mean, 'vitamin'!? Heck, where'd<line>
+you get 'nice vitamin' from!?<line>
+<redname><diamond>Moe<line>
+What, is he made of ingredients that help<line>
+your skin or something!? Huh!?<line>
+<redname><diamond>Moe<line>
+Let's try this again, and pull yourself<line>
+together!<line>
+<:c><line>
+<wait>:<go> <1><0><0><line>
+<wait>:<1><0><0><line>
+<:sd><line>
+<:obj> <2> <0> <3><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><5><line>
+<:obj> <4> <2> <0><line>
+<:obj> <1> <5> <0><line>
+<:func> <1><0><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <1><4> <1> <-><5><6> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+I'll move the boulder so you can get<line>
+through.<line>
+<:obj> <2> <0> <3><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Wanna head back to the exit?<line>
+<:obj> <2> <0> <3><line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <7><1><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Alright! In that case, I'm countin' on ya!<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <2> <1><line>
+<:exit><line>
+<wait>:<7><1><line>
+<rname><diamond>Ressie<line>
+<:obj> <2> <0> <4><line>
+Gotcha. If you ever wanna speed back,<line>
+feel free to ask.<line>
+<:obj> <2> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <2> <0> <3><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <-><5><6> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

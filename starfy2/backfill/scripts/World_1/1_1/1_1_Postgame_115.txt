@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 1-1 post-game revisit chat (in-level table #115)
+//Block Range: $0 - $1EC
+//POINTER: 0x0814E3F8
+//Backfill: English from SUT post-game post postgame_w01_qz2k8z.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Old Man Lobber<line>
+Listen up, Starfy. In addition to the<line>
+treasures you collect...<line>
+<redname><diamond>Old Man Lobber<line>
+You'll also come across some treasure<line>
+chests that have other items inside of<line>
+them.<line>
+<redname><diamond>Old Man Lobber<line>
+<textcolor_d>Sheet Music<textcolor_0> is one of 'em. And there<line>
+oughta be a few more <textcolor_d>Stuff<textcolor_0> left to find,<line>
+too...<line>
+<redname><diamond>Old Man Lobber<line>
+So be sure to explore every last nook and<line>
+cranny.<line>
+<redname><diamond>Old Man Lobber<line>
+This too is part of your journey to<line>
+adulthood...Hoh hoh hoh...<line>
+<:end><line>
+<end>
+

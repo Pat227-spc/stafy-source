@@ -1,0 +1,56 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 post-game revisit chat (in-level table #467)
+//Block Range: $0 - $2CC
+//POINTER: 0x0814E978
+//Backfill: English from SUT post-game post postgame_w06_r1qaeq.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><4> <go> <1><line>
+<:if> <1><0><0><3> <go> <1><1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><2> <0> <-><2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <0> <1><line>
+<:flagon> <1><0><0><3><line>
+<:flagon> <1><0><0><4><line>
+<:se><line>
+:<1><1><line>
+<rname><diamond>Big Barrel Squid<line>
+In your eyes I see a lovely night, and in my<line>
+heart lies a lonely angel...aaaand finished!<line>
+<redname><diamond>Big Barrel Squid<line>
+WAUGH, STARFY! W-When did you get here!?<line>
+<redname><diamond>Big Barrel Squid<line>
+I-I'm begging you! Don't tell anyone that I<line>
+like to write poems!!!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:if> <1><0><0><3> <go> <1><2><line>
+<:sd><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><2> <0> <-><2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <0> <1><line>
+<:flagon> <1><0><0><3><line>
+<:se><line>
+:<1><2><line>
+<rname><diamond>Big Barrel Squid<line>
+The day that this gets out to the Barrel<line>
+Squids...! WAAAAAAUGH!!!<line>
+<:end><line>
+<end>
+

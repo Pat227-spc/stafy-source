@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 11 (in-level table #270)
+//Block Range: $0 - $14E
+//POINTER: 0x0814E664
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_11.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf! Take a look at these weird<line>
+clouds<line>
+<redname><diamond>Moe<line>
+They sink when you stand on 'em, but start<line>
+to rise when you jump!<line>
+<redname><diamond>Moe<line>
+Think you can use these to get to higher<line>
+areas?<line>
+<:end><line>
+<end>
+

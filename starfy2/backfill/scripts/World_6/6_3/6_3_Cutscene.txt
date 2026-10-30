@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 cutscene (0x88ed1b0)
+//Block Range: $0 - $1BC
+//POINTER: 0x811e7c0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Chuta<line>
+Jeez, what strong winds! I should tell<line>
+everyone to be careful until this passes...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <0><line>
+<rname><diamond>Chuta<line>
+Woaaaaaah!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Chuta<line>
+No, not my Octo-Jar! That's important!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Chuta<line>
+My...strength...fading...<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

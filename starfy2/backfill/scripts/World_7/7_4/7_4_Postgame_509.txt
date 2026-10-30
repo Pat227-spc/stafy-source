@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-4 post-game revisit chat (in-level table #509)
+//Block Range: $0 - $CE
+//POINTER: 0x0814EA20
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Horun<line>
+Starfy! You're not trying to force your<line>
+way through the <textcolor_d>beams<textcolor_0>, are you?<line>
+<redname><diamond>Horun<line>
+No use, no use! I tried that too, and I got<line>
+burned...<line>
+<:end><line>
+<end>
+

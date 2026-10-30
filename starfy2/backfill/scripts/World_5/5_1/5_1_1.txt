@@ -1,0 +1,125 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-1 scene 1 (in-level table #53)
+//Block Range: $0 - $848
+//POINTER: 0x0814E300
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_1/5_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><1><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><1><0><0><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hey, Starf! Get over here, it looks like<line>
+someone's in trouble!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Yo, what's with the glum look? Somethin'<line>
+happen?<line>
+<:c><line>
+<wait><:obj> <2> <9> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Orisu<line>
+Oh, please listen to my story!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <6><line>
+<:func> <1><0><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <2> <9> <2><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Gotcha. Though I don't blame anyone for<line>
+gettin' miffed. I'm plenty annoyed too!<line>
+<redname><diamond>Moe<line>
+Wait, that ain't the point!<line>
+[<wait_time> <3><0>]<line>
+We can't go any further like this!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Orisu<line>
+That's right~! Oh!<line>
+[<wait_time> <3><0>]<line>
+I just want to see Korisu again soon! <textcolor_d><heart><textcolor_0><line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+In that case, why didn't you just head<line>
+down and pull up that cork yourself?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Orisu<line>
+If it were that simple, I would've done it<line>
+already. But if I pull up that cork, I'll<line>
+drown!<line>
+<redname><diamond>Orisu<line>
+I can swim a little, but all the way<line>
+underwater? No way! I'd get water in my<line>
+ears!<line>
+<redname><diamond>Orisu<line>
+So I was hoping you two, since you look like<line>
+good swimmers, could be our 'bridge of<line>
+love'...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Are you pickin' a fight with me!? Like I'd<line>
+ever be your 'bridge of love'!<line>
+<wait><:obj> <1> <5> <0><line>
+<rname><diamond>Moe<line>
+Ugh, I don't feel like helping you, but we<line>
+don't get anywhere with things like this<line>
+either...<line>
+<redname><diamond>Moe<line>
+Oh whatever.<line>
+<:obj> <1> <9> <2><line>
+Hey, Starf, it's up to you!<line>
+<redname><diamond>Moe<line>
+Go and hit that cork with your <textcolor_d>Star Spin<textcolor_0> to<line>
+pull it out!<line>
+<redname><diamond>Moe<line>
+I'll be here waitin' for ya!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><0><line>
+<:obj> <1> <5> <0><line>
+<:obj> <1> <9> <2><line>
+<:obj> <2> <9> <2> <1><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What're ya still doin' here!? Go pull out<line>
+that Cork usin' your <textcolor_d>Star Spin<textcolor_0>!<line>
+<redname><diamond>Moe<line>
+Get a move on already!!!<line>
+<:end><line>
+<end>
+

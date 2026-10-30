@@ -1,0 +1,72 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-1 cutscene (0x88ecff8)
+//Block Range: $0 - $368
+//POINTER: 0x811e0c4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_1/6_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #6<line>
+Hyahahahahahaha! This cave belongs to<line>
+the Great Puchi Ogura #6!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #6<line>
+This is where the Puchi Ogura #6 Empire<line>
+will begi...n?<line>
+[<wait_time> <9><0>]<line>
+<:func> <0> <0><line>
+[<wait_time> <9><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Wozart<line>
+*gasp*!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+Great, a pest... Wait... Aren't you that<line>
+musician, Wozart?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #6<line>
+Perfect! You can make a song in my honor!<line>
+Thanks in advance!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Wozart<line>
+What!? No, never!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+What'd you say!?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Wozart<line>
+Hyaaaaaaaah!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <0> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

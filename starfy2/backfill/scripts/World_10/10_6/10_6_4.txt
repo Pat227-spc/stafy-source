@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 4 (in-level table #381)
+//Block Range: $0 - $214
+//POINTER: 0x0814E820
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #10<line>
+Starfy... I have had just about enough of<line>
+you.<line>
+<redname><diamond>Puchi Ogura #10<line>
+Because of you attacking Echigyoya, all<line>
+the weapons we collected are GONE!<line>
+<redname><diamond>Puchi Ogura #10<line>
+And thanks to that, I got scolded by<line>
+father- I mean- the Big Boss!!!<line>
+<redname><diamond>Puchi Ogura #10<line>
+And cause of that, I'm gonna beat the<line>
+stuffing out of you!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><6><0><6><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,36 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 12 (in-level table #271)
+//Block Range: $0 - $1CE
+//POINTER: 0x0814E668
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_12.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+That was close, that was close... Unlike<line>
+underwater, just touchin' those <textcolor_d>rocks<textcolor_0><line>
+hurts!<line>
+<redname><diamond>Moe<line>
+So the rocks come down right after those<line>
+<textcolor_d>pebbles<textcolor_0> trickle down!<line>
+<redname><diamond>Moe<line>
+When ya see pebbles fallin', don't go<line>
+rushin' out! You'll get hurt real bad!<line>
+<redname><diamond>Moe<line>
+On the flip side, once a rock's fallen, it's<line>
+safe to go!<line>
+<:end><line>
+<end>
+

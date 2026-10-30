@@ -1,0 +1,48 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 scene 5 (in-level table #209)
+//Block Range: $0 - $1E2
+//POINTER: 0x0814E570
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_2/4_2_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><2><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hold your horses, Starf! It's way too<line>
+dangerous to progress!<line>
+<redname><diamond>Moe<line>
+But maybe... You could get some sorta<line>
+<textcolor_d>vehicle<textcolor_0> or somethin'? Maybe then you'll be<line>
+able to get across!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><4><9><line>
+<:func> <1><4> <1> <-><4><8><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+So Torito showed ya how to ride the <textcolor_d>Sea<line>
+Skater<textcolor_0>, huh? Then you'll be just fine!<line>
+<:end><line>
+<end>
+

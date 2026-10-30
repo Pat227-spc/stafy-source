@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-1 scene 2 (in-level table #230)
+//Block Range: $0 - $1BE
+//POINTER: 0x0814E5C4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_1/6_1_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><1><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><1><0><1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, look at this! It's...a tree that grows<line>
+meat. That's uh, new...<line>
+<redname><diamond>Moe<line>
+If ya hit it with your <textcolor_d>Star Spin<textcolor_0>, the meat<line>
+falls off. Why not give it a try?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+The guys swimmin' down below just love<line>
+meat.<line>
+<redname><diamond>Moe<line>
+While they're eatin', they won't come<line>
+anywhere near us.<line>
+<:end><line>
+<end>
+

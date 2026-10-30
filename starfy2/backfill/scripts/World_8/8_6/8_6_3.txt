@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-6 scene 3 (in-level table #108)
+//Block Range: $0 - $126
+//POINTER: 0x0814E3DC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_6/8_6_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+That weird snail guy's in that room...<line>
+<redname><diamond>Moe<line>
+Don't panic if he pulls some weird magic on<line>
+ya!<line>
+<redname><diamond>Moe<line>
+Use the flash from the lightning to see<line>
+through it!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,45 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 scene 1 (in-level table #240)
+//Block Range: $0 - $23C
+//POINTER: 0x0814E5EC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><3><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, you see that big guy over there?<line>
+They really love meat.<line>
+<redname><diamond>Moe<line>
+It'll chomp on any kind of meat... including<line>
+you!<line>
+<redname><diamond>Moe<line>
+Oh, but if you feed it that meat growin'<line>
+over there, maybe it'll shut its mouth...?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, you see that big guy over there?<line>
+They really love meat.<line>
+<redname><diamond>Moe<line>
+If you feed it some meat, maybe it'll shut<line>
+its mouth...?<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-5 scene 3 (in-level table #297)
+//Block Range: $0 - $E4
+//POINTER: 0x0814E6D0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_5/7_5_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, it's that guy with the sunglasses<line>
+again.<line>
+<redname><diamond>Moe<line>
+Smack him into that beam guy like before!<line>
+<:end><line>
+<end>
+

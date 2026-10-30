@@ -1,0 +1,60 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-6 scene 1 (in-level table #343)
+//Block Range: $0 - $38C
+//POINTER: 0x0814E788
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_6/9_6_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <7> <0><line>
+<:se><line>
+<rname><diamond>Jiiyan<line>
+Fufufufu. A pleasure to meet you. You may<line>
+call me '<textcolor_d>Jiiyan<textcolor_0>'.<line>
+<redname><diamond>Jiiyan<line>
+You have been very cruel to my dear<line>
+young master.<line>
+<redname><diamond>Jiiyan<line>
+But finally, the time is nigh for my revenge<line>
+upon you...<line>
+<redname><diamond>Jiiyan<line>
+Go, my 'Stache Virus'!!!<line>
+<wait><:func> <4><line>
+<:obj> <1> <0> <1><line>
+<:func> <1><8> <1> <7><3><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <1><8><0>]<line>
+<:obj> <1> <0> <3><line>
+<rname><diamond>Jiiyan<line>
+Fufufu... Behold my terrible virus.<line>
+<redname><diamond>Jiiyan<line>
+By now, your friends are surely suffering<line>
+terribly.<line>
+<redname><diamond>Jiiyan<line>
+The only way to remove this virus is via<line>
+the '<textcolor_d>Stache-ccine<textcolor_0>', however...<line>
+<redname><diamond>Jiiyan<line>
+Will you even be able to locate the<line>
+vaccines?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:flagon> <9><6><0><3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

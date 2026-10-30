@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-5 scene 2 (in-level table #51)
+//Block Range: $0 - $196
+//POINTER: 0x0814E2F8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_5/3_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+We got that little troublemaker right where<line>
+we want 'im! He's just past this door...<line>
+<redname><diamond>Moe<line>
+How're ya gonna hit him if he protects<line>
+himself with magic though...?<line>
+<redname><diamond>Moe<line>
+Even your usual Star Spin might not leave<line>
+a scratch...<line>
+<redname><diamond>Moe<line>
+I got it! Wait for 'em to run outta steam!<line>
+You oughta get a good hit in then!<line>
+<:end><line>
+<end>
+

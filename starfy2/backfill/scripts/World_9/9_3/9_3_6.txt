@@ -1,0 +1,59 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 scene 6 (in-level table #335)
+//Block Range: $0 - $2BC
+//POINTER: 0x0814E768
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_3/9_3_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><3><0><9> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hold your horses, Starf! The cliffs past<line>
+here are waaaay too high for ya!<line>
+<redname><diamond>Moe<line>
+You'd need somethin' real helpful to get up<line>
+those cliffs...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <9><3><0><9><line>
+<:func> <1><4> <1> <-><4><4> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hold your horses, Starf! The cliffs past<line>
+here are waaaay too high for ya!<line>
+<redname><diamond>Moe<line>
+I bet something could get ya up there, but<line>
+you can't do anything now.<line>
+<redname><diamond>Moe<line>
+Let's go somewhere else for now.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><4><4> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

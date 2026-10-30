@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Moe hint about a floating teacher (in-level table #154, stage unknown)
+//Block Range: $0 - $170
+//POINTER: 0x0814E494
+//Backfill: own translation from JP (no SUT found)
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <6> <1> <1><line>
+<rname><diamond>Moe<line>
+Oh yeah, Starf, didja hear?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Word is there's some weirdo around here<line>
+who can float through the sky.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+If ya find him, maybe he'll teach ya some<line>
+new ability, huh?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Guys like that usually hang out somewhere<line>
+high up... Well, go look for him!<line>
+<:end><line>
+<end>
+

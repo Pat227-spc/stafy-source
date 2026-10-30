@@ -1,0 +1,117 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-2 scene 1 (in-level table #23)
+//Block Range: $0 - $850
+//POINTER: 0x0814E288
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_2/2_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <2><2><0><3> <go> <5><line>
+<:if> <2><2><0><2> <go> <4><line>
+<:if> <2><2><0><1> <go> <2><line>
+<:if> <2><2><0><0> <go> <1><line>
+<:sd><line>
+<:flagon> <2><2><0><0><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I can see a door to the upper-right, but<line>
+there's a wall blocking the way... What do<line>
+we do now...?<line>
+<redname><diamond>Moe<line>
+Well, we can think about that later. The<line>
+only way to move forward is to go in the<line>
+door to the left. What're ya waitin' for?<line>
+<:end><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Man, you just don't get it, do ya!? I'm tellin'<line>
+ya to get to the door on the left already!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:if> <2><2><0><7> <go> <3><line>
+<:flagon> <2><2><0><7><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Wh-wh-what the heck!? What's with the<line>
+water all of a sudden!?<line>
+<redname><diamond>Moe<line>
+Starf...what exactly did you do?<line>
+<redname><diamond>Moe<line>
+...Eh, whatever. Alright, the Great Moe'll<line>
+wait right here, so...<line>
+<redname><diamond>Moe<line>
+...you go explore all over the place!<line>
+<redname><diamond>Moe<line>
+If there's somethin' ya just can't figure<line>
+out, you can come ask this...<line>
+<redname><diamond>Moe<line>
+...cool and clever clam right here!<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Whaddaya want Starf? Oh, do you need the<line>
+Great Moe's valuable assistance?<line>
+<redname><diamond>Moe<line>
+Well, if I remember correctly, there should<line>
+be a door just below us.<line>
+<redname><diamond>Moe<line>
+What's inside the door? I dunno, that's your<line>
+job! Go and find out!<line>
+<:end><line>
+<wait>:<4><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Do you need something from this genius of<line>
+a clam?<line>
+<redname><diamond>Moe<line>
+There's a door you can't reach? There<line>
+should be a foothold you can find.<line>
+<redname><diamond>Moe<line>
+It doesn't matter what, just find a block or<line>
+a <textcolor_d>barrel<textcolor_0> or something!<line>
+<redname><diamond>Moe<line>
+Then you can use your <textcolor_d>Surf Jump<textcolor_0> to get<line>
+on top of it, right?<line>
+<redname><diamond>Moe<line>
+But, of course, you can't use your Surf<line>
+Jump if there's no water, right?<line>
+<:end><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+You're STILL wanderin' around a place like<line>
+this!?<line>
+<redname><diamond>Moe<line>
+Well, I get it. Who wouldn't wanna hang out<line>
+with someone as cool, awesome, dreamy and<line>
+kind as The Great Moe?<line>
+<:end><line>
+<end>
+

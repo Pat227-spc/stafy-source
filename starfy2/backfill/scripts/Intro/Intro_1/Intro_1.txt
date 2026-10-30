@@ -1,0 +1,108 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override: upstream file + typo fixes
+
+//BLOCK #000 NAME:		Intro 1
+//Block Range: $0 - $3CC
+
+#VAR(Intro, TABLE)
+#ADDTBL("STARFY2ENGINTRO.TBL", Intro)
+#ACTIVETBL(Intro)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<y_pos> <auto>]<line>
+[<x_pos> <2><1>]<line>
+<<textspeed> <2>><line>
+Above the sea,<line>
+[<y_pos> <1><5>]<line>
+[<x_pos> <1><3><2>]<line>
+[<wait_time> <1><0>]<line>
+high in the sky,<line>
+[<wait_time> <5><0>]<line>
+[<x_pos> <3><1>]<line>
+there once was a peaceful<line>
+[<x_pos> <2><8>]<line>
+kingdom atop of the clouds<line>
+[<x_pos> <7><3>]<line>
+called Pufftop.<line>
+[<y_pos> <auto>]<line>
+[<x_pos> <6><2>]<line>
+[<wait_time> <2><0><0>]<line>
+<wait>A few years ago...<line>
+[<wait_time> <2><0><0>]<line>
+[<x_pos> <2><2>]<line>
+<progress>The clumsy prince of Pufftop,<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <1><1><0>]<line>
+Starfy,<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <2><1>]<line>
+dropped a very important jar...<introcode><line>
+[<wait_time> <2><0><0>]<line>
+<progress><line>
+[<y_pos> <2><0>]<line>
+[<x_pos> <1><9>]<line>
+And the villain who was sealed<line>
+[<x_pos> <4><0>]<line>
+inside of the Jar,<line>
+[<wait_time> <1><0>]<line>
+[<y_pos> <3><4>]<line>
+[<x_pos> <1><6><5>]<line>
+Ogura,<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <8><0>]<line>
+has returned.<line>
+[<wait_time> <2><0><0>]<line>
+[<y_pos> <1><0>]<line>
+[<x_pos> <4><0>]<line>
+<progress>Using his powerful magic,<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <2><0>]<line>
+Ogura conjured a great storm<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <5><0>]<line>
+that wrecked Pufftop...<line>
+[<wait_time> <1><0><0>]<line>
+[<x_pos> <2><7>]<line>
+<progress>However,<line>
+[<wait_time> <1><5>]<line>
+[<x_pos> <9><7>]<line>
+[<y_pos> <1><0>]<line>
+due to the efforts<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <3><8>]<line>
+of Starfy and his friends,<line>
+[<wait_time> <1><5>]<line>
+[<x_pos> <2><5>]<line>
+they were able to once again<line>
+[<x_pos> <5><3>]<line>
+seal Ogura in the jar.<line>
+[<wait_time> <1><0><0>]<line>
+[<x_pos> <9><0>]<line>
+<progress>After that,<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <2><8>]<line>
+peace returned to Pufftop,<line>
+[<wait_time> <1><0>]<line>
+and everyone lived happily...<line>
+[<wait_time> <1><0><0>]<line>
+<wait>However,<line>
+[<wait_time> <1><5>]<line>
+[<y_pos> <1><0>]<line>
+[<x_pos> <9><9>]<line>
+this time of peace<line>
+[<x_pos> <5><5>]<line>
+is once again at risk...<line>
+[<wait_time> <2><0><0>]<line>
+[<x_pos> <3><3>]<line>
+<wait>Starfy and the others had<line>
+[<wait_time> <1><0>]<line>
+[<x_pos> <1><8>]<line>
+no way of knowing at the time...<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<end>
+

@@ -1,0 +1,79 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 scene 3 (in-level table #340)
+//Block Range: $0 - $58A
+//POINTER: 0x0814E77C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><5><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+Oh, Detective! I wanted to thank you for<line>
+your help. I too am looking for Ressie's<line>
+daughter...Hm?<line>
+<redname><diamond>Funazou<line>
+I can't believe it! That phone! It's the Pearl<line>
+Pink Seabream <textcolor_d><heart><textcolor_0> 808!<line>
+<wait><:func> <1><8> <1> <7><1><line>
+<:obj> <2> <2> <1><line>
+<rname><diamond>Funazou<line>
+It is a very rare model! I'm a bit of a cell<line>
+phone enthusiast, you see.<line>
+<redname><diamond>Funazou<line>
+I pined for it, but t'was a 'Girls Only Color'.<line>
+Men weren't allowed to get it.<line>
+<redname><diamond>Funazou<line>
+Not to mention that only three of them<line>
+were available for purchase.<line>
+<redname><diamond>Funazou<line>
+I believe Ms. Moon has one, and another is<line>
+in the hands of Ms. Lovely.<line>
+<redname><diamond>Funazou<line>
+I would have never thought the last one<line>
+was in your possession, Detective.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><8> <1> <7><1><line>
+<:obj> <2> <2> <1><line>
+<rname><diamond>Funazou<line>
+That's the Pearl Pink Seabream <textcolor_d><heart><textcolor_0> 808!<line>
+<redname><diamond>Funazou<line>
+It was a 'Girls Only Color', so unfortunately<line>
+I could not acquire it.<line>
+<redname><diamond>Funazou<line>
+There are only 3 in the entire world.<line>
+<redname><diamond>Funazou<line>
+I believe Ms. Moon has one, and another is<line>
+in the hands of Ms. Lovely.<line>
+<redname><diamond>Funazou<line>
+For the Detective to have the last one...<line>
+Wow...<line>
+<redname><diamond>Funazou<line>
+Hm? But ain't the Detective a boy too...?<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <2> <2> <0><line>
+<:exit><line>
+<end>
+

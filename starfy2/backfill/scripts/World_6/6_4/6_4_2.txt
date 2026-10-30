@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-4 scene 2 (in-level table #246)
+//Block Range: $0 - $1A4
+//POINTER: 0x0814E604
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_4/6_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><4><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:flagon> <6><4><0><5><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Wait, didn't we see that weird pillar in<line>
+another room?<line>
+<redname><diamond>Moe<line>
+Why are there two of 'em? There's gotta<line>
+be a reason... Why dontcha check em out?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Why are there two similar pillars? There's<line>
+gotta be some reason...<line>
+<:end><line>
+<end>
+

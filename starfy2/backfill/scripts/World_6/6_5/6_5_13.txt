@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 13 (in-level table #259)
+//Block Range: $0 - $18A
+//POINTER: 0x0814E638
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_13.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Dang it!! The <textcolor_d>wind<textcolor_0> is still blowin'!? This<line>
+wind's really tickin' me off!<line>
+<redname><diamond>Moe<line>
+Hey! Starfy!! Instead of fightin' the wind<line>
+for once, <textcolor_d>try using it!<textcolor_0><line>
+<redname><diamond>Moe<line>
+If you <textcolor_d>Glide<textcolor_0> in the direction the wind's<line>
+blowin', bet ya could fly real far!<line>
+<:end><line>
+<end>
+

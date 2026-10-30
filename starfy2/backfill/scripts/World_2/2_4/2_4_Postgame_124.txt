@@ -1,0 +1,26 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-4 post-game revisit chat (in-level table #124)
+//Block Range: $0 - $BA
+//POINTER: 0x0814E41C
+//Backfill: English from SUT post-game post postgame_w02_qz565a.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+We gotta stop the <textcolor_d>current<textcolor_0> with a <textcolor_d>switch<textcolor_0><line>
+here too! Where's the <textcolor_d>switch<textcolor_0>?<line>
+<:end><line>
+<end>
+

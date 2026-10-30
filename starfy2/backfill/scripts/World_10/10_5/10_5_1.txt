@@ -1,0 +1,91 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-5 scene 1 (in-level table #375)
+//Block Range: $0 - $5A8
+//POINTER: 0x0814E808
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_5/10_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:obj> <2> <1><1> <1> <1><4><0> <0><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Mijingou #1<line>
+<:obj> <1> <4><line>
+Weee~ are pirates ladidaa~ Our ship is so<line>
+cooool~ lalilaaaa~<line>
+<:c><line>
+<wait><:obj> <2> <7> <1><1><2> <1><2><8> <1><0><line>
+[<wait_time> <1><6><0>]<line>
+<rname><diamond>Mijingou #2<line>
+<:obj> <2> <4><line>
+Hey, swabbie! You done organizing the<line>
+cargo yet!?<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Mijingou #1<line>
+<:obj> <1> <4><line>
+Hey, Bro! Yup, I'm done! Now I just gotta put<line>
+it all on the ship!<line>
+<:c><line>
+<redname><diamond>Mijingou #2<line>
+<:obj> <2> <4><line>
+Captain Puchi Ogura is really particular<line>
+with this stuff, but the 'Big Boss', up in the<line>
+castle...<line>
+<redname><diamond>Mijingou #2<line>
+...is WAY naggier. If we're even a little<line>
+short on cargo, he'll turn us into boogers<line>
+and eat us!<line>
+<:c><line>
+<redname><diamond>Mijingou #1<line>
+<:obj> <1> <4><line>
+*shudder* So...what do you think the Big<line>
+Boss wants all these weapons for,<line>
+anyways?<line>
+<:c><line>
+<redname><diamond>Mijingou #2<line>
+<:obj> <2> <4><line>
+That's not for us underlings to know!<line>
+Anyways, how's the prisoner?<line>
+<:c><line>
+<redname><diamond>Mijingou #1<line>
+<:obj> <1> <4><line>
+Every day there's just more tears.<line>
+<:c><line>
+<redname><diamond>Mijingou #2<line>
+<:obj> <2> <4><line>
+Poor guy. He went and overheard the<line>
+secret between us and Echigyoya.<line>
+<redname><diamond>Mijingou #2<line>
+Pretty sure their name was <textcolor_d>Lumi the<line>
+Mirror<textcolor_0>...<line>
+<:c><line>
+<redname><diamond>Mijingou #1<line>
+<:obj> <1> <4><line>
+Oh, it's almost time! We gotta go, Bro!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+<:obj> <1> <7> <1><6><0> <0> <1><0><line>
+<:obj> <2> <7> <1><6><0> <0> <1><0><line>
+[<wait_time> <2><0><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><5><0><0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,170 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 scene 1 (in-level table #200)
+//Block Range: $0 - $9FE
+//POINTER: 0x0814E54C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_1/4_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><1><0><6> <go> <3><line>
+<:if> <4><1><0><5> <go> <2><line>
+<:if> <4><1><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><1><0><0><line>
+<:flagon> <1><5><5><1><5><line>
+<:flagon> <1><5><5><1><6><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+Hey, Starfy! You too, Moe! How've you guys<line>
+been?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Eh, y'know, the usual. What about you? You<line>
+doin' alright?<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+Uh...well actually...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <5><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+So I wrote apologies to Jellata and Gellato.<line>
+Could I...ask you two to deliver these to<line>
+them both?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+And why would I put myself through the<line>
+trouble? Sounds like a pain, so count me<line>
+out.<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+Please, Moe...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+No way! Absolutely not!!...What is it, Starf?<line>
+<redname><diamond>Moe<line>
+Lemme guess, you feel like helpin' Jellato<line>
+out dontcha...?<line>
+<redname><diamond>Moe<line>
+...Fine! Hey, Jellato! Hurry up and give<line>
+Starfy your letters already!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><1><line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <0><7><1><line>
+<:obj> <4> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+Thanks a bunch Starfy! Here ya go!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><2><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+What a hopeless guy... Fine, let's go find<line>
+Jellata and Gellato.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <4> <2><line>
+<:func> <1><4> <2> <-><5><6><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+He wants to make up with his friends, so go<line>
+find 'em and hand over those letters.<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <1> <4><line>
+Please give Jellata and Gellato my<line>
+apologies, Starfy...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <2> <-><5><6><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:flagoff> <1><5><5><1><7><line>
+<:flagoff> <1><5><5><1><8><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+So they both wrote letters to me too? I<line>
+wonder what they said...<line>
+<wait><:obj> <5> <2> <1><line>
+<rname><diamond>Jellato<line>
+'I'm sorry too Jellato, I hope we can be<line>
+friends again.'~Jellata<line>
+<wait><:obj> <5> <2> <0><line>
+<:obj> <6> <2> <1><line>
+<rname><diamond>Jellato<line>
+'If you really feel that bad, then I guess I<line>
+have no choice but to forgive<line>
+chu.'~Gellato<line>
+<wait><:obj> <6> <2> <0><line>
+<rname><diamond>Jellato<line>
+I'm so glad that we could make up and be<line>
+friends again... Thank you so much Starfy!<line>
+<redname><diamond>Jellato<line>
+As thanks, I'll give you this treasure I<line>
+found. It seemed like it was lost, so I kept<line>
+it safe.<line>
+<redname><diamond>Jellato<line>
+It's just behind me, through that door.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <4><1><0><6><line>
+<:obj> <5> <2> <0><line>
+<:obj> <6> <2> <0><line>
+<:func> <1><4> <1> <-><9><6><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jellato<line>
+Just go through the door behind me for<line>
+your reward, Starfy. I owe you one, so go<line>
+ahead and take that treasure chest!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,41 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 6 (in-level table #286)
+//Block Range: $0 - $1AE
+//POINTER: 0x0814E6A4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><6><4> <go> <1><line>
+<:if> <7><3><6><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+So this <textcolor_d>photo<textcolor_0>'s makin' ya investigate<line>
+ceilings now.<line>
+<redname><diamond>Moe<line>
+At some point, you're gonna have to <textcolor_d>Star<line>
+Spin<textcolor_0> upwards to find that door, so get<line>
+movin'!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Geez, how many more of these are there!? I<line>
+just want this to be over already...<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-1 post-game revisit chat (in-level table #498)
+//Block Range: $0 - $160
+//POINTER: 0x0814E9F4
+//Backfill: English from SUT post-game post postgame_w08_r24izz.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pufftop Soldier<line>
+My Prince! Are you filling out the <textcolor_d>Picture<line>
+Book<textcolor_0>?<line>
+<redname><diamond>Pufftop Soldier<line>
+I hear some new stages only appear once<line>
+you've filled in lots of entries...<line>
+<redname><diamond>Pufftop Soldier<line>
+...and you'll need those to find every<line>
+treasure, too.<line>
+<redname><diamond>Pufftop Soldier<line>
+I wish you the best of luck in collecting<line>
+entries, My Prince!<line>
+<:end><line>
+<end>
+

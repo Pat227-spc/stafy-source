@@ -1,0 +1,109 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 scene 7 (in-level table #372)
+//Block Range: $0 - $650
+//POINTER: 0x0814E7FC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_4/10_4_7.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><2><line>
+<:func> <1><1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+We've got you now, you creep!<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <2> <4><line>
+Eeeek... P-please, have mercy... I-I beg of<line>
+you.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Forgiveness!? You think you deserve it<line>
+after all you've done!?<line>
+<wait><:obj> <1> <5> <0><line>
+<rname><diamond>Moe<line>
+Hm? So this is the switch, huh? Phew, we<line>
+made it in time.<line>
+<redname><diamond>Moe<line>
+Echigyoya! Tell me, what's your secret<line>
+plan!? Can't be any good, right!?<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <2> <4><line>
+W-Were I to relay such information, Lord<line>
+Tenth would-<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hey, Starf. Sounds like this guy wants a<line>
+taste of your Star Spin.<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Echigyoya<line>
+<:obj> <2> <4><line>
+I-I understand! I'll talk, I'll talk!...Y-You<line>
+see...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hold on a sec, I'm tired... Lemme sit down<line>
+and you can keep talking...<line>
+<redname><diamond>Moe<line>
+Hyup!<line>
+<:c><line>
+<wait><:obj> <1> <1><0> <0> <1><line>
+<:obj> <1> <6><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><8> <1> <9><4><line>
+<:obj> <3> <1> <2><line>
+<textcolor_d>Click...<textcolor_0><line>
+<:c><line>
+<wait><:func> <8> <0> <1><9><line>
+<rname><diamond>Moe<line>
+...Huh?<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <2> <4><line>
+Ah...<line>
+<:c><line>
+<wait>:<1><line>
+<:obj> <4> <1><0> <0> <1><line>
+<:obj> <4> <6><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+WAAAAAAUGH!!! WHAT THE HECK'D YOU DO,<line>
+ECHIGYOYA!?<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <2> <4><line>
+B-But it wasn't my fault-<line>
+<:c><line>
+<wait><:obj> <0> <1><2> <-><3><0> <-><5><0> <1><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+St-STARFYYYYYYY!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><4><1><1><line>
+<:func> <1><0><line>
+<:func> <1><2> <8> <1><0><1><line>
+<:exit><line>
+<end>
+

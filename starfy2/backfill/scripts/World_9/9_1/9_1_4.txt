@@ -1,0 +1,65 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 scene 4 (in-level table #323)
+//Block Range: $0 - $3DA
+//POINTER: 0x0814E738
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_1/9_1_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><1><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <2> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Well, we made it to Ressie's house... Let's<line>
+see if we can find any clues.<line>
+<redname><diamond>Moe<line>
+Hm? What's this? Looks like a letter fell<line>
+from their mailbox.<line>
+<wait><:func> <1><8> <1> <7><1><line>
+<:obj> <2> <2> <1><line>
+<rname><diamond>Moe<line>
+Let's see... 'We're taking good care of your<line>
+daughter'.<line>
+<redname><diamond>Moe<line>
+'If you want her back, come to the<line>
+sandbar'.<line>
+<redname><diamond>Moe<line>
+Why those cowards...! We got our culprit!<line>
+Let's hoof it to the sandbar!<line>
+<redname><diamond>Moe<line>
+We can get there by getting to a door far<line>
+above here!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><1><0><2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:obj> <0> <9> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+What're you just standing around for!? We<line>
+gotta get to the sandbar, don't we!?<line>
+<redname><diamond>Moe<line>
+We can get there by getting to a door far<line>
+above here!<line>
+<redname><diamond>Moe<line>
+Takin' a kid hostage... That's low! I won't<line>
+forgive 'em!<line>
+<:end><line>
+<end>
+

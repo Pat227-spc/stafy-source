@@ -1,0 +1,59 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-2 scene 3 (in-level table #327)
+//Block Range: $0 - $37E
+//POINTER: 0x0814E748
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_2/9_2_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><2><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Loverin<line>
+Oh my, if it isn't Star-cutie! It's been far<line>
+too long!<line>
+<redname><diamond>Loverin<line>
+Hm? Ressie's little girl? Sorry sugar, but I<line>
+don't know anything about her...<line>
+<redname><diamond>Loverin<line>
+Oh, but my darling sister <textcolor_d>Lovelove<textcolor_0> might<line>
+know something!<line>
+<redname><diamond>Loverin<line>
+If memory serves, Lovelove and that ol'<line>
+Ressie are friends.<line>
+<redname><diamond>Loverin<line>
+Lovelove is around here too, so why don't<line>
+you go look for her?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:flagon> <9><1><9><0><line>
+<:func> <2> <2><line>
+<:flagon> <9><2><0><2><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:flagoff> <9><1><9><0><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Loverin<line>
+You're wondering why I'm here?<line>
+<redname><diamond>Loverin<line>
+Well, I'm looking for products that'll just<line>
+fly off the shelves!<line>
+<redname><diamond>Loverin<line>
+We're helping our precious Lovely with her<line>
+shop!<line>
+<redname><diamond>Loverin<line>
+But hon, shouldn't you be looking for<line>
+Lovelove?<line>
+<:end><line>
+<end>
+

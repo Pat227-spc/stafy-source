@@ -1,0 +1,94 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-3 scene 1 (in-level table #26)
+//Block Range: $0 - $5E8
+//POINTER: 0x0814E294
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_3/2_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <5><0><line>
+<:if> <2><3><0><0> <go> <5><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <2><3><0><0><line>
+<rname><diamond>Old Man Mechani<line>
+Well, well! If it isn't Starfy! It's been a<line>
+while!<line>
+<redname><diamond>Old Man Mechani<line>
+Wouldn't helping this old kook with his<line>
+wonderful research again be nice?<line>
+<wait><:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Wouldn't it? Hm?<line>
+<rname>     Help<line>
+<rname>     Don't help<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <0> <go> <2><0><line>
+<:sel> <1> <go> <3><0><line>
+<wait>:<3><0><line>
+<rname><diamond>Old Man Mechani<line>
+What's with that attitude!? Kids these<line>
+days! How disappointing!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Do you want to ride a <textcolor_d>Blimp<textcolor_0>?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <4><0><line>
+:<2><0><line>
+<rname><diamond>Old Man Mechani<line>
+Fuhahaha, you truly understand the<line>
+beauty of Blimps!<line>
+<redname><diamond>Old Man Mechani<line>
+You remember how to use the Blimp,<line>
+yes?...Huh? You forgot?<line>
+<redname><diamond>Old Man Mechani<line>
+I suppose it can't be helped. Just make<line>
+sure to read the <textcolor_d>sign<textcolor_0> on the way!<line>
+<wait><:flagon> <2><3><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+<rname><diamond>Old Man Mechani<line>
+I'll be just up ahead.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<4><0><line>
+<rname><diamond>Old Man Mechani<line>
+What's with you!? Don't you go makin' fun<line>
+of an old man!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<5><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Mechani<line>
+Oh, Starfy! I have to thank you!<line>
+<redname><diamond>Old Man Mechani<line>
+Because of you, my passion for <textcolor_d>Blimps<textcolor_0> is<line>
+only growing!<line>
+<redname><diamond>Old Man Mechani<line>
+Right now I'm researching a brand-new<line>
+feature. Look forward to it!<line>
+<end>
+

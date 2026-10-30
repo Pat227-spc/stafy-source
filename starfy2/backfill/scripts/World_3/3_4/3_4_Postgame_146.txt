@@ -1,0 +1,42 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-4 post-game revisit chat (in-level table #146)
+//Block Range: $0 - $1A4
+//POINTER: 0x0814E474
+//Backfill: English from SUT post-game post postgame_w03_qz6yoz.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:obj> <1> <6><line>
+<:obj> <4> <4><line>
+<rname><diamond>Shelldest<line>
+Ah! Starfy!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Brotle<line>
+We gave Mama a shoulder massage earlier!<line>
+Isn't that great?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Isn't it?<line>
+<:c><line>
+<wait><:obj> <1> <1><0> <0> <1><line>
+<rname><diamond>Tortamama<line>
+They really are good kids... I'm so glad.<line>
+<:obj> <1> <1><0> <0> <0><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:func> <1><4> <1> <7><2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,26 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-1 scene 5 (in-level table #233)
+//Block Range: $0 - $E4
+//POINTER: 0x0814E5D0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_1/6_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Wozart<line>
+Whew... My ears are still ringing. But<line>
+knowing Moe...<line>
+<redname><diamond>Wozart<line>
+...he must've sung that badly on purpose,<line>
+knowing this would happen.<line>
+<:end><line>
+<end>
+

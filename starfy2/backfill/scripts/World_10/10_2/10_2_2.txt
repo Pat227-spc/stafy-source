@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-2 scene 2 (in-level table #362)
+//Block Range: $0 - $1F0
+//POINTER: 0x0814E7D4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_2/10_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><2><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:flagon> <1><0><2><0><4><line>
+<:se><line>
+<rname><diamond>Moe<line>
+H-hey, hold on! There ain't no bottom to<line>
+these falls!<line>
+<redname><diamond>Moe<line>
+I-it'll be curtains for ya if you fall!<line>
+J-j-just be careful, alright!?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+W-w-w-woah... That's some drop... It'd be all<line>
+over if I f-fell...<line>
+<redname><diamond>Moe<line>
+N-n-not that I-I-I'm s-scared or anything<line>
+like th-that!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,33 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 5 (in-level table #238)
+//Block Range: $0 - $E8
+//POINTER: 0x0814E5E4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><8> <1> <8><0><line>
+<:se><line>
+That was wrong. Listen carefully to <textcolor_d>what<line>
+Moe says<textcolor_0> and try again.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagoff> <6><2><0><5><line>
+<:flagoff> <6><2><0><6><line>
+<:flagoff> <6><2><0><7><line>
+<:func> <1><2> <8> <2><line>
+<:exit><line>
+<end>
+

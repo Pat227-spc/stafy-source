@@ -1,0 +1,22 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 15 (table 0x0814EA2C entry 28; stage key 0x193)
+//Block Range: $0 - $9A
+//POINTER: 0x0814EA9C
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+The new vehicle <textcolor_d>Torito<textcolor_0> has is the best! If<line>
+you don't have it yet, be sure to get it!<line>
+<:end><line>
+<end>
+

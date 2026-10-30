@@ -1,0 +1,55 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 scene 1 (in-level table #338)
+//Block Range: $0 - $300
+//POINTER: 0x0814E774
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><5><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+Ah, Detective Starlock! You're a little late,<line>
+but here we are. This is where <textcolor_d>Buyoyons<textcolor_0><line>
+grow.<line>
+<redname><diamond>Funazou<line>
+Buyoyons are actually plants. They tend<line>
+to fall from above.<line>
+<redname><diamond>Funazou<line>
+Once they stick to you, they're hard to<line>
+get off, so be careful, Detective!<line>
+<redname><diamond>Funazou<line>
+So this is where Ressie's daughter is... She<line>
+must be so scared.<line>
+<redname><diamond>Funazou<line>
+How tragic! We must hurry and save her!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><5><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+Those Buyoyon plants don't come off<line>
+easily.<line>
+<redname><diamond>Funazou<line>
+Once that happens, it becomes very<line>
+difficult for you to move. Be careful!<line>
+<:end><line>
+<end>
+

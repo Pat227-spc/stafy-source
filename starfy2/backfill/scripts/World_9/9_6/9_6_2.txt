@@ -1,0 +1,89 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-6 scene 2 (in-level table #344)
+//Block Range: $0 - $554
+//POINTER: 0x0814E78C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_6/9_6_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><6><0><6> <go> <3><line>
+<:if> <9><6><0><5> <go> <2><line>
+<:if> <9><6><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+Wahhh! Wh-what in the world!? Whiskers<line>
+on my face!?<line>
+<redname><diamond>Funazou<line>
+Ah, Detective Starlock! Suddenly these<line>
+whiskers grew on my face!<line>
+<redname><diamond>Funazou<line>
+What's that? Stache Virus? Stache-ccine?<line>
+It'll get rid of this thing!?<line>
+<redname><diamond>Funazou<line>
+I beg of you, Detective, please find that<line>
+vaccine for me!<line>
+<redname><diamond>Funazou<line>
+If my mother were to see me like this, she<line>
+will undoubtedly be enraged...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><6><0><4><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+First that ghastly castle rises above the<line>
+mountains...<line>
+<redname><diamond>Funazou<line>
+And then some miscreant causes trouble<line>
+by giving people these awful<line>
+whiskers...mumble mumble<line>
+<redname><diamond>Funazou<line>
+Ah, Sir Starlock! I hope you find that<line>
+vaccine!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+I see you've brought the Stache-ccine!<line>
+Please, hurry and use it!<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><6><0><6><line>
+<:flagoff> <1><5><6><0><7><line>
+<:obj> <1> <0> <0><line>
+<:func> <3> <2><line>
+<:se><line>
+<:func> <1><8> <1> <5><2><line>
+<rname><diamond>Funazou<line>
+I-It's gooooone! *sigh* It's so nice to have<line>
+my old face back.<line>
+<redname><diamond>Funazou<line>
+You have helped me once again! At one<line>
+point, I wondered what would've happened<line>
+to me!<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+You have truly helped me, and I should<line>
+thank you once more, Detective.<line>
+<:end><line>
+<end>
+

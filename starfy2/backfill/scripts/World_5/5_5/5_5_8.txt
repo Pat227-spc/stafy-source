@@ -1,0 +1,73 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 scene 8 (in-level table #77)
+//Block Range: $0 - $2EC
+//POINTER: 0x0814E360
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_5/5_5_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><5><5><7> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:se><line>
+<:obj> <1> <0> <3><line>
+<:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #5<line>
+Eeeeeeeeeek!! You made it all the way here<line>
+already!?<line>
+<redname><diamond>Puchi Ogura #5<line>
+If you came for this <textcolor_d>key<textcolor_0>, I will not allow<line>
+you to take it from me!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+[<wait_time> <1><0>]<line>
+<:func> <2> <2><line>
+<:obj> <1> <0><line>
+<:flagon> <5><5><6><0><line>
+<:flagon> <5><5><5><7><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+You got the <textcolor_d>Cell Key<textcolor_0>.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <2> <2><line>
+<:func> <1><1> <2> <1><line>
+<:obj> <1> <1><1> <2> <-><3><2> <0><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #5<line>
+Grrrrrrrr...!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <3><2> <2><3><0> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:flagon> <5><5><4><7><line>
+[<wait_time> <2><0>]<line>
+<:obj> <1> <2><line>
+[<wait_time> <5>]<line>
+<:flagoff> <5><5><4><7><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:func> <1><1> <0> <1><line>
+<:flagoff> <5><5><6><0><line>
+<:func> <3> <2><line>
+<:se><line>
+<:flagon> <5><5><4><9><line>
+<:flagon> <1><5><5><2><4><line>
+<:exit><line>
+<end>
+

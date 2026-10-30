@@ -1,0 +1,62 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-4 scene 2 (in-level table #337)
+//Block Range: $0 - $484
+//POINTER: 0x0814E770
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_4/9_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><4><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <9><4><0><4><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+D-Detective Starlock! W-W-We have a<line>
+situation!<line>
+<redname><diamond>Funazou<line>
+I received this letter a little while ago, and<line>
+I rushed over here to find you!<line>
+<redname><diamond>Funazou<line>
+Is it fine if I read it? *ahem* 'To the<line>
+Half-Witted Detective'...<line>
+<redname><diamond>Funazou<line>
+'I'm the one who kidnapped Ressie's<line>
+daughter! Yay! Woohoo!'<line>
+<redname><diamond>Funazou<line>
+'I hid her where the <textcolor_d>Buyoyons<textcolor_0> are. Try and<line>
+get her back if you can!'<line>
+<redname><diamond>Funazou<line>
+'Best of luck to you, Detective... from<line>
+Puchi Ogura #9'... that's the end of the<line>
+letter.<line>
+<redname><diamond>Funazou<line>
+A-a child of Ogura's!? This is horrible! I<line>
+feel sorry for the poor girl. This is a<line>
+scary situation...<line>
+<redname><diamond>Funazou<line>
+Then we must hurry to where the Buyoyons<line>
+grow!!<line>
+<redname><diamond>Funazou<line>
+What's that? 'Stuff'? If you're gonna grab<line>
+it, grab it quick! We must hurry!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+What is it, Detective? Weren't you gonna<line>
+grab that 'Stuff' of yours?<line>
+<redname><diamond>Funazou<line>
+Please, do what you must! After that, we<line>
+must go save Ressie's daughter!<line>
+<:end><line>
+<end>
+

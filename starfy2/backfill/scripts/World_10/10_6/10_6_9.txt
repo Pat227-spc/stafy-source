@@ -1,0 +1,103 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 9 (in-level table #386)
+//Block Range: $0 - $548
+//POINTER: 0x0814E834
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_9.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><6><1><3> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:if> <1><0><6><1><2> <go> <3><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><6><1><2><line>
+:<3><line>
+<:se><line>
+<rname><diamond>Shmoe<line>
+Jeez, who put all these seaweed rolls<line>
+everywhere...mumble mumble<line>
+<redname><diamond>Shmoe<line>
+My name's <textcolor_d>Shmoe<textcolor_0>. Moe? Can't say I know him.<line>
+Are you looking for this person?<line>
+<wait><:sd><line>
+<rname><diamond>Shmoe<line>
+Did you wanna go back to the exit, then?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Shmoe<line>
+Okay. Well I'll walk you back.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><6><1><3><line>
+<:func> <1><2> <3> <3><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Shmoe<line>
+I see. Well, I'll be cleaning up these<line>
+seaweed rolls then...mumble mumble<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <1><0><6><1><3><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:if> <1><0><6><1><2> <go> <5><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><6><1><2><line>
+<:se><line>
+:<5><line>
+<rname><diamond>Shmoe<line>
+I just moved here, and now I have to clean<line>
+up all of these seaweed rolls? Why...<line>
+<redname><diamond>Shmoe<line>
+I guess I'll just move again... This time I'll go<line>
+to a place without seaweed rolls at all...<line>
+<wait><:sd><line>
+<rname><diamond>Shmoe<line>
+Hm? Are you about to leave too?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Shmoe<line>
+Let's go then.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <3> <3><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Joe<line>
+Oh, I see. You must really like seaweed<line>
+rolls then. I'm jealous...mumble mumble<line>
+<:end><line>
+<end>
+

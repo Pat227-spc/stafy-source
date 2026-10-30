@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 12 (in-level table #258)
+//Block Range: $0 - $13A
+//POINTER: 0x0814E634
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_12.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Yikes!! The <textcolor_d>wind<textcolor_0> is crazy strong here!<line>
+<redname><diamond>Moe<line>
+Just like before, <textcolor_d>keep running to hold<line>
+your ground!<textcolor_0><line>
+<redname><diamond>Moe<line>
+When the wind stops, run for it and look<line>
+for somewhere to grab onto!!<line>
+<:end><line>
+<end>
+

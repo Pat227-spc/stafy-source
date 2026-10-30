@@ -1,0 +1,48 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 scene 1 (in-level table #205)
+//Block Range: $0 - $29C
+//POINTER: 0x0814E560
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_2/4_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><2><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><2><0><0><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Huh... Guess what I found Starf. It's a<line>
+letter from that '<textcolor_d>Torito<textcolor_0>' guy.<line>
+<redname><diamond>Moe<line>
+'I moved to the Slippery Glacier. If you're<line>
+ever nearby, come visit!' it says.<line>
+<redname><diamond>Moe<line>
+...Anyways, this place is just FILLED with<line>
+icicles. You'll get hurt real bad if you keep<line>
+running into 'em!<line>
+<redname><diamond>Moe<line>
+Make sure to be careful, Starf!...Nah,<line>
+never mind. Just keep movin' and you'll be<line>
+fine.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I heard that <textcolor_d>Torito<textcolor_0> guy moved somewhere<line>
+around here! Maybe we oughta go say hi.<line>
+<:end><line>
+<end>
+

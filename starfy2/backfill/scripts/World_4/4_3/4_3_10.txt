@@ -1,0 +1,33 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 10 (in-level table #219)
+//Block Range: $0 - $168
+//POINTER: 0x0814E598
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_10.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Hirao<line>
+I'm so sorry, honey... I lost... But please,<line>
+don't worry.<line>
+<redname><diamond>Hirao<line>
+Because nobody's love can beat my love<line>
+for my honey!!<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+You were still amazing, darling!<line>
+<:c><line>
+<redname><diamond>Hirao<line>
+You're lovely too, honey!! *Lovey-dovey*<line>
+*lovey-dovey*...<line>
+<:end><line>
+<end>
+

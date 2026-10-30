@@ -1,0 +1,131 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 2 (in-level table #261)
+//Block Range: $0 - $9A2
+//POINTER: 0x0814E640
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><1><1><0> <go> <4><line>
+<:if> <7><1><7><2> <go> <3><line>
+<:if> <7><1><6><2> <go> <1><line>
+<:if> <7><1><6><3> <go> <1><line>
+<:if> <7><1><6><4> <go> <1><line>
+<:if> <7><1><6><5> <go> <1><line>
+<:if> <7><1><6><6> <go> <1><line>
+<:if> <7><1><0><2> <go> <2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Guidonna<line>
+At long last, someone who can help us!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Guidonna<line>
+Attention everyone on the tour, I have<line>
+returned with help!<line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Guidonna<line>
+Come now! What are you standing around<line>
+for!?<line>
+<redname><diamond>Guidonna<line>
+Hurry, please rescue my guests!<line>
+<redname><diamond>Guidonna<line>
+Just like the individual to my right,<line>
+everyone has been trapped under these<line>
+boulders!<line>
+<redname><diamond>Guidonna<line>
+I've never even heard about any issues<line>
+with falling rocks in this area...<line>
+<redname><diamond>Guidonna<line>
+If you have any questions while helping my<line>
+guest, please do not hesitate to ask.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><1><0><2><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Guidonna<line>
+The <textcolor_d>rocks<textcolor_0> are gone? My, my? If it's rocks<line>
+you want, there are plenty of them around<line>
+here.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <2> <2><line>
+<:func> <7><line>
+<:flagoff> <7><1><6><2><line>
+<:flagoff> <7><1><6><3><line>
+<:flagoff> <7><1><6><4><line>
+<:flagoff> <7><1><6><5><line>
+<:flagoff> <7><1><6><6><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Guidonna<line>
+Come now! What are you standing around<line>
+for!?<line>
+<redname><diamond>Guidonna<line>
+Collide two boulders together to free all<line>
+of the tourists!<line>
+<redname><diamond>Guidonna<line>
+If you have any questions while helping my<line>
+guest, please do not hesitate to ask.<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Guidonna<line>
+Thank you so much!!! Everyone has been<line>
+saved!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><1><0><9><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Guidonna<line>
+Attention everyone! Please look to my<line>
+left!<line>
+<redname><diamond>Guidonna<line>
+This boy has freed us all from under the<line>
+boulders!<line>
+<redname><diamond>Guidonna<line>
+Oh? You all know this boy?<line>
+<redname><diamond>Guidonna<line>
+Oh, you want to go through this door? I'm<line>
+afraid I can't do that, sir.<line>
+<redname><diamond>Guidonna<line>
+That isn't a planned stop on the tour...<line>
+Wait, you aren't a tourist?<line>
+<redname><diamond>Guidonna<line>
+In that case, ignore everything I said! Here<line>
+you are! Take care of yourself...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <3> <2><line>
+<:flagon> <7><1><1><0><line>
+<:func> <1><8> <1> <7><4><line>
+<:exit><line>
+<wait>:<4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Guidonna<line>
+The tour will not continue past this point.<line>
+It is much too dangerous for the guests.<line>
+<redname><diamond>Guidonna<line>
+But if you must, please take care...<line>
+<:end><line>
+<end>
+

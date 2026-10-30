@@ -1,0 +1,37 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 scene 9 (in-level table #280)
+//Block Range: $0 - $1FE
+//POINTER: 0x0814E68C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_2/7_2_9.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf! Couldn't we use that thing in<line>
+the upper right as a foothold? You can<line>
+get inside and push it, right?<line>
+<redname><diamond>Moe<line>
+Wait, what? There are some walls in the<line>
+way?<line>
+<redname><diamond>Moe<line>
+So there's no way to get this back<line>
+without... Wait, I got it! Just use the<line>
+boulders!<line>
+<redname><diamond>Moe<line>
+When the boulders fall on the foothold, it<line>
+should sink, right?<line>
+<:end><line>
+<end>
+

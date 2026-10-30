@@ -1,0 +1,44 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 7 (in-level table #216)
+//Block Range: $0 - $1C6
+//POINTER: 0x0814E58C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_7.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <4> <1><line>
+<:se><line>
+<:func> <2><2> <-><2><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+YEAH! Starfy, you turned it around and<line>
+won!!!<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <3> <4><line>
+And the winner is Contestant Starfy~!<line>
+Please collect your prize.~<line>
+<redname><diamond>Savako<line>
+<:obj> <3> <4><line>
+Please go through the door below~.......Ugh,<line>
+what a drag...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <4><3><0><7><line>
+<:func> <3> <2><line>
+<:flagon> <4><3><0><8><line>
+<:exit><line>
+<end>
+

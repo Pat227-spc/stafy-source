@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $74
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<x_pos> <2>]<line>
+[<y_pos> <2>]<line>
+TORRENTIAL FALLS 10-5<line>
+[<x_pos> <4><0>]<line>
+[<y_pos> <2><0>]<line>
+      Investigate the Secrets<line>
+of the Pirate Puchi Ogura #10!<line>
+<end>
+

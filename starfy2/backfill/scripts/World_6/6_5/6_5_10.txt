@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 10 (in-level table #256)
+//Block Range: $0 - $1E4
+//POINTER: 0x0814E62C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_10.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><5><2><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <6><5><2><3><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Knowin' that brat, he's gonna attack<line>
+wearin' a costume for sure.<line>
+<redname><diamond>Moe<line>
+It seems tough too... Your spin isn't gonna<line>
+work.<line>
+<redname><diamond>Moe<line>
+But when the costume falls off, that's<line>
+your chance.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+When that costume of his falls off, that's<line>
+your chance! Go for it!<line>
+<:end><line>
+<end>
+

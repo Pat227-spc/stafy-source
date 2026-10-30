@@ -1,0 +1,58 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 post-game revisit chat (in-level table #456)
+//Block Range: $0 - $414
+//POINTER: 0x0814E94C
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Hirarin<line>
+Starfy, why didn't you come to our<line>
+marriage ceremony?<line>
+<:c><line>
+<redname><diamond>Hirao<line>
+Hey now, don't say things like that. Starfy<line>
+has his fair share of troubles.<line>
+<redname><diamond>Hirao<line>
+As for me, even if the world went under, as<line>
+long as you're with me, everything'll turn<line>
+out ok!<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+Oh you~ <textcolor_d><heart><textcolor_0><line>
+<:c><line>
+<wait>*Lovey-dovey* *lovey-dovey*<line>
+*lovey-dovey* *lovey-dovey*... <textcolor_d><heart><heart><heart><textcolor_0><line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Hirarin<line>
+Loch Ress, where we went on our<line>
+honeymoon, was so beautiful, wasn't it,<line>
+darling?<line>
+<:c><line>
+<redname><diamond>Hirao<line>
+Sure, but you're even more beautiful than<line>
+Loch Ress, honey.<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+Oh you~ <textcolor_d><heart><textcolor_0><line>
+<:c><line>
+<wait>*Lovey-dovey* *lovey-dovey*<line>
+*lovey-dovey* *lovey-dovey*... <textcolor_d><heart><heart><heart><textcolor_0><line>
+<:end><line>
+<end>
+

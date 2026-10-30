@@ -1,0 +1,70 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-3 scene 1 (in-level table #62)
+//Block Range: $0 - $42C
+//POINTER: 0x0814E324
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_3/5_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><3><1><2> <go> <3><line>
+<:if> <5><3><1><1> <go> <2><line>
+<:if> <5><3><1><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><3><1><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Kamone<line>
+You're Starfy, aren't you...? I know I was<line>
+supposed to help you but...<line>
+<redname><diamond>Kamone<line>
+Look, my job just ended and I'm really<line>
+tired, you know...?<line>
+<redname><diamond>Kamone<line>
+Sorry, but here, use this bomb to get to<line>
+the bottom of this room...<line>
+<redname><diamond>Kamone<line>
+Oh...and if you need more bombs, just come<line>
+talk to me and I'll give you more...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Kamone<line>
+Oh...and if you need more bombs, just come<line>
+talk to me and I'll give you more...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Kamone<line>
+Oh...you need more bombs...? *Sigh* here<line>
+you go...<line>
+<:flagoff> <5><3><1><1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <2><0> <5><line>
+<:func> <1><2> <5> <1><0><1><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Kamone<line>
+Oh...the path's clear now... Another one of<line>
+my jobs is done now...<line>
+<:end><line>
+<end>
+

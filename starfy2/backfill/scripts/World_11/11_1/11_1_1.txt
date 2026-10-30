@@ -1,0 +1,302 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-1 scene 1 (in-level table #125)
+//Block Range: $0 - $141E
+//POINTER: 0x0814E420
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_1/11_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><1><1><0><4> <go> <2><line>
+<:if> <1><1><1><0><0> <go> <1><line>
+<:flagon> <1><1><1><0><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Huh? What's with this weird castle?<line>
+<redname><diamond>Moe<line>
+Is this that 'Ogura's Castle' I've been<line>
+hearin' about...?<line>
+<redname><diamond>Moe<line>
+...? Hold on...there's something on the<line>
+ground!<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Moe<line>
+Hmm...this is a '<textcolor_d>Shell Tape<textcolor_0>'...<line>
+<wait><:obj> <2> <2><line>
+<:func> <1><8> <1> <7><2><line>
+<rname><diamond>Moe<line>
+It's a weird shell that can record all kinds<line>
+of videos...<line>
+<redname><diamond>Moe<line>
+...and play 'em back, too. But why's it lyin'<line>
+here?<line>
+<redname><diamond>Moe<line>
+Eh, whatever. Let's watch it.<line>
+<wait><:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+<:obj> <3> <2> <1><line>
+<:obj> <3> <1><0> <0> <2><line>
+<rname><diamond>Moe<line>
+Here we go...<line>
+<redname><diamond>Moe<line>
+What's up? Oh, this? It's called a Shellputer<line>
+<redname><diamond>Moe<line>
+We should be able to watch the Shell Tape<line>
+using this.<line>
+<redname><diamond>Moe<line>
+You just set the Shell Tape in the<line>
+Shellputer like...this...<line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <1><5> <3> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <2> <1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:obj> <2> <2><line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+<:obj> <3> <2> <1><line>
+<:obj> <3> <1><0> <0> <2><line>
+<:func> <5> <1><4><line>
+<:func> <1><0><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Wait, what? The heck's this supposed to<line>
+mean?<line>
+<redname><diamond>Moe<line>
+Hey, Starf! Try lookin' around the area.<line>
+<redname><diamond>Moe<line>
+Maybe you'll find some more of these Shell<line>
+Tapes lyin' around!<line>
+<redname><diamond>Moe<line>
+As an expert on shells myself, I think<line>
+there were...<line>
+<redname><diamond>Moe<line>
+...if we find about 3 more, we'll know what's<line>
+goin' on.<line>
+<redname><diamond>Moe<line>
+Well, what're ya waitin' for? Get goin'<line>
+already!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <7> <1><line>
+<:flagon> <1><1><1><0><5><line>
+<:flagon> <1><1><1><0><6><line>
+<:flagon> <1><1><1><0><7><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <2><2> <-><2><line>
+<:se><line>
+<:obj> <4> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <5> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <1><0>]<line>
+<rname><diamond>Moe<line>
+You got all three of em? Nice!<line>
+<redname><diamond>Moe<line>
+Let's just put em all in the<line>
+Shellputer~...and...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <4> <1><5> <3> <1><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <5> <1><5> <3> <1><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <6> <1><5> <3> <1><0><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<rname><diamond>Moe<line>
+There! Now let's see what comes on<line>
+screen...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:obj> <6> <2><line>
+<:func> <5> <1><5><line>
+<:func> <1><0><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hah, ya did it, Starf! ...Just like I<line>
+thought, this must be Ogura's castle.<line>
+<wait><:obj> <1> <5> <9><line>
+<rname><diamond>Moe<line>
+So whaddaya think? Ain't these Shell Tapes<line>
+amazin'?<line>
+<redname><diamond>Moe<line>
+Well, it's cause *I'm* usin' em that they're<line>
+so cool.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <5> <0><line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+Actually, I have some Shell Tapes too...<line>
+<wait><:obj> <2> <1><5> <1> <1><0><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Moe<line>
+They're real useful for keepin' track of<line>
+your travels.<line>
+<wait><:obj> <1> <5> <1><0><line>
+<:obj> <1> <7> <9><6> <1><2><8> <5><line>
+<rname><diamond>Moe<line>
+If I remember correctly, I used to travel a<line>
+bunch...<line>
+<redname><diamond>Moe<line>
+And no matter where I went, I was the<line>
+center of attention...<line>
+<redname><diamond>Moe<line>
+I recorded loads of my heroic moments on<line>
+Shell Tapes...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1><4> <2> <0> <0><line>
+<:obj> <1> <7> <1> <1><2><8> <5><line>
+<:obj> <1> <5> <9><line>
+<rname><diamond>Moe<line>
+On this Shell Tape is...<line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <5> <0><line>
+is uh...<line>
+<:obj> <1> <9> <2> <1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <1> <9> <2> <0><line>
+[<wait_time> <2><0>]<line>
+<:obj> <1> <9> <2> <1><line>
+[<wait_time> <2><0>]<line>
+<:obj> <1> <9> <2> <0><line>
+[<wait_time> <2><0>]<line>
+Wait, it ain't here!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <0> <9> <2><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <1><5> <8> <1><0><line>
+[<wait_time> <3><0>]<line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <5> <1><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Moe<line>
+Wait, Starf, what're you doin'!? That's my...!<line>
+St-stop! Don't watch thaaaaaat!!!<line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <1><5> <3> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <2><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <1><6><line>
+<:obj> <2> <2><line>
+<:obj> <1> <1><1> <7> <0> <0><line>
+<:func> <1><4> <2> <0> <0><line>
+<:obj> <0> <9> <2><line>
+<:func> <1><0><line>
+<:obj> <1> <5> <1><2><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Y-you idiot- Th-this ain't what it looks like! I<line>
+picked that up by accident!<line>
+<redname><diamond>Moe<line>
+Don't you dare tell Ms. Ruby about this,<line>
+got it!? Sheesh...<line>
+<redname><diamond>Moe<line>
+Ugh, I shouldn't have used the Shellputer<line>
+at all...<line>
+<redname><diamond>Moe<line>
+Alright, playtime's over!<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Since we know this place is Ogura's Castle,<line>
+let's get a move on already!<line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <7> <1><1><8> <0> <3><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <3> <2><line>
+[<wait_time> <8>]<line>
+<:obj> <0> <1><2> <0> <2><0> <0><line>
+<:func> <8> <0> <1><5><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><1><1><0><8><line>
+<:obj> <1> <2><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <0><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:flagoff> <1><5><5><3><8><line>
+<:flagoff> <1><5><5><3><9><line>
+<:flagoff> <1><5><5><4><0><line>
+<:obj> <1> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:func> <8> <0> <9><9><line>
+<:func> <3> <2> <0><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:se><line>
+<rname><diamond>Moe<line>
+There are 3 <textcolor_d>Shell Tapes<textcolor_0> around here, so<line>
+get to searchin'!<line>
+<redname><diamond>Moe<line>
+Huh? 'Why do I have something like this'?<line>
+<redname><diamond>Moe<line>
+Weren't you payin' attention? I'm a shell<line>
+expert.<line>
+<redname><diamond>Moe<line>
+When it comes to shells, I know everythin'!<line>
+You can clap now, heh.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <7> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

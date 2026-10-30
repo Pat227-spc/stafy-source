@@ -1,0 +1,41 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 scene 2 (in-level table #241)
+//Block Range: $0 - $1E0
+//POINTER: 0x0814E5F0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><3><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><3><0><1><line>
+<:obj> <1> <6><line>
+[<wait_time> <4><0>]<line>
+<:se><line>
+<rname><diamond>Barrel Squid<line>
+Yo. The boss told us to patrol the area.<line>
+<redname><diamond>Barrel Squid<line>
+Ever since that stormy day, suspicious<line>
+guys have been showing up more. Stay<line>
+safe!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Barrel Squid<line>
+Yo. The boss told us to patrol the area.<line>
+<redname><diamond>Barrel Squid<line>
+Ever since that stormy day, suspicious<line>
+guys have been showing up more. Stay<line>
+safe!<line>
+<:end><line>
+<end>
+

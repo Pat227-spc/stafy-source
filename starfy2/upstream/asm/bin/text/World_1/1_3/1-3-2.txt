@@ -1,0 +1,108 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $798
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><3><1><0> <go> <1><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:obj> <2> <4><line>
+<:se><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Lovely<line>
+Oh my! Welcome!<line>
+It's been a while since I've seen<line>
+these adorable faces, hasn't it?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Whoa, it really is you!<line>
+I knew that way of speakin' was familiar...<line>
+<redname><diamond>Moe<line>
+But don't you live in the Sea of Ice?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Lovely<line>
+Oh, my darling little clam,<line>
+I'm so glad you remembered!<line>
+Ufu, let Ms. Lovely give you a kiss..<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Ack, no! I don't want a kiss!<line>
+Anyway, What're ya doin' here, Lovely?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Lovely<line>
+I moved here recently to<line>
+open this little <textcolor_d>shop<textcolor_0> of mine.<line>
+<redname><diamond>Lovely<line>
+I have a lot of <textcolor_d>pictures<textcolor_0> of cuties for sale.<line>
+If you want some,<line>
+be sure to bring me some <textcolor_d>pearls<textcolor_0>.<line>
+<redname><diamond>Lovely<line>
+If you buy a whole bunch,<line>
+I'll give you a kiss. Ufu...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Yeah, I'll pass on the kisses.<line>
+I am curious about those<line>
+cute girls though...<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Lovely<line>
+You can <textcolor_d>enter my Shop from the Map Screen<textcolor_0>.<line>
+<redname><diamond>Lovely<line>
+Oh, silly me! To celebrate our reunion,<line>
+I'll open the door behind me.<line>
+<:flagon> <1><3><1><0><line>
+<:func> <1><8> <1> <7><4><line>
+<redname><diamond>Lovely<line>
+I hope you find something marvelous in there.<line>
+Well, toodle-loo, boys!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Now that's what I'm talkin' about!<line>
+Hey, Starf'!<line>
+<redname><diamond>Moe<line>
+When ya collect a whole bunch of Pearls,<line>
+use'em to buy photos and<line>
+all kinds of stuff at Lovely's Shop.<line>
+<redname><diamond>Moe<line>
+Make sure to buy a bunch of<line>
+photos of cute girls!<line>
+Well, see ya later Lovely!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Lovely<line>
+Collect <textcolor_d>Pearls<textcolor_0><line>
+and buy all sorts of things, sugar.<line>
+<redname><diamond>Lovely<line>
+<textcolor_d>You can visit the Shop<textcolor_0><line>
+<textcolor_d>from the Map Screen.<textcolor_0><line>
+I'm looking forward to it... Ufu~<line>
+<:c><line>
+<:end><line>
+<end>
+

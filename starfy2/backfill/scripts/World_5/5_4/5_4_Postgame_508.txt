@@ -1,0 +1,38 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 post-game revisit chat (in-level table #508)
+//Block Range: $0 - $DA
+//POINTER: 0x0814EA1C
+//Backfill: English from SUT post-game post postgame_w05_r1jv87.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+[<wait_time> <1><5>]<line>
+<:func> <1><8> <1> <7><9><line>
+<:se><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><1> <1> <0> <1><line>
+[<wait_time> <6><0>]<line>
+<:flagon> <1><0><4><7><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <6><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:obj> <1> <6><line>
+<:flagon> <1><0><4><6><line>
+<:flagon> <1><0><4><7><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

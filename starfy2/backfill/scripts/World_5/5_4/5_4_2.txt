@@ -1,0 +1,59 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 scene 2 (in-level table #67)
+//Block Range: $0 - $396
+//POINTER: 0x0814E338
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_4/5_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><4><0><2> <go> <3><line>
+<:if> <5><4><0><1> <go> <2><line>
+<:if> <5><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><4><0><0><line>
+<rname><diamond>Cutout Kamone<line>
+Due to construction work, many bombs<line>
+have been placed before you<line>
+<redname><diamond>Cutout Kamone<line>
+If you run out of bombs, please see<line>
+construction supervisor <textcolor_d>Kamone<textcolor_0>...<line>
+<redname><diamond>Cutout Kamone<line>
+'Ah... Since I'm not there, talk to this<line>
+cutout if you need more bombs.'<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Cutout Kamone<line>
+If you run out of bombs, please see<line>
+construction supervisor <textcolor_d>Kamone<textcolor_0>...<line>
+<redname><diamond>Cutout Kamone<line>
+'Ah... Since I'm not there, talk to this<line>
+cutout if you need more bombs.'<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Cutout Kamone<line>
+Oh...you need more bombs...? *Sigh* here<line>
+you go...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <2><0> <4><line>
+<:func> <1><2> <4> <1><0><1><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Cutout Kamone<line>
+Construction Work, Complete<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-2 scene 3 (in-level table #25)
+//Block Range: $0 - $E2
+//POINTER: 0x0814E290
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_2/2_2_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Oh yeah, an old man named Mechani lives<line>
+near here. He's been doin' research on<line>
+<textcolor_d>Blimps<textcolor_0>.<line>
+<redname><diamond>Moe<line>
+Why don't ya go over and say hi?<line>
+<:c><line>
+<end>
+

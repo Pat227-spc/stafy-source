@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 scene 1 (in-level table #330)
+//Block Range: $0 - $212
+//POINTER: 0x0814E754
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_3/9_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><3><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:flagon> <9><3><0><0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Man~ The weather's real nice here.<line>
+Perfect for a little break...<line>
+<redname><diamond>Moe<line>
+I totally get why Loch Ress is such a<line>
+popular place to relax.<line>
+<redname><diamond>Moe<line>
+How 'bout we take a little break? Go take a<line>
+walk or somethin'.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+The weather WAS nice, but now it's gettin' a<line>
+little hot...<line>
+<redname><diamond>Moe<line>
+Days like this'd be perfect for some good<line>
+ol' ice cream...<line>
+<:end><line>
+<end>
+

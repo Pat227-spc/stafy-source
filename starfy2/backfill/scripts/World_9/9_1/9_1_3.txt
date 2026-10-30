@@ -1,0 +1,45 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 scene 3 (in-level table #322)
+//Block Range: $0 - $262
+//POINTER: 0x0814E734
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_1/9_1_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><1><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <9><1><0><2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+About those weird boards floatin' in<line>
+midair...<line>
+<redname><diamond>Moe<line>
+Looks like they've got parts that'll hurt<line>
+ya if you touch 'em.<line>
+<redname><diamond>Moe<line>
+But don't worry. Seems the top and bottom<line>
+swap <textcolor_d>every so often<textcolor_0>.<line>
+<redname><diamond>Moe<line>
+If ya keep an eye on those <textcolor_d>3 lamps<textcolor_0>, you<line>
+can probably tell when...?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Watch the <textcolor_d>3 lamps<textcolor_0> closely and time it for<line>
+when the top and bottom switch.<line>
+<redname><diamond>Moe<line>
+Mess it up and it's gonna hurt.<line>
+<:end><line>
+<end>
+

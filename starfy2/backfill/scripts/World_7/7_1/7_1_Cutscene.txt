@@ -1,0 +1,99 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 cutscene (0x88ed2b8)
+//Block Range: $0 - $55C
+//POINTER: 0x811f0c8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:func> <0> <0><line>
+<rname><diamond>Taiblond<line>
+Going to Pufftop is so tiring! Hmm~? What<line>
+is that? A child? Is it?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Puchi Ogura #7<line>
+Hmm... It's just not doin' it for me... Smashin'<line>
+nothin' but <textcolor_d>rocks<textcolor_1> isn't any fun~<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Taiblond<line>
+Hi~! What are you doing? Please let this<line>
+lovely lady interview you~!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><0><line>
+<rname><diamond>Puchi Ogura #7<line>
+Oh! Perfect timing! Here ya go, old lady!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <2><line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Taiblond<line>
+I am NOT an old lady! Wait, what is this? This<line>
+sticky, gooey thing?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <3><line>
+<rname><diamond>Puchi Ogura #7<line>
+Gyahahahahaha!! Look at your weird<line>
+face~!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Taiblond<line>
+What do you think you are doing!? You<line>
+little brat!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <5><line>
+<rname><diamond>Puchi Ogura #7<line>
+Uh... actually, there's a <textcolor_d>bomb<textcolor_1> over there<line>
+too...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <6><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <7><line>
+<rname><diamond>Puchi Ogura #7<line>
+Here! One more for good measure!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <8><line>
+<rname><diamond>Taiblond<line>
+Nooooooooo!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <9><line>
+<rname><diamond>Puchi Ogura #7<line>
+Gyahahahahaha!!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

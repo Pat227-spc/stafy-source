@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 scene 2 (in-level table #273)
+//Block Range: $0 - $F4
+//POINTER: 0x0814E670
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_2/7_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Gah, here too!? Quick, jump in the water,<line>
+Starf!<line>
+<redname><diamond>Moe<line>
+The boulder'll lose some impact hittin' the<line>
+water, so you should be fine, right?<line>
+<redname><diamond>Moe<line>
+What're ya waitin' for? Swan dive in there!<line>
+<end>
+

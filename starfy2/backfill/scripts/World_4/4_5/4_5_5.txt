@@ -1,0 +1,30 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 5 (in-level table #226)
+//Block Range: $0 - $100
+//POINTER: 0x0814E5B4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><5><2><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Ookids<line>
+It's so warm~ It's so warm~! We'll absolutely<line>
+never leave~!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Ookids<line>
+The secret door's in the upper right of<line>
+this room~ We unlocked it for you~<line>
+<:end><line>
+<end>
+

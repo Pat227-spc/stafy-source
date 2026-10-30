@@ -1,0 +1,63 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-6 post-game revisit chat (in-level table #152)
+//Block Range: $0 - $30A
+//POINTER: 0x0814E48C
+//Backfill: English from SUT post-game post postgame_w08_r24izz.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><3><line>
+<:func> <1><4> <1> <3><8> <1><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><1> <2><line>
+[<wait_time> <4><0>]<line>
+<:func> <4> <2><line>
+<:se><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <2><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <4><line>
+<:if> <1><0><0><0> <go> <1><line>
+<:flagon> <1><0><0><0><line>
+<:if> <1><5><2><2><6> <go> <1><0><line>
+<rname><diamond>Puchi Ogura #8<line>
+Lantata~ Lantata~...<line>
+<redname><diamond>Puchi Ogura #8<line>
+I'm not gonna lose this time~ Gimme your<line>
+best shot~ Lantata~<line>
+<:c><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <1><1> <1><0><1><line>
+<:exit><line>
+<wait>:<1><line>
+<rname><diamond>Puchi Ogura #8<line>
+Weakling~ Weakling~ Lantata~<line>
+<redname><diamond>Puchi Ogura #8<line>
+Alright! I'll beat you as many times as it<line>
+takes~ Lantata~<line>
+<:c><line>
+<wait>:<go> <2><line>
+<wait>:<1><0><line>
+<rname><diamond>Puchi Ogura #8<line>
+Grrr! One more time! Lantata~!<line>
+<redname><diamond>Puchi Ogura #8<line>
+I'm starting to think I can't win though...<line>
+Lantata...<line>
+<:c><line>
+<wait>:<go> <2><line>
+<end>
+

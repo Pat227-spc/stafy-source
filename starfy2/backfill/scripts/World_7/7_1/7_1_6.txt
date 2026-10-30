@@ -1,0 +1,34 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 6 (in-level table #265)
+//Block Range: $0 - $152
+//POINTER: 0x0814E650
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><1><0><7> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <7><1><0><7><line>
+<rname><diamond>Crawbaby<line>
+W-waaaaaaaaah!! I was so scared *snip*!<line>
+Wait- Teddy's gone!!!<line>
+<redname><diamond>Crawbaby<line>
+Teddy, where are you *snip*? You're<line>
+around here, right *snip*!?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Crawbaby<line>
+I'm worried about you, Teddyyyyyy!!!<line>
+<:end><line>
+<end>
+

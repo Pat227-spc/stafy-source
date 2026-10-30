@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 1 (in-level table #378)
+//Block Range: $0 - $278
+//POINTER: 0x0814E814
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Lumi<line>
+Thankfully we escaped the pirates' hideout<line>
+unharmed.<line>
+<redname><diamond>Lumi<line>
+You must hurry and meet up with Moe again,<line>
+no?<line>
+<redname><diamond>Lumi<line>
+However, knowing Moe's personality, I don't<line>
+think he's worried about you at all...<line>
+<redname><diamond>Lumi<line>
+Oh right! These platforms are super<line>
+bouncy, so be careful.<line>
+<redname><diamond>Lumi<line>
+Well, this is where we part ways Starfy.<line>
+Goodbye!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><6><0><0><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

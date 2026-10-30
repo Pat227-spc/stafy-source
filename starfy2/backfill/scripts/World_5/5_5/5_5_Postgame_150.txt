@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 post-game revisit chat (in-level table #150)
+//Block Range: $0 - $19A
+//POINTER: 0x0814E484
+//Backfill: English from SUT post-game post postgame_w05_r1jv87.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pursley<line>
+Starfy! Please listen to me- Just for a<line>
+little while!<line>
+<redname><diamond>Pursley<line>
+Moon said she wanted to break up with me<line>
+out of the blue!<line>
+<redname><diamond>Pursley<line>
+She was supposed to get me a present for<line>
+my birthday! I was so excited...<line>
+<redname><diamond>Pursley<line>
+When's my birthday? Tomorrow, why?<line>
+<:end><line>
+<end>
+

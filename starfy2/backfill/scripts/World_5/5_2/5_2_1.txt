@@ -1,0 +1,130 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-2 scene 1 (in-level table #56)
+//Block Range: $0 - $860
+//POINTER: 0x0814E30C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_2/5_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><2><0><1> <go> <2><line>
+<:if> <5><2><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><2><0><0><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<rname><diamond>Shurikit<line>
+Oh I give up...what do I do, mew...?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Yo, what's wrong?<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+<:obj> <2> <4><line>
+<rname><diamond>Shurikit<line>
+Well, I just dropped my family's precious<line>
+heirloom bell into this water, mew...<line>
+<redname><diamond>Shurikit<line>
+Wait, mew you two can swim there and get it,<line>
+can't mew!?<line>
+<redname><diamond>Shurikit<line>
+Please help me! Go find my bell, I'm begging<line>
+mew!<line>
+<redname><diamond>Shurikit<line>
+And I'll pay mew back too, of course!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Ah,<line>
+[<wait_time> <6><0>]<line>
+I see what you're gettin' at!<line>
+<redname><diamond>Moe<line>
+In that case, you can introduce me to a<line>
+real cutie pie!<line>
+[<wait_time> <3><0>]<line>
+Let's roll, Starf!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Shurikit<line>
+Don't put words in my mouth, meow...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:obj> <1> <9> <2> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hurry up! We're goin' to get that bell outta<line>
+the water!<line>
+<:end><line>
+<wait>:<2><line>
+<:if> <5><2><0><4> <go> <3><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:flagon> <5><2><0><4><line>
+<:flagon> <1><5><0><0><4><line>
+<:flagoff> <1><5><5><2><1><line>
+<:func> <1> <2><line>
+<:func> <6> <2> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Shurikit<line>
+Thank mew, guys!<line>
+<redname><diamond>Shurikit<line>
+That reminds me... Are mew guys the ones<line>
+<textcolor_d>Orisu<textcolor_0> mentioned?<line>
+<redname><diamond>Shurikit<line>
+Purrfect timing! As thanks, I'll teach<line>
+mew my special skill!<line>
+<:c><line>
+<wait><:obj> <2> <5> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Moe<line>
+Wait, WHAT!?<line>
+[<wait_time> <3><0>]<line>
+You just can't change your mind, we had a<line>
+deal!!!<line>
+<redname><diamond>Moe<line>
+You were supposed to introduce me to a<line>
+cutie pie!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Shurikit<line>
+No, MEW decided that on your own!<line>
+<redname><diamond>Shurikit<line>
+Anyway, I'll put a <textcolor_d>sign<textcolor_0> past that door, so<line>
+copy what it shows, mew!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><0><line>
+<:obj> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Shurikit<line>
+Move just like it says on the <textcolor_d>sign<textcolor_0>, mew!<line>
+<:end><line>
+<end>
+

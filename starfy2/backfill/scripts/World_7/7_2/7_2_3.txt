@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 scene 3 (in-level table #274)
+//Block Range: $0 - $166
+//POINTER: 0x0814E674
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_2/7_2_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Ya remember how I keep sayin' that pebbles<line>
+fall before the boulders, right?<line>
+<redname><diamond>Moe<line>
+That means DON'T stand under the pebbles<line>
+when they come down!<line>
+<redname><diamond>Moe<line>
+Instead wait for an opening. After it falls,<line>
+you'll be safe to push onwards!<line>
+<:end><line>
+<end>
+

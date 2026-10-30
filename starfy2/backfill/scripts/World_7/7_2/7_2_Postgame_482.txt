@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 post-game revisit chat (in-level table #482)
+//Block Range: $0 - $1BE
+//POINTER: 0x0814E9B4
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Tutweets<line>
+*Squawk*! We wanna swim! Let us swim! We<line>
+wanna learn how to swim!!!<line>
+<:c><line>
+<redname><diamond>Professoar<line>
+Now that's enough, *chirp*! There are<line>
+folks who'd love to fly like you but can't,<line>
+*chirp*!<line>
+<redname><diamond>Professoar<line>
+Oh, Starfy! I must apologize...<line>
+<redname><diamond>Professoar<line>
+When you saved these little ones, they saw<line>
+how you swam, and that made them want to<line>
+learn how to as well...<line>
+<:end><line>
+<end>
+

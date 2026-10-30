@@ -1,0 +1,293 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 scene 2 (in-level table #331)
+//Block Range: $0 - $122C
+//POINTER: 0x0814E758
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_3/9_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><3><0><7> <go> <4><line>
+<:if> <9><3><0><5> <go> <3><line>
+<:if> <9><3><0><4> <go> <2><line>
+<:if> <9><3><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <2> <0><line>
+<:func> <6> <2> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Well if it ain't <textcolor_d>Fluffy<textcolor_0>! I thought you lived in<line>
+the Sea of Ice. Didja decide to move?<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+......<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Uh, Earth to Fluffy? Say somethin' if you<line>
+can hear me!<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+...hee hee...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Wha-!?<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+Hyaheehoo~ At this very moment, I am<line>
+receiving mental messages from the<line>
+cosmos...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Hey...a-are you alright...?<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+Ah, Moe and Starfy. When did you two get<line>
+here?<line>
+<redname><diamond>Fluffy<line>
+Lately it's been so hot, my head's gone all<line>
+foggy...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Then take off that costume of yours!<line>
+<redname><diamond>Moe<line>
+This isn't the sorta weather to wear that<line>
+thing! You can barely stand up straight!<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+No way! This costume is...important to<line>
+me...hee hee.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+...hee hee...<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+Hyaheehoo~ Us coshtumed folksh don't<line>
+eat picklesh...hee hee~<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+He's in bad shape... Hey, Starf!<line>
+<redname><diamond>Moe<line>
+Ya gotta get him somethin' cold... I got it!<line>
+<redname><diamond>Moe<line>
+This lake's way cooler underground. Maybe<line>
+you'll find something there!<line>
+<redname><diamond>Moe<line>
+What's that? 'You're nervous about goin'<line>
+alone'? Alright fine, I'll go with ya too.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><3><0><1><line>
+<:obj> <2> <2> <0><line>
+<:func> <1><4> <1> <-><1><2><2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <2> <0><line>
+<:se><line>
+<rname><diamond>Fluffy<line>
+I think there's some snow that hasn't<line>
+melted yet, down under the lake...hee hee~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <-><1><2><2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:func> <1> <2> <0><line>
+<:func> <6> <2> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Huh!? I know we need somethin' cold, but a<line>
+whole snowman...?<line>
+<redname><diamond>Moe<line>
+*sigh* I don't wanna think about it. Come<line>
+on, hand it over!<line>
+<wait><:obj> <3> <2> <1><line>
+<:obj> <2> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Alright, it's time to snap out of it, Fluffy!<line>
+<:c><line>
+<wait><:obj> <2> <7> <8> <0> <2><0><line>
+[<wait_time> <4>]<line>
+<:obj> <3> <7> <3><2> <2><4><0> <4><0><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><8> <1> <6><5><line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <2>]<line>
+<:obj> <3> <2> <0><line>
+[<wait_time> <2>]<line>
+<:func> <1><8> <1> <6><2><line>
+<:obj> <4> <2> <1><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:obj> <2> <9> <2> <1><line>
+<:obj> <2> <1><1> <1> <-><5><6> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:flagoff> <1><5><6><0><5><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+H-huh... Oh, hey Starfy and Moe. What's<line>
+going on?<line>
+<redname><diamond>Fluffy<line>
+Oh, you came to see my costume, didn't you!<line>
+Aww you guys~<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+He's acting like nothin' happened at all...<line>
+<:c><line>
+<redname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+Hey, no need to be shy!<line>
+<wait><:sd><line>
+<rname><diamond>Fluffy<line>
+You want a costume right?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Fluffy<line>
+Of course you do! I thought you might!<line>
+<redname><diamond>Fluffy<line>
+In that case, I'll leave it just beyond here.<line>
+<redname><diamond>Fluffy<line>
+I'll be waiting over by the goal. Oh, and I<line>
+wrote some instructions for it on that <textcolor_d>sign<textcolor_0><line>
+over there.<line>
+<redname><diamond>Fluffy<line>
+I'm rooting for you!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <9><3><0><5><line>
+<:flagon> <9><3><0><6><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Fluffy<line>
+Oh, I see... That's too bad. Well, if you want<line>
+the costume, just come back here.<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <9><3><0><5><line>
+<:func> <1><4> <1> <-><1><2><2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <2> <1><line>
+<rname><diamond>Fluffy<line>
+<:obj> <1> <4><line>
+Oh, did you come back for the costume?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Fluffy<line>
+Of course you do! I thought you might!<line>
+<redname><diamond>Fluffy<line>
+In that case, I'll leave it just beyond here.<line>
+<redname><diamond>Fluffy<line>
+I'll be waiting over by the goal. Oh, and I<line>
+wrote some instructions for it on that <textcolor_d>sign<textcolor_0><line>
+over there.<line>
+<redname><diamond>Fluffy<line>
+I'm rooting for you!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <9><3><0><6><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Fluffy<line>
+Aww, you really want to wear it, don't you?<line>
+Just be honest~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><1><2><2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Fluffy<line>
+How does the new costume fit you? Is it<line>
+comfortable?<line>
+<redname><diamond>Fluffy<line>
+It's yours to use, and it'll be useful in a<line>
+lot of places.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

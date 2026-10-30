@@ -1,0 +1,73 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 post-game revisit chat (in-level table #461)
+//Block Range: $0 - $32A
+//POINTER: 0x0814E960
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><3><line>
+<:se><line>
+<rname><diamond>Coalbies<line>
+I don't know why, but the Ookids keep<line>
+coming to check on the hot spring's<line>
+temperature.<line>
+<redname><diamond>Coalbies<line>
+They come down a lot to make sure the<line>
+temperature's just right. I wonder why...<line>
+<wait><:sd><line>
+<rname><diamond>Coalbies<line>
+Oh, sorry, were you about to leave?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Coalbies<line>
+Come visit us again sometime~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <4><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Coalbies<line>
+Oh ok. Let's talk a little more then.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Coalbies<line>
+Oh, sorry, were you about to leave?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait>[<wait_time> <1>]<line>
+<:sel> <1> <go> <2><0><line>
+<rname><diamond>Coalbies<line>
+Come visit us again sometime~<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <4><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Coalbies<line>
+Oh ok. Let's talk a little more then.<line>
+<:end><line>
+<end>
+

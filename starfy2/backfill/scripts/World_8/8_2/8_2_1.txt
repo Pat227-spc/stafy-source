@@ -1,0 +1,119 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-2 scene 1 (in-level table #86)
+//Block Range: $0 - $772
+//POINTER: 0x0814E384
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_2/8_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><2><0><0> <go> <1><line>
+<:flagon> <8><2><0><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pufftop Soldier<line>
+Ah, My Prince! I have been waiting for you.<line>
+<redname><diamond>Pufftop Soldier<line>
+In light of Ogura's return, I have come up<line>
+with a new technique for you.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+That's just what we needed! What're ya<line>
+waitin' for, teach ol' Starfy the move<line>
+already!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+Well, the technique is very dangerous and<line>
+isn't very easy to teach...<line>
+<redname><diamond>Pufftop Soldier<line>
+So in order to see if you can safely learn<line>
+this technique, I have prepared a test to<line>
+measure your true power.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+*sigh* Of course... So? The heck's this<line>
+'test' of yours?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+I shall open 3 doors within this room.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1><1> <3><line>
+<:flagon> <8><2><0><1><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><1> <4><line>
+<:flagon> <8><2><0><2><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><1> <5><line>
+<:flagon> <8><2><0><3><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><1> <1><line>
+<rname><diamond>Pufftop Soldier<line>
+Clear the 3 <textcolor_d>Vehicle<textcolor_0> Areas beyond those<line>
+doors, then come see me.<line>
+<redname><diamond>Pufftop Soldier<line>
+I shall be waiting behind this door.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Tch, what a cheapskate...<line>
+<:obj> <1> <9> <2> <1><line>
+Well, you heard the guy, Starf. Finish those<line>
+trials of his.<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Pufftop Soldier<line>
+It is a very dangerous technique, so I wish<line>
+you luck, My Prince.<line>
+<:c><line>
+<wait><:flagon> <8><2><0><9><line>
+<:func> <1><8> <1> <7><4><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <0> <0><line>
+<:obj> <2> <7> <1><6> <1><2><8> <1><0><line>
+[<wait_time> <1><0>]<line>
+<:obj> <2> <2><line>
+[<wait_time> <1><0>]<line>
+<:flagoff> <8><2><0><9><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <1> <9> <2> <1><line>
+<:func> <1> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Didja clear all of the <textcolor_d>Vehicle<textcolor_0> Area trials<line>
+yet?<line>
+<redname><diamond>Moe<line>
+Until ya do, this door won't open.<line>
+<:end><line>
+<end>
+

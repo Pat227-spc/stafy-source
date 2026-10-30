@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-4 scene 1 (in-level table #336)
+//Block Range: $0 - $DC
+//POINTER: 0x0814E76C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_4/9_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <9><4><0><0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Looks like you gotta use both the Potty<line>
+Boats AND Ginjis to get around.<line>
+<redname><diamond>Moe<line>
+Make sure ya don't get lost, Starf!<line>
+<:end><line>
+<wait><line>
+<end>
+

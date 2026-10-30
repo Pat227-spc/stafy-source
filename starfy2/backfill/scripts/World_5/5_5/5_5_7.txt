@@ -1,0 +1,154 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 scene 7 (in-level table #76)
+//Block Range: $0 - $AB4
+//POINTER: 0x0814E35C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_5/5_5_7.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><5><5><0> <go> <3><line>
+<:if> <5><5><4><9> <go> <2><line>
+<:if> <5><5><4><1> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><5><4><1><line>
+<:func> <1> <3><line>
+<:func> <6> <1> <1><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <1><line>
+<:flagoff> <1><5><5><2><3><line>
+<:func> <3> <2><line>
+<:se><line>
+<:obj> <2> <4><line>
+<rname><diamond>Moon<line>
+Pursley! I can't believe you've been locked<line>
+away... Is the accessory safe?<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+The accessory!? That's not the issue<line>
+here! That little girl won't let me out until I<line>
+love her!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+The heck!? That's messed up! But whadda<line>
+we do?<line>
+<redname><diamond>Moe<line>
+We don't have the <textcolor_d>key<textcolor_0>, so we can't let ya<line>
+out...<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+Actually...that girl might have it!<line>
+<redname><diamond>Pursley<line>
+She just passed by, so she couldn't have<line>
+gone far!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Perfect! Alright, Starf, go and get that<line>
+key!<line>
+<redname><diamond>Moe<line>
+Go and use your <textcolor_d>Star Spin<textcolor_0> to take it by<line>
+force!<line>
+<redname><diamond>Moe<line>
+But don't let your guard down, who knows<line>
+what that kid'll do!<line>
+<redname><diamond>Moe<line>
+Knowing the brat, she'll do anything to get<line>
+that key back!<line>
+<redname><diamond>Moe<line>
+If she snatches it back, don't give up!<line>
+Take it back again!<line>
+<redname><diamond>Moe<line>
+Then keep runnin' until she gives up!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2><line>
+<:obj> <2> <2> <1><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:obj> <1> <9> <2><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Grab the <textcolor_d>key<textcolor_0> from her and keep on runnin'!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+She shouldn't be too hard to find. Maybe<line>
+she's still in this room?<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:func> <6> <1><line>
+<:flagon> <5><5><5><0><line>
+<:flagon> <5><5><4><0><line>
+[<wait_time> <2><0>]<line>
+<:flagon> <5><5><5><1><line>
+<:obj> <3> <0><line>
+<:obj> <2> <4><line>
+<rname><diamond>Moon<line>
+Oh, Pursley! Let's hurry and go buy my<line>
+accessory!!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+Huh? O-oh, right! Oh, and thank you for the<line>
+help.<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Now all that's left is to teach her a<line>
+lesson!...Wait, the door's shut tight!?<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+Hm... Do you think that <textcolor_d>key<textcolor_0> might work on<line>
+that door too?<line>
+<redname><diamond>Pursley<line>
+That girl used it to open and close more<line>
+than just my cell...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Got it! Alright, worth a shot!<line>
+<:obj> <1> <9> <2><line>
+Starf, give it a try!<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1><line>
+<:obj> <3> <4><line>
+<rname><diamond>Pursley<line>
+Were you able to open it with the <textcolor_d>key<textcolor_0>? Well<line>
+then, good luck!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Moon<line>
+Hey! Hurry up with my accessory!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Pursley... Wake up already, pal... It's<line>
+enough to make a guy cry just watchin'...<line>
+<:end><line>
+<end>
+

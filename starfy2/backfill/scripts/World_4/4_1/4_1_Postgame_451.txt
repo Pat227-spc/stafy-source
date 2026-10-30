@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 post-game revisit chat (in-level table #451)
+//Block Range: $0 - $1F0
+//POINTER: 0x0814E938
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Jellata<line>
+Oh, Starfy! I wanna say thanks for the<line>
+other day.<line>
+<redname><diamond>Jellata<line>
+Since then, writing letters has become a<line>
+hobby of mine.<line>
+<redname><diamond>Jellata<line>
+Next time, I'll write you a letter!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jellata<line>
+I'm pen pals with Mr Big Barrel Squid in the<line>
+Pitch Black Cavern.<line>
+<redname><diamond>Jellata<line>
+He tends to send me a lot of poems.<line>
+<:end><line>
+<end>
+

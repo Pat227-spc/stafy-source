@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 4 (in-level table #284)
+//Block Range: $0 - $1C2
+//POINTER: 0x0814E69C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><6><2> <go> <1><line>
+<:if> <7><3><6><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+This <textcolor_d>photo<textcolor_0> shows two paths that are<line>
+different widths!<line>
+<redname><diamond>Moe<line>
+But if you think something seems outta<line>
+place, just give it a <textcolor_d>Star Spin<textcolor_0>!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Usin' hidden doors...what a coward that<line>
+brat is!<line>
+<:end><line>
+<end>
+

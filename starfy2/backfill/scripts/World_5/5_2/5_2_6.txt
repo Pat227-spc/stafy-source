@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-2 scene 6 (in-level table #61)
+//Block Range: $0 - $1BE
+//POINTER: 0x0814E320
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_2/5_2_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey! Starfy! See the <textcolor_d>current<textcolor_0> in that<line>
+narrow passage to the right?<line>
+<redname><diamond>Moe<line>
+If ya ride that current, it oughta blast you<line>
+way up into the sky!<line>
+<redname><diamond>Moe<line>
+If ya wanna fly even higher, <textcolor_d>dive down<line>
+deeper!<textcolor_0> The deeper you go, <textcolor_d>the higher you<line>
+fly!<textcolor_0><line>
+<redname><diamond>Moe<line>
+Flyin' high feels great, don't it!<line>
+<:end><line>
+<end>
+

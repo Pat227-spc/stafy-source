@@ -1,0 +1,243 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Lovely's Shop Dialogue (Pointer)
+
+//POINTER #0 @ $2D41AC - STRING #0 @ $2D4090
+
+#ACTIVETBL(Story)
+
+#WRITE(GBA,$2D41AC)
+I'm sorry you had to come all this way, sugar.<linealt>
+The new items haven't come in yet.<end>
+
+
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #001 NAME:		Lovely's Shop Dialogue (Pointer)
+
+//POINTER #0 @ $2D42A0 - STRING #0 @ $2D41B8
+
+#WRITE(GBA,$2D42A0)
+Why don't you go and collect<linealt>
+some more pearls and then come back?<linealt>
+I'll be waiting for you.<end>
+
+
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Lovely's Shop Dialogue (Pointer)
+
+//POINTER #0 @ $2D43C4 - STRING #0 @ $2D42AC
+
+#WRITE(GBA,$2D43C4)
+Oh my, you bought everything!<linealt>
+That was the last item I had.<end>
+
+
+//POINTER #1 @ $2D43C8 - STRING #1 @ $2D42F0
+
+#WRITE(GBA,$2D43C8)
+Awww, don't look so sad, sugar.<textcolor_6><heart><textcolor_0><end>
+
+
+//POINTER #2 @ $2D43CC - STRING #2 @ $2D4338
+
+#WRITE(GBA,$2D43CC)
+I'll be selling some new items in a while.<end>
+
+
+//POINTER #3 @ $2D43D0 - STRING #3 @ $2D4374
+
+#WRITE(GBA,$2D43D0)
+So until then, make sure you<linealt>
+keep on collecting those pearls.<linealt>
+Ufufufufu<textcolor_6><heart><textcolor_0><end>
+
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Lovely's Shop (Pointer)
+
+//POINTER #0 @ $2D491C - STRING #0 @ $2D43DC
+
+#WRITE(GBA,$2D491C)
+Welcome, hun!<textcolor_6><heart><textcolor_0><linealt>
+Feel free to take<linealt>
+your time while you browse.<end>
+
+
+//POINTER #1 @ $13978C - STRING #1 @ $2D3548
+
+#WRITE(GBA,$13978C)
+You want the <textcolor_6><end>
+//Åw<end>
+
+
+//POINTER #2 @ $139798 - STRING #2 @ $2D354C
+
+#WRITE(GBA,$139798)
+<textcolor_0>,<end>
+//Åx<end>
+
+
+//POINTER #3 @ $2D4928 - STRING #3 @ $2D4418
+
+#WRITE(GBA,$2D4928)
+<line>
+Right?<end>
+
+
+//POINTER #4 @ $2D492C - STRING #4 @ $2D443C
+
+#WRITE(GBA,$2D492C)
+Sorry hun-bun~<linealt>
+You don't have enough pearls...<end>
+
+
+//POINTER #5 @ $2D4930 - STRING #5 @ $2D446C
+
+#WRITE(GBA,$2D4930)
+Didn't you already buy this?<linealt>
+Silly boy.<end>
+
+
+//POINTER #6 @ $2D4934 - STRING #6 @ $2D449C
+
+#WRITE(GBA,$2D4934)
+Thanks, hun~<textcolor_6><heart><heart><heart><textcolor_0><linealt>
+Let me give you a kiss, Mwah!<end>
+
+
+//POINTER #7 @ $2D4938 - STRING #7 @ $2D44D0
+
+#WRITE(GBA,$2D4938)
+What!?<linealt>
+Don't tease me like that!<end>
+
+
+//POINTER #8 @ $2D493C - STRING #8 @ $2D4500
+
+#WRITE(GBA,$2D493C)
+Oh?<linealt>
+Leaving so soon?<end>
+
+
+//POINTER #9 @ $2D4940 - STRING #9 @ $2D4520
+
+#WRITE(GBA,$2D4940)
+Awwwww!<linealt>
+Leaving so soon?<end>
+
+
+//POINTER #10 @ $2D4944 - STRING #10 @ $2D4540
+
+#WRITE(GBA,$2D4944)
+Aw... I'll miss you.<linealt>
+Come again~<end>
+
+
+//POINTER #11 @ $2D4948 - STRING #11 @ $2D4568
+
+#WRITE(GBA,$2D4948)
+Make sure to come back now, you hear?<linealt>
+I'll be waiting.<end>
+
+
+//POINTER #12 @ $2D494C - STRING #12 @ $2D4598
+
+#WRITE(GBA,$2D494C)
+I knew you wanted to stay here with me.<textcolor_6><heart><textcolor_0><end>
+
+
+//POINTER #13 @ $2D4950 - STRING #13 @ $2D45D4
+
+#WRITE(GBA,$2D4950)
+Ufufufu...<linealt>
+Stay as looooong as you want, sugar~<textcolor_6><heart><textcolor_0><end>
+
+
+//POINTER #14 @ $2D4954 - STRING #14 @ $2D460C
+
+#WRITE(GBA,$2D4954)
+Oh my, You're Amazing!<textcolor_6><heart><textcolor_0><linealt>
+You bought everything I had!<end>
+
+
+//POINTER #15 @ $2D4958 - STRING #15 @ $2D4664
+
+#WRITE(GBA,$2D4958)
+For buying so much from me,<linealt>
+I'll throw in a little extra.<linealt>
+Free<textcolor_6><heart><textcolor_0>of<textcolor_6><heart><textcolor_0>charge~<textcolor_6><heart><heart><heart><heart><textcolor_0><end>
+
+
+//POINTER #16 @ $2D495C - STRING #16 @ $2D46C4
+
+#WRITE(GBA,$2D495C)
+I don't have anything else to sell~!<linealt>
+Is this what you call being sold out?<end>
+
+
+//POINTER #17 @ $2D4960 - STRING #17 @ $2D4708
+
+#WRITE(GBA,$2D4960)
+Oh, don't look so disappointed, honey.<linealt>
+You can visit little old me anytime!<end>
+
+
+//POINTER #18 @ $2D4964 - STRING #18 @ $2D4754
+
+#WRITE(GBA,$2D4964)
+You miiight get to see something amazing~<linealt>
+Ufufufufu...<textcolor_6><heart><textcolor_0><end>
+
+
+//POINTER #19 @ $2D4968 - STRING #19 @ $2D47A8
+
+#WRITE(GBA,$2D4968)
+Oh! Come to visit have you?<linealt>
+That makes me so happy!<end>
+
+
+//POINTER #20 @ $2D496C - STRING #20 @ $2D47E0
+
+#WRITE(GBA,$2D496C)
+<linealt>
+Oh no~!<end>
+
+
+//POINTER #21 @ $2D4970 - STRING #21 @ $2D47EC
+
+#WRITE(GBA,$2D4970)
+What a relief!<linealt>
+That's my most attractive feature!<end>
+
+
+//POINTER #22 @ $2D4974 - STRING #22 @ $2D4820
+
+#WRITE(GBA,$2D4974)
+Ufu,<linealt>
+it's just the love sickness<linealt>
+that made me look that way.<end>
+
+
+//POINTER #23 @ $2D4978 - STRING #23 @ $2D4850
+
+#WRITE(GBA,$2D4978)
+Ahh~<linealt>
+Blonde looks so good on me~!<end>
+
+
+//POINTER #24 @ $2D497C - STRING #24 @ $2D4878
+
+#WRITE(GBA,$2D497C)
+Ufufufufu<textcolor_6><heart><textcolor_0> Oh, Stop it you,<textcolor_6><heart><heart><textcolor_0><linealt>
+Ufufufufufufufufufu<textcolor_6><heart><heart><heart><heart><heart><textcolor_0><end>
+
+
+//POINTER #25 @ $2D4980 - STRING #25 @ $2D48E0
+
+#WRITE(GBA,$2D4980)
+Shut your mouth!<linealt>
+How many times are you<linealt>
+going to say the same thing!?<end>
+

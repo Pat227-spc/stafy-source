@@ -1,0 +1,108 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 3 (in-level table #236)
+//Block Range: $0 - $7A2
+//POINTER: 0x0814E5DC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><2><1><1> <go> <2><line>
+<:if> <6><2><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><2><0><2><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hm? Seems like there's writing here<line>
+too...'The Tidy Tune'?<line>
+<redname><diamond>Moe<line>
+'Apple-colored to the piggy's room,<line>
+honey-colored to the birdie's room,<line>
+sky-colored to the fishy's room.'<line>
+<redname><diamond>Moe<line>
+A beautiful room is a great success...is<line>
+what it says anyways.<line>
+<redname><diamond>Moe<line>
+Oh, this is real easy. It just wants you to<line>
+put those balls in the right place.<line>
+<redname><diamond>Moe<line>
+But knowing how much of an idiot you are,<line>
+you could...No, you will mess this up<line>
+somehow!<line>
+<redname><diamond>Moe<line>
+Well, you can try at least. When you mess<line>
+up, just talk to me.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+'Apple-colored to the piggy's room,<line>
+honey-colored to the birdie's room,<line>
+sky-colored to the fishy's room.'<line>
+<redname><diamond>Moe<line>
+A beautiful room is a great success...is<line>
+what it says anyways.<line>
+<redname><diamond>Moe<line>
+Um... basically... A-anyway! You gotta tidy<line>
+up!<line>
+<redname><diamond>Moe<line>
+It mentions the colors of an apple and the<line>
+sky. So it wants you to organize 'em right?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Hm? What, didja mess up? Alright...<line>
+<wait><:sd><line>
+<rname><diamond>Moe<line>
+Wanna start over?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Moe<line>
+Gotcha, just gimme a sec.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagoff> <6><2><0><8><line>
+<:flagoff> <6><2><0><9><line>
+<:flagoff> <6><2><1><0><line>
+<:flagon> <6><2><1><3><line>
+<:flagon> <6><2><1><4><line>
+<:flagon> <6><2><1><5><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Moe<line>
+What!? I'm busy! Don't talk to me if ya don't<line>
+need anything, dummy!<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hm, nice job. Huh? You thought that was<line>
+hard!?<line>
+<redname><diamond>Moe<line>
+Don't act like that was a workout, idiot!<line>
+Onto the next one, come on!<line>
+<:end><line>
+<end>
+

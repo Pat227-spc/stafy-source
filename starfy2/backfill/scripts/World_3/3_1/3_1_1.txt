@@ -1,0 +1,61 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-1 scene 1 (in-level table #32)
+//Block Range: $0 - $30C
+//POINTER: 0x0814E2AC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_1/3_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <3><1><0><0><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <7> <2><5><5> <3> <0><line>
+<:func> <1><3> <9><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+AUGH! What the heck was THAT!?<line>
+[<wait_time> <6><0>]<line>
+<wait><:sd><line>
+<:func> <7><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <0> <9><9><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Geez...thought that might've burst my<line>
+eardrums or somethin'!<line>
+<redname><diamond>Moe<line>
+Still...I gotta wonder who's screamin' all of<line>
+a sudden...<line>
+<redname><diamond>Moe<line>
+Kinda sounds like cryin' dontcha think?<line>
+<redname><diamond>Moe<line>
+Hmm... Now I'm curious. Let's go find out<line>
+what's causin' it...<line>
+<redname><diamond>Moe<line>
+Alright, Starf, let's go! The voice is comin'<line>
+from this way! Don't fall behind!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <2><2><0> <2><2><3> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:func> <2> <2><line>
+<:obj> <1> <2><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:flagon> <3><1><0><1><line>
+<:exit><line>
+<end>
+

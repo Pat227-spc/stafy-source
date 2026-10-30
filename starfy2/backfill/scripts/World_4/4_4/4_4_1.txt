@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-4 scene 1 (in-level table #220)
+//Block Range: $0 - $190
+//POINTER: 0x0814E59C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_4/4_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:obj> <1> <6><line>
+<:flagon> <4><4><0><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+W-w-wooooah! The heck's with this floor!? If<line>
+you've ever wanted to skate, now's your<line>
+chance!<line>
+<redname><diamond>Moe<line>
+Hey, you're a clumsy goof, so be careful<line>
+not to slip-<line>
+<redname><diamond>Moe<line>
+Wha- AAAAAHHHHhhh...!<line>
+<:flagoff> <4><4><0><1><line>
+<:flagon> <4><4><0><2><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:flagoff> <4><4><0><2><line>
+<:flagon> <4><4><0><0><line>
+<:exit><line>
+<end>
+

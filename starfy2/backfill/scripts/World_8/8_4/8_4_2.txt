@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-4 scene 2 (in-level table #95)
+//Block Range: $0 - $230
+//POINTER: 0x0814E3A8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_4/8_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><4><0><2> <go> <1><line>
+<:flagon> <8><4><0><2><line>
+<:sd><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+*huff puff* Everything's spinning...I<line>
+thought...my heart...was gonna stop...cough<line>
+cough<line>
+<:c><line>
+<redname><diamond>Pufftop Soldier<line>
+We...we should be safe now...<line>
+<redname><diamond>Pufftop Soldier<line>
+I got up here...as quickly as I could... and<line>
+stopped the trap...cough cough<line>
+<:c><line>
+<redname><diamond>Moe<line>
+This is all your fault, Starfy! Sheesh...<line>
+You blockhead...cough cough<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+I...I need...A little break...huff huff<line>
+<:end><line>
+<end>
+

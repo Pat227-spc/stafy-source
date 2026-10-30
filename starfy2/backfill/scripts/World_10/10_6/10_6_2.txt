@@ -1,0 +1,67 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 2 (in-level table #379)
+//Block Range: $0 - $3D2
+//POINTER: 0x0814E818
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<:obj> <1> <1><2> <0> <-><2><0> <0><line>
+<rname><diamond>Moe<line>
+*huff* *puff* S...STARFY!!! WHERE ARE<line>
+YOOOU!!!<line>
+<redname><diamond>Moe<line>
+I've looked forever and I still haven't<line>
+found him... But what if that explosion<line>
+already...?<line>
+<wait><:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Nonono, there's no way he kicked the<line>
+bucket that easily!<line>
+<wait><:obj> <1> <5> <0><line>
+<rname><diamond>Moe<line>
+That blockhead's probably just taking a<line>
+nap somewhere! Yeah...he must be...<line>
+<redname><diamond>Moe<line>
+I should look for him a lil' more... I got an<line>
+idea.<line>
+<redname><diamond>Moe<line>
+This place's super complicated, so I'll leave<line>
+these seaweed rolls to know where I've<line>
+been.<line>
+<wait><:sd><line>
+<:func> <1><8> <1> <5><7><line>
+<:flagon> <1><0><6><0><2><line>
+<:obj> <1> <1><2> <1><2> <-><3><0> <0><line>
+[<wait_time> <6><0>]<line>
+<:se><line>
+<rname><diamond>Moe<line>
+STARFYYYYYY!! HURRY AND COME OUUUUT!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1><8> <1> <5><7><line>
+<:flagon> <1><0><6><0><3><line>
+<:obj> <1> <1><2> <1><2> <-><3><0> <0><line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><0><line>
+<:flagon> <1><0><6><0><1><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

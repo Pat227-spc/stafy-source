@@ -1,0 +1,58 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 2 (in-level table #235)
+//Block Range: $0 - $3D8
+//POINTER: 0x0814E5D8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><2><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><2><0><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Crap! There're too many doors, and I dunno<line>
+which one to go in- Huh?<line>
+<redname><diamond>Moe<line>
+There are some kinda markings on the wall.<line>
+I'm gonna read it, so listen closely!<line>
+<redname><diamond>Moe<line>
+*Ahem*...I am not like others in this group,<line>
+and I do not live amongst them.<line>
+<redname><diamond>Moe<line>
+However, I am the true door to<line>
+progress...The heck's this mean?<line>
+<redname><diamond>Moe<line>
+Maybe it's some sorta hint?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What? You want me to read this again?<line>
+*sigh* Fine.<line>
+<redname><diamond>Moe<line>
+I am not like others in this group, and I do<line>
+not live amongst them.<line>
+<redname><diamond>Moe<line>
+However, I am the true door to<line>
+progress...There ya have it.<line>
+<redname><diamond>Moe<line>
+So basically, we gotta find the one that<line>
+lives somewhere different from the rest,<line>
+right?<line>
+<:end><line>
+<end>
+

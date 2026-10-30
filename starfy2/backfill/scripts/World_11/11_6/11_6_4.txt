@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-6 scene 4 (in-level table #138)
+//Block Range: $0 - $7C
+//POINTER: 0x0814E454
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_6/11_6_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<rname><diamond>Ogura<line>
+Gwahaha! Not coming at me!? Coward! Then<line>
+I'll come to you! Gwahaha!<line>
+<:end><line>
+<end>
+

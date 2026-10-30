@@ -1,0 +1,49 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 6 (in-level table #383)
+//Block Range: $0 - $254
+//POINTER: 0x0814E828
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><6><0><8> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><6><0><8><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Puchi Ogura #10's the leader of pirates,<line>
+so he's got a lotta minions.<line>
+<redname><diamond>Moe<line>
+On top of that, there's that awesome<line>
+helmet of his. Spinnin' into it won't help one<line>
+bit.<line>
+<redname><diamond>Moe<line>
+But he ain't invincible. Just spin into<line>
+anywhere that ain't covered by that<line>
+helmet!<line>
+<:end><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+But he ain't invincible. Just spin into<line>
+anywhere that ain't covered by that<line>
+helmet!<line>
+<redname><diamond>Moe<line>
+But if ya do hit that spiky helmet, it'll<line>
+definitely leave a mark.<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,26 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-4 post-game revisit chat (in-level table #484)
+//Block Range: $0 - $BA
+//POINTER: 0x0814E9BC
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Horun<line>
+Starfy!! I forgot to tell you what the<line>
+trouble in Pufftop was!<line>
+<redname><diamond>Horun<line>
+Huh? It's fine, you already handled it?<line>
+<:end><line>
+<end>
+

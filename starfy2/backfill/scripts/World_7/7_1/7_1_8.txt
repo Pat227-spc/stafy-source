@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 8 (in-level table #267)
+//Block Range: $0 - $158
+//POINTER: 0x0814E658
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Fat Cat<line>
+Those falling rocks sure were scary...<line>
+There's no place like home!<line>
+<:c><line>
+<redname><diamond>Kit Fish<line>
+That was super fun, thrilling even! Do you<line>
+think we could come again?<line>
+<:c><line>
+<redname><diamond>Fat Cat<line>
+Wh-wh-what are you saying!? This is why I<line>
+can't let you out of my sight!<line>
+<:end><line>
+<end>
+

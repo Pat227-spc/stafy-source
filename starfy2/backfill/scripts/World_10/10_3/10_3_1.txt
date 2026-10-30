@@ -1,0 +1,69 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-3 scene 1 (in-level table #363)
+//Block Range: $0 - $424
+//POINTER: 0x0814E7D8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_3/10_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><3><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, Starf, you know about '<textcolor_d>Current Balls<textcolor_0>'?<line>
+They're rare things you only find around<line>
+here.<line>
+<redname><diamond>Moe<line>
+They're only found here cause there's a<line>
+temperature difference between the<line>
+waterfall water and its vapor...<line>
+<wait>[<wait_time> <1><2><0>]<line>
+<:func> <8> <0> <7><2><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+Don't you DARE fall asleep on me! Ugh, I<line>
+swear, it's like I'm talking to a brick wall!<line>
+<redname><diamond>Moe<line>
+Listen! A Current Ball is a ball of water<line>
+with a current swirlin' around inside! Got<line>
+that, pea-brain!?<line>
+<redname><diamond>Moe<line>
+They're pretty useful as platforms, but<line>
+don't get swept away by the currents!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><3><0><0><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Got it? <textcolor_d>Current Balls<textcolor_0> are real handy as<line>
+platforms.<line>
+<redname><diamond>Moe<line>
+Make sure ya don't get caught up in the<line>
+currents though!<line>
+<:end><line>
+<end>
+

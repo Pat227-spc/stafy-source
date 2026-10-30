@@ -1,0 +1,74 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Intro 2
+//Block Range: $0 - $3D2
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<y_pos> <auto>]<line>
+[<x_pos> <9><4>]<line>
+[<wait_time> <8><0>]<line>
+<<textspeed> <5>>That Ogura,<line>
+[<x_pos> <5><8>]<line>
+trapped inside of the jar...<line>
+//May Edit that later!
+[<wait_time> <2><0><0>]<line>
+[<x_pos> <5><6>]<line>
+<wait>Had been thinking of a way<line>
+to escape for a long time...<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<wait>[<y_pos> <1><4>]<line>
+[<x_pos> <2>]<line>
+<rname><diamond>Ogura<line>
+Grrr... I need to get out of here!<line>
+[<wait_time> <2><0><0>]<line>
+<progress><rname><diamond>Ogura<line>
+Curse that insufferable royal family!<line>
+[<wait_time> <2><0><0>]<line>
+<progress><rname><diamond>Ogura<line>
+What do I do?...<line>
+*mumble mumble*<line>
+//Might wanna edit that later!
+[<wait_time> <2><0><0>]<line>
+<redname><diamond>Ogura<line>
+Hmm... Hm!? Family, huh?...<line>
+[<wait_time> <2><0><0>]<line>
+<progress><rname><diamond>Ogura<line>
+That's it! I have the perfect plan...<line>
+Gwahahahaha!<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<redname><diamond>Ogura<line>
+Hoji... Hoji... Hoji...<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<redname><diamond>Ogura<line>
+Perfect! You all will be known as<line>
+the "Puchi Oguras"!<line>
+[<wait_time> <2><0><0>]<line>
+<redname><diamond>Ogura<line>
+It should be simple for all of you to<line>
+escape the jar at your size!<line>
+[<wait_time> <2><0><0>]<line>
+<redname><diamond>Ogura<line>
+Go, my little ones!<line>
+[<wait_time> <2><0><0>]<line>
+<redname><diamond>Ogura<line>
+Go and summon a storm that will<line>
+free me from this prison!!!<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<redname><diamond>Puchi Oguras<line>
+Roger!!!<line>
+[<wait_time> <2><0><0>]<line>
+ <progressalt><line>
+<end>
+

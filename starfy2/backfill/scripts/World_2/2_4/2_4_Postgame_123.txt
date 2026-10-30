@@ -1,0 +1,83 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-4 post-game revisit chat (in-level table #123)
+//Block Range: $0 - $44C
+//POINTER: 0x0814E418
+//Backfill: English from SUT post-game post postgame_w02_qz565a.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <1><2> <6> <1><0><1><line>
+<:sd><line>
+<:func> <1><3><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <1><0><0><0> <go> <1><line>
+<:flagon> <1><0><0><0><line>
+<:if> <1><5><1><7><1> <go> <1><0><line>
+<:obj> <1> <6><line>
+<rname><diamond>Puchi Ogura #2<line>
+Gyahahahaha! I have one of those<line>
+treasures you're looking for.<line>
+<redname><diamond>Puchi Ogura #2<line>
+If you want it, you're gonna have to try<line>
+and take it!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <1><7><0> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <1><0> <3> <1><line>
+<:obj> <1> <7> <1><3><0> <1><2><3> <2><5><line>
+<rname><diamond>Puchi Ogura #2<line>
+Let's ride, Peking Duck Model!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:obj> <1> <6><line>
+<rname><diamond>Puchi Ogura #2<line>
+Huh? What, you want some more? Come as<line>
+many times as you'd like if you wanna keep<line>
+losing.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <1><7><0> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <1><0> <3> <1><line>
+<:obj> <1> <7> <1><3><0> <1><2><3> <2><5><line>
+<rname><diamond>Puchi Ogura #2<line>
+It's go time, Peking Duck Model!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<:obj> <1> <6><line>
+<rname><diamond>Puchi Ogura #2<line>
+D-dangit... You might've taken the treasure,<line>
+but I'll do whatever it takes to beat you!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <1><7><0> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <1><0> <3> <1><line>
+<:obj> <1> <7> <1><3><0> <1><2><3> <2><5><line>
+<rname><diamond>Puchi Ogura #2<line>
+HERE WE GO, PEKING DUCK MODEL!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

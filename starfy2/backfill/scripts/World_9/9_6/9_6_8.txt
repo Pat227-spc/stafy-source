@@ -1,0 +1,65 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-6 scene 8 (in-level table #350)
+//Block Range: $0 - $440
+//POINTER: 0x0814E7A4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_6/9_6_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><6><1><6> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<:obj> <1> <0> <0><line>
+<rname><diamond>Moe<line>
+Gaaaaah!! Why're there whiskers on my<line>
+perfect skin!?<line>
+<redname><diamond>Moe<line>
+What're ya doin'!? Hurry and do something<line>
+about this!!!<line>
+<redname><diamond>Moe<line>
+That Jiiyan guy said that he had the last<line>
+Stache-ccine!<line>
+<redname><diamond>Moe<line>
+That 'stache of his is a weapon that'll<line>
+definitely leave a mark!<line>
+<redname><diamond>Moe<line>
+He's also overprotective of that Puchi<line>
+Ogura, so he'll come running if that brat's<line>
+cryin'.<line>
+<redname><diamond>Moe<line>
+So after ya hit the brat, go for the<line>
+geezer next!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><6><1><6><line>
+<:obj> <1> <0> <1><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Pay attention to that geezer's whiskers!<line>
+It'll hurt if ya touch 'em!<line>
+<redname><diamond>Moe<line>
+He's also overprotective of that Puchi<line>
+Ogura, so he'll come running if that brat's<line>
+cryin'.<line>
+<redname><diamond>Moe<line>
+So after ya hit the brat, go for the<line>
+geezer next!<line>
+<:end><line>
+<end>
+

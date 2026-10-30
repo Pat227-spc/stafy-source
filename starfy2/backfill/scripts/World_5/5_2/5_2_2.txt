@@ -1,0 +1,54 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-2 scene 2 (in-level table #57)
+//Block Range: $0 - $228
+//POINTER: 0x0814E310
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_2/5_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><5><5><2><1> <go> <2><line>
+<:if> <5><2><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Somethin' feels...off... Somethin's in this<line>
+room, Starf!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:flagoff> <5><2><0><3><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+WHAT!? It's not there!? You dummy! Did ya<line>
+even look properly!?<line>
+<redname><diamond>Moe<line>
+Go look one more time!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><2><0><1><line>
+<:flagon> <5><2><0><2><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Alright! Ya found it? Then let's head back!<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <2> <1><0><1><line>
+<:exit><line>
+<end>
+

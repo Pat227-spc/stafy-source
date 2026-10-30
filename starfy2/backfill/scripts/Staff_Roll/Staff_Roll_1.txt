@@ -1,0 +1,385 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override (v0.9.3-test, S2-D001): the post-game "Stage All Clear" body (:func 10 0 block) is drawn
+//with the intro font 0x083DFEE8, whose Latin letters sit on the kana codes of STARFY2ENGINTRO.TBL; it was encoded with
+//STARFY2ENG.TBL, so every letter hit blank glyph 1. Those lines now use the intro table and are re-wrapped to
+//fit the screen (same words; it overflowed the right edge once it rendered). " and ' use two glyphs added
+//by overlay/glyphs/1IntroFont/259.txt (<$98><$56> = ') and 260.txt (<$98><$61> = "), widths in overlay/patches/70_intro_font_quotes.asm.
+
+//BLOCK #000 NAME:		Staff Roll 1
+//Block Range: $0 - $1752
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#VAR(Intro, TABLE)
+#ADDTBL("STARFY2ENGINTRO.TBL", Intro)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><$09><$09><$09><$09><$09><$09><line>
+<:func> <5> <0> <1><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+[<x_pos> <5>]<line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+       The Legendary<line>
+            Starfy 2<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+<line>
+        Staff Credits<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<linealt>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <1> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>          Conception<textcolor_0><line>
+       Satoko Tanaka<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+   Tatsuhiro Takasago<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>                Lead<line>
+          Programmer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+          Kenta Egami<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <2> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>         Programmers<textcolor_0><line>
+    Takahiro Furukawa<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+       Hisatsugu Shiro<line>
+        Emiko Noguchi<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+        Kouichi Kitano<line>
+        Hiroshi Okuda<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+      Hiroyuki Ikenaga<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>        Lead Designer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+      Koutarou Shinoki<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <3> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>           Designers<textcolor_0><line>
+     Atsushi Okamoto<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+           Erika Hara<line>
+       Akira Mochizuki<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+  Yuuichirou Nakayama<line>
+        Kanna Kozuru<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+      Chiemi Taniguchi<line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>   Package & Box Art<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+         Illustrations<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+   Yasuko Takahashi<line>
+   Ryuusuke Yoshida<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <4> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>             Manual<textcolor_0><line>
+    Sachiko Nakamichi<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+        Takashi Itou<line>
+      Masayuki Okada<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>               Music<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+      Morihiro Iwamoto<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <5> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<textcolor_b>       Special Thanks<textcolor_0><line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+      Masao Yamamoto<line>
+      Asako Haruhana<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+       Keiko Takeoka<line>
+         Super Mario<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+               Club<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>           Directors<textcolor_0><line>
+            Akio Imai<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+        Azusa Tajima<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <6> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>          Producers<textcolor_0><line>
+   Yasuhiro Minamimoto<line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+      Hitoshi Yamagami<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>             General<line>
+           Producers<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+       Takehiro Izushi<line>
+          Shin Kondou<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <7> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<textcolor_b>           Executive<line>
+           Producer<textcolor_0><line>
+<:func> <1><1> <2><$09><$09><$09><$09><$09><$09><line>
+         Satoru Iwata<line>
+<line>
+<:func> <1><1> <3><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <8> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <9> <0><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <1><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait>[<wait_time> <2><0>]<line>
+<:func> <6><$09><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <5> <1><0> <1><$09><$09><$09><$09><$09><line>
+[<wait_time> <4><0>]<line>
+<:func> <0> <2><$09><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+[<wait_time> <6><0>]<line>
+<:func> <4><line>
+<:func> <0> <1><0><$09><$09><$09><$09><$09><$09><line>
+<wait><:func> <1><1> <0><$09><$09><$09><$09><$09><$09><line>
+<line>
+<line>
+<:func> <1><1> <1><$09><$09><$09><$09><$09><$09><line>
+<line>
+<:func> <0> <6><$09><$09><$09><$09><$09><$09><line>
+           The End...?<line>
+<:func> <1><1> <2><line>
+<:func> <1><1> <4><$09><$09><$09><$09><$09><$09><line>
+<wait><:func> <2> <2> <0><$09><$09><$09><$09><$09><line>
+<:func> <0> <3><$09><$09><$09><$09><$09><line>
+[<x_pos> <1><2>]<line>
+[<y_pos> <2><8>]<line>
+<:func> <1><0> <0><$09><$09><$09><$09><$09><line>
+#ACTIVETBL(Intro)
+Find the treasures that have<line>
+been scattered across the<line>
+sea! Something good might<line>
+happen if you find all 45...<line>
+The <$98><$61>Sea Jams<$98><$61> and<line>
+<$98><$61>Picture Book<$98><$61> menus have<line>
+been unlocked! Go to Moe<$98><$56>s<line>
+House to check them out!<line>
+#ACTIVETBL(Story)
+<line>
+<:func> <1><0> <1><$09><$09><$09><$09><$09><line>
+<:func> <0> <7><$09><$09><$09><$09><$09><line>
+<:func> <3> <2> <0><$09><$09><$09><$09><$09><line>
+<:func> <0> <4><$09><$09><$09><$09><$09><line>
+[<wait_time> <6><0>]<line>
+<wait><:func> <0> <8><$09><$09><$09><$09><$09><line>
+<:func> <2> <2> <0><$09><$09><$09><$09><$09><line>
+<:func> <0> <5><$09><$09><$09><$09><$09><line>
+<:exit><$09><$09><$09><$09><$09><$09><line>
+<end>
+

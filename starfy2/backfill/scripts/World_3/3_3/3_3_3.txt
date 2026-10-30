@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-3 scene 3 (in-level table #44)
+//Block Range: $0 - $CA
+//POINTER: 0x0814E2DC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_3/3_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <3><3><0><6><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Brotle<line>
+Dang it! Lemme go!<line>
+<:c><line>
+<wait><:flagon> <3><3><0><2><line>
+<:flagon> <1><5><5><1><4><line>
+You caught <textcolor_d>Brotle<textcolor_0>!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:flagoff> <3><3><0><6><line>
+<:exit><line>
+<end>
+

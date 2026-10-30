@@ -1,0 +1,115 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 scene 12 (in-level table #81)
+//Block Range: $0 - $69A
+//POINTER: 0x0814E370
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_5/5_5_12.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><3><line>
+<:func> <1><4> <1> <3><8> <1><line>
+<:func> <1><4> <1> <-><1><6> <0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <1><1> <1><line>
+<:se><line>
+<:if> <5><5><6><3> <go> <1><line>
+<:flagon> <5><5><6><3><line>
+<:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #5<line>
+You left a mark on my lovely face earlier!<line>
+How DARE you!?<line>
+<redname><diamond>Puchi Ogura #5<line>
+Absolutely...UNFORGIVABLE!!! I hope you are<line>
+prepared for the consequences...!<line>
+<redname><diamond>Puchi Ogura #5<line>
+It's too late to apologize now! This blemish<line>
+is your fault!!!<line>
+<redname><diamond>Puchi Ogura #5<line>
+Come, Numan! Let's make this brute regret<line>
+crossing me!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <8><0> <1><9><2> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:obj> <1> <7> <1><1><2> <0> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <1><0> <2> <1><line>
+<:obj> <1> <7> <6><4> <6><4> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <1> <6><line>
+<:obj> <1> <7> <2><2><5> <1><2><8> <4><0><line>
+[<wait_time> <8><4>]<line>
+<:obj> <1> <1><0> <1> <0><line>
+<:obj> <1> <1><0> <2> <3><line>
+[<wait_time> <5>]<line>
+<:obj> <1> <1><0> <1> <0><line>
+<:obj> <1> <1><0> <2> <3><line>
+<:obj> <1> <7> <3><2> <6><4> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <1> <6><line>
+<:obj> <1> <7> <2><2><5> <0> <4><0><line>
+[<wait_time> <8><4>]<line>
+<:obj> <1> <1><0> <1> <0><line>
+<:obj> <1> <1><0> <2> <1><line>
+[<wait_time> <5>]<line>
+<:obj> <1> <7> <8><0> <6><4> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <2> <2><line>
+<:obj> <1> <7> <1><4><8> <1><2><8> <4><0><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <1><0> <1> <6><line>
+<:obj> <1> <7> <1><8><0> <1><9><2> <4><0><line>
+[<wait_time> <1><1><0>]<line>
+<:obj> <1> <1><0> <2> <0><line>
+<:obj> <1> <7> <4><0> <0> <4><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <7> <9><8> <6><4> <4><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Numan<line>
+How dare you make Lady Fifth so angry!<line>
+<redname><diamond>Numan<line>
+And I'm the one who'll catch the fallout<line>
+later!<line>
+<redname><diamond>Numan<line>
+That'll surely quell my grudge against you!<line>
+Kweh kweh kweh!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <1><2> <1><0> <1><0><1><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <4><line>
+<:obj> <1> <7> <8><0> <1><9><2> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:obj> <1> <1><0> <1> <6><line>
+<:obj> <1> <1><0> <2> <0><line>
+<:obj> <1> <7> <9><8> <6><4> <4><0><line>
+[<wait_time> <8><0>]<line>
+<rname><diamond>Numan<line>
+How long will you let me relive some of my<line>
+pent up aggression? Kweh kweh kweh!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <1><2> <1><0> <1><0><1><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

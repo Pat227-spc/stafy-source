@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 scene 4 (in-level table #275)
+//Block Range: $0 - $12E
+//POINTER: 0x0814E678
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_2/7_2_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, isn't that one of those clouds you<line>
+can use to reach higher places?<line>
+<redname><diamond>Moe<line>
+But if you just get on, it starts to sink,<line>
+right?<line>
+<redname><diamond>Moe<line>
+Maybe that'll be useful somewhere!<line>
+<:end><line>
+<end>
+

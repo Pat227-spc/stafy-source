@@ -1,0 +1,182 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-1 scene 4 (in-level table #232)
+//Block Range: $0 - $B78
+//POINTER: 0x0814E5CC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_1/6_1_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><1><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <3><line>
+<:obj> <3> <6><line>
+<:obj> <6> <6><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+Stop being difficult, you rat! Make the<line>
+stupid song already!<line>
+<:c><line>
+<redname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+Absolutely NOOOOOOT!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+Grrrrrr, that's IT! I've had it with your<line>
+attitude!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <1><line>
+<:obj> <3> <6><line>
+<:obj> <6> <6><line>
+<:se><line>
+<rname><diamond>Moe<line>
+WOAH WAIT JUST A SEC. I mean uh- Please,<line>
+sir, just a moment!<line>
+<:c><line>
+<wait><:obj> <3> <1><0> <1> <0><line>
+<:obj> <3> <1><0> <0> <1><0><0><line>
+<rname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+And what do YOU want?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Aw, c'mon, boss! No need to ask that guy,<line>
+I'll write it for ya!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+Someone like you is making my theme<line>
+song?...Can you?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+But of course, boss! I'm a pretty great<line>
+composer, if I do say so myself!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+...Hm...sure, let's see it...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+In that case...ahem<line>
+<wait><:func> <7> <2><5><5> <0> <1><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <2> <0> <1><line>
+<:obj> <3> <1><0> <1> <0><line>
+<:obj> <3> <1><0> <0> <1><0><3><line>
+<:obj> <4> <2> <1><line>
+<rname><diamond>Moe<line>
+La-la-laaaa da-ba-daaaaa Oh~ The Great<line>
+Puchi Ogura #6~<line>
+<:c><line>
+<redname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+Wh-what IS this!?<line>
+<:c><line>
+<wait><:obj> <6> <1><0> <0> <1><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+<:obj> <4> <4><line>
+Cooler than a Slug~ More clever than a<line>
+Worm~ and even stronger than a Wharf<line>
+Roach~<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+Th-that's enough! I've heard enough!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+<:obj> <4> <4><line>
+Ah~ He's the worst~ Oh~ How magnificent<line>
+is he~ The Great Puchi Ogura...~<line>
+<wait><:func> <7> <2><5><5> <3> <1><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+<:obj> <4> <4><line>
+<:func> <1><8> <1> <1><1><2><line>
+Number SIIIIIIIIIX!!!<line>
+<:c><line>
+<wait><:obj> <4> <2> <0><line>
+<:func> <7> <0><line>
+<:obj> <2> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:obj> <6> <1><0> <0> <0><line>
+<rname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+AAAAAAAUGH!<line>
+<:c><line>
+<wait><:obj> <3> <1><0> <0> <1><line>
+<:func> <1><8> <1> <5><0><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+It...was just a costume...?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+It was just some dumb kid!!!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+C-crap! Gotta go!<line>
+<:c><line>
+<wait><:obj> <3> <1><0> <0> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <5> <2> <1><line>
+<:obj> <3> <7> <1><8><0> <2><2><8> <4><0><line>
+[<wait_time> <1><0><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Why that little...! Here I was scared of<line>
+some brat's fake influence!<line>
+<:c><line>
+<redname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+Uh...right... Thanks regardless- Wait, did<line>
+the Puchi Ogura drop something when they<line>
+ran away?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+A <textcolor_d>key<textcolor_0>...I think we saw a closed door earlier,<line>
+so maybe we can use this!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <4> <2><line>
+<:obj> <5> <2><line>
+<:func> <8> <0> <9><9><line>
+<:func> <7> <0><line>
+<:flagon> <6><1><0><5><line>
+<:flagon> <1><5><6><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Heh heh, that little brat ran away from<line>
+some sweet notes of my lovely singing<line>
+voice~<line>
+<redname><diamond>Moe<line>
+Hm...maybe...maybe I should become a<line>
+singer.<line>
+<:end><line>
+<end>
+

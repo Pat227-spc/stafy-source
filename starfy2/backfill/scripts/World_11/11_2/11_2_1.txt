@@ -1,0 +1,135 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-2 scene 1 (in-level table #391)
+//Block Range: $0 - $98E
+//POINTER: 0x0814E848
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_2/11_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Weird...we're in the enemy's base...<line>
+<redname><diamond>Moe<line>
+But there ain't no welcoming party? What<line>
+gives?<line>
+<redname><diamond>Moe<line>
+Well I ain't complaining, that just makes it<line>
+easier for us! Let's go, Starf!<line>
+<wait><:sd><line>
+<:func> <1><8> <1> <7><6><line>
+<:func> <7> <2><4><0> <1> <1><line>
+[<wait_time> <2><4><0>]<line>
+<:func> <1><8> <7> <7><6><line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <0> <2><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+H-H-huh!? Wh-what's goin' on!?<line>
+<:c><line>
+<redname><diamond>Ogura's Voice<line>
+Gwahahaha! Welcome to my castle!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Tch... I knew it couldn't be that easy...<line>
+<:c><line>
+<redname><diamond>Ogura's Voice<line>
+I'm surprised you even made it this far<line>
+<redname><diamond>Ogura's Voice<line>
+How is it? This castle is so much nicer than<line>
+Pufftop Palace, isn't it? Guhahahaha!<line>
+<redname><diamond>Ogura's Voice<line>
+I'm waiting on the castle's top floor! Hurry<line>
+and get up here!<line>
+<redname><diamond>Ogura's Voice<line>
+Well, if you can even make it that far...<line>
+Guhahahaha!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Why you condescending...! Do you know who<line>
+we... I mean, who I am!?<line>
+<redname><diamond>Moe<line>
+I'm gonna get Starfs mom back and get<line>
+some treasure while I'm at it!<line>
+<:c><line>
+<redname><diamond>Ogura's Voice<line>
+Oooh, a bold claim! In that case, a present.<line>
+From yours truly!<line>
+<redname><diamond>Ogura's Voice<line>
+Come forth, my servants!<line>
+<:c><line>
+<wait><:obj> <2> <1><1> <0> <8><0> <-><8><0><line>
+<:obj> <3> <1><1> <1> <-><8><0> <-><8><0><line>
+<:obj> <2> <2> <1><line>
+<:obj> <3> <2> <1><line>
+<:obj> <2> <1><5> <0> <3><0><line>
+<:obj> <3> <1><5> <1> <3><0><line>
+[<wait_time> <3><0>]<line>
+<:func> <8> <0> <1><9><line>
+<:obj> <1> <5> <1><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <1><line>
+<rname><diamond>Moe<line>
+Wah! What's with these guys!? Lemme go!<line>
+<:c><line>
+<redname><diamond>Ogura's Voice<line>
+Gwahaha! I look forward to your arrival.<line>
+Gwahahahaha!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <7> <1><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <5> <0><line>
+<:func> <1><0><line>
+<:obj> <0> <1><1> <7> <0> <0><line>
+<:obj> <1> <1><1> <7> <-><4><0> <0><line>
+<:func> <1> <1> <0><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:func> <3> <2><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<:obj> <1> <1><0> <0> <1><line>
+<:obj> <1> <1><0> <1> <0><line>
+<rname><diamond>Moe<line>
+What the heck was that just now...?<line>
+<redname><diamond>Moe<line>
+Wait, didn't we just come from here?<line>
+<wait><:obj> <1> <1><0> <0> <2><line>
+<rname><diamond>Moe<line>
+So if those guys from earlier catch us...<line>
+<redname><diamond>Moe<line>
+We get sent right back to where we came<line>
+from.<line>
+<redname><diamond>Moe<line>
+Let's get goin' Starf! You're gonna have to<line>
+move fast if you don't wanna get caught<line>
+by those guys from earlier!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <7> <1><8><0> <1><4><4> <2><0><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><1><2><0><0><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

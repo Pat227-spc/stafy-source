@@ -1,0 +1,129 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 cutscene (0x88eca6c)
+//Block Range: $0 - $6C4
+//POINTER: 0x811c7dc
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_1/4_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #4<line>
+This is the Sea of Ice! But soon, it'll belong<line>
+to the amazing Puchi Ogura #4!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <0><line>
+<rname><diamond>Jellato<line>
+Hey! We won't let you mess up our sea!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Jellato<line>
+Get ready everyone, we're using our<line>
+strongest attack!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Jellato<line>
+Ready...and...Triple Atta-<line>
+[<wait_time> <3><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <2><line>
+<rname><diamond>Puchi Ogura #4<line>
+SHUT UUUUUUP!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <3><line>
+<rname><diamond>Jellato<line>
+Wha-!?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <4><line>
+<rname><diamond>Puchi Ogura #4<line>
+The fact that some kids think they can<line>
+stand up to me is adorable.<line>
+<redname><diamond>Puchi Ogura #4<line>
+Clean yourselves up, and come back when<line>
+you're older.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <2> <2> <0><line>
+<:func> <0> <5><line>
+<:func> <3> <2> <0><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+O-ow...our Triple Attack...failed...?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Jellata<line>
+If Gellato's timing wasn't off, we would've<line>
+been fine!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Gellato<line>
+No way, chu! Jellato's signal was all weird,<line>
+chu!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Jellato<line>
+Me!? This is 100 percent Jellata's fault!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Jellata<line>
+It's not my fault! It was Gellato's!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Gellato<line>
+It wasn't me, chu! It was Jellato, chu!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Jellato<line>
+It's 'cause of Jellata...!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Jellata<line>
+It's totally because of Gellato!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <6><line>
+<rname><diamond>Gellato<line>
+Chu're one to talk, Jellato!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

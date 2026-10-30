@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 post-game revisit chat (in-level table #506)
+//Block Range: $0 - $24A
+//POINTER: 0x0814EA14
+//Backfill: English from SUT post-game post postgame_w05_r1jv87.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Viva<line>
+Oh, it's Starfy! Thanks for keeping your<line>
+promise and teaching that pipsqueak a<line>
+lesson!<line>
+<redname><diamond>Viva<line>
+There's no way she'll be able to break the<line>
+new dam I made!<line>
+<redname><diamond>Viva<line>
+But because of that, we've used all the<line>
+sticks around here!<line>
+<redname><diamond>Viva<line>
+Funny thing, while I was huntin' for sticks,<line>
+a whole bunch of pearls turned up...<line>
+<redname><diamond>Viva<line>
+You can have them all as a reward for<line>
+keeping your promise!<line>
+<redname><diamond>Viva<line>
+Plus, you could always use those pearls to<line>
+buy that photo of me!<line>
+<:end><line>
+<end>
+

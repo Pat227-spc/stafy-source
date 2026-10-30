@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override (tools/gen_overrides.py): upstream file + "Press Up+<B> at<line> / the water's surface<line> / to leap into the Sky!<line> / Try all kinds of things!<line>" -> "Press Up+<B> at<line> / the water's<line> / surface to leap<line> / into the Sky!<line> / Try all kinds<line> / of things!<line>" (rewrap only: ran past the sign divider on screen)
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $4F
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+Press Up+<B> at<line>
+the water's<line>
+surface to leap<line>
+into the Sky!<line>
+Try all kinds<line>
+of things!<line>
+<end>
+

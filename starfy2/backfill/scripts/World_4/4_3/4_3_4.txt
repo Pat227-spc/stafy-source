@@ -1,0 +1,27 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 4 (in-level table #213)
+//Block Range: $0 - $E4
+//POINTER: 0x0814E580
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Savako<line>
+Like, this job pays sooo little~. Maybe I'll<line>
+just quit~.<line>
+<redname><diamond>Savako<line>
+I was hopin' to meet someone nice~? But all<line>
+I got was a guy with a girlfriend and some<line>
+weird clam~...<line>
+<:end><line>
+<end>
+

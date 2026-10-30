@@ -1,0 +1,36 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-2 post-game revisit chat (in-level table #483)
+//Block Range: $0 - $1DA
+//POINTER: 0x0814E9B8
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+I have some news for you Sir Starfy, BIG<line>
+news!<line>
+<redname><diamond>Taiblond<line>
+The Queen of Pufftop has been rescued<line>
+and is safe and sound!!!<line>
+<redname><diamond>Taiblond<line>
+She was rescued by her son, the Prince,<line>
+who positively thrashed the villain who<line>
+kidnapped her!!!<line>
+<redname><diamond>Taiblond<line>
+Isn't that amazing!? I should interview the<line>
+Prince of Pufftop right away!<line>
+<redname><diamond>Taiblond<line>
+Would you like to come as well, Sir Starfy?<line>
+<:end><line>
+<end>
+

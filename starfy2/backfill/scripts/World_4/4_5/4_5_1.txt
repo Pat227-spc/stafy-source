@@ -1,0 +1,73 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 1 (in-level table #222)
+//Block Range: $0 - $3F0
+//POINTER: 0x0814E5A4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <6> <2><line>
+<:func> <1> <1><line>
+<:obj> <2> <5> <1><line>
+<:obj> <2> <7> <8> <1><2><8> <1><0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+GAHHH!!! H-H-H-HELP MEEEEE!!!<line>
+<:c><line>
+<wait><:obj> <1> <7> <8> <1><2><8> <1><0><line>
+<rname><diamond>Puchi Ogura #4<line>
+Ufufufu... What a cute clam...<line>
+Ufufufufufufufufu...<line>
+<redname><diamond>Puchi Ogura #4<line>
+Now... Your adorable expression... Will be<line>
+preserved forever in ice... Ufufufu.<line>
+<:c><line>
+<wait><:obj> <1> <6><line>
+<rname><diamond>Moe<line>
+Waaaaaah!!! A Yuki-On...<line>
+<wait><:obj> <1> <1><0> <0> <8><line>
+<:obj> <2> <2> <0><line>
+<:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <1><0><8><line>
+<rname><diamond>Moe<line>
+Wha...<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #4<line>
+Ufu...My masterpiece has been completed...<line>
+<redname><diamond>Puchi Ogura #4<line>
+Ufufu Ufufufufufuf ufufufufufuf<line>
+ufufufufufuf u ufu ufu<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <1><6> <1><6><0> <2><0><line>
+[<wait_time> <6>]<line>
+<:obj> <1> <7> <6><4> <2><2><6> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <7> <6><4> <1><6><0> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <7> <6><4> <2><2><6> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <7> <6><4> <1><6><0> <2><0><line>
+[<wait_time> <1><0>]<line>
+<:sd><line>
+<:func> <2> <2> <2><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <6> <2> <1><line>
+<:flagon> <4><5><0><0><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-5 scene 2 (in-level table #296)
+//Block Range: $0 - $112
+//POINTER: 0x0814E6CC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_5/7_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Looks like you can't get to that door up<line>
+there without Sliding through that gap!<line>
+<redname><diamond>Moe<line>
+But check what's ahead before ya go<line>
+through! Boulders fall there too!<line>
+<:end><line>
+<end>
+

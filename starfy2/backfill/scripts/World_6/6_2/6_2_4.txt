@@ -1,0 +1,95 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 4 (in-level table #237)
+//Block Range: $0 - $624
+//POINTER: 0x0814E5E0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><2><0><4> <go> <2><line>
+<:if> <6><2><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><2><0><3><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+There's some writing on the wall again.<line>
+Let's see...<line>
+<redname><diamond>Moe<line>
+Those guys shouldn't be here. Defeat them<line>
+all.<line>
+<redname><diamond>Moe<line>
+'The <textcolor_d>treasure<textcolor_0> will show itself if you<line>
+succeed, but to the beginning you go if<line>
+you're wrong'... Ooh! It says treasure!<line>
+<redname><diamond>Moe<line>
+Do your best, it's for the treasure!...Hm?<line>
+What does it mean by 'those guys'?<line>
+<redname><diamond>Moe<line>
+W-well...uhhhhh...Oh, there was something to<line>
+the side of the message!<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Moe<line>
+See this picture? I think these are the<line>
+guys it mentioned<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Lemme guess, want a refresher on what to<line>
+do? Alright, but you better remember this<line>
+time.<line>
+<wait><:obj> <2> <2> <1><line>
+<rname><diamond>Moe<line>
+Those guys shouldn't be here. Defeat them<line>
+all.<line>
+<redname><diamond>Moe<line>
+The <textcolor_d>treasure<textcolor_0> will show itself if you<line>
+succeed, but to the beginning you go if<line>
+you're wrong... and that's the end of it.<line>
+<wait><:obj> <2> <2> <0><line>
+<rname><diamond>Moe<line>
+This should be easy enough for you alone,<line>
+so I'll just take a nap...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+At long last, the Great Moe has cleared<line>
+the legendary Indoor Cave!!<line>
+<redname><diamond>Moe<line>
+Movies and commercials'll be made in my<line>
+name...I'll be such a busy guy~!<line>
+<:end><line>
+<end>
+

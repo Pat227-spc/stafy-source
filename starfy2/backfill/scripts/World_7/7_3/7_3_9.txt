@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 9 (in-level table #289)
+//Block Range: $0 - $1E4
+//POINTER: 0x0814E6B0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_9.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+C'mon, didn't you wanna fight!?<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <1> <1><1> <0> <1><2><8> <0><line>
+<:func> <1> <1> <0><line>
+<:obj> <1> <1><1> <0> <2><5><6> <0><line>
+<:func> <1> <1> <0><line>
+<:obj> <1> <1><1> <0> <3><1><0> <0><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Elder Fork<line>
+Hah! Did you really wanna get eaten that<line>
+badly!?<line>
+<:c><line>
+<redname><diamond>Younger Fork<line>
+Looks like we got ourselves a feast, bro!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Aiiiieeee! I'm not tasty, I swear!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><0><8><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

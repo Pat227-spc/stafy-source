@@ -1,0 +1,146 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-6 scene 6 (in-level table #348)
+//Block Range: $0 - $79A
+//POINTER: 0x0814E79C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_6/9_6_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><6><1><5> <go> <3><line>
+<:if> <9><6><1><4> <go> <2><line>
+<:if> <9><6><1><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+'Sup, Detective? I dunno what happened,<line>
+but these whiskers suddenly grew.<line>
+<:obj> <3> <0> <7><line>
+<redname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+It's super annoying...Could you do me a<line>
+favor, actually?<line>
+<:obj> <3> <0> <7><line>
+<redname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+My nose's been pretty itchy<line>
+latelee...haa...aaa-!<line>
+<:obj> <3> <0> <7><line>
+<wait><:obj> <2> <0> <2><line>
+<:func> <7> <2><5><5> <0> <2><line>
+<:func> <8> <0> <1><9><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+ACHOOOOOOOOO!!!<line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <0> <0><line>
+<:obj> <3> <0> <7><line>
+<:func> <7> <0> <0> <0><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<redname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+Urg...Because of all this sneezing, it<line>
+keeps opening that door I closed...Please<line>
+do something, anything!<line>
+<:obj> <3> <0> <7><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><6><1><3><line>
+<:func> <7> <0> <0> <0><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:obj> <2> <0> <0><line>
+<:obj> <3> <0> <7><line>
+<:func> <1><4> <1> <-><4><0> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+I can only imagine what my daughter'd think<line>
+about these whiskers...<line>
+<:obj> <3> <0> <7><line>
+<redname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+'Ew~ Papa, that's so tacky~ Absolutely<line>
+lame~' or something like that...<line>
+<:obj> <3> <0> <7><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <0> <0><line>
+<:obj> <3> <0> <7><line>
+<:func> <1><4> <1> <-><4><0> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <8><line>
+That's the Stache-ccine, right Detective?<line>
+Think it'll really work?<line>
+Å@<:obj> <3> <0> <7><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><6><1><5><line>
+<:flagoff> <1><5><6><0><9><line>
+<:obj> <3> <0> <3><line>
+<:func> <3> <2><line>
+<:se><line>
+<:func> <1><8> <1> <5><2><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <4><line>
+Oh, I'm back to normal! Thanks a bunch,<line>
+Detective!<line>
+<:obj> <3> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <0> <3><line>
+<:func> <1><4> <1> <-><4><0> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Ressie<line>
+<:obj> <3> <0> <4><line>
+Sorry ya had to go through the trouble of<line>
+gettin' the vaccine. But I looked like a<line>
+dandy with the 'stache, didn't I?<line>
+<:obj> <3> <0> <3><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <0> <3><line>
+<:func> <1><4> <1> <-><4><0> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

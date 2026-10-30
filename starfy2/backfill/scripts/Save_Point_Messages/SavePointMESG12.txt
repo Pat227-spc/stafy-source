@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 12 (table 0x0814EA2C entry 22; stage key 0x131)
+//Block Range: $0 - $108
+//POINTER: 0x0814EA84
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><4><1><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+Have you caught all <textcolor_d>3<textcolor_0> Turtle Kids? If you<line>
+don't know how to catch them, go ask Moe.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+Chase the bad guy who was controlling the<line>
+Turtle Kids and hurry to the next place!<line>
+<:end><line>
+<end>
+

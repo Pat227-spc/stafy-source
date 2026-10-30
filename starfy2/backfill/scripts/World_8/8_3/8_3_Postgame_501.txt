@@ -1,0 +1,39 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-3 post-game revisit chat (in-level table #501)
+//Block Range: $0 - $250
+//POINTER: 0x0814EA00
+//Backfill: English from SUT post-game post postgame_w08_r24izz.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Bawss<line>
+Hey-Oh! It's been a while!<line>
+<redname><diamond>Bawss<line>
+Since you're here today, why don't I tell ya<line>
+somethin' nice!<line>
+<redname><diamond>Bawss<line>
+If you want to fill out every entry in the<line>
+<textcolor_d>Picture Book<textcolor_0>...<line>
+<redname><diamond>Bawss<line>
+Then ya can't just collect all the <textcolor_d>Stuff<textcolor_0><line>
+and <textcolor_d>Sheet Music<textcolor_0>.<line>
+<redname><diamond>Bawss<line>
+Rare enemies tend to hide in places that<line>
+have nothin' to do with Stuff or <textcolor_d>Sheet<line>
+Music<textcolor_0>!<line>
+<redname><diamond>Bawss<line>
+In other words, make sure to look in every<line>
+nook and cranny on your adventure! Good<line>
+luck!<line>
+<:end><line>
+<end>
+

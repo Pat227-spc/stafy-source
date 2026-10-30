@@ -1,0 +1,37 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 post-game revisit chat (in-level table #476)
+//Block Range: $0 - $166
+//POINTER: 0x0814E99C
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:flagon> <1><5><7><0><7><line>
+<:se><line>
+<rname><diamond>Fluffy<line>
+Yeah, now that's what I call an amazing fit!<line>
+<redname><diamond>Fluffy<line>
+Next time you wear the costume, press the<line>
+Select Button!<line>
+<redname><diamond>Fluffy<line>
+That's the secret function. Why don't we<line>
+head back?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <2> <1><0><1><line>
+<:exit><line>
+<end>
+

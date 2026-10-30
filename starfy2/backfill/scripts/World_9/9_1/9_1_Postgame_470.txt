@@ -1,0 +1,24 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 post-game revisit chat (in-level table #470)
+//Block Range: $0 - $70
+//POINTER: 0x0814E984
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+It doesn't look like Ressie's home at the<line>
+moment. Did he go out for a walk?<line>
+<:end><line>
+<end>
+

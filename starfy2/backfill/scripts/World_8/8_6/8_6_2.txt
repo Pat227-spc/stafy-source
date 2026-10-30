@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-6 scene 2 (in-level table #107)
+//Block Range: $0 - $FE
+//POINTER: 0x0814E3D8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_6/8_6_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Hey, Starf! The next room has this bizarre<line>
+panel on the ground...<line>
+<redname><diamond>Moe<line>
+Same old deal, maybe? Like, ya just stand<line>
+on the panel and you're good?<line>
+<:end><line>
+<end>
+

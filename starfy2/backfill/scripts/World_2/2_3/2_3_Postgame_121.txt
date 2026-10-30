@@ -1,0 +1,103 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-3 post-game revisit chat (in-level table #121)
+//Block Range: $0 - $70C
+//POINTER: 0x0814E410
+//Backfill: English from SUT post-game post postgame_w02_qz565a.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <2><3><5><2> <go> <5><0><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<:if> <1><0><0><1> <go> <5><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><1><line>
+<rname><diamond>Old Man Mechani<line>
+Oh, Starfy! You're just in time! I just<line>
+completed a new kind of <textcolor_d>Blimp<textcolor_0>!<line>
+<wait><:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Of course, you want to test it out, right?<line>
+<rname>     Yes<line>
+<rname>     No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <0> <go> <2><0><line>
+<:sel> <1> <go> <3><0><line>
+<wait>:<3><0><line>
+<rname><diamond>Old Man Mechani<line>
+Wh-what...? So you don't want to ride the<line>
+Blimp...? I-I see...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<5><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Mechani<line>
+Oh? So you wanted to test the new model<line>
+after all, eh?<line>
+<wait><:sd><line>
+<rname><diamond>Old Man Mechani<line>
+Right? Hm?<line>
+<rname>     Yes<line>
+<rname>     No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:se><line>
+<wait><:sel> <1> <go> <4><0><line>
+:<2><0><line>
+<rname><diamond>Old Man Mechani<line>
+But of course. It's only natural that you<line>
+would. In that case, step through the door<line>
+behind me.<line>
+<wait><:flagon> <1><0><0><0><line>
+<:func> <1><8> <1> <7><4><line>
+<rname><diamond>Old Man Mechani<line>
+As always, the instructions are written on<line>
+the <textcolor_d>sign<textcolor_0>.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<wait>:<4><0><line>
+<rname><diamond>Old Man Mechani<line>
+Wh-wh-what!!! Stop messing with an old man!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:exit><line>
+<redname><diamond>Old Man Mechani<line>
+Hmm...Not only was the <textcolor_d>Blimp<textcolor_0> a success, but<line>
+the Super Blimp as well...<line>
+<redname><diamond>Old Man Mechani<line>
+My talent is truly terrifying...<line>
+<:end><line>
+<redname><diamond>Old Man Mechani<line>
+Oh, magnificent! A complete success! My<line>
+genius knows no bounds!<line>
+<redname><diamond>Old Man Mechani<line>
+By the way, I believe I saw a treasure<line>
+chest up ahead.<line>
+<redname><diamond>Old Man Mechani<line>
+To celebrate the success of the Super<line>
+<textcolor_d>Blimp<textcolor_0>, you can take it with you.<line>
+<:end><line>
+<wait>:<5><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Mechani<line>
+Hmm...Not only was the <textcolor_d>Blimp<textcolor_0> a success, but<line>
+the Super Blimp as well...<line>
+<redname><diamond>Old Man Mechani<line>
+My talent is truly terrifying...<line>
+<:end><line>
+<end>
+

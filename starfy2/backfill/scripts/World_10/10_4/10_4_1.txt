@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 scene 1 (in-level table #366)
+//Block Range: $0 - $234
+//POINTER: 0x0814E7E4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_4/10_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Accordin' to my info, those Kunoichi ladies<line>
+should be around here!<line>
+<redname><diamond>Moe<line>
+We gotta find em' and tell them that<line>
+Echigyoya's up to somethin'!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><4><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+We gotta find those Kunoichi ladies and<line>
+tell 'em what Echigyoya's got up his sleeve.<line>
+<redname><diamond>Moe<line>
+If we don't hurry, somethin' bad could<line>
+happen!<line>
+<:end><line>
+<end>
+

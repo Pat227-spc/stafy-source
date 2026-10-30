@@ -1,0 +1,83 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-5 scene 1 (in-level table #398)
+//Block Range: $0 - $58E
+//POINTER: 0x0814E864
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_5/11_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><1><5><1><0> <go> <2><line>
+<:if> <1><1><5><0><0> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <1> <0><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+We finally made it... Ogura's just around<line>
+the corner.<line>
+<redname><diamond>Moe<line>
+It's been a long time comin'...<line>
+<redname><diamond>Moe<line>
+But soon, you'll be able to wipe that<line>
+annoying smirk offa Ogura's face!<line>
+<redname><diamond>Moe<line>
+Plus, you'll finally get your mom back,<line>
+Starf!<line>
+<redname><diamond>Moe<line>
+Get fired up, Starf!<line>
+<redname><diamond>Moe<line>
+But before that, we gotta get this door<line>
+open!<line>
+<redname><diamond>Moe<line>
+I know how to open it though. It's just like<line>
+that door from last time.<line>
+<redname><diamond>Moe<line>
+You're gonna need to flip the 3 switches<line>
+through the rooms on the left.<line>
+<redname><diamond>Moe<line>
+If ya get it, get a move on already!<line>
+<redname><diamond>Moe<line>
+While you do that, I'm gonna think about<line>
+how to deal with Ogura.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><1><5><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+You're gonna need to flip the 3 switches<line>
+through the rooms on the left.<line>
+<redname><diamond>Moe<line>
+Once ya get this huge door open, we're off<line>
+to beat the snot outta Ogura!<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Ya did it! Alright...after this, it'll be time to<line>
+beat the snot outta Ogura.<line>
+<redname><diamond>Moe<line>
+There's no time to waste! Let's go, Starf!<line>
+<:end><line>
+<end>
+

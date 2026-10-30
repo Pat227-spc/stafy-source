@@ -1,0 +1,125 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-5 scene 2 (in-level table #71)
+//Block Range: $0 - $814
+//POINTER: 0x0814E348
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_5/5_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><5><0><5> <go> <3><line>
+<:if> <5><5><0><3> <go> <2><line>
+<:if> <5><5><0><2> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><5><0><2><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Wha! Who're you!? Wait...Ms. Moon!? But<line>
+outta water you're...!<line>
+<:c><line>
+<redname><diamond>Moon<line>
+Ugh... Huh!!<line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <4><line>
+Eeek!! My skin's drying out!! Hurry and<line>
+bring the water back~!!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Bein' a girl sure is tough... C'mon, Starf!<line>
+Let's go find that cork and pull it!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <6> <1> <1><line>
+<:func> <2><2> <-><1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+What're ya doin'!? The water comes out<line>
+from below! Search down there! DOWN!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Moon<line>
+Hurry! Hurry! All my skin care is gonna go<line>
+to waste~!<line>
+<:end><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><5><0><5><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:obj> <1> <9> <2> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+You alright now, Moon? What're you even<line>
+doin' here?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Moon<line>
+Well, I came here so my boyfriend <textcolor_d>Pursley<textcolor_0><line>
+could buy me an accessory.<line>
+<redname><diamond>Moon<line>
+But then this little girl showed up goin', <textcolor_d>'A<line>
+prince isn't something you wait for! He's<line>
+something you steal!'<textcolor_0><line>
+<redname><diamond>Moon<line>
+And then she made away with Pursley!<line>
+<redname><diamond>Moon<line>
+At this rate, he won't be able to buy me my<line>
+accessory! That's what really matters!<line>
+<redname><diamond>Moon<line>
+For my accessory's sake, we have to save<line>
+Pursley! Please, take me with you!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+What's goin' on in her head...?<line>
+<:obj> <1> <9> <2><line>
+Anyway, we got ourselves a rescue mission,<line>
+Starf!<line>
+<redname><diamond>Moe<line>
+But man...I feel sorry for that Pursley<line>
+guy... Not that you'd understand, Starf...<line>
+<:c><line>
+<wait><:flagon> <1><5><5><2><3><line>
+You take Moon along.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2><line>
+<:obj> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+We're gonna go save <textcolor_d>Pursley<textcolor_0>, right? Well<line>
+let's hurry and track 'im down then!<line>
+<:end><line>
+<end>
+

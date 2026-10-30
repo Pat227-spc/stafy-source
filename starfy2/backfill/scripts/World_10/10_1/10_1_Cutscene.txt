@@ -1,0 +1,71 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 cutscene (0x88edb84)
+//Block Range: $0 - $39E
+//POINTER: 0x8121a3c
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_1/10_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Echigyoya<line>
+Hohoho~ With this, this area shall be under<line>
+your rule, your grace.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #10<line>
+Fufufu...Echigyoya, you truly are evil.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+Hohoho~ You are much more evil than I,<line>
+Lord Tenth.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <0><line>
+<rname><diamond>Echigyoya<line>
+Here, please accept these... golden manju.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #10<line>
+Mm, I shall gratefully accept... Hm!? An<line>
+intruder!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <1><line>
+<rname><diamond>Ogyon<line>
+Nya... Nyaa...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+Phew, it was just a cat.<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #10<line>
+Are you dense!? A cat wouldn't be<line>
+underwater! It's an intruder! After them!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

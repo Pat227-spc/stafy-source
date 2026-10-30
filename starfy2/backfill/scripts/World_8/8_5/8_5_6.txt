@@ -1,0 +1,97 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 6 (in-level table #101)
+//Block Range: $0 - $66A
+//POINTER: 0x0814E3C0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><5><1><2> <go> <2><line>
+<:if> <8><5><0><4> <go> <1><line>
+:<go> <3><line>
+<wait>:<1><line>
+<:flagon> <8><5><1><2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #4<line>
+Oh this is a disaster!...Huh? The <textcolor_d>Cell Key<textcolor_0>?<line>
+Can't that wait!?<line>
+<redname><diamond>Squirt #4<line>
+Do you know where my Make-up Set is? I<line>
+lost it and it's imperative that I get it<line>
+back...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Squirt #4<line>
+Oh my! That's my Make-up Set!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <1><5> <1> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <2> <2><line>
+<rname><diamond>Squirt #4<line>
+Thank you! Here, take this.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <3> <1><5> <0> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <3> <2><line>
+Starfy received the <textcolor_d>Cell Key<textcolor_0>! Let's take it<line>
+to Bawss!<line>
+<:c><line>
+<redname><diamond>Squirt #4<line>
+I found it earlier, but I was preoccupied<line>
+after losing my make-up.<line>
+<redname><diamond>Squirt #4<line>
+Thank you so much! Now I can pretty<line>
+myself up!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagoff> <1><5><5><3><6><line>
+<:flagon> <1><5><5><3><7><line>
+<:flagon> <8><5><0><5><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <3> <2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #4<line>
+Oh this is a disaster!...Huh? The <textcolor_d>Cell Key<textcolor_0>?<line>
+Can't that wait!?<line>
+<redname><diamond>Squirt #4<line>
+Do you know where my Make-up Set is? I<line>
+lost it and it's imperative that I get it<line>
+back...<line>
+<redname><diamond>Squirt #4<line>
+If I can't do my make-up, I can't even think<line>
+about looking for the key, wan! *sniff<line>
+sniff*...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #4<line>
+Hurry and take that <textcolor_d>Cell Key<textcolor_0> back to<line>
+Bawss!<line>
+<:end><line>
+<end>
+

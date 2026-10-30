@@ -1,0 +1,21 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override (tools/gen_overrides.py): upstream file + "Press down on<line> / the <Dpad> to avoid<line> / obstacles and enemies!<line>" -> "Press down on<line> / the <Dpad> to<line> / avoid obstacles<line> / and enemies!<line>" (rewrap only: ran past the sign divider on screen)
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $3C
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+Press down on<line>
+the <Dpad> to<line>
+avoid obstacles<line>
+and enemies!<line>
+<end>
+

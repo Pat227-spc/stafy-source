@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 post-game revisit chat (in-level table #469)
+//Block Range: $0 - $230
+//POINTER: 0x0814E980
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+Oh, Detective Starlock! I must thank you<line>
+for your efforts the other day.<line>
+<redname><diamond>Funazou<line>
+But while you're here, could you do me<line>
+another favor? Would you mind buying some<line>
+Ressie Manju?<line>
+<redname><diamond>Funazou<line>
+If I don't sell 100 of them, my wife will be<line>
+extremely angry with me...<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+Truth is... I bought a new phone without my<line>
+wife knowing.<line>
+<redname><diamond>Funazou<line>
+If she found out, she'd beat me<line>
+senseless... *shudder*...<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 post-game revisit chat (in-level table #455)
+//Block Range: $0 - $240
+//POINTER: 0x0814E948
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:se><line>
+<rname><diamond>Savako<line>
+Hello~? Oh, it's you Papa~ Hm... Sure, I'll<line>
+come home~<line>
+<redname><diamond>Savako<line>
+Seeya later~ Bye byeeeee~ *click*<line>
+<redname><diamond>Savako<line>
+Ugh, my old man just never shuts up, does<line>
+he~? Did something happen recently~?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Savako<line>
+Hey, Starfy~, do you know any good part<line>
+time jobs~?<line>
+<redname><diamond>Savako<line>
+Lovely's Shop is selling this Perfect Make<line>
+Up set I really~ want~<line>
+<redname><diamond>Savako<line>
+...But those prices are way too high~<line>
+<:end><line>
+<end>
+

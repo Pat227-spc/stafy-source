@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-3 scene 2 (in-level table #397)
+//Block Range: $0 - $132
+//POINTER: 0x0814E860
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_3/11_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+By the way, didja know?<line>
+<redname><diamond>Moe<line>
+You can 'Dash' right over gaps that are<line>
+only one block wide!<line>
+<redname><diamond>Moe<line>
+Jumpin' on every block one by one... Heh,<line>
+how lame is that?<line>
+<:end><line>
+<end>
+

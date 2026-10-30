@@ -1,0 +1,172 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-3 scene 1 (in-level table #396)
+//Block Range: $0 - $C6A
+//POINTER: 0x0814E85C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_3/11_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><1><3><0><3> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <7> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Huh? Did we hit a dead end?<line>
+<:c><line>
+<wait><:func> <1><8> <0> <2><1><line>
+<:obj> <6> <2> <1><line>
+<rname><diamond>Ogura's Voice<line>
+Gwahaha! I've got you now! Take this!!!<line>
+<:c><line>
+<wait><:flagon> <1><1><3><0><4><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<rname><diamond>Moe<line>
+Gwuh- What's this weird smell- *cough<line>
+cough*! St-stop, Oguraaaa!!!<line>
+<:c><line>
+<redname><diamond>Ogura's Voice<line>
+Gwahaha! Serves you right! Now writhe in<line>
+agony! Gwahahaha!<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <6> <2> <0><line>
+<:func> <2> <5> <0><line>
+<:func> <3> <5> <0><line>
+<:func> <2> <5> <0><line>
+<:func> <3> <5> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Sh-shoot... That coward... making a trap<line>
+like this...!<line>
+<redname><diamond>Moe<line>
+I-It's no use... I feel... faint...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <1><7><line>
+<:flagoff> <1><1><3><0><4><line>
+<:flagon> <1><1><3><0><2><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <8> <1> <0><line>
+<:obj> <0> <2> <0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <3> <2> <1><line>
+<:obj> <3> <6><line>
+<:obj> <4> <2> <1><line>
+<:obj> <4> <6><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+...U-Ugh...<line>
+<wait><:obj> <3> <1><0> <0> <1><line>
+<:obj> <4> <1><0> <0> <1><line>
+[<wait_time> <2><4><0>]<line>
+<:obj> <3> <9> <2> <1><line>
+<:obj> <4> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+That was...awful...cough cough<line>
+<redname><diamond>Moe<line>
+...What was that weird smell just now?<line>
+<wait><:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Moe<line>
+Wait a sec, there's a letter on the ground!<line>
+Hmm... let's see here...<line>
+<:c><line>
+<wait>I got worried about you two, so I came up<line>
+here...<line>
+<:c><line>
+<wait>You two aren't ready for what's ahead if I<line>
+need to save you! Hohoho!<line>
+<:c><line>
+<wait>I shut off that strange trap.<line>
+<:c><line>
+<wait>Do you see that block that changes<line>
+patterns over there?<line>
+<:c><line>
+<wait>The trap will deactivate if every block has<line>
+the same pattern as the one above the<line>
+door.<line>
+<:c><line>
+<wait>When you see the pattern you need, Star<line>
+Spin into the block to stop it from<line>
+changing its pattern.<line>
+<:c><line>
+<wait>If you take too long, the gas from that<line>
+trap'll cause you to take damage...<line>
+<:c><line>
+<wait>Don't be reckless! Get out of the room if<line>
+it gets too dangerous, understand?<line>
+<:c><line>
+<wait>Well, my back's acting up, so I should be<line>
+going...<line>
+<:c><line>
+<wait>Don't make this old coot worry too much,<line>
+you hear? Hurry up and grow into real<line>
+heroes! Hohoho...<line>
+<:c><line>
+<wait><:obj> <2> <2> <0><line>
+<:func> <1><8> <1> <7><2><line>
+<rname><diamond>Moe<line>
+Sheesh, what's with this letter? Soundin' all<line>
+high and mighty...<line>
+<redname><diamond>Moe<line>
+But this tone...it's just like how that<line>
+geezer talks...<line>
+<redname><diamond>Moe<line>
+Eh, I'm sure it's nothin'. Anyways, be careful<line>
+of this trap goin' forwards!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><1><3><0><3><line>
+<:obj> <0> <2> <1><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <5> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+In rooms with the blocks that change<line>
+patterns, you need to Star Spin into 'em to<line>
+stop em'...<line>
+<redname><diamond>Moe<line>
+And make sure that they match the<line>
+pattern of the block above the door!<line>
+<redname><diamond>Moe<line>
+But you gotta be quick! Take too long, and<line>
+the gas's gonna do some damage to you!<line>
+<redname><diamond>Moe<line>
+If it gets too risky, get outta there ASAP,<line>
+got it!?<line>
+<:end><line>
+<end>
+

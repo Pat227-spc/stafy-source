@@ -1,0 +1,182 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 scene 4 (in-level table #243)
+//Block Range: $0 - $DA6
+//POINTER: 0x0814E5F8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><3><0><6> <go> <3><line>
+<:if> <6><3><0><5> <go> <2><line>
+<:if> <6><3><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hey! Chuta! Look at the state of you...<line>
+What happened?<line>
+<:c><line>
+<redname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+Urg...Moe and Starfy? Sorry that you<line>
+gotta see me like this, chu...<line>
+<redname><diamond>Chuta<line>
+I'll tell you what happened... It was a<line>
+stormy night...<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <5> <8><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+Us Tsubochu folks lose all our strength if<line>
+we ain't in an Octo-Jar...<line>
+<redname><diamond>Chuta<line>
+Ah~ I see a field of flowers...My great<line>
+grandmother's calling me...chu...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Whoa, hold your horses!!! You can't go to<line>
+the other side yet!<line>
+<redname><diamond>Moe<line>
+Ain't there anything we can do!?<line>
+<:c><line>
+<redname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+No...it's hope...less? Wait, one of my friends<line>
+should be able to help...<line>
+<redname><diamond>Chuta<line>
+Yeah...! <textcolor_d>Big Barrel Squid<textcolor_0> should know<line>
+exactly what to do!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+A squid and an octopus are friends...?<line>
+Wait, who cares about that!<line>
+<redname><diamond>Moe<line>
+Listen up, Starf! Hurry up and look for Big<line>
+Barrel Squid, NOW!<line>
+<:c><line>
+<redname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+Wait...You won't be able to find him unless<line>
+you can break some strong blocks.<line>
+<redname><diamond>Chuta<line>
+Your current strength won't be enough.<line>
+You'll have to learn the Mighty <textcolor_d>Star Spin<textcolor_0>,<line>
+chu...<line>
+<redname><diamond>Chuta<line>
+The <textcolor_d>sign<textcolor_0> on the upper left has everything<line>
+you need to know written down on it.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2> <0><line>
+<:flagon> <6><3><0><3><line>
+<:flagon> <1><5><0><0><1><line>
+<:func> <1><4> <1> <-><4><4><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Chuta<line>
+I'm coming now, Grandma, chu...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Crap, this is bad! Hurry, you gotta go find<line>
+<textcolor_d>Big Barrel Squid<textcolor_0> and fast!!!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:func> <6> <1> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You sure took your time! Well, didja get the<line>
+Octo-Jar!?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+...a Barrel? You had ONE JOB!!! Jars and<line>
+Barrels are nowhere NEAR the same!<line>
+<redname><diamond>Moe<line>
+But I guess we have no choice. It's no Jar,<line>
+but maybe this'll be fine.<line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+Hey, Gramps! We have a barr- I mean, Jar<line>
+for you! Get in!<line>
+<:c><line>
+<redname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+Chu...a...Jar...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <0> <1><line>
+[<wait_time> <4><0>]<line>
+<:func> <1><8> <1> <7><9><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <7><9><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <7><9><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Uhhhhhhh...<line>
+<:c><line>
+<redname><diamond>Chuta<line>
+<:obj> <2> <4><line>
+This...this jar is GREAT! It's a perfect fit<line>
+too!<line>
+<redname><diamond>Chuta<line>
+I knew I could count on Big Barrel Squid!<line>
+You deserve something too, Starfy!<line>
+<wait><:func> <1><8> <1> <5><2><line>
+<rname><diamond>Chuta<line>
+I got it! As thanks for the jar, I'll open<line>
+the door to the Treasure Room!<line>
+<redname><diamond>Chuta<line>
+Inside is something you can take if you<line>
+want. Thanks a lot!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <2> <0><line>
+<:flagon> <6><3><0><6><line>
+<:flagoff> <1><5><6><0><1><line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <0> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Chuta<line>
+Well the last Octo-Jar was good too, but<line>
+this one's way better.<line>
+<redname><diamond>Chuta<line>
+Oh, Starfy! Did you take the treasure?<line>
+<redname><diamond>Chuta<line>
+Or did you come to admire my perfect<line>
+Octo-Jar?<line>
+<:end><line>
+<end>
+

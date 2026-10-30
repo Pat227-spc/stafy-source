@@ -1,0 +1,47 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Unused/duplicate Moe tutorial wrap-up (in-level table #158-199, all one block)
+//Block Range: $0 - $2F6
+//POINTER: 0x0814E4A4 0x0814E4A8 0x0814E4AC 0x0814E4B0 0x0814E4B4 0x0814E4B8 0x0814E4BC 0x0814E4C0 0x0814E4C4 0x0814E4C8 0x0814E4CC 0x0814E4D0 0x0814E4D4 0x0814E4D8 0x0814E4DC 0x0814E4E0 0x0814E4E4 0x0814E4E8 0x0814E4EC 0x0814E4F0 0x0814E4F4 0x0814E4F8 0x0814E4FC 0x0814E500 0x0814E504 0x0814E508 0x0814E50C 0x0814E510 0x0814E514 0x0814E518 0x0814E51C 0x0814E520 0x0814E524 0x0814E528 0x0814E52C 0x0814E530 0x0814E534 0x0814E538 0x0814E53C 0x0814E540 0x0814E544 0x0814E548
+//Backfill: own translation from JP (no SUT; block appears unused - 42 table entries share it)
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><1><0><1> <go> <1><0><line>
+<:flagon> <1><1><0><1><line>
+<:func> <2><2> <-><1><line>
+<<textspeed> <2>><rname><diamond>Moe<line>
+Finally remember some of your abilities,<line>
+Starf? Sheesh, you're as much of a pain<line>
+as ever...<line>
+<redname><diamond>Moe<line>
+I'm sure there'll be folks who'll teach you<line>
+even more abilities along the way...<line>
+<redname><diamond>Moe<line>
+So you better listen to what they tell ya!<line>
+<wait><:obj> <1> <5><line>
+<rname><diamond>Moe<line>
+And just like last time, if ya have<line>
+questions at any point...<line>
+<redname><diamond>Moe<line>
+Just talk to this cool and reliable clam!<line>
+Got it?<line>
+<:end><line>
+<wait>:<1><0><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Just like last time, if ya have questions at<line>
+any point...<line>
+<redname><diamond>Moe<line>
+Just talk to this cool and reliable clam!<line>
+Got it?<line>
+<:end><line>
+<end>
+

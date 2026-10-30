@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-1 post-game revisit chat (in-level table #148)
+//Block Range: $0 - $290
+//POINTER: 0x0814E47C
+//Backfill: English from SUT post-game post postgame_w05_r1jv87.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+Oh hey, Starfy! Actually, we were just<line>
+talking about something...<line>
+<redname><diamond>Orisu<line>
+We're gonna stop being so lovey-dovey<line>
+around everyone!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+This makes us a little more mature, right?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+Well, we should act more mature and kiss,<line>
+right? <textcolor_d><heart><textcolor_0><line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+Kyaaa!!! <heart> A kiss!? How naughty~!! <heart><line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+That's what you get for saying we're<line>
+mature now~ <textcolor_d><heart><textcolor_0>...Huh? What's wrong,<line>
+Starfy?<line>
+<:end><line>
+<end>
+

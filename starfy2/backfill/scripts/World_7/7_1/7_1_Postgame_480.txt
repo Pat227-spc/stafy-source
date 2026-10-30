@@ -1,0 +1,32 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 post-game revisit chat (in-level table #480)
+//Block Range: $0 - $146
+//POINTER: 0x0814E9AC
+//Backfill: English from SUT post-game post postgame_w07_r24i3r.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Crawdaddy<line>
+Where are they *snip*!? Where are all the<line>
+pearls *snip*!? There're supposed to be a<line>
+bunch around here!!!<line>
+<:c><line>
+<redname><diamond>Crawbaby<line>
+I wanna get a lot of pearls so I can buy<line>
+way cuter Teddy Bears *snip*!!!<line>
+<:c><line>
+<redname><diamond>Cute Teddy<line>
+......Hmph!<line>
+<:end><line>
+<end>
+

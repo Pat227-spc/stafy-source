@@ -1,0 +1,173 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-2 scene 1 (in-level table #361)
+//Block Range: $0 - $DD2
+//POINTER: 0x0814E7D0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_2/10_2_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><2><0><3> <go> <3><line>
+<:if> <1><0><2><0><2> <go> <2><line>
+<:if> <1><0><2><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:se><line>
+<rname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+Just a tick, young'uns! I can't let you go<line>
+past this point!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Huh? If it ain't Old Man Croak! It's been a<line>
+while, how've ya been?<line>
+<:c><line>
+<redname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+I am not Old Man Croak! But, he IS my<line>
+cousin's sister in law's second cousin!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+...So basically you're family... Anyways, why<line>
+can't we go past you?<line>
+<:c><line>
+<redname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+The waterfalls past here are tremendously<line>
+strong! You two wouldn't last a second!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Even so, there ain't any other way... So<line>
+what're we supposed to do?<line>
+<:c><line>
+<redname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+Don't you worry! For in Master Croak's<line>
+Dojo, you'll learn its strongest technique...<line>
+<redname><diamond>Master Croak<line>
+You won't fear those waterfalls at all! I'll<line>
+even make this instruction session free!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+But- *sigh* Alright, you better learn this<line>
+technique or whatever, Starf.<line>
+<:c><line>
+<redname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+That's a good attitude for a young'un to<line>
+have! Now, let the instruction begin!<line>
+<redname><diamond>Master Croak<line>
+Just above us lies the entrance to the<line>
+Dojo!<line>
+<redname><diamond>Master Croak<line>
+The Dojo has 5 chambers! In them, you<line>
+must spin into every 'orb'!<line>
+<redname><diamond>Master Croak<line>
+However! Once you enter the Dojo, you may<line>
+only stay while I count to 100!<line>
+<redname><diamond>Master Croak<line>
+If you exceed 100 seconds, you fail, and<line>
+there will be consequences. Painful<line>
+consequences.<line>
+<redname><diamond>Master Croak<line>
+If you have steeled yourself, then pass<line>
+through the above door!<line>
+<redname><diamond>Master Croak<line>
+You might want to take a gander at that<line>
+<textcolor_d>sign<textcolor_0>. It'll tell you how to perform this<line>
+technique.<line>
+<redname><diamond>Master Croak<line>
+I dubbed the technique, the '<textcolor_d>Ultra Star<line>
+Spin<textcolor_0>'! Learn it quickly!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><2><0><0><line>
+<:func> <1><4> <1> <5><6> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Master Croak<line>
+<:obj> <2> <4><line>
+What's wrong, youngster, lost your nerve?<line>
+I'll explain it again.<line>
+<redname><diamond>Master Croak<line>
+Through the door above, you'll find the<line>
+entrance to the dojo. Inside, I want you to<line>
+spin into every single 'orb' there.<line>
+<redname><diamond>Master Croak<line>
+However, you only have 100 seconds to<line>
+do this. Failing to do so will result in<line>
+punishment!<line>
+<redname><diamond>Master Croak<line>
+Once you've done it, you'll be able to use<line>
+the '<textcolor_d>Ultra Star Spin<textcolor_0>'!<line>
+<redname><diamond>Master Croak<line>
+If you want the details, fancy a look at<line>
+that <textcolor_d>sign<textcolor_0> in front of the door!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+I'm uh, not too good at this stuff, so this<line>
+is all you, Starf.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <5><6> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Master Croak<line>
+Bravo, youngster! You have mastered the<line>
+'<textcolor_d>Ultra Star Spin<textcolor_0>'!<line>
+<redname><diamond>Master Croak<line>
+Now you can proceed with no worries! May<line>
+your travels be safe!<line>
+<redname><diamond>Master Croak<line>
+...Oh? You're wondering where that friend<line>
+of yours went?<line>
+<redname><diamond>Master Croak<line>
+He said 'Ugh, what's taking so long?...Geez,<line>
+what a slowpoke' and then proceeded<line>
+onwards while mumbling to himself.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><2><0><3><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Master Croak<line>
+I must say, youngster, you have great<line>
+potential!<line>
+<redname><diamond>Master Croak<line>
+When I retire, I may even let you take over<line>
+'Master Croak's Dojo'.<line>
+<:end><line>
+<end>
+

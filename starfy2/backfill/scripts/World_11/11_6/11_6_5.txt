@@ -1,0 +1,356 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-6 scene 5 (in-level table #139)
+//Block Range: $0 - $150C
+//POINTER: 0x0814E458
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_6/11_6_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <1><1><6><0><6><line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+[<wait_time> <3><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Ogura<line>
+Take this! And that!<line>
+[<wait_time> <1><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <1><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <1><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+[<wait_time> <1><0>]<line>
+<rname><diamond>Ogura<line>
+What's wrong? Is that all you've got?<line>
+Gwahaha!<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+[<wait_time> <2><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <4><0><line>
+[<wait_time> <9>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <4><0><line>
+[<wait_time> <9>]<line>
+[<wait_time> <1><0>]<line>
+<rname><diamond>Ogura<line>
+Now that I've powered up, no one stands a<line>
+chance against me! Gwahaha!<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <5>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <5>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<redname><diamond>Ogura<line>
+I'd say it's about time to put you out of<line>
+your misery! Gwahaha!<line>
+<:c><line>
+<wait><:obj> <1> <1><1> <4> <0> <3><line>
+<:obj> <1> <5> <1><line>
+<rname><diamond>Moe<line>
+STOP IIIIIIIIIT!<line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <2> <7> <1><6> <1><9><2> <1><0><line>
+<:obj> <1> <1><5> <0> <3><0><line>
+[<wait_time> <8><8>]<line>
+<:obj> <0> <2><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <1> <1><1><line>
+<redname><diamond>Moe<line>
+Ya beat Starf senseless already! Isn't<line>
+that enough for you!?<line>
+<:c><line>
+<redname><diamond>Ogura<line>
+What do you think you're doing? Don't you<line>
+think it's far too late to come out now,<line>
+coward!?<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <1><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<rname><diamond>Moe<line>
+Ack! So...strong...! This guy's way stronger<line>
+than before...!<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+[<wait_time> <3><0>]<line>
+<:func> <8> <0> <6><9><line>
+<:obj> <2> <7> <2><6> <6><4> <8><0><line>
+[<wait_time> <4>]<line>
+<:func> <8> <0> <7><0><line>
+<:func> <1><8> <1> <4><5><line>
+<:obj> <2> <7> <2><6> <1><9><2> <8><0><line>
+[<wait_time> <4>]<line>
+<:c><line>
+<wait><:obj> <2> <7> <4><8> <3><2> <1><0><line>
+<rname><diamond>Ogura<line>
+Gwahaha! What weaklings! Might as well kill<line>
+two birds with one stone!<line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <6><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:func> <1><8> <1> <1><1><1><line>
+<:func> <7> <3><0> <2> <0><line>
+<:c><line>
+<wait><:obj> <2> <1><5> <5> <3><0><line>
+<rname><diamond>Moe<line>
+C-crud! I can't move! We...we're done for!<line>
+<:func> <2><4> <9><9><line>
+<:func> <1> <5> <2><line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<:func> <7> <2><5><5> <2> <1><line>
+<rname><diamond>Ogura<line>
+END OF THE LINE, WEAKLINGS!!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <2><4> <2><line>
+<:obj> <2> <1><5> <1> <5><5><line>
+<:func> <1><8> <1> <7><6><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <1><5> <1> <4><5><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <1><5> <1> <3><5><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <1><5> <1> <2><5><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <1><5> <1> <1><5><line>
+[<wait_time> <2><0>]<line>
+<:obj> <2> <1><5> <1> <5><line>
+[<wait_time> <2><0>]<line>
+<rname><diamond>Moe<line>
+Waaaaaaaaaaaah...!<line>
+<:c><line>
+<:sd><line>
+<:func> <2> <4> <2><line>
+<:func> <2><5><line>
+<:se><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <1><8> <7><line>
+<:func> <7> <0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <8> <1> <0><line>
+<:func> <5> <1><8><line>
+<:func> <1><0><line>
+<:obj> <2> <1><0> <0> <2><line>
+<:func> <2><4> <6><line>
+<:func> <1> <6> <1><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:obj> <6> <2> <1><line>
+<:obj> <0> <2><line>
+<:obj> <1> <2><line>
+<:func> <1><8> <0> <1><7><line>
+<:func> <2><7><line>
+<:func> <3> <2><line>
+<:obj> <0> <1><1> <4> <-><2><8> <0><line>
+<:obj> <1> <1><1> <4> <0> <0><line>
+<:obj> <1> <5> <0><line>
+<:obj> <1> <2> <1><line>
+<:obj> <0> <2> <1><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <1><2><0> <0> <1><0><line>
+<:func> <1><4> <4> <9><0> <0><line>
+[<wait_time> <4><0>]<line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Who the heck ARE you, old timer!? I never<line>
+knew you were this strong!<line>
+<redname><diamond>Moe<line>
+Sheesh... If you were this strong from<line>
+the get-go, you coulda walloped-<line>
+<:c><line>
+<wait><:obj> <6> <4><line>
+<rname><diamond>Old Man Lobber<line>
+Don't always rely on others, you fool!<line>
+<redname><diamond>Old Man Lobber<line>
+This is the time for youngsters like you to<line>
+take over!<line>
+<redname><diamond>Old Man Lobber<line>
+What can you do if you don't put in any<line>
+hard work?<line>
+<redname><diamond>Old Man Lobber<line>
+Besides, I'm much too old... Oh, my aching<line>
+back...<line>
+<wait><:obj> <7> <1><1> <6> <0> <-><3><2><line>
+<:obj> <7> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Old Man Lobber<line>
+Here! Take the Jar and hurry!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <7> <1><5> <0> <1><0><line>
+[<wait_time> <1><4><0>]<line>
+<:flagon> <1><5><5><4><5><line>
+<:obj> <7> <3><line>
+<:obj> <7> <2><line>
+<rname><diamond>Old Man Lobber<line>
+Thanks to our little scuffle, Ogura's<line>
+gotten a smidge weaker...<line>
+<redname><diamond>Old Man Lobber<line>
+Take this opportunity and seal him while<line>
+you still can!<line>
+<redname><diamond>Old Man Lobber<line>
+I had a hard time finding the Jar after you<line>
+two left... Harrumph!<line>
+<redname><diamond>Old Man Lobber<line>
+Well, it's alright. I believe in you two! I'll be<line>
+going now.<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Moe<line>
+Yeah...you're right! What kinda losers would<line>
+we be if we just stood around and did<line>
+nothing!<line>
+<redname><diamond>Moe<line>
+*mumble mumble* For Ms. Ruby's sake too...<line>
+I wanna be the type of man she can rely<line>
+on...<line>
+<redname><diamond>Moe<line>
+Alright, let's get movin', Starfy! The<line>
+future's in our hands!<line>
+<redname><diamond>Moe<line>
+There's only one thing left to do! Let's<line>
+finish this!!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <2><4> <0><line>
+<:obj> <6> <7> <2><0><0> <1><2><8> <1><0><line>
+<:obj> <1> <7> <2><0><0> <0> <2><0><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:obj> <1> <2><line>
+<:obj> <6> <1><6><line>
+<:obj> <6> <3><line>
+<:obj> <6> <2><line>
+<:func> <2><4> <0><line>
+<:func> <1> <0><line>
+<:func> <2><4> <0><line>
+<:func> <1><1> <0> <1><line>
+<:obj> <7> <2> <0><line>
+<:obj> <7> <1><6><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

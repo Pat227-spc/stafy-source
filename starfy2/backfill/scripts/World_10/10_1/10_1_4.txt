@@ -1,0 +1,78 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 scene 4 (in-level table #355)
+//Block Range: $0 - $4D0
+//POINTER: 0x0814E7B8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_1/10_1_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><1><0><8> <go> <2><line>
+<:if> <1><0><1><0><7> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:obj> <1> <5> <2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+WHAT!? The secret message got stolen!?<line>
+How stupid can you be!?<line>
+<redname><diamond>Moe<line>
+Hurry up and clean up this mess you made!<line>
+<redname><diamond>Moe<line>
+That guy just below us... I think he's<line>
+probably the real one.<line>
+<redname><diamond>Moe<line>
+When you see that guy's face appear from<line>
+one of those 9 holes, hit it with your spin!<line>
+<redname><diamond>Moe<line>
+But don't get too close! When he pops<line>
+outta that hole, he'll let loose some nasty<line>
+fireballs!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><1><0><7><line>
+<:func> <1> <0> <1><line>
+<:obj> <1> <5> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+I think the guy just below me is the real<line>
+one.<line>
+<redname><diamond>Moe<line>
+When that guy pops his face outta one of<line>
+those 9 holes, give 'im a Star Spin!<line>
+<redname><diamond>Moe<line>
+But don't get too close! When he pops<line>
+outta that hole, he'll let loose some nasty<line>
+fireballs!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Urk, so that one was a fake...I-I mean of<line>
+course! Thought so!<line>
+<redname><diamond>Moe<line>
+C'mon, let's find the real one!<line>
+<:end><line>
+<end>
+

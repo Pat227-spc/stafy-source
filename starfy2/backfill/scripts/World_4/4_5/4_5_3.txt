@@ -1,0 +1,230 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 3 (in-level table #224)
+//Block Range: $0 - $EC0
+//POINTER: 0x0814E5AC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><5><2><0> <go> <3><line>
+<:if> <4><5><0><7> <go> <2><line>
+<:if> <4><5><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <8><line>
+<:se><line>
+<rname><diamond>Ookids<line>
+Hello Starfy~ What brings you here~?<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Actually, we'd like to borrow the Hot Spring<line>
+for a bit-<line>
+<:c><line>
+<redname><diamond>Ookids<line>
+Sorry~ If we get out we'll be too cold~<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Please, chu guys! Moe'll freeze solid if he<line>
+can't get in!<line>
+<:c><line>
+<redname><diamond>Ookids<line>
+That clam is a rude, violent coward~ We<line>
+hate him~!<line>
+<redname><diamond>Ookids<line>
+If he stays frozen, it'll stay nice and<line>
+quiet~<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+What do we do...? If the Ookids don't get<line>
+out...!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+I got it! Starfy, go ask the <textcolor_d>Coalbies<textcolor_0> to<line>
+make the water hotter!<line>
+<redname><diamond>Jellata<line>
+Please!!!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+If you do that, the Ookids'll come out even<line>
+less, chu!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Just do as I say! The Coalbies are through<line>
+the door down below.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:obj> <0> <1><1> <3> <1><0><4> <-><8><line>
+<:flagon> <4><5><0><4><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jellata<line>
+If you ask the Coalbies to make the Hot<line>
+Spring hotter, they should be happy to<line>
+help!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+Two Coalbies make a single team. We'll need<line>
+all 3 Teams to make the Hot Spring hot<line>
+enough.<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+Thank chu!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <9><line>
+<:se><line>
+<rname><diamond>Ookids<line>
+We'll never get out~ The Hot Spring's so<line>
+warm~ This is the best-...Huh?<line>
+<:c><line>
+<wait>*Bubble bubble*... *Bubble bubble<line>
+bubble*... *Bubble bubble bubble bubble*...<line>
+<:c><line>
+<wait><:obj> <6> <2> <1><line>
+<:obj> <7> <2> <1><line>
+<:obj> <5> <0> <0><line>
+<:obj> <6> <0> <0><line>
+<:obj> <7> <0> <0><line>
+<:obj> <5> <7> <1><6><0> <1><9><2> <6><0><line>
+<:obj> <6> <7> <1><6><0> <2><0><8> <6><0><line>
+<:obj> <6> <9> <2> <1><line>
+<:obj> <7> <7> <1><6><0> <1><7><6> <6><0><line>
+<:func> <1><8> <1> <9><2><line>
+<rname><diamond>Ookids<line>
+I-IT'S HOT! HOOOOOOT! THE WATER'S TOO<line>
+HOOOOOT!!!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+Now, throw Moe in!!!<line>
+<:c><line>
+<wait><:obj> <1> <7> <8> <1><9><2> <2><0><line>
+<:obj> <2> <7> <8> <1><9><2> <2><0><line>
+<:obj> <3> <7> <8> <1><9><2> <2><0><line>
+<:obj> <4> <1><2> <1><2> <-><3><0><line>
+<:func> <1><8> <1> <7><5><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Moe<line>
+It's...<line>
+<wait><:obj> <4> <6><line>
+<:obj> <4> <5> <1><line>
+<rname><diamond>Moe<line>
+WAY TOO HOOOOOOOOOOOT!!!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Hey, the ice melted! Look, Moe's fine now!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Phew, chu...<line>
+<:c><line>
+<wait><:obj> <4> <5> <2><line>
+<rname><diamond>Moe<line>
+HOW IS THIS GOOD!? WHAT, ARE YOU TRYING TO<line>
+BOIL AND SERVE ME ON A PLATTER!?<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <4> <6><line>
+<:flagon> <4><5><2><2><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:obj> <1> <1><1> <0> <-><1><8><0> <1><2><line>
+<:obj> <2> <1><1> <0> <-><1><6><4> <-><8><line>
+<:obj> <3> <1><1> <0> <-><1><4><8> <1><2><line>
+<:obj> <5> <1><1> <3> <4><4> <2><8><line>
+<:obj> <5> <0> <1><line>
+<:obj> <6> <2><line>
+<:obj> <7> <2><line>
+<:obj> <4> <5> <2><line>
+<:obj> <4> <1><1> <0> <-><4><0> <0><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Ookids<line>
+The Hot Spring isn't hot anymore~<line>
+Greeeat~<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <4> <4><line>
+Hey, Ookids! I heard everything!<line>
+<redname><diamond>Moe<line>
+Who's a violent, rude, perverted coward,<line>
+huh!?<line>
+<:c><line>
+<redname><diamond>Ookids<line>
+W-we didn't call you a pervert~...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <4> <4><line>
+That's it! I'm gonna beat you all black and<line>
+blue!!!<line>
+<:c><line>
+<redname><diamond>Ookids<line>
+Waaaah! We're sorry, please don't hurt us!<line>
+H-here, we'll let you in our secret door!<line>
+<wait><:func> <1><8> <1> <5><2><line>
+<rname><diamond>Ookids<line>
+Through it, there's a <textcolor_d>treasure<textcolor_0>... or at<line>
+least that's what they say...<line>
+<:c><line>
+<wait><:obj> <4> <5> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <4> <4><line>
+TREASURE!!?<line>
+<:c><line>
+<wait><:obj> <4> <9> <2> <1><line>
+<:obj> <4> <7> <1><0><4> <0> <4><0><line>
+[<wait_time> <2><6>]<line>
+<rname><diamond>Ookids<line>
+Wow...he's oddly fast<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <1><7><8><line>
+<:obj> <4> <2><line>
+<:obj> <6> <2><line>
+<:obj> <7> <2><line>
+<:obj> <1> <1><1> <0> <-><1><7><6> <1><2><line>
+<:obj> <2> <1><1> <0> <-><1><6><0> <-><8><line>
+<:obj> <3> <1><1> <0> <-><1><4><4> <1><2><line>
+<:flagon> <4><5><2><0><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jellato<line>
+If you ever get in a fix again, just let us<line>
+know!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+We shall always lend you our strength,<line>
+Starfy.<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+Thank chu!!<line>
+<:end><line>
+<end>
+

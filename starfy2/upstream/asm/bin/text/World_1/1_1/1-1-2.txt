@@ -1,0 +1,55 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Intro 2
+//Block Range: $0 - $378
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:flagon> <1><1><0><2><line>
+<:func> <1> <1><line>
+<:func> <0><line>
+<:func> <1><8> <1> <5><8><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Mermaid<line>
+Oh, Starfy! Longtime no see!<line>
+What's happening this time around?<line>
+<redname><diamond>Mermaid<line>
+...Hm..hm...Oh, that's terrible!<line>
+You need to hurry and save your mom!<line>
+<redname><diamond>Mermaid<line>
+In that case, I'll help you<line>
+on your adventure this time too!<line>
+<redname><diamond>Mermaid<line>
+<textcolor_d>Just touch my shell to save!<textcolor_0><line>
+That way if something goes wrong, you can<line>
+continue from there!<line>
+<redname><diamond>Mermaid<line>
+Ah! By the way, if you wanna<line>
+take a break in the middle of a stage...<line>
+<redname><diamond>Mermaid<line>
+<textcolor_d>Press the Start Button to pause the game<textcolor_0><line>
+<textcolor_d>and then turn it off...<textcolor_0><line>
+<redname><diamond>Mermaid<line>
+And when you come back,<line>
+you can pick up right where you left off!<line>
+I'm rooting for you Starfy!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <0><line>
+[<wait_time> <2><0>]<line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

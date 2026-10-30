@@ -1,0 +1,64 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 5 (in-level table #285)
+//Block Range: $0 - $296
+//POINTER: 0x0814E6A0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><6><4> <go> <2><line>
+<:if> <7><3><6><5> <go> <2><line>
+<:if> <7><3><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Oh, he ran away again! But we are slowly<line>
+catching up to that ruffian at least.<line>
+<:obj> <2> <2> <1><line>
+<wait><:obj> <2> <2> <0><line>
+<rname><diamond>Taiblond<line>
+But we will definitely corner him next time!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><0><4><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Here is the picture.<line>
+<:obj> <2> <2> <1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+Next time, I will corner that little brat for<line>
+sure!<line>
+<:end><line>
+<:end><line>
+<end>
+

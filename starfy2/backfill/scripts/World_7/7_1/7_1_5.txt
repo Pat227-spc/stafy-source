@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 5 (in-level table #264)
+//Block Range: $0 - $18A
+//POINTER: 0x0814E64C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><1><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <7><1><0><5><line>
+<rname><diamond>Crawdaddy<line>
+Phew! That wasn't very fun *snip*... Oh,<line>
+long time no see, Starfy *snip*!<line>
+<redname><diamond>Crawdaddy<line>
+Wait, now's not the time for pleasantries<line>
+*snip*! My son! Where is Crawbaby *snip*!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Crawdaddy<line>
+Crawbaby, where are you *snip*! Your<line>
+Papa's worried about you *snip*!<line>
+<:end><line>
+<end>
+

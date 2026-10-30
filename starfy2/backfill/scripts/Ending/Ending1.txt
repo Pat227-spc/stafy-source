@@ -1,0 +1,168 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override: upstream file + typo fixes
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $A1A
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<x_pos> <4><9>]<line>
+Starfy and Moe were once again<line>
+[<x_pos> <5><4>]<line>
+able to seal Ogura in the jar...<line>
+<:func> <4><line>
+<:c><line>
+[<x_pos> <3><2>]<line>
+<wait>And rescue Mama Star safe and sound.<line>
+[<x_pos> <7><5>]<line>
+What a happy ending...<line>
+[<x_pos> <5><2>]<line>
+Now let's get back to Pufftop.<line>
+<:func> <4><line>
+<:c><line>
+<:func> <5> <1> <1><0><line>
+<:func> <1> <0> <2><line>
+<:func> <5> <0> <1><8><line>
+<:func> <2> <8><line>
+<wait><:func> <3> <0><line>
+<wait>[<x_pos> <0>]<line>
+<rname><diamond>Papa Star<line>
+Oh! Starfy!<line>
+Well done, my boy!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+I never thought that Ogura would<line>
+escape the jar on his own...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+We'll have to be much more careful<line>
+with the Jar from now on...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+Yeah, Obviously!<line>
+Sheesh, you guys are useless...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+*grumble* At any rate,<line>
+at least everyone is safe...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+By the way... Hey, Gramps!<line>
+You know what to do now, right?...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+Yes, Yes, I know! You want treasure...<line>
+My word...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+If you know, then hurry up and hand it over!<line>
+Chop Chop! Gimme the treasure!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+<:func> <2> <2><4><line>
+Oh fine...Here!<line>
+Take this treasure map!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+What's this?<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+The treasure's right here in Pufftop,<line>
+ain't it?<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+About that...<$5E>Due to Starfy<line>
+accidentally losing the treasure before...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+We've been hiding them throughout<line>
+the sea for the past few years.<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+My apologies, but you'll have to use<line>
+that treasure map to find them...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+You've gotta be kidding me!<line>
+...What a pain... Sheesh...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:func> <2> <4><0><line>
+C'mon, Starf! Let's go!<line>
+<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+What's that? "Mama's finally back,<line>
+and ya don't wanna leave"?!...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+Don't be dumb! C'mon!!!<line>
+<:func> <2> <4><8><line>
+Wh-OW!!!<line>
+<:func> <3> <0><line>
+<wait><:func> <2> <6><4><line>
+<:func> <3> <0><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+Gwahahahaha! You fools!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+I heard something great! I'll collect<line>
+every single one of those treasures!<line>
+<:func> <2> <6><8><line>
+<:func> <3> <0><line>
+<:c><line>
+<redname><diamond>Puchi Oguras<line>
+<:func> <2> <7><2><line>
+Ahahahaha! Dummies! Idiots!<line>
+We're taking the treasure!~<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <3><0>]<line>
+<:func> <2> <8><0><line>
+<:func> <3> <0><line>
+<rname><diamond>Moe<line>
+...You... You Blockhead!<line>
+Look at what you did!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+C'mon! We gotta go NOW!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+We have to find those treasures before<line>
+those guys do! Let's GO!!!<line>
+<:func> <2> <8><8><line>
+<:func> <3> <0><line>
+<:func> <4><line>
+<:func> <5> <1> <1><0><line>
+<:func> <1> <0> <2><line>
+<:exit><line>
+<end>
+

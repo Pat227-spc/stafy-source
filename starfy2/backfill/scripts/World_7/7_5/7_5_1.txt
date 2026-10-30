@@ -1,0 +1,100 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-5 scene 1 (in-level table #295)
+//Block Range: $0 - $5C2
+//POINTER: 0x0814E6C8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_5/7_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #7<line>
+<:obj> <3> <4><line>
+Wait, you guys are here already!? I'm not<line>
+ready to play with you yet though...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Yeah, about that... Sorry, but we'll deal<line>
+with you later.<line>
+<:c><line>
+<redname><diamond>Horun<line>
+<:obj> <2> <4><line>
+That's right! <textcolor_d>Pufftop<textcolor_0>'s in trouble!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Ya know, you keep sayin' trouble this and<line>
+trouble that. What's goin' on in Pufftop?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #7<line>
+<:obj> <3> <4><line>
+What do I care!? Don't ignore me, you jerks!<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:obj> <3> <6><line>
+[<wait_time> <1><5>]<line>
+<:obj> <4> <1><1> <3> <5> <-><4><line>
+<:obj> <4> <2> <1><line>
+[<wait_time> <8>]<line>
+<:obj> <4> <1><1> <3> <8> <-><4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <4> <1><1> <3> <8> <-><6><line>
+[<wait_time> <8>]<line>
+<:obj> <4> <1><1> <3> <8> <-><1><4><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <8>]<line>
+<:obj> <4> <1><2> <-><1><0> <-><1><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <5> <1><0> <0> <0><line>
+<:obj> <5> <6><line>
+<:obj> <4> <2> <0><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <1> <5> <1><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <1><2> <0> <0><line>
+[<wait_time> <9><0>]<line>
+<:func> <2> <2><line>
+<:func> <1><0><line>
+<:obj> <1> <5> <0><line>
+<:obj> <1> <1><1> <0> <4><0> <0><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <8> <0> <0><line>
+<:func> <1><1> <0> <2><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #7<line>
+When you guys get back up here, I'll be<line>
+ready this time! I won't LET you ignore me!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+I'll wait at the top for you guuuuuuuuys!!!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+Those two just say whatever they please!!<line>
+<redname><diamond>Moe<line>
+Whatever, we gotta get back up there<line>
+somehow. We definitely ain't gonna get<line>
+anywhere standing here! Let's go!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <2> <0><line>
+<:func> <8> <0> <9><9><line>
+<:flagon> <7><5><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

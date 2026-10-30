@@ -1,0 +1,57 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 post-game revisit chat (in-level table #495)
+//Block Range: $0 - $2C0
+//POINTER: 0x0814E9E8
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><2> <1><0> <1><0><1><line>
+<:func> <1><3><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<:if> <1><5><2><4><6> <go> <2><line>
+<:if> <1><0><0><4> <go> <1><line>
+<rname><diamond>Puchi Ogura #10<line>
+How dare you, Starfy...! Fight me! FIGHT ME!<line>
+FIGHT MEEEE!!!<line>
+<redname><diamond>Puchi Ogura #10<line>
+This time, I'll show you the power of Ogura's<line>
+oldest son!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:flagon> <1><0><0><4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<rname><diamond>Puchi Ogura #10<line>
+Hyahahahahaha! Your efforts are useless!<line>
+You hear me!? Useless!!!<line>
+<redname><diamond>Puchi Ogura #10<line>
+Get him, you scurvy dogs!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<rname><diamond>Puchi Ogura #10<line>
+Sh-shoot! L-last time was a fluke! This time<line>
+I'm gonna get serious!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,72 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 1-4 post-game revisit chat (in-level table #118)
+//Block Range: $0 - $36C
+//POINTER: 0x0814E404
+//Backfill: English from SUT post-game post postgame_w01_qz2k8z.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><2> <5> <1><0><1><line>
+<:func> <1><3><line>
+<:func> <1><1> <2><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <3> <3><line>
+<:se><line>
+<:obj> <1> <1><1> <3> <6><0> <-><8><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <7> <8><0> <1><2><8> <2><0><line>
+[<wait_time> <1><0><0>]<line>
+<:if> <1><0><0><0> <go> <1><line>
+<:flagon> <1><0><0><0><line>
+<:if> <1><5><1><6><3> <go> <2><line>
+<:obj> <1> <1><0> <3> <1><line>
+<rname><diamond>Konk<line>
+You're back, Konk konk! This time I won't<line>
+lose, konk!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #1<line>
+Yeah yeah! Let's go, Konk!<line>
+<:obj> <1> <1><0> <3> <2><line>
+[<wait_time> <4><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:obj> <1> <1><0> <3> <1><line>
+<rname><diamond>Konk<line>
+Come and get some more, Weak-fy!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #1<line>
+Yeah yeah! Let's go, Konk!<line>
+<:obj> <1> <1><0> <3> <2><line>
+[<wait_time> <4><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<rname><diamond>Konk<line>
+I'll fight you as many times as you want,<line>
+Konk Konk Konk!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #1<line>
+Yeah, yeah! Let's go, Konk!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

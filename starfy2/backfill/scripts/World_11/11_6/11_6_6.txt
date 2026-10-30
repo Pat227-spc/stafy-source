@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-6 scene 6 (in-level table #140)
+//Block Range: $0 - $C6
+//POINTER: 0x0814E45C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_6/11_6_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+We've finally come this far...<line>
+<redname><diamond>Moe<line>
+Use everything you've got to beat the<line>
+brakes offa Ogura!<line>
+<:end><line>
+<end>
+

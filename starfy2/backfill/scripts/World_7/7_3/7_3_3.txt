@@ -1,0 +1,64 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 3 (in-level table #283)
+//Block Range: $0 - $27A
+//POINTER: 0x0814E698
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><6><2> <go> <2><line>
+<:if> <7><3><6><3> <go> <2><line>
+<:if> <7><3><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Snap! Once again, I have taken that<line>
+scoundrel's picture!<line>
+<:obj> <2> <2> <1><line>
+<wait><:obj> <2> <2> <0><line>
+<rname><diamond>Taiblond<line>
+And once again, I shall leave finding the<line>
+hidden door in your hands!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><0><2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Here is the picture.<line>
+<:obj> <2> <2> <1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+I will not let you get away~! Now! Let us<line>
+go~!<line>
+<:end><line>
+<end>
+

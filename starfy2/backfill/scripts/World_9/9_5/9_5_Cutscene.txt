@@ -1,0 +1,67 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-5 cutscene (0x88ed988)
+//Block Range: $0 - $39E
+//POINTER: 0x8121278
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_5/9_5_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Savako<line>
+Hello~ I said 'hello'~! Look, I'm a little<line>
+hungry so~...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Savako<line>
+I would LOVE some pasta right about now~<line>
+Oh, and after that, entertain me while I<line>
+relax~<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+E-enough already! You have such an awful<line>
+attitude!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Savako<line>
+Huh~? But aren't I your 'important<line>
+hostage'~? Wouldn't letting me go be bad<line>
+for you~?<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+I...I mean, you're not wrong but-<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Savako<line>
+I'm glad you understand~ Now, hurry with<line>
+my pasta~ Oh, and after that, I want a new<line>
+outfit too~<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Puchi Ogura #9<line>
+I...I...I...! I'VE HAD ENOUGH OF YOU!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

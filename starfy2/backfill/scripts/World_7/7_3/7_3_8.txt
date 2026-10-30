@@ -1,0 +1,67 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 8 (in-level table #288)
+//Block Range: $0 - $406
+//POINTER: 0x0814E6AC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_8.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><1><3> <go> <2><line>
+<:if> <7><3><1><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+Please, I must ask you to wait a little<line>
+longer! Have you any idea where Sir Moe<line>
+has taken off to?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1><4> <1> <-><6><4><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Taiblond<line>
+So I found him once again... But it seems<line>
+that I am out of film for my camera...<line>
+<redname><diamond>Taiblond<line>
+So, sadly, I have no photo to show you...<line>
+<redname><diamond>Taiblond<line>
+It seems this is as far as I go...<line>
+<redname><diamond>Taiblond<line>
+But this is far from a bad situation! That<line>
+scoundrel went through the door right<line>
+behind me!<line>
+<redname><diamond>Taiblond<line>
+You'll know straight away that it's not a<line>
+hidden door!<line>
+<redname><diamond>Taiblond<line>
+Well, I have played my part. Good luck, my<line>
+friend!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:flagon> <7><3><1><3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+Next time, I shall definitely bring more film<line>
+so I don't run out again!<line>
+<:end><line>
+<end>
+

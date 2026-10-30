@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-2 post-game revisit chat (in-level table #488)
+//Block Range: $0 - $294
+//POINTER: 0x0814E9CC
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><1> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><1><line>
+<:se><line>
+<rname><diamond>Master Croak<line>
+My young student, it's been far too long!<line>
+Have you once again come to learn from<line>
+me!?<line>
+<redname><diamond>Master Croak<line>
+Very well! I shall teach you the Master<line>
+Croak Style Special Finishing Move!...<line>
+<redname><diamond>Master Croak<line>
+...Or so I would say, but my back is killing<line>
+me! Come back some other time!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Master Croak<line>
+The Master Croak Style Dojo currently has<line>
+ZERO pupils!!!<line>
+<redname><diamond>Master Croak<line>
+Young'un! You must join the dojo, without<line>
+question!!!<line>
+<redname><diamond>Master Croak<line>
+Join now and you'll get a free pair of<line>
+pruning shears!!!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,91 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 11 (in-level table #291)
+//Block Range: $0 - $4D8
+//POINTER: 0x0814E6B8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_11.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><1><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Ah, there he is! The brat's right where we<line>
+want him!<line>
+<redname><diamond>Moe<line>
+Hey! You're the guy throwin' bombs<line>
+everywhere ain'tcha!?<line>
+<redname><diamond>Moe<line>
+You're a danger to the people who live<line>
+here, you know that!?<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #7<line>
+<:obj> <2> <4><line>
+Gyahahahahahaha!!! Like I care!<line>
+<redname><diamond>Puchi Ogura #7<line>
+I'm not allowed to use bombs in dad's house,<line>
+so I'm having fun here instead!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #7<line>
+You guys are gonna play with me next,<line>
+right?<line>
+<redname><diamond>Puchi Ogura #7<line>
+Then I'll have to get ready for our<line>
+playdate!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <6><line>
+[<wait_time> <1><5>]<line>
+<:obj> <3> <1><1> <2> <5> <-><4><line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <8>]<line>
+<:obj> <3> <1><1> <2> <8> <-><4><line>
+[<wait_time> <1><0>]<line>
+<:obj> <3> <1><1> <2> <8> <-><6><line>
+[<wait_time> <8>]<line>
+<:obj> <3> <1><1> <2> <8> <-><1><4><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <8>]<line>
+<:obj> <3> <1><2> <-><7> <-><1><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <4> <0> <0><line>
+<:obj> <4> <2> <1><line>
+<:func> <1><8> <1> <6><5><line>
+<:obj> <3> <2> <0><line>
+<:obj> <1> <5> <1><line>
+[<wait_time> <1><2>]<line>
+<:obj> <4> <2> <0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <2> <7> <1><2><0> <1><9><2> <1><0><line>
+[<wait_time> <1><2><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><0><line>
+<:obj> <1> <5> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:flagon> <7><3><1><4><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Why that little-! We gotta stop him! C'mon,<line>
+after 'im, Starf!<line>
+<:end><line>
+<end>
+

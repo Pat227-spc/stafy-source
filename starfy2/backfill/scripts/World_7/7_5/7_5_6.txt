@@ -1,0 +1,70 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-5 scene 6 (in-level table #300)
+//Block Range: $0 - $432
+//POINTER: 0x0814E6DC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_5/7_5_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><5><0><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <7> <0><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+<:obj> <1> <9> <2> <1><line>
+Alright, spill it! What's this 'trouble' you<line>
+keep goin' on about!?<line>
+<:c><line>
+<redname><diamond>Horun<line>
+<:obj> <2> <4><line>
+This is even worse than that! I saw it...<line>
+That guy has something nasty up his<line>
+sleeve!<line>
+<redname><diamond>Horun<line>
+I'm not sure if your <textcolor_d>Star Spin<textcolor_0>'ll work on<line>
+that big machine he rides in...<line>
+<redname><diamond>Horun<line>
+But I think you'll be able to damage him if<line>
+you hit where you can see his face!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You just don't listen to people, do ya...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><5><0><3><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Looks like we're dealing with the brat now<line>
+after all!<line>
+<redname><diamond>Moe<line>
+To do that, aim for where you can see his<line>
+face!<line>
+<:c><line>
+<redname><diamond>Horun<line>
+Good luck, Starfy! Hmm...wasn't there some<line>
+other problem going on...?<line>
+<:end><line>
+<end>
+

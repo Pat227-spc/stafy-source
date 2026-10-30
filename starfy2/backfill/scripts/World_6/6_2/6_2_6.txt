@@ -1,0 +1,25 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-2 scene 6 (in-level table #239)
+//Block Range: $0 - $50
+//POINTER: 0x0814E5E8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_2/6_2_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><8> <1> <7><4><line>
+<:flagon> <6><2><1><1><line>
+<:se><line>
+The door opened.<line>
+<:end><line>
+<end>
+

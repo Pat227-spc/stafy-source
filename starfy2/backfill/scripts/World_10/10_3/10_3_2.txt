@@ -1,0 +1,47 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-3 scene 2 (in-level table #364)
+//Block Range: $0 - $2E4
+//POINTER: 0x0814E7DC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_3/10_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><3><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hold your horses, Starf! You thinkin' of<line>
+headin' up here?<line>
+<redname><diamond>Moe<line>
+Be careful. Sometimes giant beachballs fall<line>
+from up there!<line>
+<redname><diamond>Moe<line>
+It won't hurt if they hit ya, but you'll get<line>
+pushed all the way back here.<line>
+<redname><diamond>Moe<line>
+Duck into side paths or holes in the wall<line>
+and let 'em roll past!<line>
+<:end><line>
+<wait><:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+Be careful. Sometimes giant beachballs fall<line>
+from up there!<line>
+<redname><diamond>Moe<line>
+It won't hurt if they hit ya, but you'll get<line>
+pushed all the way back here.<line>
+<redname><diamond>Moe<line>
+Duck into side paths or holes in the wall<line>
+and let 'em roll past!<line>
+<:end><line>
+<end>
+

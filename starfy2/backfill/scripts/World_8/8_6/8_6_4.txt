@@ -1,0 +1,61 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-6 scene 4 (in-level table #109)
+//Block Range: $0 - $322
+//POINTER: 0x0814E3E0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_6/8_6_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><3><line>
+<:func> <1><4> <1> <3><8> <1><line>
+[<wait_time> <1><0>]<line>
+<:func> <1><1> <2><line>
+[<wait_time> <4><0>]<line>
+<:func> <4> <2><line>
+<:se><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <0> <2><line>
+<:if> <8><6><0><9> <go> <1><line>
+<:flagon> <8><6><0><9><line>
+<:obj> <1> <1><0> <0> <1><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #8<line>
+Lantata~ Lantata~<line>
+<redname><diamond>Puchi Ogura #8<line>
+..? Y-you look like that old guy who bullied<line>
+Papa!<line>
+<redname><diamond>Puchi Ogura #8<line>
+You a friend of that old guy? Perfect!<line>
+This time I'll get revenge for Papa!<line>
+<redname><diamond>Puchi Ogura #8<line>
+Let's see if you can see through my<line>
+awesome Clone Technique! Ahahahaha! Let's<line>
+go!<line>
+<:c><line>
+<wait>:<2><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <1><1> <1><0><1><line>
+<:exit><line>
+<wait>:<1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Puchi Ogura #8<line>
+Lantata~ Lantata~<line>
+<redname><diamond>Puchi Ogura #8<line>
+No matter how many times you try, it's the<line>
+same~! Ahahahaaa! Here I go!<line>
+<:c><line>
+<wait>:<go> <2><line>
+<end>
+

@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 4 (table 0x0814EA2C entry 6; stage key 0xC9)
+//Block Range: $0 - $AA
+//POINTER: 0x0814EA44
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+Find the <textcolor_d>3 keys<textcolor_0> that <textcolor_d>match the keyholes<textcolor_0>,<line>
+then go teach the mischievous Konk and<line>
+Puchi Ogura #1 a lesson!<line>
+<:end><line>
+<end>
+

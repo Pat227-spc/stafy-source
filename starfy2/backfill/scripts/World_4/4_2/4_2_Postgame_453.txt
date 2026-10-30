@@ -1,0 +1,128 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 post-game revisit chat (in-level table #453)
+//Block Range: $0 - $744
+//POINTER: 0x0814E940
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><5><7><0><5> <go> <2><line>
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Torito<line>
+Oh hey. A new <textcolor_d>Sea Skater<textcolor_0> model got<line>
+released the other day.<line>
+<redname><diamond>Torito<line>
+Bought it as soon as I saw it. It's called<line>
+the Super <textcolor_d>Sea Skater<textcolor_0>! It's super cool.<line>
+<wait><:sd><line>
+<rname><diamond>Torito<line>
+You could take it for a spin if you want.<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Torito<line>
+That's the spirit! I will say though, it might<line>
+be a little hard to use.<line>
+<redname><diamond>Torito<line>
+But you should get the hang of it quickly<line>
+if you read the <textcolor_d>sign<textcolor_0>.<line>
+<redname><diamond>Torito<line>
+Well, you know the drill. I'll be waiting for<line>
+you just past here.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><0><1><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Torito<line>
+Really? With the new feature they added,<line>
+it's way more fun than before.<line>
+<redname><diamond>Torito<line>
+Eh, suit yourself. But, if you ever change<line>
+your mind, you know who to call.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Torito<line>
+Did you want to ride the Super <textcolor_d>Sea<line>
+<redname><diamond>Torito<line>
+Skater<textcolor_0>?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Torito<line>
+That's the spirit! I will say though, it might<line>
+be a little hard to use.<line>
+<redname><diamond>Torito<line>
+But you should get the hang of it quickly<line>
+if you read the <textcolor_d>sign<textcolor_0>.<line>
+<redname><diamond>Torito<line>
+Well, you know the drill. I'll be waiting for<line>
+you just past here.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><0><1><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Torito<line>
+You know who to call if you ever change<line>
+your mind.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Torito<line>
+How's that treasure hunt of yours going?<line>
+<redname><diamond>Torito<line>
+The Super <textcolor_d>Sea Skater<textcolor_0> should help with<line>
+that here and there.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

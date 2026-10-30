@@ -1,0 +1,111 @@
+//GAME NAME:		Densetsu no Starfy 2
+//Backfill override: upstream file + typo fixes
+
+//BLOCK #000 NAME:		Save Point Message
+//Block Range: $0 - $5E6
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<x_pos> <4><9>]<line>
+Starfy and Moe were once again<line>
+[<x_pos> <5><4>]<line>
+able to seal Ogura in the jar...<line>
+<:func> <4><line>
+<:c><line>
+[<x_pos> <3><0>]<line>
+<wait>But with the number of treasures<line>
+[<x_pos> <3><0>]<line>
+they've found, is the story truly over?<line>
+[<x_pos> <3><0>]<line>
+Come on, let's hurry back to Pufftop...<line>
+<:func> <4><line>
+<:c><line>
+<:func> <5> <1> <1><0><line>
+<:func> <1> <0> <2><line>
+<:func> <5> <0> <1><8><line>
+<:func> <2> <8><line>
+<wait><:func> <3> <0><line>
+<wait>[<x_pos> <0>]<line>
+<rname><diamond>Papa Star<line>
+Oh! Starfy!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+So,<line>
+Have you found all of the treasures?<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+Let's see... Hm...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Papa Star<line>
+It looks like you haven't<line>
+collected every treasure yet...<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+What!? There are still some left!?<line>
+<:func> <2> <4><0><line>
+Then we gotta go get 'em! Let's go!!!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+What's that?<line>
+"I'm really tired!"...!?<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+Don't be stupid! Now come on!!!<line>
+<:func> <2> <4><8><line>
+...Wh-OW!!!<line>
+<:func> <3> <0><line>
+<wait><:func> <2> <6><4><line>
+<:func> <3> <0><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+Gwahahahaha! You fools!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Ogura<line>
+I heard something great! I'll collect<line>
+every single one of those treasures!<line>
+<:func> <2> <6><8><line>
+<:func> <3> <0><line>
+<:c><line>
+<redname><diamond>Puchi Ogura<line>
+<:func> <2> <7><2><line>
+Ahahaha! Dummies! Idiots!<line>
+We're taking the treasure!~<line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <3><0>]<line>
+<:func> <2> <8><0><line>
+<:func> <3> <0><line>
+<rname><diamond>Moe<line>
+...You... You Blockhead!<line>
+Look at what you did!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+C'mon! We gotta go NOW!<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Moe<line>
+We have to find those treasures<line>
+before those guys do! Let's GO!!!<line>
+<:func> <2> <8><8><line>
+<:func> <3> <0><line>
+<:func> <4><line>
+<:func> <5> <1> <1><0><line>
+<:func> <1> <0> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,52 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 scene 1 (in-level table #320)
+//Block Range: $0 - $27A
+//POINTER: 0x0814E72C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_1/9_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:obj> <2> <1><1> <1> <4><0> <-><1><0><0><line>
+<:obj> <2> <2> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, ya ever heard of <textcolor_d>Ressie<textcolor_0>? They're like<line>
+the guardian of this lake.<line>
+<redname><diamond>Moe<line>
+Even the baddest of guys can't cause<line>
+trouble as long as Ressie's here-<line>
+<wait><:obj> <2> <1><0> <0> <0><line>
+<:obj> <2> <6><line>
+<rname><diamond>Moe<line>
+WAUGH!!!<line>
+<wait><:obj> <1> <5> <1><line>
+<rname><diamond>Moe<line>
+H-huh!? That was a Puchi Ogura's minion<line>
+wasn't it!?<line>
+<redname><diamond>Moe<line>
+But Ressie's supposed to keep this place<line>
+safe... What's goin' on...?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <9><1><0><0><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

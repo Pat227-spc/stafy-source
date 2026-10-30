@@ -1,0 +1,89 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 3 (in-level table #98)
+//Block Range: $0 - $5B2
+//POINTER: 0x0814E3B4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><5><0><9> <go> <2><line>
+<:if> <8><5><0><1> <go> <1><line>
+:<go> <1><line>
+<wait>:<1><line>
+<:flagon> <8><5><0><9><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #1<line>
+Huh? The <textcolor_d>Cell Key<textcolor_0>? I haven't found it yet.<line>
+<redname><diamond>Squirt #1<line>
+By the way, do you know where my favorite<line>
+<textcolor_d>Th-underpants<textcolor_0> are?<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Squirt #1<line>
+Ah! There they are!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <1><5> <1> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <2> <2><line>
+<rname><diamond>Squirt #1<line>
+Thank you so much! Here, take this.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <3> <1><5> <0> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <3> <2><line>
+Starfy received the <textcolor_d>Leotard<textcolor_0>!<line>
+<:c><line>
+<redname><diamond>Squirt #1<line>
+I found this around here, but I don't need<line>
+it, so you can have it.<line>
+<redname><diamond>Squirt #1<line>
+Again, thank you! Hmm hum~<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagoff> <1><5><5><3><3><line>
+<:flagon> <1><5><5><3><4><line>
+<:flagon> <8><5><0><2><line>
+<:obj> <2> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <2> <2><line>
+<:obj> <3> <1><6><line>
+<:obj> <3> <3><line>
+<:obj> <3> <2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait><:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #1<line>
+Huh? The <textcolor_d>Cell Key<textcolor_0>? I haven't found it yet.<line>
+<redname><diamond>Squirt #1<line>
+By the way, do you know where my favorite<line>
+<textcolor_d>Th-underpants<textcolor_0> are?<line>
+<redname><diamond>Squirt #1<line>
+This is bad... Did I drop it somewhere...?<line>
+*mutter mutter*...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #1<line>
+Thank you so much. I'm super glad you<line>
+found my precious Th-underpants.<line>
+<:end><line>
+<end>
+

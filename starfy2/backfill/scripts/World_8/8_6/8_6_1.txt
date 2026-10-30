@@ -1,0 +1,51 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-6 scene 1 (in-level table #106)
+//Block Range: $0 - $326
+//POINTER: 0x0814E3D4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_6/8_6_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Jewelly<line>
+Prince Starfy! You're late!<line>
+<redname><diamond>Jewelly<line>
+After you jumped off Pufftop, Ogura's<line>
+kids ravaged the place.<line>
+<redname><diamond>Jewelly<line>
+But the big Ogura didn't stay. If the<line>
+rumors are true...<line>
+<redname><diamond>Jewelly<line>
+He created a place known as '<textcolor_d>Ogura's<line>
+Castle<textcolor_0>' to continue his evil deeds.<line>
+<redname><diamond>Jewelly<line>
+Now hurry! Get on my back!<line>
+<redname><diamond>Jewelly<line>
+One of those villains is still close by. I'll<line>
+take you there so you can confront them!<line>
+<redname><diamond>Jewelly<line>
+Then...It's off to Ogura's Castle...<line>
+<redname><diamond>Jewelly<line>
+And of course, once you're there, please<line>
+defeat Ogura!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:flagon> <8><6><0><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

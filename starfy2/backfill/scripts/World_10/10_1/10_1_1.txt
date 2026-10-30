@@ -1,0 +1,53 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 scene 1 (in-level table #352)
+//Block Range: $0 - $28C
+//POINTER: 0x0814E7AC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_1/10_1_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><1><0><0> <go> <1><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <6> <1> <0><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Ugh, that was awful... The 'stache's gone<line>
+now though, right?<line>
+<redname><diamond>Moe<line>
+Anyways, this place's called the '<textcolor_d>Torrential<line>
+Falls<textcolor_0>'.<line>
+<redname><diamond>Moe<line>
+It got its name cause of the loads of<line>
+waterfalls here. We gotta move carefully!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><1><0><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Anyways, this place's called the '<textcolor_d>Torrential<line>
+Falls<textcolor_0>'.<line>
+<redname><diamond>Moe<line>
+It got its name cause of the loads of<line>
+waterfalls here. We gotta move carefully!<line>
+<:end><line>
+<end>
+

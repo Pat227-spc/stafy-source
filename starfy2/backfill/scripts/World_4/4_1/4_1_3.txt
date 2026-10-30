@@ -1,0 +1,37 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 scene 3 (in-level table #202)
+//Block Range: $0 - $174
+//POINTER: 0x0814E554
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_1/4_1_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Gellato<line>
+Nice to meet chu! My name's Gellato!<line>
+<redname><diamond>Gellato<line>
+I'm sorry, but I can't play with chu right<line>
+now. I'm busy...<line>
+<redname><diamond>Gellato<line>
+I'll show 'em I'm stronger on my own, chu...<line>
+*mumble mumble*<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <4><8><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

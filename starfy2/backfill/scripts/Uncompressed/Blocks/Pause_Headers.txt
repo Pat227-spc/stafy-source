@@ -1,0 +1,51 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Pause screen description headers (Stuff / Item List / Vehicle List / Abilities) - backfill own translation; Task 5: "Action List" -> "Abilities" to match the tab (overlay/patches/10_pause_abilities_tab.asm)
+
+#ACTIVETBL(Story)
+
+//POINTER #0 @ $107B34 - JP STRING @ $644290
+//JP: ②ボタンで「グッズがめん」へ/スタフィーにグッズの/きせかえができます
+
+#WRITE(GBA,$107B34)
+Press <A> for the Stuff Screen.<line>
+Dress Starfy up<line>
+in your Stuff.<line>
+<:end><line>
+<end>
+
+
+//POINTER #1 @ $107B48 - JP STRING @ $6442E8
+//JP: ②ボタンで「アイテムリスト」/アイテムのかくにんやせつめいが/みられます
+
+#WRITE(GBA,$107B48)
+Press <A> for the Key Items list.<line>
+Check your items and<line>
+read their descriptions.<line>
+<:end><line>
+<end>
+
+
+//POINTER #2 @ $107B5C - JP STRING @ $644340
+//JP: ②ボタンで「のりものリスト」/のりもののかくにんや/そうさほうほうがみられます/⑦⑧ボタンでページアップダウン
+
+#WRITE(GBA,$107B5C)
+Press <A> for the Rides list.<line>
+Check your rides<line>
+and how to control them.<line>
+Press <L> or <R> to change pages.<line>
+<:end><line>
+<end>
+
+
+//POINTER #3 @ $107BA8 - JP STRING @ $6443C0
+//JP: ②ボタンで「アクションリスト」/アクションのかくにんや/そうさほうほうがみられます/⑦⑧ボタンでページアップダウン
+
+#WRITE(GBA,$107BA8)
+Press <A> for the Abilities list.<line>
+Check your abilities<line>
+and how to perform them.<line>
+Press <L> or <R> to change pages.<line>
+<:end><line>
+<end>
+

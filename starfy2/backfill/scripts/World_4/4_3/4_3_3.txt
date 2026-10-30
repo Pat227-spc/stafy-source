@@ -1,0 +1,83 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-3 scene 3 (in-level table #212)
+//Block Range: $0 - $4E4
+//POINTER: 0x0814E57C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_3/4_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><3><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <3> <2> <1><line>
+<:obj> <4> <2> <1><line>
+<:func> <1> <6><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You idiot, you're LATE!!! The race started<line>
+without you!<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <3> <4><line>
+We have a new world record~! Hirao<line>
+finishes in 60 seconds~!<line>
+<:c><line>
+<redname><diamond>Hirarin<line>
+<:obj> <4> <4><line>
+Ahhh! Darling, you were amazing!!!<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <3> <4><line>
+Is there anyone else taking part in the<line>
+race~?<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Wait a sec! He's right here! Get a move on,<line>
+Starf!<line>
+<:c><line>
+<redname><diamond>Savako<line>
+<:obj> <3> <4><line>
+In that case, when you're ready, please<line>
+enter through the door on the left~.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+You ready, Starf? You gotta beat Hirao's<line>
+60 second time to win!<line>
+<redname><diamond>Moe<line>
+If ya lose to Hirao, I'll clobber ya, so keep<line>
+that in mind!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <4><3><0><2><line>
+<:flagon> <4><3><0><5><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <4> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:flagon> <4><3><0><4><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+You ready, Starf? You gotta beat Hirao's<line>
+60 second time to win!<line>
+<redname><diamond>Moe<line>
+Do your best for the sake of me and<line>
+Sabako's lovey-dovey future!<line>
+<:end><line>
+<end>
+

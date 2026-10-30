@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 49 (table 0x0814EA2C entry 96; stage key 0x3ED)
+//Block Range: $0 - $86
+//POINTER: 0x0814EBAC
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+The biggest crisis at Torrential Falls!!!<line>
+That crooked merchant <textcolor_d>Echigyoya<textcolor_0> is<line>
+unforgivable!!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,31 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Moe wind hint, duplicate pointers of 6-5 block #258 (in-level table #302-319)
+//Block Range: $0 - $13A
+//POINTER: 0x0814E6E4 0x0814E6E8 0x0814E6EC 0x0814E6F0 0x0814E6F4 0x0814E6F8 0x0814E6FC 0x0814E700 0x0814E704 0x0814E708 0x0814E70C 0x0814E710 0x0814E714 0x0814E718 0x0814E71C 0x0814E720 0x0814E724 0x0814E728
+//Backfill: same English as World_6/6_5/6_5_12.txt (#258), which only repoints entry #258
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Yikes!! The <textcolor_d>wind<textcolor_0> is crazy strong here!<line>
+<redname><diamond>Moe<line>
+Just like before, <textcolor_d>keep running to hold<line>
+your ground!<textcolor_0><line>
+<redname><diamond>Moe<line>
+When the wind stops, run for it and look<line>
+for somewhere to grab onto!!<line>
+<:end><line>
+<end>
+

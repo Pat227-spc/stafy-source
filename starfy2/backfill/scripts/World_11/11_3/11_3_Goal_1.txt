@@ -1,0 +1,38 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-3 Goal (goal table #53)
+//Block Range: $0 - $17A
+//POINTER: 0x082C8A58
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_3/11_3_Goal_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+[<y_pos> <1><8>]<line>
+Inside the treasure chest was...<line>
+some <textcolor_d>Sandals<textcolor_1>!<line>
+<:c><line>
+<wait>A mysterious person saved Starfy from<line>
+danger... Could he be someone Starfy<line>
+knows...?<line>
+<:c><line>
+<wait>The traps in Ogura's Castle are getting<line>
+tougher, but Ogura is close now, so keep<line>
+going!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

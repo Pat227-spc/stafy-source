@@ -1,0 +1,23 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 47 (table 0x0814EA2C entry 92; stage key 0x3EB)
+//Block Range: $0 - $7A
+//POINTER: 0x0814EB9C
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+There are lots of fierce waterfalls. You<line>
+might not get across unless you get<line>
+stronger...<line>
+<:end><line>
+<end>
+

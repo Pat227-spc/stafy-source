@@ -1,0 +1,71 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 3 (in-level table #380)
+//Block Range: $0 - $48C
+//POINTER: 0x0814E81C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <1><1> <7> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+*huff* *puff* *gasp* I-It's no use... I<line>
+can't take another step...<line>
+<redname><diamond>Moe<line>
+It's already been three days, and I still<line>
+haven't found him... Maybe... Maybe he<line>
+really is...!<line>
+<redname><diamond>Moe<line>
+...O-one more time! I-I'll find him this time for<line>
+sure!!! I can't give up now...!<line>
+<wait><:obj> <1> <5> <7><line>
+<:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <3><2> <0> <1><0><line>
+[<wait_time> <4><0>]<line>
+<rname><diamond>Moe<line>
+*sobbing and sniffling*...H-huh?<line>
+<wait><:obj> <1> <5> <0><line>
+<rname><diamond>Moe<line>
+St...STARFY!?<line>
+<wait><:obj> <1> <5> <2><line>
+<:obj> <1> <7> <3><2> <0> <1><0><line>
+<:func> <8> <0> <1><9><line>
+[<wait_time> <4><0>]<line>
+<rname><diamond>Moe<line>
+Where the HECK WERE YOU!? You were alive<line>
+this whole time while I was WORRIED THAT I<line>
+LOST YOU!!!<line>
+<redname><diamond>Moe<line>
+No- I mean- I- W-Why would I be worried<line>
+about you, huh!?<line>
+<redname><diamond>Moe<line>
+You infuriating, idiotic, stupid idiot!!!<line>
+<redname><diamond>Moe<line>
+I'm going on ahead!!! Idiot...sniffle<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <7> <1><6><0> <1><2><8> <4><0><line>
+[<wait_time> <6><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <8> <0> <9><9><line>
+<:func> <1><0><line>
+<:flagon> <1><0><6><0><4><line>
+<:flagon> <1><0><6><0><5><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

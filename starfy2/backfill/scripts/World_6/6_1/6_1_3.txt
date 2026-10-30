@@ -1,0 +1,104 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-1 scene 3 (in-level table #231)
+//Block Range: $0 - $6FC
+//POINTER: 0x0814E5C8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_1/6_1_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:func> <1> <2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Shhh! Shut yer yap!...Look over there...<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+Listen up! I already came up with the lyrics<line>
+myself!<line>
+<redname><diamond>Puchi Ogura #6<line>
+All you gotta do is put a melody to 'em!<line>
+<redname><diamond>Puchi Ogura #6<line>
+You ready!? *Ahem*<line>
+<redname><diamond>Puchi Ogura #6<line>
+La-la-laaaa da-ba-daaaaa Oh~ The Great<line>
+Puchi Ogura #6~<line>
+<redname><diamond>Puchi Ogura #6<line>
+Cooler than a Walrus~ More clever than a<line>
+Dolphin~ and even stronger than a Polar<line>
+Bear~!<line>
+<redname><diamond>Puchi Ogura #6<line>
+Ah~ He's the best~ Oh~ How magnificent is<line>
+he~ The Great Puchi O-<line>
+<:c><line>
+<redname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+Please STOP!!! Everything I know about<line>
+music is being destroyed!!!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+WHAT!?<line>
+<:c><line>
+<redname><diamond>Wozart<line>
+<:obj> <2> <4><line>
+My answer is final! I'm not making you that<line>
+song!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #6<line>
+<:obj> <3> <4><line>
+You can only talk like that for so long!<line>
+<redname><diamond>Puchi Ogura #6<line>
+C'mon! You're making that song!<line>
+<:c><line>
+<wait><:obj> <3> <6><line>
+<:obj> <3> <1><0> <1> <1><line>
+<:obj> <3> <1><0> <0> <1><0><1><line>
+<:obj> <3> <7> <2><4> <0> <1><0><line>
+[<wait_time> <3><2>]<line>
+<:obj> <2> <0> <1><line>
+<:obj> <3> <1><0> <1> <1><line>
+<:obj> <3> <1><0> <0> <1><0><0><line>
+<rname><diamond>Wozart<line>
+No, let me go!<line>
+<:c><line>
+<wait><:obj> <3> <1><0> <1> <0><line>
+<:obj> <3> <1><0> <0> <1><0><1><line>
+<:obj> <2> <9> <2> <1><line>
+<:obj> <2> <7> <1><4><4> <1><2><8> <1><0><line>
+<:obj> <3> <7> <1><4><4> <1><2><8> <1><0><line>
+[<wait_time> <2><0><0>]<line>
+<:obj> <3> <1><0> <0> <1><0><0><line>
+<:obj> <1> <9> <2> <1><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hey, what're you doin'!? Darn...if only<line>
+Wozart wasn't so stubborn...!<line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Whatever, let's go after 'em!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <1><0> <0> <1><0><0><line>
+<:obj> <1> <2><line>
+<:obj> <2> <2><line>
+<:obj> <3> <2><line>
+<:flagon> <6><1><0><2><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

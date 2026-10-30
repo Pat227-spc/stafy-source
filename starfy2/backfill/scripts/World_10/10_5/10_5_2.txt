@@ -1,0 +1,151 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-5 scene 2 (in-level table #376)
+//Block Range: $0 - $BE6
+//POINTER: 0x0814E80C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_5/10_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><5><1><7> <go> <2><line>
+<:if> <1><0><5><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <1><1> <6> <0><line>
+<:se><line>
+<:obj> <1> <7> <3><2> <1><2><8> <1><0><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Lumi<line>
+Ah!!! Starfy! You're Starfy aren't you!?<line>
+<redname><diamond>Lumi<line>
+How in the world did you find the Pirates'<line>
+Hideout?<line>
+<redname><diamond>Lumi<line>
+I see... So you were flung by an explosion<line>
+and lost your way?<line>
+<redname><diamond>Lumi<line>
+Because of that, you and Moe were<line>
+separated, hm? That sounds awful...<line>
+<redname><diamond>Lumi<line>
+I'm in an awful position myself...sob<line>
+*sniffle*<line>
+<redname><diamond>Lumi<line>
+I had just so happen to overhear some of<line>
+Puchi Ogura #10 and Echigyoya's<line>
+conversation, and then got thrown in<line>
+<redname><diamond>Lumi<line>
+here...<line>
+<redname><diamond>Lumi<line>
+What!? You'll help me?...However, the <textcolor_d>Cell<line>
+Key<textcolor_0> is a ways through that left door.<line>
+<redname><diamond>Lumi<line>
+Not to mention, there are difficult traps<line>
+en route!<line>
+<redname><diamond>Lumi<line>
+Those pirates said that 'If the pictures<line>
+don't match, the door doesn't open'.<line>
+<redname><diamond>Lumi<line>
+I have no idea what it means...<line>
+<redname><diamond>Lumi<line>
+Getting the key from behind such a<line>
+nasty contraption... that's impossible,<line>
+isn't it...<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <3><2> <0> <1><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <1> <9> <2> <0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><5><0><1><line>
+<:obj> <1> <9> <2> <0><line>
+<:obj> <1> <1><1> <2> <2><4> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Lumi<line>
+The <textcolor_d>Cell Key<textcolor_0> is a ways past that door on<line>
+the left.<line>
+<redname><diamond>Lumi<line>
+Not to mention, there are difficult traps<line>
+en route!<line>
+<redname><diamond>Lumi<line>
+Those pirates said that 'If the pictures<line>
+don't match, the door doesn't open'.<line>
+<redname><diamond>Lumi<line>
+Getting the key from behind such a<line>
+nasty contraption... that's impossible,<line>
+isn't it...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <1><1> <6> <0><line>
+<:obj> <2> <7> <8><0> <6><4> <1><0><line>
+[<wait_time> <1><0><0>]<line>
+<:se><line>
+<rname><diamond>Lumi<line>
+Wah! You did it, Starfy! Thanks to you, I'm<line>
+free!<line>
+<redname><diamond>Lumi<line>
+As thanks, I'll tell you what that Puchi<line>
+Ogura and Echigyoya have planned.<line>
+<redname><diamond>Lumi<line>
+Those weapons that Echigyoya<line>
+collected?...They're smuggling them.<line>
+<redname><diamond>Lumi<line>
+That Puchi Ogura's taking them up the<line>
+mountain to what looks like a castle.<line>
+<redname><diamond>Lumi<line>
+Eh? Why are they taking weapons to the<line>
+castle? Well...they didn't talk about that...<line>
+<redname><diamond>Lumi<line>
+Aside from that, I sincerely thank you. But<line>
+we must make a stealthy escape from<line>
+here.<line>
+<redname><diamond>Lumi<line>
+And I believe those pirates used a secret<line>
+path here...<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <1><1> <7> <0><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <6><5><line>
+<:flagon> <1><0><5><1><8><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><1> <6> <0><line>
+<:se><line>
+<rname><diamond>Lumi<line>
+There it is! Well, I shall take my leave...<line>
+<redname><diamond>Lumi<line>
+I hope you find Moe soon, Starfy.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <1> <7> <8><8> <1><2><8> <1><0><line>
+[<wait_time> <1><2><0>]<line>
+<:obj> <1> <7> <1><4><0> <1><9><2> <1><0><line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><5><1><9><line>
+<:flagoff> <1><5><6><1><1><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

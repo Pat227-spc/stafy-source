@@ -1,0 +1,86 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 scene 2 (in-level table #367)
+//Block Range: $0 - $50E
+//POINTER: 0x0814E7E8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_4/10_4_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Chonmagyo<line>
+<:obj> <2> <4><line>
+*mumble mumble* Master Echigyoya is much<line>
+too demanding-gyo...<line>
+<redname><diamond>Chonmagyo<line>
+It is much too difficult for me to plant<line>
+500 bombs in a single day-gyo.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <1> <5> <2><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hold it, pal! What'd you just say!?<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <0><line>
+<rname><diamond>Chonmagyo<line>
+<:obj> <2> <4><line>
+Wah wah wah!? Wh-what-gyo!? I don't know<line>
+what you're talkin' about-gyo!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Don't play dumb! My adorable little ears<line>
+heard you perfectly!<line>
+<:c><line>
+<redname><diamond>Chonmagyo<line>
+<:obj> <2> <4><line>
+I-I don't know anything-gyo! 500 bombs?<line>
+You must've misheard-gyo!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+<:obj> <2> <7> <6><4> <3><2> <2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <2> <0><line>
+<:obj> <1> <5> <0><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Hey, get back here! T-The heck'd you mean<line>
+'500 bombs'!?<line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+That sounds really bad...! C'mon, Starf, we<line>
+gotta go after that loser with the<line>
+topknot!<line>
+<redname><diamond>Moe<line>
+Once we get our hands on him, we'll make<line>
+him talk! I'm goin' on ahead!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <7> <8><8> <0> <4><0><line>
+[<wait_time> <2><8>]<line>
+<:obj> <1> <2> <0><line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><4><0><1><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

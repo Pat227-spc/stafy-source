@@ -1,0 +1,47 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 post-game revisit chat (in-level table #465)
+//Block Range: $0 - $28C
+//POINTER: 0x0814E970
+//Backfill: English from SUT post-game post postgame_w06_r1qaeq.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><5><line>
+<:se><line>
+<rname><diamond>Chuta<line>
+Yo, Starfy! Thanks for the other day! So,<line>
+how d'ya like my Octo-Jar look?<line>
+<redname><diamond>Chuta<line>
+Isn't it stunning?...Huh? This is actually a<line>
+Barrel, and not a Jar?<line>
+<redname><diamond>Chuta<line>
+Don't be silly! This is a Jar no matter how<line>
+you look at it! You should stop with the<line>
+bad jokes.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Chuta<line>
+I'm thinking of decorating my Jar a little<line>
+now. Wanna hear my plans?<line>
+<redname><diamond>Chuta<line>
+I'm gonna cover the outside in pearls and<line>
+coral, then top it off with cherry blossom<line>
+shells.<line>
+<redname><diamond>Chuta<line>
+How's that sound? Don't I have great<line>
+taste?<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,115 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-1 cutscene (0x88ecd40)
+//Block Range: $0 - $620
+//POINTER: 0x811d7ac
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_1/5_1_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<:func> <0> <1><2><line>
+<rname><diamond>Orisu<line>
+Wait for me~ <textcolor_d><heart><textcolor_1> You know I'm a slow<line>
+swimmer~ <textcolor_d><heart><textcolor_1><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <0><line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <1><8><0>]<line>
+<:func> <0> <1><2><line>
+<rname><diamond>Korisu<line>
+But you look so cute when you swim <textcolor_d><heart><textcolor_1>!<line>
+Hurry up~ <textcolor_d><heart><textcolor_1><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <1><line>
+<:func> <4><line>
+<:c><line>
+<wait>[<wait_time> <1><8><0>]<line>
+<:func> <0> <2><line>
+<rname><diamond>Puchi Ogura #5<line>
+Eeeeeeeeeeeek~!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #5<line>
+There's something about you two that<line>
+irritates me SO much!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #5<line>
+Like, that's SO annoying!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:func> <0> <3><line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <2> <2> <0><line>
+<:func> <0> <4><line>
+<:func> <3> <2> <0><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #5<line>
+Numan! I order you to swallow the water in<line>
+this valley! Every last drop!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<redname><diamond>Numan<line>
+It would be my pleasure, Lady Fifth...<line>
+<:func> <0> <5><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <0> <1><1><line>
+<:func> <4><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <2> <0> <4><line>
+<:func> <0> <6><line>
+<:func> <3> <0> <4><line>
+<:se><line>
+<rname><diamond>Puchi Ogura #5<line>
+Wonderful! And with this...<line>
+<:func> <0> <7><line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<redname><diamond>Puchi Ogura #5<line>
+I'll take this cork...<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <8><line>
+<rname><diamond>Puchi Ogura #5<line>
+And end their 'lovely' outing!!!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<wait><:func> <0> <9><line>
+<rname><diamond>Puchi Ogura #5<line>
+Let's see you swim across now!<line>
+O~hohohoho!<line>
+[<wait_time> <1><8><0>]<line>
+<:func> <4><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <2> <2> <0><line>
+<:func> <0> <1><0><line>
+<:func> <3> <2> <0><line>
+<:se><line>
+<:func> <0> <1><2><line>
+<rname><diamond>Korisu<line>
+Orisuuuuuuu!<line>
+[<wait_time> <1><8><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:exit><line>
+<end>
+

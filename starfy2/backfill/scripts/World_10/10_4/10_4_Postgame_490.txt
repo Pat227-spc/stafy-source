@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-4 post-game revisit chat (in-level table #490)
+//Block Range: $0 - $244
+//POINTER: 0x0814E9D4
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><2> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><2><line>
+<:se><line>
+<rname><diamond>Echigyoya<line>
+Waaaaugh!!! You're from the other day!!!<line>
+<redname><diamond>Echigyoya<line>
+I-I have made an honest effort to change<line>
+my ways and have been working diligently in<line>
+order to do so!!!<line>
+<redname><diamond>Echigyoya<line>
+I am being truthful, I swear! So please,<line>
+don't hurt me!!!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Echigyoya<line>
+Wh-What's with that doubtful look in your<line>
+eyes!?<line>
+<redname><diamond>Echigyoya<line>
+I am being absolutely honest with you! Just<line>
+the other day I cleared out the boulders<line>
+blocking the door!<line>
+<redname><diamond>Echigyoya<line>
+For everyone's sakes, I cleared out those<line>
+boulders...<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,43 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-3 scene 6 (in-level table #93)
+//Block Range: $0 - $244
+//POINTER: 0x0814E3A0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_3/8_3_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:flagon> <8><3><0><3><line>
+<:flagon> <1><5><5><3><1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Squirt #4<line>
+What do you want? Hm? Why aren't I with<line>
+Bawss?<line>
+<redname><diamond>Squirt #4<line>
+Crows can do- Er *I* can do whatever I<line>
+want. <line>
+<wait><:obj> <1> <1><7> <3><0><line>
+<rname><diamond>Squirt #4<line>
+Wa-wait, what're you doing!? Let me go!<line>
+<wait><:obj> <1> <1><7> <4><0><line>
+<rname><diamond>Squirt #4<line>
+I'm a pacifist! I don't wanna do the<line>
+missiooooon~!<line>
+<:c><line>
+<wait><:obj> <1> <2><line>
+You decided to take <textcolor_d>Squirt #4<textcolor_0> along!<line>
+<:c><line>
+<wait><:sd><line>
+<:flagon> <8><3><0><9><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:exit><line>
+<end>
+

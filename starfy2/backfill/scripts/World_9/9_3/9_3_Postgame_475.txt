@@ -1,0 +1,131 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-3 post-game revisit chat (in-level table #475)
+//Block Range: $0 - $836
+//POINTER: 0x0814E998
+//Backfill: English from SUT post-game post postgame_w09_r2b0pc.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><5><7><0><7> <go> <2><line>
+<:if> <1><0><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><1><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Fluffy<line>
+Hey, Starfy. Life's all about takin' on new<line>
+challenges, right?<line>
+<redname><diamond>Fluffy<line>
+So I challenged myself to make a<line>
+brand-new costume!<line>
+<redname><diamond>Fluffy<line>
+It's a little different from what you've<line>
+seen before! What's different?...That's a<line>
+secret!<line>
+<wait><:sd><line>
+<rname><diamond>Fluffy<line>
+Of course, you wanna try it out, right?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Fluffy<line>
+Gotcha! Go right on ahead... And uh, about<line>
+that secret new feature I was telling you<line>
+about...<line>
+<redname><diamond>Fluffy<line>
+But it doesn't work in this room yet... Quit<line>
+teasing, you say?<line>
+<redname><diamond>Fluffy<line>
+Oh whatever! It's a test! If you don't pass<line>
+the test, you can't use the new feature!<line>
+<redname><diamond>Fluffy<line>
+The basics are the same as before, but<line>
+make sure to read the <textcolor_d>sign<textcolor_0> all the same.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><0><2><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Fluffy<line>
+What!? You're gonna regret that!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Fluffy<line>
+Wanna wear the new costume?<line>
+　　　Yes<line>
+　　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <2><0><line>
+<rname><diamond>Fluffy<line>
+Gotcha! Go right on ahead... And uh, about<line>
+that secret new feature I was telling you<line>
+about...<line>
+<redname><diamond>Fluffy<line>
+But it doesn't work in this room yet... Quit<line>
+teasing, you say?<line>
+<redname><diamond>Fluffy<line>
+Oh whatever! It's a test! If you don't pass<line>
+the test, you can't use the new feature!<line>
+<redname><diamond>Fluffy<line>
+The basics are the same as before, but<line>
+make sure to read the <textcolor_d>sign<textcolor_0> all the same.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><0><2><line>
+<:func> <1> <0><line>
+<:obj> <1> <2> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><0><line>
+<rname><diamond>Fluffy<line>
+You're being really difficult, you know<line>
+that!?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Fluffy<line>
+From now on, whenever you find a costume<line>
+somewhere, use it as much as you like!<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

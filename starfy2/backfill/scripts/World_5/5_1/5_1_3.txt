@@ -1,0 +1,112 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-1 scene 3 (in-level table #55)
+//Block Range: $0 - $69E
+//POINTER: 0x0814E308
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_1/5_1_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><1><0><3> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <5><1><0><3><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <3><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+Ah, Starfy! Thanks so much!<line>
+<redname><diamond>Orisu<line>
+Look, Korisu! These guys became our<line>
+'bridge of love' and brought us back<line>
+together!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+Well, <textcolor_d><heart><textcolor_0><line>
+[<wait_time> <3><0>]<line>
+...you went through all that trouble for<line>
+the sake of our love!<line>
+<redname><diamond>Korisu<line>
+Our love is blessed after all! <textcolor_d><heart><textcolor_0><line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+Tch, idiots...<line>
+[<wait_time> <3><0>]<line>
+Ridiculous... Like I'd do anything for you<line>
+two...<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+Huh?<line>
+[<wait_time> <3><0>]<line>
+Who's this ugly clam?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+Hey, be nice...<line>
+[<wait_time> <3><0>]<line>
+Anyway, this is you guys' first time in this<line>
+forest, right?<line>
+<redname><diamond>Orisu<line>
+It'll be difficult to navigate the forest<line>
+without the help of our friends' skills!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+Especially for ugly over there!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+Why you...!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+S-so, I'll go ask my friends in the forest to<line>
+lend you a hand!<line>
+<:c><line>
+<wait><:obj> <3> <4><line>
+<rname><diamond>Moe<line>
+Alrighty then! Sounds like we gotta find<line>
+these friends of yours to get outta the<line>
+forest!<line>
+<redname><diamond>Moe<line>
+Let's get a move on! I'll go on ahead!<line>
+<wait><:func> <4><line>
+<:obj> <3> <7> <1><2><0> <1><2><8> <2><0><line>
+[<wait_time> <6><0>]<line>
+<:obj> <3> <7> <4><0> <9><6> <2><0><line>
+[<wait_time> <2><0>]<line>
+<:sd><line>
+<:obj> <3> <2><line>
+<:func> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Orisu<line>
+If you see any of my friends, you should<line>
+definitely talk to them!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Korisu<line>
+Oh, Starfy! Could you tell that clam<line>
+something for me?<line>
+<redname><diamond>Korisu<line>
+Don't be jealous of other couples, just<line>
+because you don't have a girlfriend! It<line>
+makes you look lame!<line>
+<:end><line>
+<end>
+

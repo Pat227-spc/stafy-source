@@ -1,0 +1,29 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 1-3 post-game revisit chat (in-level table #117)
+//Block Range: $0 - $11A
+//POINTER: 0x0814E400
+//Backfill: English from SUT post-game post postgame_w01_qz2k8z.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Lovely<line>
+Oh my! Welcome to my shop, Starfy~<line>
+<redname><diamond>Lovely<line>
+Thanks to all the cuties that shop here,<line>
+my shop's been a smashing success! Ufu...<line>
+<redname><diamond>Lovely<line>
+And thanks to my shop's sales, I've only<line>
+been getting prettier... Ufufu...<line>
+<:end><line>
+<end>
+

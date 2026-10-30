@@ -1,0 +1,171 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-5 scene 1 (in-level table #96)
+//Block Range: $0 - $B28
+//POINTER: 0x0814E3AC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_5/8_5_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><5><1><5> <go> <3><line>
+<:if> <8><5><0><5> <go> <2><line>
+<:if> <8><5><0><0> <go> <1><line>
+<:flagon> <8><5><0><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Bawss<line>
+Hey-Oh! Good to see ya again, and good<line>
+timing too!<line>
+<redname><diamond>Bawss<line>
+Take a look at this.<line>
+<redname><diamond>Bawss<line>
+Thanks to our little menace, these Pufftop<line>
+Kids got locked up in this cell!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<:obj> <4> <4><line>
+<:obj> <5> <4><line>
+<:obj> <3> <4><line>
+<rname><diamond>Pufftop Kids<line>
+Waaaaah! I wanna go hooome! I want my<line>
+Mommy~!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Bawss<line>
+My lackeys're looking for the <textcolor_d>Cell Key<textcolor_0> as<line>
+we speak, but...<line>
+<redname><diamond>Bawss<line>
+Could you look for the key too?<line>
+<redname><diamond>Bawss<line>
+Thanks! That's real nice of ya!<line>
+<wait><:obj> <6> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+<rname><diamond>Bawss<line>
+Oh, and take this with you too.<line>
+<:c><line>
+<wait><:obj> <6> <1><5> <0> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <6> <2><line>
+Starfy received the <textcolor_d>Th-underpants<textcolor_0>!<line>
+<:c><line>
+<redname><diamond>Bawss<line>
+I found these a little while ago, but I have<line>
+no idea if they're useful.<line>
+<redname><diamond>Bawss<line>
+My lackeys're through that door above us.<line>
+<redname><diamond>Bawss<line>
+But they're investigating different places.<line>
+You'll have to see if any of them came<line>
+across the Cell Key.<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagon> <8><5><0><1><line>
+<:flagon> <1><5><5><3><3><line>
+<:obj> <6> <1><6><line>
+<:obj> <6> <3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Bawss<line>
+Once you go through that door, you'll have<line>
+to talk to each of my lackeys to see if<line>
+they found the key.<line>
+<redname><diamond>Bawss<line>
+If they did, bring it back here.<line>
+<redname><diamond>Bawss<line>
+That item I gave ya should come in handy!<line>
+I'm countin' on you!<line>
+<:end><line>
+<wait>:<2><line>
+<:flagon> <8><5><1><5><line>
+<:obj> <7> <2> <1><line>
+<:func> <1><8> <1> <7><1><line>
+[<wait_time> <3><0>]<line>
+<:obj> <7> <1><5> <1> <1><0><line>
+[<wait_time> <8><0>]<line>
+<:obj> <7> <2><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Bawss<line>
+Oh! Ya brought the key! Now let's open this<line>
+cell...<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <8> <1><1> <1><line>
+<:obj> <8> <2> <1><line>
+<:obj> <1> <2><line>
+[<wait_time> <4><0>]<line>
+<:func> <7> <3><0> <2> <0><line>
+<:flagon> <8><5><1><3><line>
+[<wait_time> <1><8><0>]<line>
+<:obj> <1> <2> <1><line>
+<:obj> <8> <2><line>
+[<wait_time> <3><0>]<line>
+<:obj> <2> <6><line>
+<:obj> <3> <6><line>
+<:obj> <4> <6><line>
+<:obj> <5> <6><line>
+<:obj> <2> <0> <6><line>
+<:obj> <3> <0> <5><line>
+<:obj> <4> <0> <6><line>
+<:obj> <5> <0> <5><line>
+<:obj> <2> <1><0> <0> <1><line>
+<:obj> <3> <1><0> <0> <2><line>
+<:obj> <4> <1><0> <0> <3><line>
+<:obj> <5> <1><0> <0> <4><line>
+<rname><diamond>Pufftop Kids<line>
+Yaaaaaay! Thanks, old guy! That was<line>
+scary!<line>
+<:c><line>
+<redname><diamond>Bawss<line>
+Hahahah!!! Well, aren't they just full of<line>
+energy!<line>
+<redname><diamond>Bawss<line>
+I gotta hand it to you again.<line>
+<redname><diamond>Bawss<line>
+As thanks, I'll open the other door above<line>
+us. You'll find something nice in here.<line>
+<redname><diamond>Bawss<line>
+Now hurry and continue your trip. And take<line>
+that lively clam guy with ya, hahaha!!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:sd><line>
+<:func> <2> <2><line>
+<:flagon> <8><5><1><7><line>
+<:flagon> <8><5><1><4><line>
+<:obj> <7> <1><6><line>
+<:obj> <7> <3><line>
+<:flagoff> <1><5><5><3><7><line>
+<:obj> <8> <1><6><line>
+<:obj> <8> <3><line>
+<:obj> <2> <1><6><line>
+<:obj> <3> <1><6><line>
+<:obj> <4> <1><6><line>
+<:obj> <5> <1><6><line>
+<:obj> <2> <3><line>
+<:obj> <3> <3><line>
+<:obj> <4> <3><line>
+<:obj> <5> <3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Bawss<line>
+Just leave Pufftop to the Squirts.<line>
+<redname><diamond>Bawss<line>
+Take good care of yerselves, ya hear?<line>
+<:end><line>
+<end>
+

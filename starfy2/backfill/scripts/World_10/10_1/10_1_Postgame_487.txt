@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-1 post-game revisit chat (in-level table #487)
+//Block Range: $0 - $28C
+//POINTER: 0x0814E9C8
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><2> <go> <1><line>
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <1><0><0><2><line>
+<:se><line>
+<rname><diamond>Ogyan<line>
+Greetings, Lord Starfy. I apologize for<line>
+imposing on you the other day.<line>
+<redname><diamond>Ogyan<line>
+I would like you to meet with my younger<line>
+sister, Kagerou Ogyon, too if you haven't<line>
+already.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Ogyan<line>
+All of us in the Kunoichi clan are sisters,<line>
+you see.<line>
+<redname><diamond>Ogyan<line>
+I am the eldest, and the second daughter<line>
+is named Mogerou Ogyun...<line>
+<redname><diamond>Ogyan<line>
+The third is Kagerou Ogyon, the fourth<line>
+Higerou Ojyan, the fifth Mugerou Ojyun...<line>
+<redname><diamond>Ogyan<line>
+...and so on, for two hundred million sisters<line>
+in all.<line>
+<:end><line>
+<end>
+

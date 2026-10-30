@@ -1,0 +1,86 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Beastiary Locations (Pointer)
+
+//POINTER #0 @ $2CA628 - STRING #0 @ $2CA568
+
+#ACTIVETBL(Minifont)
+
+#WRITE(GBA,$2CA628)
+[<x_pos> <1><8>]<line>
+Lobber's Cave<end>
+
+
+//POINTER #1 @ $2CA62C - STRING #1 @ $2CA578
+
+#WRITE(GBA,$2CA62C)
+[<x_pos> <1><6>]<line>
+Gluglug Lagoon<end>
+
+
+//POINTER #2 @ $2CA630 - STRING #2 @ $2CA588
+
+#WRITE(GBA,$2CA630)
+[<x_pos> <1><5>]<line>
+Shelltop Islands<end>
+
+
+//POINTER #3 @ $2CA634 - STRING #3 @ $2CA598
+
+#WRITE(GBA,$2CA634)
+[<x_pos> <1><5>]<line>
+Slippery Glacier<end>
+
+
+//POINTER #4 @ $2CA638 - STRING #4 @ $2CA5A8
+
+#WRITE(GBA,$2CA638)
+[<x_pos> <9>]<line>
+Jumbowood Forest<end>
+
+
+//POINTER #5 @ $2CA63C - STRING #5 @ $2CA5B8
+
+#WRITE(GBA,$2CA63C)
+[<x_pos> <9>]<line>
+Pitch Black Cavern<end>
+
+
+//POINTER #6 @ $2CA640 - STRING #6 @ $2CA5CC
+
+#WRITE(GBA,$2CA640)
+[<x_pos> <1><8>]<line>
+Y-L-H Heights<end>
+
+
+//POINTER #7 @ $2CA644 - STRING #7 @ $2CA5E0
+
+#WRITE(GBA,$2CA644)
+Pufftop<end>
+
+
+//POINTER #8 @ $2CA648 - STRING #8 @ $2CA5EC
+
+#WRITE(GBA,$2CA648)
+Loch Ress<end>
+
+
+//POINTER #9 @ $2CA64C - STRING #9 @ $2CA5F8
+
+#WRITE(GBA,$2CA64C)
+[<x_pos> <1><4>]<line>
+Torrential Falls<end>
+
+
+//POINTER #10 @ $2CA650 - STRING #10 @ $2CA60C
+
+#WRITE(GBA,$2CA650)
+[<x_pos> <1><7>]<line>
+Ogura's Castle<end>
+
+
+//POINTER #11 @ $2CA654 - STRING #11 @ $2CA61C
+
+#WRITE(GBA,$2CA654)
+Vehicle<end>
+

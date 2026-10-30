@@ -1,0 +1,90 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-3 scene 3 (in-level table #365)
+//Block Range: $0 - $592
+//POINTER: 0x0814E7E0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_3/10_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <3> <0><line>
+<:func> <2><2> <-><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+Shhh, keep it down!...Look over there...<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<rname><diamond>Puchi Ogura #10<line>
+<:obj> <2> <4><line>
+Hm. Then I have indeed received the goods,<line>
+Echigyoya.<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <3> <4><line>
+Hohoho... it certainly was hard to bring all<line>
+these weapons.<line>
+<redname><diamond>Echigyoya<line>
+I am sure your father will be pleased in<line>
+that castle of his.<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #10<line>
+<:obj> <2> <4><line>
+It's about that kunoichi from before... Now<line>
+that she knows about our secret...<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <3> <4><line>
+Hohoho. Don't worry about that, my liege. I<line>
+have already made such preparations.<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #10<line>
+<:obj> <2> <4><line>
+...You are truly an evil one, Echigyoya.<line>
+<:c><line>
+<redname><diamond>Echigyoya<line>
+<:obj> <3> <4><line>
+But not as evil as you, Lord Tenth!<line>
+Hooohohohoho!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:func> <1> <1> <1><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <3> <2><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <1> <4><line>
+W-what a shady convo... Somethin' about<line>
+carrying weapons?<line>
+<redname><diamond>Moe<line>
+Anyways, is that kunoichi lady gonna be<line>
+alright?<line>
+<redname><diamond>Moe<line>
+That Echigyoya jerk said somethin' about<line>
+'preparations'...<line>
+<redname><diamond>Moe<line>
+That means we gotta hurry and let her<line>
+know! C'mon, Starf! We gotta go!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <1><0><3><0><3><line>
+<:obj> <1> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

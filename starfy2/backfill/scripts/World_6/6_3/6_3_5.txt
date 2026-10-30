@@ -1,0 +1,118 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 scene 5 (in-level table #244)
+//Block Range: $0 - $6B0
+//POINTER: 0x0814E5FC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><3><0><5> <go> <1><0><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><3><0><4><line>
+<:flagon> <6><3><0><5><line>
+<:flagon> <1><5><6><0><1><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><2> <0> <-><2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <0> <1><line>
+<:se><line>
+<rname><diamond>Big Barrel Squid<line>
+Oh, Starfy, what's wrong?...You were<line>
+looking for me?<line>
+<redname><diamond>Big Barrel Squid<line>
+Chuta's in trouble!? This sounds serious!<line>
+<redname><diamond>Big Barrel Squid<line>
+But what can I do? I don't have the<line>
+Octo-Jar. Actually...!<line>
+<redname><diamond>Big Barrel Squid<line>
+Why not use this <textcolor_d>barrel<textcolor_0> I have instead?<line>
+What's the difference between a jar and a<line>
+barrel anyways?<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><5><2><line>
+Starfy received the Barrel!<line>
+<:c><line>
+<redname><diamond>Big Barrel Squid<line>
+But you need to hurry back to Chuta.<line>
+Though, I'll send you on your way if you'd<line>
+like.<line>
+<wait><:sd><line>
+<rname><diamond>Big Barrel Squid<line>
+You wanna go now?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><line>
+<rname><diamond>Big Barrel Squid<line>
+Gotcha, just leave it to me! Next stop, to<line>
+where Chuta is!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><line>
+<:exit><line>
+<wait>:<1><line>
+<rname><diamond>Big Barrel Squid<line>
+Alright, but let me know as soon as you<line>
+wanna head back.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1> <0> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<:if> <6><3><0><4> <go> <1><1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><2> <0> <-><2><0><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <1><0> <0> <1><line>
+<:flagon> <6><3><0><4><line>
+<:se><line>
+:<1><1><line>
+<rname><diamond>Big Barrel Squid<line>
+Shouldn't you be speeding over to Chuta<line>
+about now? I could send you there if you<line>
+want.<line>
+<wait><:sd><line>
+<rname><diamond>Big Barrel Squid<line>
+You wanna go now?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><2><line>
+<rname><diamond>Big Barrel Squid<line>
+Gotcha, just leave it to me! Next stop, to<line>
+where Chuta is!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><line>
+<:exit><line>
+<wait>:<1><2><line>
+<rname><diamond>Big Barrel Squid<line>
+Alright, but let me know as soon as you<line>
+wanna head back.<line>
+<:end><line>
+<end>
+

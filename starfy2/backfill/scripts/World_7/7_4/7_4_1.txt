@@ -1,0 +1,44 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-4 scene 1 (in-level table #292)
+//Block Range: $0 - $214
+//POINTER: 0x0814E6BC
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_4/7_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><4><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <7><4><0><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Should've known the wind would be strong<line>
+in a place like this!<line>
+<redname><diamond>Moe<line>
+Hey...look at that! The cloud's movin' with<line>
+the wind!<line>
+<redname><diamond>Moe<line>
+I bet when that cloud comes over here, you<line>
+can use it to cross over these gaps real<line>
+easily!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+When the wind blows, run against it or hang<line>
+onto a ledge till it stops!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,56 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 1-1 post-game revisit chat (in-level table #114)
+//Block Range: $0 - $3D2
+//POINTER: 0x0814E3F4
+//Backfill: English from SUT post-game post postgame_w01_qz2k8z.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1><line>
+<:se><line>
+<:if> <1><5><0><5><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+So, how's the treasure hunt goin'?<line>
+<redname><diamond>Moe<line>
+Some new stages popped up on the Map<line>
+Screen, right?<line>
+<redname><diamond>Moe<line>
+Maybe that's where you'll find some hidden<line>
+treasure.<line>
+<redname><diamond>Moe<line>
+There's 45 Treasures in all...<line>
+<redname><diamond>Moe<line>
+Just like before, once you've got 44 of<line>
+'em, go clobber Ogura.<line>
+<redname><diamond>Moe<line>
+That jerk's holdin' the last treasure.<line>
+<redname><diamond>Moe<line>
+Got it? Then get a move on!<line>
+Those treasures ain't gonna collect<line>
+themselves!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Moe<line>
+Looks like you've collected all the<line>
+treasures...<line>
+<redname><diamond>Moe<line>
+But didja find all the <textcolor_d>Stuff<textcolor_0>, Photos, Sheet<line>
+Music, and fill out the <textcolor_d>Picture Book<textcolor_0> yet?<line>
+<redname><diamond>Moe<line>
+You can't say this adventure's over until<line>
+ya have!<line>
+<:end><line>
+<end>
+

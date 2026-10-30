@@ -1,0 +1,30 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-5 post-game revisit chat (in-level table #491)
+//Block Range: $0 - $146
+//POINTER: 0x0814E9D8
+//Backfill: English from SUT post-game post postgame_w10_r2f4jd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+[<wait_time> <1>]<line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Mijingou<line>
+Starfy! Captain Puchi Ogura told me to<line>
+relay this message to you!<line>
+<redname><diamond>Mijingou<line>
+'I'm much stronger than last time! Come and<line>
+get some! I won't lose to you again'!<line>
+<redname><diamond>Mijingou<line>
+...That's the end of the message! I'll be<line>
+fighting you too, by my Captain's side!<line>
+<:end><line>
+<end>
+

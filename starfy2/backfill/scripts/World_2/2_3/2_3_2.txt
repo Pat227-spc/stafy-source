@@ -1,0 +1,96 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-3 scene 2 (in-level table #27)
+//Block Range: $0 - $642
+//POINTER: 0x0814E298
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_2/2_3/2_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:if> <2><3><0><2> <go> <1><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <2><3><0><2><line>
+<:obj> <2> <4><line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<rname><diamond>Old Man Mechani<line>
+Looks like you've gotten the hang of it<line>
+completely!<line>
+<redname><diamond>Old Man Mechani<line>
+I'll leave <textcolor_d>Blimps<textcolor_0> here and there, so feel<line>
+free to use them!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Hey, hey, old man! We went outta our way<line>
+to help ya, and we don't even get a<line>
+thank-you?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Mechani<line>
+Let's see... The other day, during that<line>
+storm, I picked up something rare.<line>
+<redname><diamond>Old Man Mechani<line>
+I'll give it to you as thanks for your help.<line>
+<redname><diamond>Old Man Mechani<line>
+Go on through the door behind me.<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <0><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+If ya wanna go back down, Starf, just use<line>
+the door on the left.<line>
+<redname><diamond>Moe<line>
+And if ya wanna get back up here quick<line>
+from down below, I'm pretty sure there's a<line>
+shortcut.<line>
+<redname><diamond>Moe<line>
+Might be worth tryin' the doors that were<line>
+locked before...<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Mechani<line>
+I'll unlock the door back down for you.<line>
+Now, off you go!<line>
+<:c><line>
+<wait><:sd><line>
+<:obj> <1> <9> <2> <0><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><1> <0> <1><line>
+<:obj> <2> <2><line>
+<:flagon> <2><3><0><3><line>
+<:flagon> <1><5><7><0><0><line>
+<:func> <1><6> <1><line>
+<:obj> <0> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+If ya wanna go back down, Starf, just use<line>
+the door on the left.<line>
+<redname><diamond>Moe<line>
+And if ya wanna get back up here quick<line>
+from down below, I'm pretty sure there's a<line>
+shortcut.<line>
+<redname><diamond>Moe<line>
+But be careful, ya can't go through doors<line>
+with that giant Blimp strapped to your<line>
+back.<line>
+<end>
+

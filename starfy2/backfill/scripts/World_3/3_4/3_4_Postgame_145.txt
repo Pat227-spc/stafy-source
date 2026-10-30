@@ -1,0 +1,37 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-4 post-game revisit chat (in-level table #145)
+//Block Range: $0 - $23C
+//POINTER: 0x0814E470
+//Backfill: English from SUT post-game post postgame_w03_qz6yoz.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<rname><diamond>Gaganmo<line>
+Sooo goood~! Ganmodoki really is the best!<line>
+<redname><diamond>Gaganmo<line>
+Oh, Starfy! Long time no see!<line>
+<redname><diamond>Gaganmo<line>
+Hey, lemme teach you something great!<line>
+<redname><diamond>Gaganmo<line>
+When you beat a mini-game on Normal mode...<line>
+<redname><diamond>Gaganmo<line>
+Have you beaten "Hard" already?<line>
+<redname><diamond>Gaganmo<line>
+Well... They say that if you beat Hard<line>
+mode, you'll get something nice as a<line>
+reward!<line>
+<redname><diamond>Gaganmo<line>
+Huh? You already knew that? Oh ok... It<line>
+wasn't important anyways...<line>
+<:end><line>
+<end>
+

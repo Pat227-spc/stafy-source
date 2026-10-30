@@ -1,0 +1,33 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-4 scene 3 (in-level table #294)
+//Block Range: $0 - $15E
+//POINTER: 0x0814E6C4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_4/7_4_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+This wind again... Hey, Starf!<line>
+<redname><diamond>Moe<line>
+I don't think you should be on these<line>
+clouds when the wind blows. This place is a<line>
+real tight squeeze!<line>
+<redname><diamond>Moe<line>
+If you just stand around, the wind'll blow,<line>
+and make ya fall all the way back down<line>
+here!<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,84 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 7 (in-level table #287)
+//Block Range: $0 - $42A
+//POINTER: 0x0814E6A8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_7.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><0><6> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <3> <0><line>
+<:func> <6> <3> <1><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+<:obj> <2> <4><line>
+Where have you gone, you scoundrel!?<line>
+There's nowhere left to hide!<line>
+<:c><line>
+<wait><:obj> <1> <2> <1><line>
+<:obj> <2> <9> <2> <1><line>
+<:obj> <2> <7> <1><0><8> <0> <1><0><line>
+[<wait_time> <1><4><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <3> <4><line>
+...? Looks like she dropped a <textcolor_d>photo<textcolor_0>. Let's<line>
+have a looksee...<line>
+<wait><:obj> <3> <7> <1><6> <0> <1><0><line>
+[<wait_time> <2><0>]<line>
+<rname><diamond>Moe<line>
+<:obj> <3> <4><line>
+Wait, it's those guys! Those're the jerks<line>
+that attacked me last time!<line>
+<wait><:obj> <3> <9> <2> <0><line>
+<:obj> <3> <5> <2><line>
+<rname><diamond>Moe<line>
+<:obj> <3> <4><line>
+I had it under control, but then you had to<line>
+butt in and send 'em packin'!<line>
+<redname><diamond>Moe<line>
+<:obj> <3> <4><line>
+But this time, I'm gonna show them how<line>
+scary I can be when I'm serious! Now where<line>
+are they!?<line>
+<:c><line>
+<wait><:obj> <3> <9> <2> <1><line>
+<:obj> <3> <7> <1><3><6> <0> <1><0><line>
+[<wait_time> <1><6><0>]<line>
+<:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><0><6><line>
+<:obj> <1> <2> <1><line>
+<:func> <1><0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+There's a <textcolor_d>Photo<textcolor_0> lying here.<line>
+<:obj> <4> <2> <1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <4> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

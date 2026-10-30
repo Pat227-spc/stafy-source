@@ -1,0 +1,52 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 6 (in-level table #227)
+//Block Range: $0 - $37C
+//POINTER: 0x0814E5B8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_6.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><5><2><3> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <4><5><2><3><line>
+<rname><diamond>Moe<line>
+Y-yo, Starfy! Huh? What am I doin' here?<line>
+<redname><diamond>Moe<line>
+Well, uh, I figured I'd let my underling here<line>
+take the glory this time...heh heh.<line>
+<redname><diamond>Moe<line>
+Puchi Ogura #4 is up ahead, and get this,<line>
+he transforms.<line>
+<redname><diamond>Moe<line>
+Your Star Spin won't work either. If you try<line>
+that, you'll just get hurt.<line>
+<redname><diamond>Moe<line>
+What to do... How're ya gonna beat him if<line>
+you can't touch him...?<line>
+<redname><diamond>Moe<line>
+But when that Puchi Ogura changes form,<line>
+you might be able to hit some sort of<line>
+weakness.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+When Puchi Ogura #4 transforms, it looks<line>
+like his weakness changes too.<line>
+<redname><diamond>Moe<line>
+But even so, you still can't hit 'im with a<line>
+Star Spin. You'll get hurt instead.<line>
+<redname><diamond>Moe<line>
+So what the heck are you supposed to<line>
+do...?<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,74 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-3 scene 1 (in-level table #281)
+//Block Range: $0 - $3FA
+//POINTER: 0x0814E690
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_3/7_3_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><3><6><0> <go> <2><line>
+<:if> <7><3><6><1> <go> <2><line>
+<:if> <7><3><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Ah, Sir Starfy! Look at this, if you please!<line>
+<wait><:obj> <2> <2> <1><line>
+<rname><diamond>Taiblond<line>
+I finally found that miscreant!<line>
+<redname><diamond>Taiblond<line>
+He seems to be using some sort of 'hidden<line>
+door' to get around!<line>
+<redname><diamond>Taiblond<line>
+In this picture, he destroys the<line>
+wall...Perhaps your <textcolor_d>Star Spin<textcolor_0> may serve<line>
+the same purpose!<line>
+<wait><:obj> <2> <2> <0><line>
+<rname><diamond>Taiblond<line>
+If it does work, you should be able to find<line>
+the hidden door!<line>
+<redname><diamond>Taiblond<line>
+Oh, and do talk to me again if you would<line>
+like to see the photo once more!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagon> <7><3><0><0><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<rname><diamond>Taiblond<line>
+Here is the picture.<line>
+<:obj> <2> <2> <1><line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2> <0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Taiblond<line>
+Now~! I will keep on filming~!!<line>
+<:end><line>
+<end>
+

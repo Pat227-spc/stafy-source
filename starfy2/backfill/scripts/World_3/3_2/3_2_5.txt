@@ -1,0 +1,121 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 3-2 scene 5 (in-level table #41)
+//Block Range: $0 - $74C
+//POINTER: 0x0814E2D0
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_3/3_2/3_2_5.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <3><2><0><9> <go> <1><line>
+<:flagon> <3><2><0><9><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <0> <3><line>
+<:obj> <1> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Moe<line>
+Finally! There's nowhere left to run, punk!<line>
+<redname><diamond>Moe<line>
+Now stop being a pain, and go back home to<line>
+your mom! She's been worried sick about<line>
+ya!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+...And who the heck are you clowns? You<line>
+tryin' to lecture me?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+OF COURSE I AM! Do you have any idea how<line>
+worried your mom's been about a brat like<line>
+you!?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+No way! I'm not goin' back home to that<line>
+naggy mom of mine!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Do words not REGISTER with you!? Fine! I'll<line>
+use force if I have to. Just go HOME!!!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Urk... F-fine! Bring it on!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <7><4><line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+<rname><diamond>Brotle<line>
+Yo, what're ya doin' lil' sis? Come on.<line>
+<:obj> <2> <9> <2> <1><line>
+<redname><diamond>Brotle<line>
+Bro wanted me to take you to his hideout.<line>
+It's on another island.<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Thanks big bro, you saved me!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <3> <1><0> <0> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <3> <2><line>
+<:flagon> <3><2><0><8><line>
+<:obj> <2> <0><line>
+<:obj> <2> <7> <3><2> <0> <2><0><line>
+[<wait_time> <5><0>]<line>
+<:obj> <2> <0> <3><line>
+<:obj> <2> <9> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Sisturt<line>
+Later, losers! Looks like you'll have to try<line>
+harder to catch me~!!!<line>
+<:c><line>
+<wait><:obj> <2> <9> <2> <1><line>
+[<wait_time> <1><0>]<line>
+<:obj> <2> <2><line>
+[<wait_time> <1><0>]<line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Wa-wait a minute! Hey!!!<line>
+<redname><diamond>Moe<line>
+You've got another thing comin' if you<line>
+thought I was anywhere near done beratin'<line>
+you...!<line>
+<redname><diamond>Moe<line>
+Annoying brats... Hey, Starf!<line>
+<:obj> <1> <9> <2><line>
+We're goin' after em, and fast! Come on!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <3> <2><line>
+<:obj> <2> <2><line>
+<:func> <3> <2><line>
+<:se><line>
+<:exit><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Moe<line>
+What're we waiting for? Let's get a move on<line>
+and set our sights for the next island!<line>
+<:end><line>
+<end>
+

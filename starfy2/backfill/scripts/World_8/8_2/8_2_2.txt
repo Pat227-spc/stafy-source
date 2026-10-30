@@ -1,0 +1,71 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 8-2 scene 2 (in-level table #87)
+//Block Range: $0 - $598
+//POINTER: 0x0814E388
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_8/8_2/8_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <8><2><0><8> <go> <1><line>
+<:flagon> <8><2><0><8><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><2><line>
+<rname><diamond>Pufftop Soldier<line>
+Amazing, My Prince!<line>
+<redname><diamond>Pufftop Soldier<line>
+You have proved your strength by<line>
+overcoming those three trials.<line>
+<redname><diamond>Pufftop Soldier<line>
+Meaning you can safely learn and use this<line>
+technique of mine.<line>
+<redname><diamond>Pufftop Soldier<line>
+Without further ado, let us begin! I call it,<line>
+The '<textcolor_d>Shooting Star<textcolor_0>'!!!<line>
+<:flagon> <1><5><0><0><5><line>
+<redname><diamond>Pufftop Soldier<line>
+You can perform this technique after an<line>
+<textcolor_d>Air Jump<textcolor_0>.<line>
+<redname><diamond>Pufftop Soldier<line>
+You can destroy extremely hard blocks<line>
+with this technique.<line>
+<redname><diamond>Pufftop Soldier<line>
+You can even use the <textcolor_d>Shooting Star<textcolor_0> to<line>
+bounce off enemies...<line>
+<redname><diamond>Pufftop Soldier<line>
+After bouncing off an enemy, you can<line>
+execute yet another Air Jump, and so<line>
+forth and so on.<line>
+<wait><:flagon> <8><2><1><0><line>
+<rname><diamond>Pufftop Soldier<line>
+I have made a <textcolor_d>sign<textcolor_0> in the next room...<line>
+<redname><diamond>Pufftop Soldier<line>
+Try all sorts of things while you practice. I<line>
+am sure it will come in handy...<line>
+<:end><line>
+<wait>:<1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Pufftop Soldier<line>
+Did you not see many shooting stars on<line>
+your way here?<line>
+<redname><diamond>Pufftop Soldier<line>
+They are actually the inspiration of the<line>
+Shooting Star technique.<line>
+<redname><diamond>Pufftop Soldier<line>
+Oh, and one more thing. You can't use the<line>
+<textcolor_d>Shooting Star<textcolor_0> without Air Jumping first.<line>
+Well, take care, My Prince.<line>
+<:end><line>
+<end>
+

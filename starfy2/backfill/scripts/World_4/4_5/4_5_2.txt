@@ -1,0 +1,263 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 scene 2 (in-level table #223)
+//Block Range: $0 - $1204
+//POINTER: 0x0814E5A8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_5/4_5_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><5><0><2> <go> <2><line>
+<:if> <4><5><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <6> <6><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Nothing to report from the right.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Also nothing to report to our front!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Nothing to report on the left... Wait, it's<line>
+Starfy, chu!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Well, hey Starfy! I just wanted to say<line>
+thanks for helping us before.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+It's all thanks to you, Starfy!!!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Thank chu!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+By the way, what brings you here? You<line>
+look like you're in a real hurry.<line>
+<:c><line>
+<wait>...........................<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Huh!? Puchi Ogura #4 froze Moe!?<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+This is bad! What do we do, chu?<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+For now, we should see what shape Moe is<line>
+in.<line>
+<redname><diamond>Jellata<line>
+Please bring Moe to us, Starfy!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <4><5><0><1><line>
+<:func> <1> <0> <1><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <6> <6><line>
+<:func> <1> <1><line>
+<:se><line>
+<rname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Starfy, bring Moe to us, please.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+While you're carrying Moe, you can spin into<line>
+him to get back here faster!!!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Th-that's pretty violent, Jellata, chu...<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1> <0> <1><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<2><line>
+<:if> <4><5><0><1> <go> <1><0><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <6> <6><line>
+<:func> <1> <1><line>
+<:se><line>
+<:func> <1><8> <1> <5><2><line>
+<rname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Nothing to report from the right.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Also nothing to report to our front!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Nothing to report on the left... Wait, it's<line>
+Starfy, chu!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Well, hey Starfy! I just wanted to say<line>
+thanks for helping us before.<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Wha-!? This is Moe isn't it, chu!? He's not<line>
+usually this stiff and rigid, chu!<line>
+<redname><diamond>Gellato<line>
+Do chu know what happened to him?<line>
+<:c><line>
+<wait>..........................................<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Huh!? Puchi Ogura #4 froze Moe!?<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+That Puchi Ogura #4 is nothing but<line>
+trouble, chu!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+From your story, that Puchi Ogura seemed<line>
+really quiet and calm though...<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+But when we met that Puchi Ogura, he<line>
+seemed way more rude, chu.<line>
+<redname><diamond>Gellato<line>
+Plus, he shot fire at us, not ice, chu.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+How strange... Could there be two Puchi<line>
+Ogura #4s?<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Even if that's the case, we need to think<line>
+about how to get Moe out of this ice!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Frostbite is the least of his worries... But<line>
+you're right.<line>
+<redname><diamond>Jellata<line>
+Oh yeah, there's a Hot Spring close by!<line>
+Maybe we can melt the ice!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+We'll bring Moe to the Hot Spring, Starfy.<line>
+Meet us there!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <4><5><0><3><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <6> <2> <0><line>
+<:func> <1><4> <1> <-><7><3><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:obj> <6> <6><line>
+<:func> <1> <1><line>
+<:se><line>
+<:func> <1><8> <1> <5><2><line>
+<rname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Whoa! He really IS frozen solid!!<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+That Puchi Ogura #4 is nothing but<line>
+trouble, chu!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+From your story, that Puchi Ogura seemed<line>
+really quiet and calm though...<line>
+<:c><line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+But when we met that Puchi Ogura, he<line>
+seemed way more rude, chu.<line>
+<redname><diamond>Gellato<line>
+<:obj> <1> <4><line>
+Plus, he shot fire at us, not ice, chu.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+How strange... Could there be two Puchi<line>
+Ogura #4s?<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+Even if that's the case, we need to think<line>
+about how to get Moe out of this ice!<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Frostbite is the least of his worries... But<line>
+you're right.<line>
+<redname><diamond>Jellata<line>
+<:obj> <2> <4><line>
+Oh yeah, there's a Hot Spring close by!<line>
+Maybe we can melt the ice!<line>
+<:c><line>
+<redname><diamond>Jellato<line>
+<:obj> <3> <4><line>
+We'll bring Moe to the Hot Spring, Starfy.<line>
+Meet us there!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:flagon> <4><5><0><3><line>
+<:obj> <1> <2> <0><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:obj> <6> <2> <0><line>
+<:func> <1><4> <1> <-><7><3><line>
+<:func> <1><4> <1> <-><7><2><line>
+<:func> <3> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,38 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 scene 4 (in-level table #208)
+//Block Range: $0 - $14C
+//POINTER: 0x0814E56C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_2/4_2_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><2><line>
+<:sd><line>
+<:func> <1> <1> <0><line>
+<:flagon> <4><2><0><3><line>
+<:flagon> <1><5><7><0><1><line>
+<:se><line>
+<rname><diamond>Torito<line>
+You got some skill there. The <textcolor_d>Sea Skater<textcolor_0>'s<line>
+useful in a lot of places you know.<line>
+<redname><diamond>Torito<line>
+You can use it as much as you want. It<line>
+should help you out on your adventure.<line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <3> <1><0><1><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,40 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-4 scene 1 (in-level table #245)
+//Block Range: $0 - $1A4
+//POINTER: 0x0814E600
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_4/6_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><4><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <6><4><0><0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Gah, why's this place so dark!? I can't see<line>
+a thing!<line>
+<redname><diamond>Moe<line>
+Are there any of those <textcolor_d>Lampyres<textcolor_0> here?<line>
+Those guys'll light up this entire room.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+If you wake up those <textcolor_d>Lampyres<textcolor_0>, they'll<line>
+brighten up the room.<line>
+<:end><line>
+<end>
+

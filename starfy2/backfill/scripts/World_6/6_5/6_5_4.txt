@@ -1,0 +1,73 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 4 (in-level table #250)
+//Block Range: $0 - $3C8
+//POINTER: 0x0814E614
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><5><0><2> <go> <3><line>
+<:if> <6><5><0><6> <go> <2><line>
+<:if> <6><5><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><5><0><4><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+We got a problem! Those flying pigs ate<line>
+the Hint Memo!<line>
+<redname><diamond>Moe<line>
+The heck do we do now...? Whatever, just<line>
+beat em all in that case.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+All you can do is just beat all those pigs!<line>
+<redname><diamond>Moe<line>
+But eating paper...? Ugh, how low will those<line>
+guys go...?<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Whoa whoa! Hold on a sec! You went to all<line>
+the trouble of findin' a <textcolor_d>Hint Memo<textcolor_0>,<line>
+<redname><diamond>Moe<line>
+and you're just gonna leave it? Go grab it<line>
+already!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><4> <1> <-><5><6><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hm? Why are you still wanderin' around<line>
+here?<line>
+<redname><diamond>Moe<line>
+Hurry up and get movin' already.<line>
+<:end><line>
+<end>
+

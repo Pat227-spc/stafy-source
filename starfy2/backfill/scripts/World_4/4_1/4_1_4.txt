@@ -1,0 +1,88 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-1 scene 4 (in-level table #203)
+//Block Range: $0 - $4E2
+//POINTER: 0x0814E558
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_1/4_1_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><1><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><1><0><1><line>
+<:flagoff> <1><5><5><1><5><line>
+<:flagon> <1><5><5><1><7><line>
+<:se><line>
+<rname><diamond>Jellata<line>
+Waaah! Nooo- oh, i-it's just you Starfy...<line>
+Thanks for saving me!<line>
+<redname><diamond>Jellata<line>
+I was patrolling on my own when some bad<line>
+guys attacked me! Thank you for saving<line>
+me!<line>
+<redname><diamond>Jellata<line>
+Actually... I was just avoiding my friends...<line>
+We had a fight recently, and I don't know if<line>
+they'll forgive me<line>
+<redname><diamond>Jellata<line>
+Huh, a letter for me?<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><1><line>
+<:obj> <2> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <0><7><2><line>
+<:obj> <2> <2> <0><line>
+You gave <textcolor_d>Jellato's Letter<textcolor_0> to Jellata.<line>
+<:c><line>
+<redname><diamond>Jellata<line>
+Jellato... I'm real sorry too!<line>
+<redname><diamond>Jellata<line>
+Give me a sec to write an apology to<line>
+Jellato...and done!<line>
+<:c><line>
+<wait><:func> <1><8> <1> <0><7><1><line>
+<:obj> <3> <2> <1><line>
+[<wait_time> <3><0>]<line>
+<:func> <1><8> <1> <0><7><2><line>
+<:obj> <3> <2> <0><line>
+You received <textcolor_d>Jellata's Response<textcolor_0>.<line>
+<:func> <1><8> <1> <5><2><line>
+[<wait_time> <3><0>]<line>
+<:sd><line>
+<:obj> <2> <2> <0><line>
+<:obj> <3> <2> <0><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<rname><diamond>Jellata<line>
+Are you heading back already?<line>
+　　Yes<line>
+　　No<line>
+<:decide> <2> <0> <2> <2> <1><line>
+<:c><line>
+<:se><line>
+<wait><:sel> <1> <go> <1><0><line>
+<rname><diamond>Jellata<line>
+Well then, be safe on your way!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2> <2><line>
+<:func> <1><2> <2> <2><line>
+<:exit><line>
+<wait>:<1><0><line>
+<rname><diamond>Jellata<line>
+Sure, you're free to leave when you feel<line>
+like it.<line>
+<:end><line>
+<end>
+

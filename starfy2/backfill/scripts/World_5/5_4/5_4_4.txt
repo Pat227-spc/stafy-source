@@ -1,0 +1,98 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 scene 4 (in-level table #69)
+//Block Range: $0 - $7C4
+//POINTER: 0x0814E340
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_4/5_4_4.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><4><2><3> <go> <3><line>
+<:if> <5><4><2><1> <go> <2><line>
+<:if> <5><4><2><2> <go> <2><line>
+<:if> <5><4><0><4> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><4><0><4><line>
+<:sd><line>
+<:se><line>
+<rname><diamond>Viva<line>
+Ah, what great timing! Excuse me, sir! Could<line>
+you help me with something?<line>
+<redname><diamond>Viva<line>
+Some pipsqueak destroyed my dam!<line>
+<redname><diamond>Viva<line>
+That little...! Going on about 'When will my<line>
+prince sweep me off my feet?'<line>
+<redname><diamond>Viva<line>
+And then she saw me and said that I was<line>
+'Snooping on a maiden's private thoughts'!<line>
+<redname><diamond>Viva<line>
+'How rude! Like, that's SO annoying!' Can<line>
+you believe her!?<line>
+<redname><diamond>Viva<line>
+And after all of that, the little weirdo<line>
+destroys the dam I made!<line>
+<redname><diamond>Viva<line>
+Now *I* have to fix it!<line>
+<redname><diamond>Viva<line>
+But if I leave to rebuild the dam, all the<line>
+work I've already done'll be lost!<line>
+<redname><diamond>Viva<line>
+But I only need two more bundles of sticks<line>
+to complete the dam.<line>
+<redname><diamond>Viva<line>
+Please, I need you to go get the materials!<line>
+<redname><diamond>Viva<line>
+You'll need 5 sticks to make a bundle.<line>
+Please hurry!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagoff> <5><4><1><0><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Viva<line>
+Hurry and bring me two bundles of sticks!<line>
+You need five sticks to make a bundle!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Viva<line>
+You're almost done! Just one more to go!<line>
+<:end><line>
+<wait>:<3><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <5><4><2><4><line>
+<rname><diamond>Viva<line>
+Great, it's all finished! Thanks!<line>
+<redname><diamond>Viva<line>
+You're Starfy, aren't you? I've heard all<line>
+about you!<line>
+<redname><diamond>Viva<line>
+I was supposed to help you, but you ended<line>
+up helping me instead...<line>
+<redname><diamond>Viva<line>
+Wait, I can still help you? There's some<line>
+roots that are in your way?<line>
+<redname><diamond>Viva<line>
+Great, just leave it to me! I'll get rid of<line>
+those roots in no time!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <1><2> <5> <1><0><1><line>
+<:exit><line>
+<end>
+

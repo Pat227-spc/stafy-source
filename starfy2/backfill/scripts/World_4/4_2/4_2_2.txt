@@ -1,0 +1,41 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-2 scene 2 (in-level table #206)
+//Block Range: $0 - $17C
+//POINTER: 0x0814E564
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_4/4_2/4_2_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <4><2><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <4><2><0><1><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+What's with that ugly thing floatin' around<line>
+up there?<line>
+<redname><diamond>Moe<line>
+Well, you might as well make use of 'em,<line>
+right? Might be a good way to get to<line>
+higher places.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Ya wanna go up? Use those floaty things<line>
+drifting around up there!<line>
+<:end><line>
+<end>
+

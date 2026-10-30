@@ -1,0 +1,153 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 9-1 scene 2 (in-level table #321)
+//Block Range: $0 - $A24
+//POINTER: 0x0814E730
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_9/9_1/9_1_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <9><1><0><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <1> <2> <0><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+Ah! I have found you!<line>
+<wait><:sd><line>
+<:obj> <1> <1><1> <2> <1><2><8> <-><1><6><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <7> <8><0> <1><2><8> <1><0><line>
+[<wait_time> <1><2><0>]<line>
+<:se><line>
+<rname><diamond>Funazou<line>
+You are Detective Starlock Polmes, yes? I<line>
+have been waiting for you!<line>
+<wait><:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<rname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+I'm <textcolor_d>Funazou<textcolor_0>. Could I possibly make a<line>
+request to such a famous man?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <6> <2> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Whoa there, hold your horses, old timer! His<line>
+name's Star-<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+Detective Starlock, right? And that must<line>
+make you Moeston, his assistant.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+HUH!? Who'd be *this* guy's assistant!?<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+Now now...I will properly reward you for<line>
+helping me.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Did you say...reward?<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+But of course, Moeston! I will give you a<line>
+treasure as my thanks.<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+........ R-right!! I'm Moeston!<line>
+<redname><diamond>Moe<line>
+And that makes this guy the Great<line>
+Detective Starlock, right!?<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+I have a case that I'd like you to solve,<line>
+Detective Polmes.<line>
+<redname><diamond>Funazou<line>
+I've called it, 'The Disappearance of<line>
+Ressie'...<line>
+<redname><diamond>Funazou<line>
+You see, this is normally a peaceful area<line>
+thanks to Ressie's protection. But one<line>
+day...<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <1> <3><line>
+<:func> <2> <2> <0><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:func> <8> <0> <9><9><line>
+<:func> <5> <1><1><line>
+<:func> <3> <2> <0><line>
+<:func> <3> <1> <3><line>
+<:se><line>
+<rname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+And that was the last I saw of Ressie...<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Hmm... So the day after that is when Ressie<line>
+went missing?<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+Detective Polmes! I beg of you, please<line>
+search for Ressie!<line>
+<:c><line>
+<redname><diamond>Moe<line>
+<:obj> <2> <4><line>
+Leave it to the professionals! There ain't<line>
+a mystery that we can't solve!<line>
+<redname><diamond>Moe<line>
+Just make sure you've got our reward<line>
+ready!<line>
+<:c><line>
+<redname><diamond>Funazou<line>
+<:obj> <1> <4><line>
+Well then, if I may suggest, you may want to<line>
+start by going to Ressie's house. It is in<line>
+the heart of this lake.<line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <8> <0> <9><9><line>
+<:flagon> <9><1><0><1><line>
+<:obj> <1> <2> <1><line>
+<:obj> <2> <2> <0><line>
+<:func> <1><0><line>
+<:func> <1> <0> <1><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Funazou<line>
+I suggest that you may want to start by<line>
+going to Ressie's house. It is in the heart<line>
+of this lake.<line>
+<redname><diamond>Funazou<line>
+I can't go. If I close up the shop, my ma'll<line>
+be mad at me.<line>
+<redname><diamond>Funazou<line>
+Our shop? We sell Ressie Manju. It's our<line>
+speciality!<line>
+<:end><line>
+<end>
+

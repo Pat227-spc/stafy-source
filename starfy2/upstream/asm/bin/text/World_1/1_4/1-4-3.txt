@@ -1,0 +1,101 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		In Level Convo
+//Block Range: $0 - $4EF
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><2> <5> <1><0><1><line>
+<:func> <1><3><line>
+<:func> <1><1> <2><line>
+<:obj> <1> <6><line>
+<:obj> <1> <1><0> <3> <3><line>
+<:se><line>
+<:if> <1><4><0><8> go <1><line>
+<:obj> <1> <2> <1><line>
+<:func> <1><8> <1> <7><6><line>
+<:flagon> <1><4><0><8><line>
+<:func> <7> <2><5><5> <0> <0><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <1> <8><line>
+<:obj> <1> <7> <1><7><0> <1><2><0> <6><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <1><7><0> <1><3><6> <6><0><line>
+<:func> <9><line>
+[<wait_time> <3><0>]<line>
+<:obj> <1> <7> <1><7><0> <8> <6><0><line>
+<linealt><:func> <9><line>
+<:obj> <1> <7> <1><7><0> <2><4><8> <6><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <9><0> <1><9><2> <1><0><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <1><6><0> <1><2><8> <1><0><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <1><6><0> <6><4> <6><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <1><6><0> <1><9><2> <6><0><line>
+<:func> <9><line>
+<:obj> <1> <9><line>
+<:obj> <1> <7> <9><0> <0> <1><0><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <8><0> <6><4> <6><0><line>
+<:func> <9><line>
+<:obj> <1> <7> <1><2><2> <6><4> <4><0><line>
+<:func> <9><line>
+<:obj> <1> <1><0> <3> <1><line>
+<:func> <8> <0> <9><9><line>
+<:func> <7><line>
+<:func> <1><8> <7><line>
+<rname><diamond>Puchi Ogura #1<line>
+So! That loser clam's<line>
+partner's finally here!<line>
+<:c><line>
+<redname><diamond>Konk<line>
+I won't lose to you like before, Konk!<line>
+Prepare yourself Konk!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #1<line>
+Yeah, you tell him, Konk!<line>
+Now come on, let's do this!<line>
+<:obj> <1> <1><0> <3> <2><line>
+[<wait_time> <4><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1><8> <7><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <8> <0> <0><line>
+<:func> <8> <0> <9><9><line>
+<:exit><line>
+<wait>:<1><line>
+<:obj> <1> <1><1> <3> <6><0> <-><8><line>
+<:obj> <1> <2> <1><line>
+<:obj> <1> <7> <8><0> <1><2><8> <2><0><line>
+[<wait_time> <1><0><0>]<line>
+<:obj> <1> <1><0> <3> <1><line>
+<rname><diamond>Konk<line>
+Konk Konk Konk!<line>
+No matter how many times you come back,<line>
+nothing'll change Kong!<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #1<line>
+Ahahaha! Yeah,<line>
+we'll keep knocking you flat!<line>
+Let's go, Konk!<line>
+<:obj> <1> <1><0> <3> <2><line>
+[<wait_time> <4><0>]<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+

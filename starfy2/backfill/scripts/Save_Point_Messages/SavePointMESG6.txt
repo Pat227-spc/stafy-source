@@ -1,0 +1,22 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		Save Point Message 6 (table 0x0814EA2C entry 10; stage key 0xCB)
+//Block Range: $0 - $72
+//POINTER: 0x0814EA54
+//Backfill: own translation from JP (no SUT text exists for save-point messages); repo draft English used for 1-7
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+Do you understand how the tricks work? If<line>
+you get stuck, Moe will give you a hint!<line>
+<:end><line>
+<end>
+

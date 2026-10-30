@@ -1,0 +1,35 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-3 scene 3 (in-level table #242)
+//Block Range: $0 - $10C
+//POINTER: 0x0814E5F4
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_3/6_3_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><3><0><2> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><3><0><2><line>
+<:obj> <1> <6><line>
+[<wait_time> <4><0>]<line>
+<:se><line>
+<rname><diamond>Barrel Squid<line>
+You're looking for the boss? He's a little<line>
+further in.<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Barrel Squid<line>
+You're looking for the boss? He's a little<line>
+further in.<line>
+<:end><line>
+<end>
+

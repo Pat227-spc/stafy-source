@@ -1,0 +1,41 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 4-5 post-game revisit chat (in-level table #458)
+//Block Range: $0 - $200
+//POINTER: 0x0814E954
+//Backfill: English from SUT post-game post postgame_w04_r0pucd.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <1><0><0><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <1><0><0><0><line>
+<:se><line>
+<rname><diamond>Ookids<line>
+Oh, Starfy~... Hellooo~....<line>
+<redname><diamond>Ookids<line>
+Is that noisy, violent, cowardly, pervy,<line>
+dumb, stingy...<line>
+<redname><diamond>Ookids<line>
+...selfish, lazy, contrary clam with you<line>
+today~?<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Ookids<line>
+We love hot springs~ Looks like you like<line>
+them too, Starfy~<line>
+<redname><diamond>Ookids<line>
+If you want, you can always come back in...<line>
+without that clam...<line>
+<:end><line>
+<end>
+

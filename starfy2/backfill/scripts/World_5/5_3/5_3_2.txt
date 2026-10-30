@@ -1,0 +1,206 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-3 scene 2 (in-level table #63)
+//Block Range: $0 - $C8E
+//POINTER: 0x0814E328
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_3/5_3_2.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><3><4><1> <go> <3><line>
+<:if> <5><3><4><0> <go> <2><line>
+<:if> <5><3><2><0> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><3><2><0><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+You two are Starfy and Moe? Oh dear, what<line>
+a pickle...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+In a pickle about what? Spit it out!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Fancy a gander at this letter...<line>
+<:c><line>
+<redname><diamond>Puchi Ogura #5's Letter<line>
+'To Old Man Grizzly, Go ahead, try helping<line>
+Starfy...'<line>
+<redname><diamond>Puchi Ogura #5's Letter<line>
+'The curse I put on your Food Storage will<line>
+never, ever be lifted~'<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+I'd like to help you out, but my Food<line>
+Storage...<line>
+<redname><diamond>Old Man Grizzly<line>
+My precious Honey is in there! If I just had<line>
+that, I'd be fine!<line>
+<redname><diamond>Old Man Grizzly<line>
+But please, I still need someone to lift the<line>
+curse in my stead...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Oh, all right!<line>
+<:obj> <1> <9> <2><line>
+Looks like you've got some honey to find,<line>
+Starf!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Oho! You'll do it? Then I'd better unlock<line>
+the Storage Room!<line>
+<wait><:flagon> <5><3><2><1><line>
+<rname><diamond>Old Man Grizzly<line>
+And I truly appreciate the help!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <1> <9> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+What're you doin'!? You're supposed to go<line>
+find that Honey!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Sadly, I don't know how to get rid of that<line>
+curse on my storage room...<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><2><line>
+<:flagon> <5><3><4><1><line>
+<:sd><line>
+<:func> <1> <2><line>
+<:func> <6> <1> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+Look, you got your honey!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Ooooh! My strength! Once I eat<line>
+this...wooooah! I'm overflowing with POWER!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:obj> <2> <0> <1><line>
+[<wait_time> <6><0>]<line>
+<:func> <1><8> <1> <9><6><line>
+[<wait_time> <9><4>]<line>
+<:func> <1><8> <1> <6><5><line>
+<:func> <7> <6><0><1> <3><2> <1><3><line>
+<:obj> <1> <5> <1><line>
+<:func> <8> <0> <1><9><line>
+<:obj> <3> <6><line>
+<:obj> <3> <1><0> <0> <1><line>
+[<wait_time> <4><4>]<line>
+<:sd><line>
+<:flagon> <5><3><4><2><line>
+<:func> <2> <2><line>
+<:func> <1><8> <1> <7><6><line>
+[<wait_time> <1><3><2>]<line>
+<:func> <1><8> <7><line>
+<:func> <1><8> <1> <6><5><line>
+<:obj> <3> <2><line>
+<:func> <1><9><line>
+<:obj> <1> <5> <0><line>
+<:func> <8> <0> <0><line>
+<:obj> <2> <1> <0><line>
+<:obj> <2> <9> <2> <1><line>
+<:func> <3> <2><line>
+<:se><line>
+<:obj> <2> <9> <2><line>
+<:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+And now, you two can move on!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+H-holy...!<line>
+[<wait_time> <3><0>]<line>
+Wait,<line>
+[<wait_time> <3><0>]<line>
+I got it!<line>
+<wait><:obj> <1> <9> <2> <0><line>
+<rname><diamond>Moe<line>
+This geezer's SUPER strong! If he comes<line>
+with us, Ogura'll be toast right?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Absolutely not!<line>
+<:c><line>
+<wait><:obj> <1> <9> <2> <1><line>
+<:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+W-what!? Why!?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+Today is the rerun of a historical play<line>
+that I adore! I wouldn't miss it for the<line>
+world!<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+You're kidding... What kind of stupid reason<line>
+is THAT!?<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Old Man Grizzly<line>
+...As well as the fact that I'm not exactly<line>
+the best at swimming...<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Moe<line>
+You should've led with THAT excuse...<line>
+[<wait_time> <3><0>]<line>
+And here I thought we'd get off easy...<line>
+*grumble grumble*<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:flagoff> <1><5><5><2><2><line>
+<:obj> <1> <9> <2><line>
+<:obj> <1> <1><6><line>
+<:obj> <1> <3><line>
+<:obj> <1> <2><line>
+<:func> <1> <0><line>
+<:func> <8> <0> <9><9><line>
+<:obj> <1> <5> <0><line>
+<:func> <1><0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Old Man Grizzly<line>
+Be careful on your way out!<line>
+<:end><line>
+<end>
+

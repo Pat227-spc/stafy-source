@@ -1,0 +1,28 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 2-1 post-game revisit chat (in-level table #120)
+//Block Range: $0 - $D6
+//POINTER: 0x0814E40C
+//Backfill: English from SUT post-game post postgame_w02_qz565a.md (English-only post, aligned by speaker order), gaps own translation
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <2><2> <-><1><line>
+<:func> <6> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Ya remember? Around here, you can<line>
+control the water with switches...<line>
+<redname><diamond>Moe<line>
+It's crazy confusing, so watch yourself.<line>
+<:end><line>
+<end>
+

@@ -1,0 +1,46 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 11-6 cutscene (0x88edd68)
+//Block Range: $0 - $278
+//POINTER: 0x8121ff8
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_11/11_6/11_6_Cutscene.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <3> <2> <2><line>
+<:func> <0> <0><line>
+<:se><line>
+<rname><diamond>Mama Star<line>
+Oh, Starfy! Thank you for coming for me!<line>
+Thank you!<line>
+<redname><diamond>Mama Star<line>
+I always knew you would.<line>
+<redname><diamond>Mama Star<line>
+You've grown so much... Mama is so proud<line>
+of you.<line>
+<redname><diamond>Mama Star<line>
+Your Papa and everyone back home is<line>
+waiting for us! Let's get back to Pufftop.<line>
+<redname><diamond>Mama Star<line>
+Why don't you go back with your friend,<line>
+Starfy?<line>
+<redname><diamond>Mama Star<line>
+Your mama's going to leave right now...<line>
+<redname><diamond>Mama Star<line>
+Once again, thank you so much! I'll see you<line>
+back at home.<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <1> <0><line>
+<:func> <2> <2> <2><line>
+<:exit><line>
+<end>
+

@@ -1,0 +1,69 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 7-1 scene 10 (in-level table #269)
+//Block Range: $0 - $3FA
+//POINTER: 0x0814E660
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_7/7_1/7_1_10.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <7><1><7><6> <go> <3><line>
+<:if> <7><1><7><3> <go> <2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:flagon> <7><1><1><1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+More boulders in the way, eh?<line>
+<redname><diamond>Moe<line>
+And there ain't many boulders around to<line>
+break 'em with!<line>
+<redname><diamond>Moe<line>
+You gotta break the ones blockin' the way<line>
+without usin' up too many boulders!<line>
+<redname><diamond>Moe<line>
+But even these boulders can be dropped<line>
+right? So how do we do that...?<line>
+<redname><diamond>Moe<line>
+Well, you know the drill. If you mess up,<line>
+just give me a call! I'll get another boulder<line>
+for ya!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+So ya messed up, eh? Alright, gimme a sec...<line>
+Hrrragh!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:func> <7><line>
+<:flagoff> <7><1><7><3><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<3><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Seriously though, why are so many<line>
+boulders fallin' all of a sudden?<line>
+<redname><diamond>Moe<line>
+They never used to fall around here...<line>
+Maybe somebody's droppin' 'em on purpose!<line>
+<:end><line>
+<end>
+

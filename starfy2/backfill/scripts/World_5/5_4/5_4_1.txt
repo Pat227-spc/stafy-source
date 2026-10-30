@@ -1,0 +1,38 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-4 scene 1 (in-level table #66)
+//Block Range: $0 - $200
+//POINTER: 0x0814E334
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_4/5_4_1.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1><line>
+<:if> <5><4><3><2> <go> <1><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Whoa! That was close! Those spinny things<line>
+are a real pain...<line>
+<redname><diamond>Moe<line>
+And we gotta get rid of that current in<line>
+the back somehow, or we can't go on!<line>
+<redname><diamond>Moe<line>
+Last time we shut it off by hittin' a switch,<line>
+right? Gotta be one around here<line>
+somewhere...<line>
+<:end><line>
+<wait>:<1><line>
+<rname><diamond>Moe<line>
+See? I told ya there was a <textcolor_d>switch<textcolor_0>! All<line>
+thanks to my genius memory!<line>
+<end>
+

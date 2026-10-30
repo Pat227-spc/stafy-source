@@ -1,0 +1,59 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 6-5 scene 9 (in-level table #255)
+//Block Range: $0 - $35E
+//POINTER: 0x0814E628
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_6/6_5/6_5_9.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <6><5><2><0> <go> <2><line>
+<:if> <6><5><2><1> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:flagon> <6><5><2><1><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hurry up and catch that brat! Oooor is<line>
+that an issue?<line>
+<redname><diamond>Moe<line>
+Yeah, he seems pretty fast... Guess you'll<line>
+just have to guess where he goes next.<line>
+<redname><diamond>Moe<line>
+There's gotta be some kinda pattern!<line>
+<:end><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Hey, I found out how that Puchi Ogura's<line>
+movin'!<line>
+<redname><diamond>Moe<line>
+He's goin' around the four rooms<line>
+counterclockwise! Easy now, right?<line>
+<redname><diamond>Moe<line>
+Just go where he'll show up!<line>
+<:end><line>
+<wait>:<2><line>
+<:func> <2><2> <-><1><line>
+<:sd><line>
+<:func> <6> <1> <0><line>
+<:se><line>
+<rname><diamond>Moe<line>
+Puchi Ogura #6 ran off through the<line>
+upper-left door of the upper-left room!<line>
+<redname><diamond>Moe<line>
+Hurry up and chase him!<line>
+<:end><line>
+<end>
+

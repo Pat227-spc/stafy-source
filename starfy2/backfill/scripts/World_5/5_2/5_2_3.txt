@@ -1,0 +1,52 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 5-2 scene 3 (in-level table #58)
+//Block Range: $0 - $218
+//POINTER: 0x0814E314
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_5/5_2/5_2_3.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:if> <5><2><0><5> <go> <1><line>
+<:func> <2><2> <-><1><line>
+<:flagon> <5><2><0><5><line>
+<:sd><line>
+<:func> <6> <2> <1><line>
+<:se><line>
+<:obj> <1> <4><line>
+<rname><diamond>Shurikit<line>
+If mew made it this far, mew pass! Consider<line>
+yourself a master of the Air Jump, mew!<line>
+<redname><diamond>Shurikit<line>
+If mew use this technique, your adventure<line>
+will become a little easier!<line>
+<:c><line>
+<wait><:obj> <2> <4><line>
+<rname><diamond>Moe<line>
+Yoohoo~ Any lovely ladies up here~?<line>
+<:c><line>
+<wait><:obj> <1> <4><line>
+<rname><diamond>Shurikit<line>
+Mew're not giving up on that, are mew!?<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:func> <2> <2><line>
+<:obj> <2> <2><line>
+<:func> <1> <0><line>
+<:func> <3> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<:func> <2><2> <-><1><line>
+<rname><diamond>Shurikit<line>
+Good luck, meow!<line>
+<:end><line>
+<end>
+

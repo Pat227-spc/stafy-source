@@ -1,0 +1,60 @@
+//GAME NAME:		Densetsu no Starfy 2
+
+//BLOCK #000 NAME:		World 10-6 scene 7 (in-level table #384)
+//Block Range: $0 - $2E6
+//POINTER: 0x0814E82C
+//Backfill: English from SomeUselessTranslations (SUT) where available, otherwise our own; see backfill/pairs/World_10/10_6/10_6_7.tsv
+
+#VAR(Story, TABLE)
+#ADDTBL("STARFY2ENG.TBL", Story)
+#ACTIVETBL(Story)
+
+#VAR(BIN, CUSTOMPOINTER)
+#CREATEPTR(BIN, "LINEAR", $-08000000, 32)
+
+#JMP(000000)
+
+<:sd><line>
+<:func> <1><2> <1><0> <1><0><1><line>
+<:func> <1><3><line>
+<:func> <1><1> <1> <0><line>
+<:se><line>
+<:if> <1><0><6><0><9> <go> <1><line>
+<rname><diamond>Puchi Ogura #10<line>
+I see you've made it this far! My father's<line>
+waiting up in Ogura's Castle for you.<line>
+<redname><diamond>Puchi Ogura #10<line>
+That's why he wanted me to collect<line>
+weapons for him, but that doesn't matter<line>
+now!<line>
+<redname><diamond>Puchi Ogura #10<line>
+Cause I'm not gonna show you ANY mercy!!<line>
+<:c><line>
+<wait><:func> <4><line>
+<:func> <1><8> <1> <1><1><3><line>
+<:obj> <2> <2> <1><line>
+<:obj> <1> <1><0> <0> <0><line>
+<:obj> <2> <1><0> <0> <0><line>
+<:obj> <1> <6><line>
+<:obj> <2> <6><line>
+[<wait_time> <6><0>]<line>
+<rname><diamond>Puchi Ogura #10<line>
+Now, come get some!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:flagon> <1><0><6><0><9><line>
+<:func> <2> <2><line>
+<:exit><line>
+<wait>:<1><line>
+<rname><diamond>Puchi Ogura #10<line>
+Wahahahaha! Come back as many times as<line>
+you want! You'll never compare to me!!!<line>
+<:c><line>
+<wait><:sd><line>
+<:func> <4><line>
+<:flagon> <1><0><6><0><9><line>
+<:func> <2> <2><line>
+<:exit><line>
+<end>
+
