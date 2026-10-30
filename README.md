@@ -33,7 +33,46 @@ All translation credit belongs to the original translators. Starfy is (c) Ninten
 
 An in-game translator credits page is planned for a future update.
 
-### Tools
+### Verify it yourself
+Please don't just take our word for it. These are the hashes to check against (also in SHA1SUMS.txt):
+
+```
+Starfy 1 Eng v1.0.2
+  Base:  Densetsu no Stafy (Japan)   CRC32 FAE94C8B  SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c
+  Alt base: STT v1.1 English ROM     CRC32 F7CB8EE3  SHA1 79c4f1847dace4efceecff0a211cf341ad372808
+  Result:                            CRC32 72AE1467  SHA1 27c69522d73a8af606f771d7bafc0cecda240baa
+  Patch SHA1: Starfy 1 Eng v1.0.2.bps                   df5d790a6a273d392671db044b3b3de0be9c8609
+              Starfy 1 Eng v1.0.2 (STT v1.1 base).bps   8ca993d292c386350ca3277f0211e109d5013515
+Starfy 2 Eng v0.9.5
+  Base:  Densetsu no Stafy 2 (Japan) CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df
+  Result (32 MiB):                   CRC32 2165E2C8  SHA1 bc76c940d686c4b6555be0f6c18542b04dc472da
+  Patch SHA1: Starfy 2 Eng v0.9.5.bps                   6d7a44f99d6500ab172396c1ae62222f9ce5e6e7
+Starfy 3 Eng v1.0.3
+  Base:  Densetsu no Stafy 3 (Japan) (Rev 1)  CRC32 2D6E4C3B  SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636
+  Alt base: Dimedime v1.0 English ROM         CRC32 850B4137  SHA1 179920be4a0ae5ed60137103deca4a760811517b
+  Result:                                     CRC32 23170373  SHA1 18968dde90fcc27c1bdc5092f77243c84aa4f85f
+  Patch SHA1: Starfy 3 Eng v1.0.3.bps                   e82864680b24eef73e64984c4e252ceef1fd5097
+              Starfy 3 Eng v1.0.3 (Dimedime v1.0 base).bps   b4e813a3696865dab50af2aacbe54c27e1bfe545
+```
+
+To check a file: `sha1sum <file>` (Linux/macOS) or `certutil -hashfile <file> SHA1` (Windows).
+You can also rebuild the patches yourself from https://github.com/Pat227-spc/stafy-source (see each game's README),
+then compare the SHA1 of your patched ROM with the Result SHA1 above. If anything doesn't match, please let us know.
+
+## Original projects
+If you enjoy these games, please visit and support the people who actually made the translations:
+- Megahog2014 / Starfy Translation Team (Starfy 2 project): https://github.com/Megahog2014/Densetsu_no_Starfy_2_Translation_ENG
+- Starfy Translation Team, Starfy 1 (romhacking.net): https://www.romhacking.net/translations/7057/
+- Luckylodeon98 (Starfy 2 fork, graphics and VWF): https://github.com/Luckylodeon98/Densetsu_no_Starfy_2_Translation_ENG
+- SomeUselessTranslations (Starfy 2 script videos): https://www.youtube.com/playlist?list=PLA7NjZIk-WKX6E8fTEwiEtI3XlpZy2CQm
+- Starfy Wiki fan translation page (Dimedime, SomeUselessTranslations, Normmatt): https://www.starfywiki.org/wiki/Fan_translation
+
+## Credit and takedown requests
+If you are one of the original authors and would like your name changed or removed, or your work taken out,
+please open an issue at https://github.com/Pat227-spc/stafy-patches/issues and it will be honored promptly. No questions asked.
+
+
+## Tools
 Everyone who built a tool we used:
 
 - armips by Kingcom, with contributors sp1187, unknownbrackets, Prof9, Fothsid, StraDaMa, queueRAM, Normmatt, hrydgard, Blade2187, Zeturic, tclamb, kabochi, adakite1, PeterLemon, LemonBoy, warmenhoven, radimerry, nekopsykose, onlymx13, GermanAizek, kwyxz, jeffman, archshift, aliaspider, dfuchsgruber, Thar0, Bigpet, socram8888, lioncash, joeydumont, bentley, Amjad50 - https://github.com/Kingcom/armips (MIT; bundled Linux build of commit 62adab4, licence in thirdparty/armips/)
