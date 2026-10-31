@@ -21,7 +21,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf, you know this place? It's called<line>
+Hey, Starf', you know this place? It's called<line>
 the 'Indoor Cave'.<line>
 <redname><diamond>Moe<line>
 It's the one cave that famous adventurer<line>
@@ -31,7 +31,7 @@ A cave full of riddles and traps!<line>
 <redname><diamond>Moe<line>
 I dunno where or what kind of traps<line>
 there'll be, but that's the fun! Let's go,<line>
-Starf!<line>
+Starf'!<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
@@ -39,8 +39,8 @@ Starf!<line>
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-the Indoor Cave, huh...? Maybe there's<line>
-some amazin' treasure sleepin' in here...<line>
+The Indoor Cave, huh...? Bet there's some<line>
+amazin' treasure sleepin' in here...<line>
 <redname><diamond>Moe<line>
 Maybe the treasure's some valuable coin,<line>
 or a diamond, or-or a pretty lady...!<line>

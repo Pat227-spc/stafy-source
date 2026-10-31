@@ -70,7 +70,7 @@ please find a foothold in my place!<line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
 I guess we gotta. C'mon, let's go see what<line>
-we can find, Starf!<line>
+we can find, Starf'!<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

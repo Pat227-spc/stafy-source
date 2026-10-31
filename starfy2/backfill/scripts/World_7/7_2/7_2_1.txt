@@ -38,8 +38,8 @@ you very much!<line>
 <:c><line>
 <redname><diamond>Taiblond<line>
 <:obj> <1> <4><line>
-Oh~, sorry~! Introductions are indeed in<line>
-order! I am <textcolor_d>Taiblond<textcolor_0>!<line>
+Oh~, sorry~! I forgot to introduce<line>
+myself~! I am <textcolor_d>Taiblond<textcolor_0>!<line>
 <redname><diamond>Taiblond<line>
 I'm reporting on the abduction of the<line>
 Queen of <textcolor_d>Pufftop<textcolor_0>, and I'm dying for leads!!<line>

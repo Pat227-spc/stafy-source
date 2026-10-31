@@ -67,7 +67,7 @@ So what? It's just a dusty old statue, who<line>
 cares?<line>
 <wait><:obj> <1> <9> <2><line>
 <rname><diamond>Moe<line>
-Alright, let's get goin', Starf! We already<line>
+Alright, let's get goin', Starf'! We already<line>
 got our hands full.<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
@@ -111,7 +111,7 @@ perimeter...<line>
 <rname><diamond>Moe<line>
 So basically, you gotta find all 4 pieces<line>
 of the statue and bring 'em back here,<line>
-Starf.<line>
+Starf'.<line>
 <:c><line>
 <wait>:<1><0><0><line>
 <:sd><line>

@@ -76,7 +76,7 @@ bring the water back!<line>
 You callin' me an idiot!? Why you little...!<line>
 <wait><:obj> <3> <9> <2><line>
 <rname><diamond>Moe<line>
-Hey, Starf! You know what to do when the<line>
+Hey, Starf'! You know what to do when the<line>
 water's gone, right?<line>
 <redname><diamond>Moe<line>
 What? Ya don't know!? Ya blockhead!<line>

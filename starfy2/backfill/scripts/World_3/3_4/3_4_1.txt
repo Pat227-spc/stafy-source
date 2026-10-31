@@ -23,7 +23,7 @@
 <:se><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-Hold up, Starf! I found somethin' else here<line>
+Hold up, Starf'! I found somethin' else here<line>
 too!<line>
 <wait><:obj> <2> <2> <1><line>
 <:func> <1><8> <1> <7><1><line>
@@ -160,9 +160,9 @@ BEEEEEEEEEEEEEEEEE!?<line>
 Who the heck do you think raised you, you<line>
 sorry excuse for kids! Huh!?<line>
 <redname><diamond>Moe<line>
-When you get hungry, or get your clothes<line>
-dirty, who fills your stomach with tasty<line>
-meals and washes your clothes every<line>
+When you get hungry or your clothes get<line>
+dirty, who cooks you tasty meals and does<line>
+your laundry every single...<line>
 <redname><diamond>Moe<line>
 DAY!?<line>
 <redname><diamond>Moe<line>
@@ -176,7 +176,7 @@ you...?<line>
 Where would you be without your mother,<line>
 huh!? Answer me that!!!<line>
 <redname><diamond>Moe<line>
-Clean out your ears and listen good!<line>
+Are your ears as busted as your brain!?<line>
 <redname><diamond>Moe<line>
 She went through so much to bring you<line>
 into this world...<line>
@@ -313,7 +313,7 @@ Hold it right there! Anyone who tries to<line>
 wreck a happy family...<line>
 <redname><diamond>Moe<line>
 ...won't get away with it, not on my watch!<line>
-Let's go, Starf!<line>
+Let's go, Starf'!<line>
 <redname><diamond>Moe<line>
 We gotta get a move on! We gotta catch<line>
 that guy and the bug he rides on!<line>

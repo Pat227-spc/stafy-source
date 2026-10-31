@@ -21,8 +21,8 @@
 <:flagon> <4><4><0><1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-W-w-wooooah! The heck's with this floor!? If<line>
-you've ever wanted to skate, now's your<line>
+W-w-wooooah! The heck's with this floor!?<line>
+If you've ever wanted to skate, now's your<line>
 chance!<line>
 <redname><diamond>Moe<line>
 Hey, you're a clumsy goof, so be careful<line>

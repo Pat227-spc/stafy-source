@@ -32,7 +32,7 @@ AUGH! What the heck was THAT!?<line>
 <:func> <8> <0> <9><9><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Geez...thought that might've burst my<line>
+Sheesh...thought that might've burst my<line>
 eardrums or somethin'!<line>
 <redname><diamond>Moe<line>
 Still...I gotta wonder who's screamin' all of<line>
@@ -43,7 +43,7 @@ Kinda sounds like cryin' dontcha think?<line>
 Hmm... Now I'm curious. Let's go find out<line>
 what's causin' it...<line>
 <redname><diamond>Moe<line>
-Alright, Starf, let's go! The voice is comin'<line>
+Alright, Starf', let's go! The voice is comin'<line>
 from this way! Don't fall behind!<line>
 <:c><line>
 <wait><:sd><line>

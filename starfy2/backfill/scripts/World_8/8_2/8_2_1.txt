@@ -76,7 +76,7 @@ I shall be waiting behind this door.<line>
 <rname><diamond>Moe<line>
 Tch, what a cheapskate...<line>
 <:obj> <1> <9> <2> <1><line>
-Well, you heard the guy, Starf. Finish those<line>
+Well, you heard the guy, Starf'. Finish those<line>
 trials of his.<line>
 <:c><line>
 <wait><:obj> <2> <4><line>

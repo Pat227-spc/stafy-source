@@ -36,7 +36,7 @@ like you want with me!?<line>
 <wait><:obj> <2> <1><0> <3> <1><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-WHAT'D YOU SAY ABOUT ME!?...Oh, Starf! This<line>
+WHAT'D YOU SAY ABOUT ME!?...Oh, Starf'! This<line>
 is the guy who messed with Ms. Ruby's<line>
 stuff!<line>
 <:c><line>
@@ -65,7 +65,7 @@ try to keep up with my speed!<line>
 <rname><diamond>Moe<line>
 That kid's really gettin' on my nerves...<line>
 <:obj> <1> <9> <2><line>
-After him, Starf! This is for Ms. Ruby!<line>
+After him, Starf'! This is for Ms. Ruby!<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>
@@ -81,7 +81,7 @@ After him, Starf! This is for Ms. Ruby!<line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
 These currents are crazy strong! With the<line>
-strength ya got right now, Starf, you can't<line>
+strength ya got right now, Starf', you can't<line>
 swim against 'em!<line>
 <redname><diamond>Moe<line>
 Make sure ya don't get swept up in those<line>

@@ -21,7 +21,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hold your horses, Starf! It's way too<line>
+Hold your horses, Starf'! It's way too<line>
 dangerous to progress!<line>
 <redname><diamond>Moe<line>
 But maybe... You could get some sorta<line>

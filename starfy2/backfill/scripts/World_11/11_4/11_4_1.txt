@@ -101,7 +101,7 @@ D-don't screw with me you little-!<line>
 <wait><:obj> <1> <9> <2><line>
 <:func> <8> <0> <1><9><line>
 <rname><diamond>Moe<line>
-RAAAAAAUGH! Starf! What're you just<line>
+RAAAAAAUGH! Starf'! What're you just<line>
 standing around for!?<line>
 <redname><diamond>Moe<line>
 Hurry up and get me outta here, dangit!<line>
@@ -181,7 +181,7 @@ Ngaaaaah!!!<line>
 <:flagon> <1><1><4><1><7><line>
 [<wait_time> <6><0>]<line>
 <rname><diamond>Moe<line>
-Alright! Ya did it, Starf!<line>
+Alright! Ya did it, Starf'!<line>
 <redname><diamond>Moe<line>
 Ogura... You better wait for me, you<line>
 lowlife...!<line>

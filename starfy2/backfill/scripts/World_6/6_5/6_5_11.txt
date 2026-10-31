@@ -44,8 +44,8 @@ never even been in a fight!<line>
 You're the kinda guy who talks big, but<line>
 never follows through.<line>
 <redname><diamond>Moe<line>
-Lemme guess, you're always in your<line>
-brothers and sister's shadows, right?<line>
+Lemme guess, you always hid behind your<line>
+big bro or big sis, right?<line>
 <redname><diamond>Moe<line>
 Ugh! Guys like that are the ones I hate the<line>
 mo...Hm?<line>
@@ -88,7 +88,7 @@ I still have an ace up my sleeve!!!<line>
 [<wait_time> <3><0>]<line>
 <rname><diamond>Moe<line>
 <:obj> <2> <4><line>
-Whoa! He snapped! Starf, I'm leavin' the<line>
+Whoa! He snapped! Starf', I'm leavin' the<line>
 rest to you!<line>
 <:c><line>
 <redname><diamond>Puchi Ogura #6<line>

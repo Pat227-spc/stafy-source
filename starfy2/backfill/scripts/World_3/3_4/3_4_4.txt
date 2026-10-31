@@ -17,6 +17,6 @@
 <:flagon> <1><5><5><2><0><line>
 <:flagon> <3><4><0><8><line>
 <:func> <2><2> <-><1><line>
-You caught <textcolor_d>Shelldest<textcolor_0>.<line>
+You caught <textcolor_d>Shelldest<textcolor_0>!<line>
 <end>
 

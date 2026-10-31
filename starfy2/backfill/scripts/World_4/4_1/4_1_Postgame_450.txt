@@ -20,8 +20,8 @@
 <:flagon> <1><0><0><0><line>
 <:se><line>
 <rname><diamond>Jellato<line>
-Hey Starfy. In order to keep the peace,<line>
-we're patrolling the sea today too.<line>
+Hey, Starfy. We're out patrolling the sea<line>
+again today to keep the peace.<line>
 <redname><diamond>Jellato<line>
 You could also talk to Jellata and Gellato<line>
 if you'd like.<line>

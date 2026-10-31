@@ -1,4 +1,4 @@
-"""Stafy 1 (Origins cut) script codec + pointer tables. Text table discovered by scan."""
+"""Stafy 1 (Origins cut) script codec + pointer tables. Text table discovered by scan (QA sources pass)."""
 import struct
 CH={}
 for i in range(10): CH[i]=str(i)

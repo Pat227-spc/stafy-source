@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override (v0.9.3-test, S2-D001): the post-game "Stage All Clear" body (:func 10 0 block) is drawn
+//Backfill override (QA round 2, v0.9.3-test, S2-D001): the post-game "Stage All Clear" body (:func 10 0 block) is drawn
 //with the intro font 0x083DFEE8, whose Latin letters sit on the kana codes of STARFY2ENGINTRO.TBL; it was encoded with
 //STARFY2ENG.TBL, so every letter hit blank glyph 1. Those lines now use the intro table and are re-wrapped to
 //fit the screen (same words; it overflowed the right edge once it rendered). " and ' use two glyphs added

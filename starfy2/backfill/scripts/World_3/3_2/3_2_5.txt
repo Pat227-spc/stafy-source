@@ -96,7 +96,7 @@ You've got another thing comin' if you<line>
 thought I was anywhere near done beratin'<line>
 you...!<line>
 <redname><diamond>Moe<line>
-Annoying brats... Hey, Starf!<line>
+Annoying brats... Hey, Starf'!<line>
 <:obj> <1> <9> <2><line>
 We're goin' after em, and fast! Come on!<line>
 <:c><line>

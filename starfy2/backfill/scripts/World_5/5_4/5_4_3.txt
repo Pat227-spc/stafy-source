@@ -40,7 +40,7 @@ things!<line>
 There's a door to the upper left... That's<line>
 gotta be it!<line>
 <redname><diamond>Moe<line>
-Start by goin' there, Starf!<line>
+Start by goin' there, Starf'!<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>

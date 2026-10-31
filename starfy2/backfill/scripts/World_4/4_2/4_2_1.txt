@@ -21,7 +21,7 @@
 <:func> <6> <1> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Huh... Guess what I found Starf. It's a<line>
+Huh... Guess what I found Starf'. It's a<line>
 letter from that '<textcolor_d>Torito<textcolor_0>' guy.<line>
 <redname><diamond>Moe<line>
 'I moved to the Slippery Glacier. If you're<line>
@@ -31,7 +31,7 @@ ever nearby, come visit!' it says.<line>
 icicles. You'll get hurt real bad if you keep<line>
 running into 'em!<line>
 <redname><diamond>Moe<line>
-Make sure to be careful, Starf!...Nah,<line>
+Make sure to be careful, Starf'!...Nah,<line>
 never mind. Just keep movin' and you'll be<line>
 fine.<line>
 <:end><line>

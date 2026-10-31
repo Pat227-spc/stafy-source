@@ -93,7 +93,7 @@ This is inexcusable, Puchi Ogura!<line>
 <wait><:obj> <1> <5> <0><line>
 <rname><diamond>Moe<line>
 Ms. Ruby, let me handle this!<line>
-I'll get back your precious<textcolor_d>furniture<textcolor_0>!<line>
+I'll get back your precious <textcolor_d>furniture<textcolor_0>!<line>
 <:c><line>
 <wait><:func> <8> <0> <7><2><line>
 <:obj> <2> <4><line>
@@ -112,8 +112,8 @@ And as for YOU, Starf'!...<line>
 <redname><diamond>Moe<line>
 You're not gonna just ignore this, are ya!?<line>
 <redname><diamond>Moe<line>
-Don't ya think it's shameful to<line>
-ignore someone who's in need!?<line>
+You can't just ignore somebody who's<line>
+in trouble! Have some shame!<line>
 <wait><:obj> <1> <5> <0><line>
 <linealt>
 <rname><diamond>Moe<line>
@@ -159,7 +159,7 @@ why don't we go on a date, Ms. Ruby?<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Ruby<line>
-Those furniture mean a lot to me, Moe!<linealt>
+That furniture means a lot to me, Moe!<linealt>
 I can't go on a date with them still missing.<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
@@ -203,8 +203,8 @@ which furniture you gotta find!<line>
 //　いいか?Rubyさんの<line>
 //　かぐは・・・」<line>
 //Temporary Translation!
-Geez... Alright, listen!<line>
-The furniture you're looking for Ruby are...<line>
+Sheesh... Alright, listen up! Here's the<line>
+furniture you're lookin' for...<line>
 <redname><diamond>Moe<line>
 <:func> <1><8> <1> <7><1><line>
 <:obj> <3> <6><line>
@@ -237,7 +237,7 @@ Ya understand?... Good! Now GO!<line>
 <:exit><line>
 <wait>:<1><0><line>
 <:func> <2><2> <-><1><line>
-<:flagoff><$61><go><$66><$66> <2><1><0><2><line>
+<:flagoff> <2><1><0><2><line>
 <:flagon> <2><1><0><3><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
@@ -392,7 +392,7 @@ Grrr...! I'm goin' on ahead!!!<line>
 <:obj> <1> <2><line>
 <:func> <1><0><line>
 <:func> <3> <2><line>
-<:exit><x_pos><$69><$74><line>
+<:exit><line>
 <wait>:<2><0><line>
 <:func> <2><2> <-><1><line>
 <:obj> <1> <4><line>
@@ -400,8 +400,8 @@ Grrr...! I'm goin' on ahead!!!<line>
 //「おそかったじゃ　ねえかよ<line>
 //　早く　出せよ!オラオラ!」<line>
 //Temporary Translation
-Geez... I was growin' a beard waitin' for ya!<line>
-Whatever... Just give it here and-WAIT A SEC!...<line>
+Sheesh... I was growin' a beard waitin' for ya!<line>
+Whatever... Gimme that and-WAIT A SEC!...<line>
 <:c><line>
 <wait><:func> <1><8> <1> <7><1><line>
 <:obj> <5> <1><0> <0> <1><line>
@@ -413,7 +413,7 @@ Whatever... Just give it here and-WAIT A SEC!...<line>
 //　わたしのじゃ　ないわ・・<$45>・」<line>
 //Temporary Translation
 I'm sorry Starfy,<line>
-but this isn't the <textcolor_d>furniture<textcolor_0> I was asking for.<$45><line>
+but this isn't the <textcolor_d>furniture<textcolor_0> I was asking for.<line>
 <:c><line>
 <wait><:func> <1><8> <1> <7><2><line>
 <:obj> <5> <1><0> <0><line>
@@ -430,8 +430,8 @@ Wait... What!? That can't be right!!<line>
 //　そうだと　思ってたんですよ!」<line>
 //Temporary Translation
 Wait a sec...<line>
-It is the wrong furniture!!!<line>
-What the heck Starf'!?<line>
+It IS the wrong furniture!!!<line>
+What the heck, Starf'!?<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Ruby<line>

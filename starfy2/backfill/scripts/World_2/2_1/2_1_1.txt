@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		World 2-Intro
 //Block Range: $0 - $1D2A
@@ -160,7 +160,7 @@ why don't we go on a date, Ms. Ruby?<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Ruby<line>
-Those furniture mean a lot to me, Moe!<linealt>
+That furniture means a lot to me, Moe!<linealt>
 I can't go on a date with them still missing.<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
@@ -238,7 +238,7 @@ Ya understand?... Good! Now GO!<line>
 <:exit><line>
 <wait>:<1><0><line>
 <:func> <2><2> <-><1><line>
-<:flagoff><$61><go><$66><$66> <2><1><0><2><line>
+<:flagoff> <2><1><0><2><line>
 <:flagon> <2><1><0><3><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
@@ -393,7 +393,7 @@ Grrr...! I'm goin' on ahead!!!<line>
 <:obj> <1> <2><line>
 <:func> <1><0><line>
 <:func> <3> <2><line>
-<:exit><x_pos><$69><$74><line>
+<:exit><line>
 <wait>:<2><0><line>
 <:func> <2><2> <-><1><line>
 <:obj> <1> <4><line>

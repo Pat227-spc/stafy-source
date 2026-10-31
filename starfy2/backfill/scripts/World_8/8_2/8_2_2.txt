@@ -57,8 +57,8 @@ am sure it will come in handy...<line>
 <:obj> <2> <4><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Pufftop Soldier<line>
-Did you not see many shooting stars on<line>
-your way here?<line>
+Surely you saw plenty of shooting stars<line>
+on your way here?<line>
 <redname><diamond>Pufftop Soldier<line>
 They are actually the inspiration of the<line>
 Shooting Star technique.<line>

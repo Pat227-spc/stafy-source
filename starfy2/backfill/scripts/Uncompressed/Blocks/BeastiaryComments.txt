@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		Beastiary Comments (Pointer)
 
@@ -2619,7 +2619,7 @@ a selfish jerk.<end>
 
 #WRITE(GBA,$2D2F70)
 How dare this geezer ruin my face<linealt>
-with whiskers! I won't forget<linealt>
+with a mustache! I won't forget<linealt>
 this for as long as I live!<end>
 
 

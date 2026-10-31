@@ -25,7 +25,7 @@ Wait, didn't we see that weird pillar in<line>
 another room?<line>
 <redname><diamond>Moe<line>
 Why are there two of 'em? There's gotta<line>
-be a reason... Why dontcha check em out?<line>
+be a reason... Why dontcha check 'em out?<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>

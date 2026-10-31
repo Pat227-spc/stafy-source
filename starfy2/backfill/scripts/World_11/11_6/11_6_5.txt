@@ -138,7 +138,7 @@ STOP IIIIIIIIIT!<line>
 <:obj> <1> <5> <0><line>
 <:func> <8> <1> <1><1><line>
 <redname><diamond>Moe<line>
-Ya beat Starf senseless already! Isn't<line>
+Ya beat Starf' senseless already! Isn't<line>
 that enough for you!?<line>
 <:c><line>
 <redname><diamond>Ogura<line>

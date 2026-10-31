@@ -222,6 +222,8 @@ if [[ $OVERLAY == 1 ]] && compgen -G "$HERE/overlay/patches/*.asm" > /dev/null; 
   done
 fi
 
+step "script size check (tools/check_script_sizes.py: every in-level script must fit the chat buffer, 0x100 margin)"
+python3 "$TOOLS/check_script_sizes.py" rom/output.gba --margin 0x100 2>&1 | tee -a "$LOG"; [[ ${PIPESTATUS[0]} == 0 ]] || die "script size check failed"
 step "create BPS"
 cp rom/output.gba "$BUILD/stafy2_en.gba"
 echo "patched ROM: $BUILD/stafy2_en.gba size=$(stat -c %s "$BUILD/stafy2_en.gba") crc32=$(crc "$BUILD/stafy2_en.gba")" | tee -a "$LOG"

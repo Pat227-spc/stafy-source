@@ -65,7 +65,7 @@ alive!!!<line>
 whatever. Go find those Hint Memos.<line>
 <redname><diamond>Moe<line>
 There's 3 in total, so don't miss any,<line>
-Starf.<line>
+Starf'.<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

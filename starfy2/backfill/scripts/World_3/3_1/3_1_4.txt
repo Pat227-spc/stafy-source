@@ -131,7 +131,7 @@ the islands around here...<line>
 <:obj> <2> <4><line>
 <:obj> <2> <9> <2><line>
 <rname><diamond>Moe<line>
-Got it! Let's go, Starf! Those punks ain't<line>
+Got it! Let's go, Starf'! Those punks ain't<line>
 gonna come back on their own.<line>
 <redname><diamond>Moe<line>
 They still have a Moe brand talkin' to with<line>

@@ -20,7 +20,7 @@
 <:func> <2><2> <-><1><line>
 [<wait_time> <6><0>]<line>
 <rname><diamond>Moe<line>
-Hold on Starf, feast your eyes on this!<line>
+Hold on Starf', feast your eyes on this!<line>
 <wait><:obj> <2> <2> <1><line>
 <:func> <1><8> <1> <7><1><line>
 <rname><diamond>Moe<line>
@@ -43,7 +43,7 @@ Hit 'em with your <textcolor_d>Star Spin<textcolor_0> a few times till<line>
 they give up, then grab 'em, got it?<line>
 <redname><diamond>Moe<line>
 Then it's settled! Bring those brats back<line>
-here when you catch em.<line>
+here when you catch 'em.<line>
 <wait><:sd><line>
 <:obj> <2> <2><line>
 <:flagon> <1><5><5><1><2><line>
@@ -109,7 +109,7 @@ awfully quiet for once...<line>
 <wait><:obj> <1> <9> <2><line>
 <:obj> <1> <5> <2><line>
 <rname><diamond>Moe<line>
-Oh come ON Starf, you had one job!<line>
+Oh come ON Starf', you had one job!<line>
 Where'd those brats go!?<line>
 <wait><:obj> <1> <5><line>
 <rname><diamond>Moe<line>
@@ -145,7 +145,7 @@ Come on! Let's ditch this place and head<line>
 for the next <textcolor_d>island<textcolor_0>!<line>
 <redname><diamond>Moe<line>
 Man, those brats really tick me off...<line>
-Geez...<line>
+Sheesh...<line>
 <:end><line>
 <end>
 

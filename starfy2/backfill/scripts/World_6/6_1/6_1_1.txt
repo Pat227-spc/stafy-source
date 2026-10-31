@@ -124,7 +124,7 @@ Wozart!!!<line>
 <wait><:obj> <2> <9> <2> <0><line>
 <rname><diamond>Moe<line>
 That guy took Wozart... Whadda we do,<line>
-Starf?...We're gonna go after 'em?<line>
+Starf'?...We're gonna go after 'em?<line>
 <redname><diamond>Moe<line>
 That Puchi Ogura beat OVER NINE HUNDRED<line>
 GUYS. There's no way we're beating him!<line>
@@ -132,7 +132,7 @@ GUYS. There's no way we're beating him!<line>
 .....................Alright fine...<line>
 <redname><diamond>Moe<line>
 BUT! You better fight til' the bitter end,<line>
-Starf! If somethin' happens, don't come<line>
+Starf'! If somethin' happens, don't come<line>
 cryin' to me!<line>
 <:c><line>
 <wait><:sd><line>

@@ -64,7 +64,7 @@ Please, Moe...<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <2> <4><line>
-No way! Absolutely not!!...What is it, Starf?<line>
+No way! Absolutely not!!...What is it, Starf'?<line>
 <redname><diamond>Moe<line>
 Lemme guess, you feel like helpin' Jellato<line>
 out dontcha...?<line>

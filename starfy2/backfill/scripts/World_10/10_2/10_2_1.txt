@@ -65,7 +65,7 @@ even make this instruction session free!<line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
 But- *sigh* Alright, you better learn this<line>
-technique or whatever, Starf.<line>
+technique or whatever, Starf'.<line>
 <:c><line>
 <redname><diamond>Master Croak<line>
 <:obj> <2> <4><line>
@@ -129,7 +129,7 @@ that <textcolor_d>sign<textcolor_0> in front of the door!<line>
 <rname><diamond>Moe<line>
 <:obj> <1> <4><line>
 I'm uh, not too good at this stuff, so this<line>
-is all you, Starf.<line>
+is all you, Starf'.<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

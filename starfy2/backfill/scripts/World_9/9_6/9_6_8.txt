@@ -21,7 +21,7 @@
 <:se><line>
 <:obj> <1> <0> <0><line>
 <rname><diamond>Moe<line>
-Gaaaaah!! Why're there whiskers on my<line>
+Gaaaaah!! Why's there a mustache on my<line>
 perfect skin!?<line>
 <redname><diamond>Moe<line>
 What're ya doin'!? Hurry and do something<line>
@@ -51,8 +51,8 @@ geezer next!<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-Pay attention to that geezer's whiskers!<line>
-It'll hurt if ya touch 'em!<line>
+Pay attention to that geezer's mustache!<line>
+It'll hurt if ya touch it!<line>
 <redname><diamond>Moe<line>
 He's also overprotective of that Puchi<line>
 Ogura, so he'll come running if that brat's<line>

@@ -23,15 +23,13 @@
 Puchi Ogura #10's even stronger than last<line>
 time.<line>
 <redname><diamond>Lumi<line>
-I implore you to be careful when you fight<line>
-him.<line>
+Please be careful when you fight him.<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Lumi<line>
-I have been recently training myself so<line>
-that I will not be captured by bad guys<line>
-anymore.<line>
+I've started training lately, so bad guys<line>
+won't catch me ever again.<line>
 <redname><diamond>Lumi<line>
 Now I can bend iron bars with absolute<line>
 ease.<line>

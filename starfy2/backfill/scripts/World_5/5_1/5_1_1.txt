@@ -23,7 +23,7 @@
 <:se><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-Hey, Starf! Get over here, it looks like<line>
+Hey, Starf'! Get over here, it looks like<line>
 someone's in trouble!<line>
 <wait><:obj> <1> <9> <2> <1><line>
 <rname><diamond>Moe<line>
@@ -93,7 +93,7 @@ either...<line>
 <redname><diamond>Moe<line>
 Oh whatever.<line>
 <:obj> <1> <9> <2><line>
-Hey, Starf, it's up to you!<line>
+Hey, Starf', it's up to you!<line>
 <redname><diamond>Moe<line>
 Go and hit that cork with your <textcolor_d>Star Spin<textcolor_0> to<line>
 pull it out!<line>

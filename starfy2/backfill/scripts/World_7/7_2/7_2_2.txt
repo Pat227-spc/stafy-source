@@ -17,7 +17,7 @@
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
 Gah, here too!? Quick, jump in the water,<line>
-Starf!<line>
+Starf'!<line>
 <redname><diamond>Moe<line>
 The boulder'll lose some impact hittin' the<line>
 water, so you should be fine, right?<line>

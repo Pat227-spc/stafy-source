@@ -26,7 +26,7 @@ chests that have other items inside of<line>
 them.<line>
 <redname><diamond>Old Man Lobber<line>
 <textcolor_d>Sheet Music<textcolor_0> is one of 'em. And there<line>
-oughta be a few more <textcolor_d>Stuff<textcolor_0> left to find,<line>
+oughta be some <textcolor_d>Stuff<textcolor_0> left to find,<line>
 too...<line>
 <redname><diamond>Old Man Lobber<line>
 So be sure to explore every last nook and<line>

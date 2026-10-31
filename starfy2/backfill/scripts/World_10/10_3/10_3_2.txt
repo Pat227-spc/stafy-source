@@ -20,7 +20,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hold your horses, Starf! You thinkin' of<line>
+Hold your horses, Starf'! You thinkin' of<line>
 headin' up here?<line>
 <redname><diamond>Moe<line>
 Be careful. Sometimes giant beachballs fall<line>

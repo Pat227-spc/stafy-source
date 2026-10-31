@@ -76,7 +76,7 @@ We'd better just do what he says for<line>
 now... *mumble mumble*<line>
 <wait><:obj> <1> <9> <2><line>
 <rname><diamond>Moe<line>
-Alright, Starf, let's go!<line>
+Alright, Starf', let's go!<line>
 <redname><diamond>Moe<line>
 We're lookin' for 4 guys who look like this<line>
 old guy!<line>

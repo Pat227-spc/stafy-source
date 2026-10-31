@@ -67,7 +67,7 @@ They took her with them... What do I do...?<line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
 Then all we gotta do is take her back!<line>
-Right, Starf!?<line>
+Right, Starf'!?<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <2> <4><line>
@@ -77,7 +77,7 @@ everything will be alright!<line>
 <wait><:obj> <1> <9> <2> <0><line>
 <rname><diamond>Moe<line>
 <:obj> <1> <4><line>
-What's that, Starf? 'I'm weirdly motivated'?<line>
+What's that, Starf'? 'I'm weirdly motivated'?<line>
 <redname><diamond>Moe<line>
 Hmph! I just can't stand anybody who's<line>
 mean to kids!<line>
@@ -124,7 +124,7 @@ Moeston.<line>
 Leave it to us! Someone who uses a kid as<line>
 a shield like that *deserves* a walloping!<line>
 <redname><diamond>Moe<line>
-Let's go, Starf! Let's give these low-lives<line>
+Let's go, Starf'! Let's give these low-lives<line>
 what's comin' to 'em!<line>
 <:c><line>
 <wait><:sd><line>

@@ -130,7 +130,7 @@ We're in a real bad spot... There's no way<line>
 we'll find all those bombs...<line>
 <redname><diamond>Moe<line>
 The heck're we supposed to<line>
-do...?...Whaddaya want, Starf?<line>
+do...?...Whaddaya want, Starf'?<line>
 <redname><diamond>Moe<line>
 I'm in the middle of thinkin'! Looks like some<line>
 door opened, so you go check it out!<line>

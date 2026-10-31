@@ -22,16 +22,16 @@
 <rname><diamond>Loverin<line>
 To be honest with you dear, I didn't know<line>
 what would've happened if we had to live<line>
-with those whiskers!<line>
+with those mustaches!<line>
 <redname><diamond>Loverin<line>
 The adorable Loverin doesn't deserve to<line>
-be cursed with whiskers!!!<line>
+be cursed with a mustache!!!<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Loverin<line>
 But I have to say, little Lovelove's<line>
-whiskers were funny to see, wasn't it?<line>
+mustache was funny to see, wasn't it?<line>
 <redname><diamond>Loverin<line>
 Our faces have always been different. We<line>
 were just born that way, darling.<line>

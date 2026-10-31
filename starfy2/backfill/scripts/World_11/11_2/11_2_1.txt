@@ -25,7 +25,7 @@ But there ain't no welcoming party? What<line>
 gives?<line>
 <redname><diamond>Moe<line>
 Well I ain't complaining, that just makes it<line>
-easier for us! Let's go, Starf!<line>
+easier for us! Let's go, Starf'!<line>
 <wait><:sd><line>
 <:func> <1><8> <1> <7><6><line>
 <:func> <7> <2><4><0> <1> <1><line>
@@ -59,7 +59,7 @@ Guhahahaha!<line>
 Why you condescending...! Do you know who<line>
 we... I mean, who I am!?<line>
 <redname><diamond>Moe<line>
-I'm gonna get Starfs mom back and get<line>
+I'm gonna get Starf's mom back and get<line>
 some treasure while I'm at it!<line>
 <:c><line>
 <redname><diamond>Ogura's Voice<line>
@@ -116,7 +116,7 @@ So if those guys from earlier catch us...<line>
 We get sent right back to where we came<line>
 from.<line>
 <redname><diamond>Moe<line>
-Let's get goin' Starf! You're gonna have to<line>
+Let's get goin' Starf'! You're gonna have to<line>
 move fast if you don't wanna get caught<line>
 by those guys from earlier!<line>
 <:c><line>

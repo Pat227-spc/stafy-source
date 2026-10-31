@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		Save Point Message
 //Block Range: $0 - $A1A
@@ -64,7 +64,7 @@ You know what to do now, right?...<line>
 <:func> <4><line>
 <:c><line>
 <redname><diamond>Papa Star<line>
-Yes, Yes, I know! You want treasure...<line>
+Yes, yes, I know! You want treasure...<line>
 My word...<line>
 <:func> <4><line>
 <:c><line>
@@ -110,7 +110,7 @@ You've gotta be kidding me!<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:func> <2> <4><0><line>
-C'mon, Starf! Let's go!<line>
+C'mon, Starf'! Let's go!<line>
 <line>
 <:func> <4><line>
 <:c><line>

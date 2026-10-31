@@ -15,8 +15,8 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-You got Hint Memo #1! <textcolor_d>Check it on the Item<line>
-Screen!<textcolor_0><line>
+You got Hint Memo #1! <textcolor_d>Check it in the Key<line>
+Items menu!<textcolor_0><line>
 <:c><line>
 <wait><:sd><line>
 <:flagon> <1><5><6><0><2><line>

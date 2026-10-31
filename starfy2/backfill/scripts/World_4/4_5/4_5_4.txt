@@ -230,9 +230,9 @@ burned if it gets any hotter...<line>
 <:obj> <1> <0> <1><line>
 <:obj> <3> <2><line>
 <rname><diamond>Coalbies<line>
-Oh, did you want to go? We can send you<line>
+Oh, ya wanna leave?<line>
 <redname><diamond>Coalbies<line>
-back if you want<line>
+We can send ya back if you want.<line>
 　　　Yes<line>
 　　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
@@ -391,9 +391,9 @@ I don't understand that person...what's<line>
 with the way he talks?<line>
 <wait><:sd><line>
 <rname><diamond>Coalbies<line>
-Anyways, you're going back to the Hot<line>
+Anyways...<line>
 <redname><diamond>Coalbies<line>
-Spring, right?<line>
+Ya headin' back to the Hot Spring?<line>
 　　　Yes<line>
 　　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>

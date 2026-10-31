@@ -114,7 +114,7 @@ long!<line>
 Crap, he wasn't kiddin'! The walls're closing<line>
 in!<line>
 <redname><diamond>Moe<line>
-Dangit, Starf, this is all your-! Nono, that's<line>
+Dangit, Starf', this is all your-! Nono, that's<line>
 not important right now... C'mon, we gotta<line>
 get outta here!<line>
 <:c><line>

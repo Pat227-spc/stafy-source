@@ -21,7 +21,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hold your horses, Starf! The cliffs past<line>
+Hold your horses, Starf'! The cliffs past<line>
 here are waaaay too high for ya!<line>
 <redname><diamond>Moe<line>
 You'd need somethin' real helpful to get up<line>
@@ -41,7 +41,7 @@ those cliffs...<line>
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hold your horses, Starf! The cliffs past<line>
+Hold your horses, Starf'! The cliffs past<line>
 here are waaaay too high for ya!<line>
 <redname><diamond>Moe<line>
 I bet something could get ya up there, but<line>

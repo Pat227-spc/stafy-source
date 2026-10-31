@@ -16,7 +16,7 @@
 <:flagon> <1><1><0><1><line>
 <:func> <2><2> <-><1><line>
 <<textspeed> <2>><rname><diamond>Moe<line>
-Remember some of your abilities, Starfy?<line>
+So ya finally remember your abilities, Starf?<line>
 Sheesh, you're as much of a pain as ever...<line>
 <redname><diamond>Moe<line>
 I'm sure there'll be folks who'll teach you<line>

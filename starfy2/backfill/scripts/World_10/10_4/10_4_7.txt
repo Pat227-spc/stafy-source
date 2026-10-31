@@ -49,7 +49,7 @@ Tenth would-<line>
 <wait><:obj> <1> <9> <2> <1><line>
 <rname><diamond>Moe<line>
 <:obj> <1> <4><line>
-Hey, Starf. Sounds like this guy wants a<line>
+Hey, Starf'. Sounds like this guy wants a<line>
 taste of your Star Spin.<line>
 <:c><line>
 <wait><:obj> <1> <9> <2> <0><line>

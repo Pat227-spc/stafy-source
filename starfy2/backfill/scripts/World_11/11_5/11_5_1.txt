@@ -31,9 +31,9 @@ But soon, you'll be able to wipe that<line>
 annoying smirk offa Ogura's face!<line>
 <redname><diamond>Moe<line>
 Plus, you'll finally get your mom back,<line>
-Starf!<line>
+Starf'!<line>
 <redname><diamond>Moe<line>
-Get fired up, Starf!<line>
+Get fired up, Starf'!<line>
 <redname><diamond>Moe<line>
 But before that, we gotta get this door<line>
 open!<line>
@@ -77,7 +77,7 @@ to beat the snot outta Ogura!<line>
 Ya did it! Alright...after this, it'll be time to<line>
 beat the snot outta Ogura.<line>
 <redname><diamond>Moe<line>
-There's no time to waste! Let's go, Starf!<line>
+There's no time to waste! Let's go, Starf'!<line>
 <:end><line>
 <end>
 

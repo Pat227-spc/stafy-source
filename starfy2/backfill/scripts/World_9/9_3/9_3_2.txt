@@ -87,7 +87,7 @@ eat picklesh...hee hee~<line>
 <wait><:obj> <2> <9> <2> <0><line>
 <rname><diamond>Moe<line>
 <:obj> <2> <4><line>
-He's in bad shape... Hey, Starf!<line>
+He's in bad shape... Hey, Starf'!<line>
 <redname><diamond>Moe<line>
 Ya gotta get him somethin' cold... I got it!<line>
 <redname><diamond>Moe<line>

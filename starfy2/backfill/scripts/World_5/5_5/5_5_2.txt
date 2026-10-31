@@ -38,7 +38,7 @@ bring the water back~!!<line>
 <wait><:obj> <1> <9> <2><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-Bein' a girl sure is tough... C'mon, Starf!<line>
+Bein' a girl sure is tough... C'mon, Starf'!<line>
 Let's go find that cork and pull it!<line>
 <:c><line>
 <wait><:sd><line>
@@ -96,10 +96,10 @@ Pursley! Please, take me with you!<line>
 What's goin' on in her head...?<line>
 <:obj> <1> <9> <2><line>
 Anyway, we got ourselves a rescue mission,<line>
-Starf!<line>
+Starf'!<line>
 <redname><diamond>Moe<line>
 But man...I feel sorry for that Pursley<line>
-guy... Not that you'd understand, Starf...<line>
+guy... Not that you'd understand, Starf'...<line>
 <:c><line>
 <wait><:flagon> <1><5><5><2><3><line>
 You take Moon along.<line>

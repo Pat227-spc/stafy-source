@@ -47,10 +47,10 @@ guys go...?<line>
 <:se><line>
 <rname><diamond>Moe<line>
 Whoa whoa! Hold on a sec! You went to all<line>
-the trouble of findin' a <textcolor_d>Hint Memo<textcolor_0>,<line>
+the trouble of findin' a <textcolor_d>Hint Memo<textcolor_0>!<line>
 <redname><diamond>Moe<line>
-and you're just gonna leave it? Go grab it<line>
-already!<line>
+And you're just gonna leave it? Go grab<line>
+it already!<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

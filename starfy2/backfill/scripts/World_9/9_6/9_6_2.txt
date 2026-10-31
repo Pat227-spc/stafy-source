@@ -22,11 +22,11 @@
 <:func> <1> <1> <0><line>
 <:se><line>
 <rname><diamond>Funazou<line>
-Wahhh! Wh-what in the world!? Whiskers<line>
+Wahhh! Wh-what in the world!? A mustache<line>
 on my face!?<line>
 <redname><diamond>Funazou<line>
-Ah, Detective Starlock! Suddenly these<line>
-whiskers grew on my face!<line>
+Ah, Detective Starlock! Suddenly this<line>
+mustache grew on my face!<line>
 <redname><diamond>Funazou<line>
 What's that? Stache Virus? Stache-ccine?<line>
 It'll get rid of this thing!?<line>
@@ -34,8 +34,8 @@ It'll get rid of this thing!?<line>
 I beg of you, Detective, please find that<line>
 vaccine for me!<line>
 <redname><diamond>Funazou<line>
-If my mother were to see me like this, she<line>
-will undoubtedly be enraged...<line>
+If the missus sees my face like this, she'll<line>
+have my hide...<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>
@@ -52,7 +52,7 @@ mountains...<line>
 <redname><diamond>Funazou<line>
 And then some miscreant causes trouble<line>
 by giving people these awful<line>
-whiskers...mumble mumble<line>
+mustaches...*mumble mumble*<line>
 <redname><diamond>Funazou<line>
 Ah, Sir Starlock! I hope you find that<line>
 vaccine!<line>
@@ -82,8 +82,8 @@ to me!<line>
 <wait>:<3><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Funazou<line>
-You have truly helped me, and I should<line>
-thank you once more, Detective.<line>
+You really saved my hide, Detective. I<line>
+can't thank ya enough!<line>
 <:end><line>
 <end>
 

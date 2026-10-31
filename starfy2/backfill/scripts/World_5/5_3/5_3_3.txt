@@ -25,7 +25,7 @@ everywhere!? A Banana...an Eggplant...<line>
 That <textcolor_d>sign<textcolor_0> down there has a Banana on it...<line>
 [<wait_time> <3><0>]<line>
 Whatever, just use your <textcolor_d>Star Spin<textcolor_0> on that<line>
-Banana, Starf!<line>
+Banana, Starf'!<line>
 <:end><line>
 <end>
 

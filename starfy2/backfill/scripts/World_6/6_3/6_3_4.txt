@@ -70,7 +70,7 @@ exactly what to do!<line>
 A squid and an octopus are friends...?<line>
 Wait, who cares about that!<line>
 <redname><diamond>Moe<line>
-Listen up, Starf! Hurry up and look for Big<line>
+Listen up, Starf'! Hurry up and look for Big<line>
 Barrel Squid, NOW!<line>
 <:c><line>
 <redname><diamond>Chuta<line>

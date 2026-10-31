@@ -20,11 +20,11 @@
 <:se><line>
 [<y_pos> <1><8>]<line>
 Inside the treasure chest was...<line>
-a <textcolor_d>Nail Polish<textcolor_1>!<line>
+some <textcolor_d>Nail Polish<textcolor_1>!<line>
 <:c><line>
 [<y_pos> <1><8>]<line>
 <wait>The minigame <textcolor_d>Don't Drop 'Em<textcolor_1> has been added<line>
-to <textcolor_d>Moe's House<textcolor_1>!<line>
+to <textcolor_d>Master Moe's House<textcolor_1>!<line>
 <:c><line>
 [<y_pos> <1><8>]<line>
 <wait>It looks like Ogura has built himself a<line>

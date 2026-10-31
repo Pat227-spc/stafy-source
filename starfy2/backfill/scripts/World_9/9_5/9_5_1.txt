@@ -33,7 +33,8 @@ get off, so be careful, Detective!<line>
 So this is where Ressie's daughter is... She<line>
 must be so scared.<line>
 <redname><diamond>Funazou<line>
-How tragic! We must hurry and save her!<line>
+That poor thing! We gotta hurry and save<line>
+her!<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

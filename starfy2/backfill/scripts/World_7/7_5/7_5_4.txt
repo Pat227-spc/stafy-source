@@ -20,7 +20,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf! This door leads to a room<line>
+Hey, Starf'! This door leads to a room<line>
 where the walls close in on ya!<line>
 <redname><diamond>Moe<line>
 I nearly got squashed flat in there...<line>

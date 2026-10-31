@@ -65,7 +65,7 @@ Seeya~.<line>
 [<wait_time> <1><4><0>]<line>
 <:obj> <1> <9> <2> <1><line>
 <rname><diamond>Moe<line>
-Did you see her, Starf? That Sabako...<line>
+Did you see her, Starf'? That Sabako...<line>
 <redname><diamond>Moe<line>
 Huh? Y-you dummy!! Who cares how flashy<line>
 her parasol is!!<line>
@@ -83,7 +83,7 @@ GAHAAAAH!!!<line>
 <redname><diamond>Moe<line>
 Blimp Race huh...? Heh heh heh...<line>
 <redname><diamond>Moe<line>
-You're joinin' that race, Starf! Maybe you'll<line>
+You're joinin' that race, Starf'! Maybe you'll<line>
 get somethin' good for winning.<line>
 <redname><diamond>Moe<line>
 Huh? We're here to look for your Mom? We<line>

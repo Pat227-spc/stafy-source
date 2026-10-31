@@ -90,7 +90,7 @@ suspicious guy's phone.<line>
 <:obj> <2> <0> <3><line>
 <:obj> <1> <9> <2> <0><line>
 <rname><diamond>Moe<line>
-Right, Starf?<line>
+Right, Starf'?<line>
 　　Yes<line>
 　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
@@ -102,7 +102,7 @@ Right, Starf?<line>
 Yeah, I didn't think there was any<line>
 connection with Ressie's daughter either.<line>
 <redname><diamond>Moe<line>
-This is all just a coincidence<line>
+This is all just a coincidence.<line>
 <:c><line>
 <wait>:<go> <1><0><0><line>
 <wait>:<2><0><line>
@@ -167,7 +167,7 @@ kid's...!?<line>
 <rname><diamond>Moe<line>
 That means...!<line>
 　　He's the kidnapper!<line>
-　　He's a nice vitamin!<line>
+　　He's a kid napper!<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:c><line>
 <:se><line>
@@ -187,7 +187,7 @@ kidnapper is?<line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
 Yep, but we still gotta catch 'im! Let's go,<line>
-Starf!<line>
+Starf'!<line>
 <:c><line>
 <redname><diamond>Ressie<line>
 <:obj> <2> <0> <4><line>
@@ -214,6 +214,8 @@ If ya want, I can take you to the exit.<line>
 <rname><diamond>Ressie<line>
 <:obj> <2> <0> <4><line>
 Wanna head back to the exit?<line>
+　　Yes<line>
+　　No<line>
 <:obj> <2> <0> <3><line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:c><line>
@@ -277,17 +279,16 @@ the plankton over there could have one!<line>
 <wait>:<4><1><line>
 <:func> <1><8> <1> <8><0><line>
 <rname><diamond>Moe<line>
-V-Vitamin???<line>
+K-Kid napper???<line>
 <wait><:obj> <1> <5> <2><line>
 <rname><diamond>Moe<line>
 Y-you numbskull! What, is your brain failing<line>
 or something!?<line>
 <redname><diamond>Moe<line>
-Whaddaya mean, 'vitamin'!? Heck, where'd<line>
-you get 'nice vitamin' from!?<line>
+Whaddaya mean, 'kid napper'!? Heck, where'd<line>
+you get 'a kid who naps' from!?<line>
 <redname><diamond>Moe<line>
-What, is he made of ingredients that help<line>
-your skin or something!? Huh!?<line>
+What, is napping a crime now!? Huh!?<line>
 <redname><diamond>Moe<line>
 Let's try this again, and pull yourself<line>
 together!<line>
@@ -321,6 +322,8 @@ through.<line>
 <rname><diamond>Ressie<line>
 <:obj> <2> <0> <4><line>
 Wanna head back to the exit?<line>
+　　Yes<line>
+　　No<line>
 <:obj> <2> <0> <3><line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:c><line>

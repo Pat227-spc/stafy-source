@@ -34,8 +34,9 @@ movin'!<line>
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Geez, how many more of these are there!? I<line>
-just want this to be over already...<line>
+Sheesh, how many more of these are<line>
+there!? I just want this to be over<line>
+already...<line>
 <:end><line>
 <end>
 

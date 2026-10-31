@@ -56,8 +56,8 @@ right...<line>
 <:c><line>
 <wait><:obj> <2> <1><0> <0> <1><line>
 <rname><diamond>Tortamama<line>
-Truly I have to thank you! If there's any<line>
-way I can reward you...<line>
+I can't thank you enough! If there's any<line>
+way I can repay you...<line>
 <:c><line>
 <wait><:obj> <2> <1><0> <0><line>
 <:obj> <1> <4><line>
@@ -77,7 +77,7 @@ We sure are! Thank you, Moe!<line>
 <rname><diamond>Moe<line>
 Heh, alright! Now that that's settled, let's<line>
 give that insect a run for his money! Let's<line>
-go, Starf!<line>
+go, Starf'!<line>
 <wait><:obj> <1> <9> <2> <1><line>
 <rname><diamond>Moe<line>
 Hm? 'Why was I actin' all nice before'?<line>
@@ -97,7 +97,7 @@ Eh, well, family's nice, no matter whose it is.<line>
 Heh, seein' them reminded me of my little<line>
 brothers.<line>
 <redname><diamond>Moe<line>
-Actually, Starf, at some point, we gotta<line>
+Actually, Starf', at some point, we gotta<line>
 visit my place!<line>
 <redname><diamond>Moe<line>
 It's near here. Well, it ain't as fancy as<line>

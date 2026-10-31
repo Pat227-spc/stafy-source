@@ -21,7 +21,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf, you know about '<textcolor_d>Current Balls<textcolor_0>'?<line>
+Hey, Starf', you know about '<textcolor_d>Current Balls<textcolor_0>'?<line>
 They're rare things you only find around<line>
 here.<line>
 <redname><diamond>Moe<line>

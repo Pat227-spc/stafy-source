@@ -19,7 +19,7 @@
 <:se><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-Hey, Starf! The next room has this bizarre<line>
+Hey, Starf'! The next room has this bizarre<line>
 panel on the ground...<line>
 <redname><diamond>Moe<line>
 Same old deal, maybe? Like, ya just stand<line>

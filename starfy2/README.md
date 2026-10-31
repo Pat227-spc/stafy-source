@@ -1,6 +1,6 @@
 # Starfy 2 English patch (Densetsu no Stafy 2, GBA) - source
 
-Source for "Starfy 2 Eng v0.9.5": the English fan translation of Densetsu no Stafy 2, built on Megahog2014's
+Source for "Starfy 2 Eng v0.9.8": the English fan translation of Densetsu no Stafy 2, built on Megahog2014's
 Starfy 2 translation project (GPL-3.0) with art from Luckylodeon98's fork. Licence: GPL-3.0 (see LICENSE).
 
 ## Base ROM
@@ -8,7 +8,7 @@ Place your base ROM at `base/stafy2_jp.gba` (any path works; pass it to build.sh
 - Densetsu no Stafy 2 (Japan), clean, 16 MiB (16,777,216 bytes)
 - CRC32 `EA73EB54`, SHA1 `8322867cc4369307048deb20a8bb16c3dd0910df`, MD5 `0635251b85657f9c1de295546da09aeb`
 
-Expected result (expanded to 32 MiB): CRC32 `2165E2C8`, SHA1 `bc76c940d686c4b6555be0f6c18542b04dc472da`.
+Expected result (expanded to 32 MiB): CRC32 `8C2D9266`, SHA1 `bd28fcd15cd7aebf9fb22cd77964e05d65a57d3d`.
 No ROMs are included.
 
 ## Layout

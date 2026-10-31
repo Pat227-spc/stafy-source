@@ -141,8 +141,8 @@ Starfy! Gwooooooooooooh!!!<line>
 [<wait_time> <6><0>]<line>
 <:func> <8> <0> <5><line>
 <:func> <1><4> <4> <-><1><2> <0><line>
-:?66?6E?75?63 <2> <4> <2><line>
-:?66?6E?75?63 <2> <2><line>
+:<$66><$6E><$75><$63> <2> <4> <2><line>
+:<$66><$6E><$75><$63> <2> <2><line>
 <:func> <5> <2><0><line>
 <:func> <1><0><line>
 <:func> <2><6><line>

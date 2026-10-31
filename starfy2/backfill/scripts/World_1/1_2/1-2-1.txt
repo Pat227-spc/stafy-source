@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		In Level Convo
 //Block Range: $0 - $A32

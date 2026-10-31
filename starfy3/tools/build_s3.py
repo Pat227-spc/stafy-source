@@ -6,7 +6,8 @@
 Not changed (verified in-game): 'Mr。 Polar' / 'Sgt。 Hawky' - glyph 0x8142 IS the game's '.' (0x8144 renders blank).
 usage: build_s3.py base.gba out.gba [--v101|--v102|--v103]   (--v101: held-decision picks S3-001 1, S3-002 1, S3-003 2 + S006;
        --v102: v101 + "Chutah" -> "Chuta" everywhere, series consistency with Stafy 2 S007 / Stafy 1 S1-002 C;
-       --v103: v102 + F5DEB8 #7 (FDA020 #7 in the v1.0.2 ROM) "This maybe" -> "This may be" (pause > Abilities, Jump))"""
+       --v103: v102 + F5DEB8 #7 (FDA020 #7 in the v1.0.2 ROM) "This maybe" -> "This may be" (pause > Abilities, Jump)
+       --v104: v103 + F09F58 #51 Baby Brother line in baby talk (2026-10-31, S3-002 option 3))"""
 import sys,os,struct,zlib,re
 sys.path.insert(0,os.path.dirname(__file__))
 from bmg import BMG,build_append
@@ -14,6 +15,7 @@ from s3text import enc
 BASE_CRC=0x850B4137
 TABLES=(0x192978,0x1929E8)
 FREE=0xFB0000
+V104=False
 C1,C0=bytes.fromhex('1a06ff000001'),bytes.fromhex('1a06ff000000')
 def tag(name,col):
     nb=b''
@@ -40,7 +42,7 @@ def edits():
     LB,LS,BB=tag("Moe’s Little Brother",1),tag("Moe’s Sister",1),tag("Moe’s Baby Brother",1)
     J[(0xF09F58,51)]=[LB+b'\n'+E("I wish Ruby and our big bro/would get married..."),
                      LS+b'\n'+E("But Ruby would have it real rough/with him!!"),
-                     BB+b'\n'+E("Whaddya talkin' about!?/I'm the one who's gonna marry/Ruby!")]
+                     BB+b'\n'+(E("Whaddya tawkin' 'bout!?/I'm gonna marry Ruby!/Not him!") if V104 else E("Whaddya talkin' about!?/I'm the one who's gonna marry/Ruby!"))]
     V=tag("Moe’s Voice",8)
     for i,who in ((55,'Starf!'),(56,'Starly!'),(57,'Starf!')):
         if i==57: p2="If he gets away from ya,/try talkin' to this {c}speaker{/c}!"
@@ -151,8 +153,9 @@ def build(d, log=None, v101=False, v102=False, v103=False):
         at=(at+len(nb)+0x1F)&~0x1F
     return bytes(d)
 if __name__=='__main__':
-    a=[x for x in sys.argv[1:] if x not in ('--v101','--v102','--v103')]; src,dst=a[:2]; log=[]
-    out=build(open(src,'rb').read(),log,v101='--v101' in sys.argv,v102='--v102' in sys.argv,v103='--v103' in sys.argv)
+    V104='--v104' in sys.argv
+    a=[x for x in sys.argv[1:] if x not in ('--v101','--v102','--v103','--v104')]; src,dst=a[:2]; log=[]
+    out=build(open(src,'rb').read(),log,v101='--v101' in sys.argv,v102='--v102' in sys.argv,v103='--v103' in sys.argv or V104)
     open(dst,'wb').write(out)
     for x in log: print(*x,sep='\t')
     print('CRC %08X'%zlib.crc32(out))

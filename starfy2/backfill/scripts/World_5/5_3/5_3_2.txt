@@ -59,7 +59,7 @@ curse in my stead...<line>
 Oh, all right!<line>
 <:obj> <1> <9> <2><line>
 Looks like you've got some honey to find,<line>
-Starf!<line>
+Starf'!<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Old Man Grizzly<line>

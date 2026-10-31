@@ -19,7 +19,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf! Good news! You don't hafta<line>
+Hey, Starf'! Good news! You don't hafta<line>
 wait for these boulders anymore!<line>
 <redname><diamond>Moe<line>
 If ya wanna hurry, push the boulder into<line>

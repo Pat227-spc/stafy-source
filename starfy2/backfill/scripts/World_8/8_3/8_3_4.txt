@@ -23,11 +23,10 @@ Wh-who're you!? How'd you get up here...?<line>
 Even I had a hard time, and I'm great at<line>
 gymnastics...<line>
 <redname><diamond>Squirt #2<line>
-Huh? Bawss's looking for me? I'm late for<line>
-our mission?<line>
+Huh? Bawss's lookin' for me? I'm late for<line>
+the mission? Waaah! I don't wanna go!<line>
 <:obj> <1> <1><7> <3><0><line>
-Waaah! I don't wanna do the mission! Let me<line>
-go!<line>
+Let me go!<line>
 <:c><line>
 <wait><:obj> <1> <2><line>
 You decided to take <textcolor_d>Squirt #2<textcolor_0> along!<line>

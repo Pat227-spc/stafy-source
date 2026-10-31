@@ -33,8 +33,8 @@ Yo, what's wrong?<line>
 <wait><:obj> <2> <9> <2> <1><line>
 <:obj> <2> <4><line>
 <rname><diamond>Shurikit<line>
-Well, I just dropped my family's precious<line>
-heirloom bell into this water, mew...<line>
+Well, I just dropped my fa-mew-ly's<line>
+precious heirloom bell into this water...<line>
 <redname><diamond>Shurikit<line>
 Wait, mew you two can swim there and get it,<line>
 can't mew!?<line>
@@ -53,7 +53,7 @@ I see what you're gettin' at!<line>
 In that case, you can introduce me to a<line>
 real cutie pie!<line>
 [<wait_time> <3><0>]<line>
-Let's roll, Starf!<line>
+Let's roll, Starf'!<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
 <rname><diamond>Shurikit<line>

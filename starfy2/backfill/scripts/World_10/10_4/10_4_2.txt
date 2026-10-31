@@ -61,7 +61,7 @@ Hey, get back here! T-The heck'd you mean<line>
 '500 bombs'!?<line>
 <wait><:obj> <1> <9> <2> <0><line>
 <rname><diamond>Moe<line>
-That sounds really bad...! C'mon, Starf, we<line>
+That sounds really bad...! C'mon, Starf', we<line>
 gotta go after that loser with the<line>
 topknot!<line>
 <redname><diamond>Moe<line>

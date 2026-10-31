@@ -49,7 +49,7 @@ Go on through the door behind me.<line>
 <wait><:obj> <1> <9> <2> <0><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-If ya wanna go back down, Starf, just use<line>
+If ya wanna go back down, Starf', just use<line>
 the door on the left.<line>
 <redname><diamond>Moe<line>
 And if ya wanna get back up here quick<line>
@@ -82,7 +82,7 @@ Now, off you go!<line>
 <:func> <6> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-If ya wanna go back down, Starf, just use<line>
+If ya wanna go back down, Starf', just use<line>
 the door on the left.<line>
 <redname><diamond>Moe<line>
 And if ya wanna get back up here quick<line>

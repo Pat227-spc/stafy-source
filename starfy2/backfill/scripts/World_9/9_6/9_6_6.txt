@@ -24,7 +24,7 @@
 <rname><diamond>Ressie<line>
 <:obj> <3> <0> <8><line>
 'Sup, Detective? I dunno what happened,<line>
-but these whiskers suddenly grew.<line>
+but this mustache suddenly grew.<line>
 <:obj> <3> <0> <7><line>
 <redname><diamond>Ressie<line>
 <:obj> <3> <0> <8><line>
@@ -75,7 +75,7 @@ do something, anything!<line>
 <rname><diamond>Ressie<line>
 <:obj> <3> <0> <8><line>
 I can only imagine what my daughter'd think<line>
-about these whiskers...<line>
+about this mustache...<line>
 <:obj> <3> <0> <7><line>
 <redname><diamond>Ressie<line>
 <:obj> <3> <0> <8><line>

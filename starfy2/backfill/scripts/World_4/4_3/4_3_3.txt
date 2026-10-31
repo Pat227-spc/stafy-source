@@ -43,7 +43,7 @@ race~?<line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
 Wait a sec! He's right here! Get a move on,<line>
-Starf!<line>
+Starf'!<line>
 <:c><line>
 <redname><diamond>Savako<line>
 <:obj> <3> <4><line>
@@ -52,7 +52,7 @@ enter through the door on the left~.<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
-You ready, Starf? You gotta beat Hirao's<line>
+You ready, Starf'? You gotta beat Hirao's<line>
 60 second time to win!<line>
 <redname><diamond>Moe<line>
 If ya lose to Hirao, I'll clobber ya, so keep<line>
@@ -73,7 +73,7 @@ that in mind!<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-You ready, Starf? You gotta beat Hirao's<line>
+You ready, Starf'? You gotta beat Hirao's<line>
 60 second time to win!<line>
 <redname><diamond>Moe<line>
 Do your best for the sake of me and<line>

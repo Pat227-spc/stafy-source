@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		Pause Screen Hints (Pointer) Part 1
 
@@ -814,7 +814,7 @@ Quick, we have to catch her!<line>
 
 #WRITE(GBA,$2C6748)
 Use the turtle radar to<line>
-catch the Turtle kids<line>
+catch the Turtle Kids<line>
 and bring them back to Moe.<line>
 <:end><line>
 <end>
@@ -826,7 +826,7 @@ and bring them back to Moe.<line>
 
 #WRITE(GBA,$2C6760)
 Use the turtle radar to<line>
-catch the Turtle kids<line>
+catch the Turtle Kids<line>
 and bring them back to Moe.<line>
 <:end><line>
 <end>

@@ -43,7 +43,7 @@
 <:obj> <1> <4><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-We found one! C'mon Starf, we gotta go<line>
+We found one! C'mon Starf', we gotta go<line>
 after her!<line>
 <redname><diamond>Moe<line>
 I'm going on ahead. We can't let her get<line>

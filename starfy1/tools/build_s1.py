@@ -2,7 +2,8 @@
 Clear-cut fixes only: typos, swapped Fork brother tags, Ogura alternating caps -> normal case, re-wrap of
 dialogue lines that overflow the 198 px dialogue box. Usage: build_s1.py BASE.gba OUT.gba [--report r.md] [--v101]
 --v101 adds the held-decision picks (S1-001 A, S1-002 C, S1-003 A).
---v102 (implies --v101) adds the v1.0.2 bug-report fixes (FIXES_V102)."""
+--v102 (implies --v101) adds the v1.0.2 bug-report fixes (FIXES_V102).
+--v103 (implies --v102) rolls back Tweeto->Torito (keep STT's 'Tweeto' bird pun)."""
 import sys,struct,re,os,zlib
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from s1text import *; from s1width import *; from ogcase import convert_message, normalize_box, visible, ALT
@@ -58,7 +59,7 @@ def fix_overflow(s,p,log):
             if nb is None: log.append(('OVERFLOW-UNFIXED',hex(p),b)); continue
             log.append(('rewrap',hex(p),b,nb)); parts[i]=nb
     return ''.join(parts)
-def main(base,out,report=None,v101=False,v102=False):
+def main(base,out,report=None,v101=False,v102=False,v103=False):
     global W
     d=bytearray(open(base,'rb').read()); W=table(d)
     assert '%08X'%zlib.crc32(d)=='F7CB8EE3', 'base must be Origins v1.1 (F7CB8EE3)'
@@ -74,6 +75,7 @@ def main(base,out,report=None,v101=False,v102=False):
             if n: counts[a]=counts.get(a,0)+n; s=s.replace(a,b); log.append(('typo',hex(p),a,b,n))
         if v101:
             for a,b in RENAMES:
+                if v103 and a=='Tweeto': continue
                 for aa,bb in ((col(a),col(b)),(a,b)):
                     n=s.count(aa)
                     if n: counts['rename '+a]=counts.get('rename '+a,0)+n; s=s.replace(aa,bb); log.append(('rename',hex(p),a,b,n))
@@ -117,6 +119,6 @@ def main(base,out,report=None,v101=False,v102=False):
     print('counts',counts,'log',len(log),'free used',hex(free-FREE))
     return log
 if __name__=='__main__':
-    a=[x for x in sys.argv[1:] if x not in ('--v101','--v102')]
-    v102='--v102' in sys.argv
-    main(a[0],a[1],a[3] if len(a)>3 else None,v101=v102 or '--v101' in sys.argv,v102=v102)
+    a=[x for x in sys.argv[1:] if x not in ('--v101','--v102','--v103')]
+    v103='--v103' in sys.argv; v102=v103 or '--v102' in sys.argv
+    main(a[0],a[1],a[3] if len(a)>3 else None,v101=v102 or '--v101' in sys.argv,v102=v102,v103=v103)

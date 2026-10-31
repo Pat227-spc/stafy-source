@@ -28,7 +28,7 @@ she looks like, huh...?<line>
 Hmm... It'd probably be easier to ask<line>
 around about her.<line>
 <redname><diamond>Moe<line>
-Starf, you should go and look for people<line>
+Starf', you should go and look for people<line>
 who might know Ressie's daughter. Got<line>
 that?<line>
 <redname><diamond>Moe<line>

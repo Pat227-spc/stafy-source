@@ -30,9 +30,9 @@ I've been hooked on my <textcolor_d>Sea Skater<textcolor_0> for a<line>
 while now. It's super fun.<line>
 <wait><:sd><line>
 <rname><diamond>Torito<line>
-How about it? You wanna take it for a<line>
+How about it?<line>
 <redname><diamond>Torito<line>
-spin?<line>
+Wanna take it for a spin?<line>
 　　Yes<line>
 　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>

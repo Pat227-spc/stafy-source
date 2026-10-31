@@ -1,4 +1,4 @@
-# Starfy 3 Eng v1.0.3 - source
+# Starfy 3 Eng v1.0.4 - source
 
 Cleanup patch for Dimedime's v1.0 translation of Densetsu no Stafy 3 (GBA): typo fixes, re-wrapped overflowing lines, leftover Japanese translated,
 consistency renames. The builder is a Python script that edits the English base ROM's text in place or relocates edited
@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy 3 (Japan) (Rev 1), clean, 16 MiB - CRC32 `2D6E4C3B`, SHA1 `dae5354bfe4ccafc92d22b1389265dbf1f79b636`
 
-Expected result: CRC32 `23170373`, SHA1 `18968dde90fcc27c1bdc5092f77243c84aa4f85f`. No ROMs are included.
+Expected result: CRC32 `4F31E799`, SHA1 `3d46521999d1bfea130b476a877013863b02b1c5`. No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)
@@ -23,14 +23,14 @@ Expected result: CRC32 `23170373`, SHA1 `18968dde90fcc27c1bdc5092f77243c84aa4f85
 ./build.sh                      # uses base/alt_base.gba and (if present) base/jp_base.gba
 ./build.sh ALT.gba [JP.gba]     # or pass paths
 ```
-Outputs `out/Starfy 3 Eng v1.0.3.gba` (patched ROM; CRC printed and checked), `out/Starfy 3 Eng v1.0.3 (alt base).bps` and, with the JP base,
-`out/Starfy 3 Eng v1.0.3.bps`. Manual equivalent: `python3 tools/build_s3.py base/alt_base.gba out.gba --v103`.
+Outputs `out/Starfy 3 Eng v1.0.4.gba` (patched ROM; CRC printed and checked), `out/Starfy 3 Eng v1.0.4 (alt base).bps` and, with the JP base,
+`out/Starfy 3 Eng v1.0.4.bps`. Manual equivalent: `python3 tools/build_s3.py base/alt_base.gba out.gba --v104`.
 
 ## Build (Windows)
 Install Python 3 and download a Windows flips.exe from https://github.com/Alcaro/Flips/releases into `tools\bin\`.
 Run `build.sh` from Git Bash, or by hand in cmd:
 ```
-py tools\build_s3.py base\alt_base.gba out.gba --v103
+py tools\build_s3.py base\alt_base.gba out.gba --v104
 tools\bin\flips.exe --create --bps-delta base\alt_base.gba out.gba patch.bps
 ```
 

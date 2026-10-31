@@ -19,7 +19,7 @@
 <:func> <6> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf! Take a look at these weird<line>
+Hey, Starf'! Take a look at these weird<line>
 clouds<line>
 <redname><diamond>Moe<line>
 They sink when you stand on 'em, but start<line>

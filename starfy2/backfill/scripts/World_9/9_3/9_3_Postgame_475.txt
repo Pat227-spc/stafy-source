@@ -34,8 +34,8 @@ secret!<line>
 <wait><:sd><line>
 <rname><diamond>Fluffy<line>
 Of course, you wanna try it out, right?<line>
-　　　Yes<line>
-　　　No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:c><line>
 <:se><line>
@@ -77,8 +77,8 @@ What!? You're gonna regret that!<line>
 <:sd><line>
 <rname><diamond>Fluffy<line>
 Wanna wear the new costume?<line>
-　　　Yes<line>
-　　　No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:c><line>
 <:se><line>

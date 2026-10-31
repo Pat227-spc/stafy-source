@@ -52,7 +52,7 @@ ya to get to the door on the left already!<line>
 Wh-wh-what the heck!? What's with the<line>
 water all of a sudden!?<line>
 <redname><diamond>Moe<line>
-Starf...what exactly did you do?<line>
+Starf'...what exactly did you do?<line>
 <redname><diamond>Moe<line>
 ...Eh, whatever. Alright, the Great Moe'll<line>
 wait right here, so...<line>
@@ -70,7 +70,7 @@ out, you can come ask this...<line>
 <:func> <6> <1> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Whaddaya want Starf? Oh, do you need the<line>
+Whaddaya want Starf'? Oh, do you need the<line>
 Great Moe's valuable assistance?<line>
 <redname><diamond>Moe<line>
 Well, if I remember correctly, there should<line>
@@ -106,8 +106,7 @@ Jump if there's no water, right?<line>
 <:func> <6> <1> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-You're STILL wanderin' around a place like<line>
-this!?<line>
+You're STILL wanderin' around here!?<line>
 <redname><diamond>Moe<line>
 Well, I get it. Who wouldn't wanna hang out<line>
 with someone as cool, awesome, dreamy and<line>

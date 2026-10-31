@@ -29,14 +29,14 @@ Ah! I have found you!<line>
 [<wait_time> <1><2><0>]<line>
 <:se><line>
 <rname><diamond>Funazou<line>
-You are Detective Starlock Polmes, yes? I<line>
-have been waiting for you!<line>
+You're Detective Starlock Polmes, ain'tcha?<line>
+I been waitin' on ya!<line>
 <wait><:func> <8> <0> <0><line>
 <:func> <8> <0> <9><9><line>
 <rname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-I'm <textcolor_d>Funazou<textcolor_0>. Could I possibly make a<line>
-request to such a famous man?<line>
+Name's <textcolor_d>Funazou<textcolor_0>! Gosh, a famous fella like<line>
+you takin' on my request...<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <6> <2> <1><line>
@@ -48,8 +48,8 @@ name's Star-<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-Detective Starlock, right? And that must<line>
-make you Moeston, his assistant.<line>
+Like I said, you're Detective Starlock, right?<line>
+And you must be his helper, Moeston!<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <2> <4><line>
@@ -57,8 +57,8 @@ HUH!? Who'd be *this* guy's assistant!?<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-Now now...I will properly reward you for<line>
-helping me.<line>
+Now, now... I got your reward all ready<line>
+for ya, don't you worry!<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <2> <4><line>
@@ -78,8 +78,8 @@ Detective Starlock, right!?<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-I have a case that I'd like you to solve,<line>
-Detective Polmes.<line>
+Detective Polmes, lemme tell ya about<line>
+the case right quick.<line>
 <redname><diamond>Funazou<line>
 I've called it, 'The Disappearance of<line>
 Ressie'...<line>
@@ -109,8 +109,8 @@ went missing?<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-Detective Polmes! I beg of you, please<line>
-search for Ressie!<line>
+Detective Polmes! Please, I'm beggin'<line>
+ya! Find Ressie for us!<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <2> <4><line>
@@ -122,9 +122,8 @@ ready!<line>
 <:c><line>
 <redname><diamond>Funazou<line>
 <:obj> <1> <4><line>
-Well then, if I may suggest, you may want to<line>
-start by going to Ressie's house. It is in<line>
-the heart of this lake.<line>
+Well then, best start at Ressie's house.<line>
+It's way out in the middle of the lake.<line>
 <wait><:sd><line>
 <:func> <4><line>
 <:func> <2> <2><line>
@@ -139,12 +138,11 @@ the heart of this lake.<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Funazou<line>
-I suggest that you may want to start by<line>
-going to Ressie's house. It is in the heart<line>
-of this lake.<line>
+Best start at Ressie's house. It's way<line>
+out in the middle of the lake.<line>
 <redname><diamond>Funazou<line>
-I can't go. If I close up the shop, my ma'll<line>
-be mad at me.<line>
+I can't go. If I close up the shop, the<line>
+missus'll have my hide.<line>
 <redname><diamond>Funazou<line>
 Our shop? We sell Ressie Manju. It's our<line>
 speciality!<line>

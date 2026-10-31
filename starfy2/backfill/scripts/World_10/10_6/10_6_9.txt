@@ -52,7 +52,7 @@ Okay. Well I'll walk you back.<line>
 <wait>:<1><0><line>
 <rname><diamond>Shmoe<line>
 I see. Well, I'll be cleaning up these<line>
-seaweed rolls then...mumble mumble<line>
+seaweed rolls then...*mumble mumble*<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>
@@ -97,7 +97,7 @@ Let's go then.<line>
 <wait>:<2><0><line>
 <rname><diamond>Joe<line>
 Oh, I see. You must really like seaweed<line>
-rolls then. I'm jealous...mumble mumble<line>
+rolls then. I'm jealous...*mumble mumble*<line>
 <:end><line>
 <end>
 

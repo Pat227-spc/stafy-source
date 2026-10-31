@@ -23,12 +23,12 @@
 <:se><line>
 <rname><diamond>Loverin<line>
 <:obj> <1> <4><line>
-Kyaaaa! Where did these whiskers come<line>
+Kyaaaa! Where did this mustache come<line>
 from!?<line>
 <:c><line>
 <redname><diamond>Lovelove<line>
 <:obj> <2> <4><line>
-Whiskers! With these on my face, I'll never<line>
+A mustache! With this on my face, I'll never<line>
 get married!<line>
 <:c><line>
 <redname><diamond>Loverin<line>
@@ -41,11 +41,11 @@ Papa~!<line>
 Who're you callin' Papa, huh!?...I'm sure you<line>
 can see the situation, Starfy.<line>
 <redname><diamond>Jawjiro<line>
-I don't mind my whiskers, but these two keep<line>
+I don't mind my beard, but these two keep<line>
 screaming about theirs.<line>
 <redname><diamond>Jawjiro<line>
 So could ya find that Stache-ccine and<line>
-get rid of these whiskers?<line>
+get rid of these mustaches?<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>
@@ -57,7 +57,7 @@ get rid of these whiskers?<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Loverin<line>
-These whiskers are awful! Give me back my<line>
+This mustache is awful! Give me back my<line>
 angelic face!<line>
 <:c><line>
 <redname><diamond>Lovelove<line>
@@ -71,14 +71,14 @@ find that Stache-ccine?<line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Jawjiro<line>
 Alright, hand it over. Here you two, say<line>
-goodbye to those whiskers of yours.<line>
+goodbye to those mustaches of yours.<line>
 <:c><line>
 <redname><diamond>Loverin<line>
 *gasp* It's a shot!? No, I hate pain!<line>
 <:c><line>
 <redname><diamond>Jawjiro<line>
 Oh, don't give me that, you'll be fine! This'll<line>
-make sure those whiskers come off your<line>
+make sure that mustache comes off your<line>
 face.<line>
 <:c><line>
 <redname><diamond>Lovelove<line>
@@ -114,7 +114,7 @@ to you, it's quiet again.<line>
 <wait>:<3><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Jawjiro<line>
-But, y'know, I didn't mind the whiskers at all...<line>
+But, y'know, I didn't mind the beard at all...<line>
 <:c><line>
 <redname><diamond>Loverin<line>
 What're you sayin'! Papa, smooth skin suits<line>

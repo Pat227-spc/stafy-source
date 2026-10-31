@@ -76,7 +76,7 @@ That Echigyoya jerk said somethin' about<line>
 'preparations'...<line>
 <redname><diamond>Moe<line>
 That means we gotta hurry and let her<line>
-know! C'mon, Starf! We gotta go!<line>
+know! C'mon, Starf'! We gotta go!<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

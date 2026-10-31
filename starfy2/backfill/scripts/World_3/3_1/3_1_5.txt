@@ -47,7 +47,7 @@ thinking of what to tell those awful punks.<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-Hey! What're ya doin', Starf? Get a move on<line>
+Hey! What're ya doin', Starf'? Get a move on<line>
 already!<line>
 <redname><diamond>Moe<line>
 We still got a lot of work ahead of us!<line>

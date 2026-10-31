@@ -19,7 +19,7 @@
 <:func> <6> <1> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-This wind again... Hey, Starf!<line>
+This wind again... Hey, Starf'!<line>
 <redname><diamond>Moe<line>
 I don't think you should be on these<line>
 clouds when the wind blows. This place is a<line>

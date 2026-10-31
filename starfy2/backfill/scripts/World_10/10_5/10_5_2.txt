@@ -35,14 +35,14 @@ and lost your way?<line>
 Because of that, you and Moe were<line>
 separated, hm? That sounds awful...<line>
 <redname><diamond>Lumi<line>
-I'm in an awful position myself...sob<line>
+I'm in an awful position myself...*sob*<line>
 *sniffle*<line>
 <redname><diamond>Lumi<line>
-I had just so happen to overhear some of<line>
-Puchi Ogura #10 and Echigyoya's<line>
-conversation, and then got thrown in<line>
+I just happened to overhear Puchi<line>
+Ogura #10 and Echigyoya talking, and<line>
+they locked me up for it...<line>
 <redname><diamond>Lumi<line>
-here...<line>
+Now I'm stuck in here...<line>
 <redname><diamond>Lumi<line>
 What!? You'll help me?...However, the <textcolor_d>Cell<line>
 Key<textcolor_0> is a ways through that left door.<line>

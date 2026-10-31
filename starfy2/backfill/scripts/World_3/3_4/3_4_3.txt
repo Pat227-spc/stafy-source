@@ -17,6 +17,6 @@
 <:flagon> <1><5><5><1><4><line>
 <:flagon> <3><4><0><7><line>
 <:func> <2><2> <-><1><line>
-You caught <textcolor_d>Brotle<textcolor_0>.<line>
+You caught <textcolor_d>Brotle<textcolor_0>!<line>
 <end>
 

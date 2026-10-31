@@ -30,8 +30,8 @@ wonderful research again be nice?<line>
 <wait><:sd><line>
 <rname><diamond>Old Man Mechani<line>
 Wouldn't it? Hm?<line>
-<rname>     Help<line>
-<rname>     Don't help<line>
+　　Help<line>
+　　Don't help<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:se><line>
 <wait><:sel> <0> <go> <2><0><line>

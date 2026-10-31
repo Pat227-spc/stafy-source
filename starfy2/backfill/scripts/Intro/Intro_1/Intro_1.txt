@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override: upstream file + typo fixes
+//Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
 //BLOCK #000 NAME:		Intro 1
 //Block Range: $0 - $3CC
@@ -24,8 +24,8 @@ high in the sky,<line>
 [<wait_time> <5><0>]<line>
 [<x_pos> <3><1>]<line>
 there once was a peaceful<line>
-[<x_pos> <2><8>]<line>
-kingdom atop of the clouds<line>
+[<x_pos> <3><8>]<line>
+kingdom atop the clouds<line>
 [<x_pos> <7><3>]<line>
 called Pufftop.<line>
 [<y_pos> <auto>]<line>

@@ -33,7 +33,7 @@ Fighting really is no good, chu...<line>
 [<wait_time> <3><0>]<line>
 <:func> <1><8> <1> <0><7><2><line>
 <:obj> <2> <2> <0><line>
-You gave Jellato's letter to Gellato!<line>
+You gave Jellato's Letter to Gellato.<line>
 <:c><line>
 <redname><diamond>Gellato<line>
 It says he wants to make up, chu...<line>

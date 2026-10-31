@@ -36,8 +36,8 @@ I found a ride that's a little stronger than<line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Dragobrows<line>
 How about it? Wanna fly?<line>
-<rname>     Yes<line>
-<rname>     No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <wait><:sel> <0> <go> <2><0><line>
 <:sel> <1> <go> <3><0><line>
@@ -80,8 +80,8 @@ Eh? You won't ride? Not much guts, huh...<line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Dragobrows<line>
 Are you going to fly with Super <textcolor_d>Ryun<textcolor_0>?<line>
-<rname>     Yes<line>
-<rname>     No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <wait><:sel> <0> <go> <2><0><line>
 <:sel> <1> <go> <3><0><line>

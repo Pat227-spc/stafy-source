@@ -27,7 +27,7 @@ All credit goes to the translators and hackers who came before us. This is simpl
 - RayCarrot, Normmatt - font graphics, tools and technical help
   (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
 
-Thanks: EpicSignal (spotting the World 5-3 puzzle issue).
+Thanks: Giantbomb64 (reporting the World 2-1 crash) and EpicSignal (spotting the World 5-3 puzzle issue).
 
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 
@@ -37,22 +37,22 @@ An in-game translator credits page is planned for a future update.
 Please don't just take our word for it. These are the hashes to check against (also in SHA1SUMS.txt):
 
 ```
-Starfy 1 Eng v1.0.2
+Starfy 1 Eng v1.0.3
   Base:  Densetsu no Stafy (Japan)   CRC32 FAE94C8B  SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c
   Alt base: STT v1.1 English ROM     CRC32 F7CB8EE3  SHA1 79c4f1847dace4efceecff0a211cf341ad372808
-  Result:                            CRC32 72AE1467  SHA1 27c69522d73a8af606f771d7bafc0cecda240baa
-  Patch SHA1: Starfy 1 Eng v1.0.2.bps                   df5d790a6a273d392671db044b3b3de0be9c8609
-              Starfy 1 Eng v1.0.2 (STT v1.1 base).bps   8ca993d292c386350ca3277f0211e109d5013515
-Starfy 2 Eng v0.9.5
+  Result:                            CRC32 44C2017A  SHA1 1c7ad3cd80e1ba146c88a315d22f6fb6bc17edfd
+  Patch SHA1: Starfy 1 Eng v1.0.3.bps                   1c91ee398cc4de3fced52857f37fdf03d0321b02
+              Starfy 1 Eng v1.0.3 (STT v1.1 base).bps   2d4d9f12b9e14218d762e02f1e20e70dfb5bf161
+Starfy 2 Eng v0.9.8
   Base:  Densetsu no Stafy 2 (Japan) CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df
-  Result (32 MiB):                   CRC32 2165E2C8  SHA1 bc76c940d686c4b6555be0f6c18542b04dc472da
-  Patch SHA1: Starfy 2 Eng v0.9.5.bps                   6d7a44f99d6500ab172396c1ae62222f9ce5e6e7
-Starfy 3 Eng v1.0.3
+  Result (32 MiB):                   CRC32 8C2D9266  SHA1 bd28fcd15cd7aebf9fb22cd77964e05d65a57d3d
+  Patch SHA1: Starfy 2 Eng v0.9.8.bps                   1ed3784568471f83d406a24f06aada6b76e96764
+Starfy 3 Eng v1.0.4
   Base:  Densetsu no Stafy 3 (Japan) (Rev 1)  CRC32 2D6E4C3B  SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636
   Alt base: Dimedime v1.0 English ROM         CRC32 850B4137  SHA1 179920be4a0ae5ed60137103deca4a760811517b
-  Result:                                     CRC32 23170373  SHA1 18968dde90fcc27c1bdc5092f77243c84aa4f85f
-  Patch SHA1: Starfy 3 Eng v1.0.3.bps                   e82864680b24eef73e64984c4e252ceef1fd5097
-              Starfy 3 Eng v1.0.3 (Dimedime v1.0 base).bps   b4e813a3696865dab50af2aacbe54c27e1bfe545
+  Result:                                     CRC32 4F31E799  SHA1 3d46521999d1bfea130b476a877013863b02b1c5
+  Patch SHA1: Starfy 3 Eng v1.0.4.bps                   59036c1955c57fb78e72fff27fdf7fe4d7d89c69
+              Starfy 3 Eng v1.0.4 (Dimedime v1.0 base).bps   7f20979a9cfa581cd0348c359f5ab813acb951ac
 ```
 
 To check a file: `sha1sum <file>` (Linux/macOS) or `certutil -hashfile <file> SHA1` (Windows).
@@ -66,6 +66,11 @@ If you enjoy these games, please visit and support the people who actually made 
 - Luckylodeon98 (Starfy 2 fork, graphics and VWF): https://github.com/Luckylodeon98/Densetsu_no_Starfy_2_Translation_ENG
 - SomeUselessTranslations (Starfy 2 script videos): https://www.youtube.com/playlist?list=PLA7NjZIk-WKX6E8fTEwiEtI3XlpZy2CQm
 - Starfy Wiki fan translation page (Dimedime, SomeUselessTranslations, Normmatt): https://www.starfywiki.org/wiki/Fan_translation
+
+## Build on it
+
+We'd love to see forks, improvements, or new projects built on our work. Pull requests and forks are welcome; we just ask that you keep crediting the original translators.
+Found a bug? Please open an issue at https://github.com/Pat227-spc/stafy-patches/issues.
 
 ## Credit and takedown requests
 If you are one of the original authors and would like your name changed or removed, or your work taken out,
@@ -89,9 +94,9 @@ Everyone who built a tool we used:
 
 | folder | release | base ROM to supply | result CRC32 |
 |---|---|---|---|
-| `starfy1/` | Starfy 1 Eng v1.0.2 | Starfy Translation Team v1.1 English ROM, CRC32 F7CB8EE3 (SHA1 79c4f1847dace4efceecff0a211cf341ad372808); optional clean Densetsu no Stafy (Japan), CRC32 FAE94C8B (SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c) | 72AE1467 |
-| `starfy2/` | Starfy 2 Eng v0.9.5 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | 2165E2C8 |
-| `starfy3/` | Starfy 3 Eng v1.0.3 | Dimedime v1.0 English ROM, CRC32 850B4137 (SHA1 179920be4a0ae5ed60137103deca4a760811517b); optional clean Densetsu no Stafy 3 (Japan) (Rev 1), CRC32 2D6E4C3B (SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636) | 23170373 |
+| `starfy1/` | Starfy 1 Eng v1.0.3 | Starfy Translation Team v1.1 English ROM, CRC32 F7CB8EE3 (SHA1 79c4f1847dace4efceecff0a211cf341ad372808); optional clean Densetsu no Stafy (Japan), CRC32 FAE94C8B (SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c) | 44C2017A |
+| `starfy2/` | Starfy 2 Eng v0.9.8 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | 8C2D9266 |
+| `starfy3/` | Starfy 3 Eng v1.0.4 | Dimedime v1.0 English ROM, CRC32 850B4137 (SHA1 179920be4a0ae5ed60137103deca4a760811517b); optional clean Densetsu no Stafy 3 (Japan) (Rev 1), CRC32 2D6E4C3B (SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636) | 4F31E799 |
 
 ## Tools
 - Starfy 1 / 3: Python 3 and flips (bundled Linux build).

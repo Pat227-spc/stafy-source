@@ -22,7 +22,7 @@
 <:flagon> <7><1><0><0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf...do you hear a voice below us?<line>
+Hey, Starf'...do you hear a voice below us?<line>
 <redname><diamond>Moe<line>
 Not like we can check it out with that rock<line>
 in the way... Unless we smash it!<line>

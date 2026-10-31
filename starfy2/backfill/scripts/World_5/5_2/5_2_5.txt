@@ -19,7 +19,7 @@
 <:func> <6> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Yo, Starf, look at these huge leaves! We<line>
+Yo, Starf', look at these huge leaves! We<line>
 can ride these to get out of here!<line>
 <:end><line>
 <end>

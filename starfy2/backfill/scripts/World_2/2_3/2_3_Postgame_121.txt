@@ -27,8 +27,8 @@ completed a new kind of <textcolor_d>Blimp<textcolor_0>!<line>
 <wait><:sd><line>
 <rname><diamond>Old Man Mechani<line>
 Of course, you want to test it out, right?<line>
-<rname>     Yes<line>
-<rname>     No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:se><line>
 <wait><:sel> <0> <go> <2><0><line>
@@ -49,8 +49,8 @@ after all, eh?<line>
 <wait><:sd><line>
 <rname><diamond>Old Man Mechani<line>
 Right? Hm?<line>
-<rname>     Yes<line>
-<rname>     No<line>
+　　Yes<line>
+　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
 <:se><line>
 <wait><:sel> <1> <go> <4><0><line>

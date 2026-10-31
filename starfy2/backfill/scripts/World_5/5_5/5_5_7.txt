@@ -56,7 +56,7 @@ gone far!<line>
 <wait><:obj> <1> <9> <2><line>
 <:obj> <1> <4><line>
 <rname><diamond>Moe<line>
-Perfect! Alright, Starf, go and get that<line>
+Perfect! Alright, Starf', go and get that<line>
 key!<line>
 <redname><diamond>Moe<line>
 Go and use your <textcolor_d>Star Spin<textcolor_0> to take it by<line>
@@ -131,7 +131,7 @@ than just my cell...<line>
 <rname><diamond>Moe<line>
 Got it! Alright, worth a shot!<line>
 <:obj> <1> <9> <2><line>
-Starf, give it a try!<line>
+Starf', give it a try!<line>
 <:end><line>
 <wait>:<3><line>
 <:func> <2><2> <-><1><line>

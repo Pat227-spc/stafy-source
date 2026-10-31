@@ -85,7 +85,7 @@ playdate!<line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
 Why that little-! We gotta stop him! C'mon,<line>
-after 'im, Starf!<line>
+after 'im, Starf'!<line>
 <:end><line>
 <end>
 

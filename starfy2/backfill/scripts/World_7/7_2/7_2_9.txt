@@ -19,7 +19,7 @@
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-Hey, Starf! Couldn't we use that thing in<line>
+Hey, Starf'! Couldn't we use that thing in<line>
 the upper right as a foothold? You can<line>
 get inside and push it, right?<line>
 <redname><diamond>Moe<line>

@@ -1,4 +1,4 @@
-# Starfy 1 Eng v1.0.2 - source
+# Starfy 1 Eng v1.0.3 - source
 
 Cleanup patch for the Starfy Translation Team v1.1 translation of Densetsu no Stafy (GBA): typo fixes, re-wrapped overflowing lines, leftover Japanese translated,
 consistency renames. The builder is a Python script that edits the English base ROM's text in place or relocates edited
@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy (Japan), clean, 8 MiB - CRC32 `FAE94C8B`, SHA1 `75f6297f42c41e2a6d108de9a372308ad2df6a9c`
 
-Expected result: CRC32 `72AE1467`, SHA1 `27c69522d73a8af606f771d7bafc0cecda240baa`. No ROMs are included.
+Expected result: CRC32 `44C2017A`, SHA1 `1c7ad3cd80e1ba146c88a315d22f6fb6bc17edfd`. No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)
@@ -23,14 +23,14 @@ Expected result: CRC32 `72AE1467`, SHA1 `27c69522d73a8af606f771d7bafc0cecda240ba
 ./build.sh                      # uses base/alt_base.gba and (if present) base/jp_base.gba
 ./build.sh ALT.gba [JP.gba]     # or pass paths
 ```
-Outputs `out/Starfy 1 Eng v1.0.2.gba` (patched ROM; CRC printed and checked), `out/Starfy 1 Eng v1.0.2 (alt base).bps` and, with the JP base,
-`out/Starfy 1 Eng v1.0.2.bps`. Manual equivalent: `python3 tools/build_s1.py base/alt_base.gba out.gba --v102`.
+Outputs `out/Starfy 1 Eng v1.0.3.gba` (patched ROM; CRC printed and checked), `out/Starfy 1 Eng v1.0.3 (alt base).bps` and, with the JP base,
+`out/Starfy 1 Eng v1.0.3.bps`. Manual equivalent: `python3 tools/build_s1.py base/alt_base.gba out.gba --v103`.
 
 ## Build (Windows)
 Install Python 3 and download a Windows flips.exe from https://github.com/Alcaro/Flips/releases into `tools\bin\`.
 Run `build.sh` from Git Bash, or by hand in cmd:
 ```
-py tools\build_s1.py base\alt_base.gba out.gba --v102
+py tools\build_s1.py base\alt_base.gba out.gba --v103
 tools\bin\flips.exe --create --bps-delta base\alt_base.gba out.gba patch.bps
 ```
 

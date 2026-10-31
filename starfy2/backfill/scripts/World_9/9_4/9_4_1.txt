@@ -24,7 +24,7 @@
 Looks like you gotta use both the Potty<line>
 Boats AND Ginjis to get around.<line>
 <redname><diamond>Moe<line>
-Make sure ya don't get lost, Starf!<line>
+Make sure ya don't get lost, Starf'!<line>
 <:end><line>
 <wait><line>
 <end>

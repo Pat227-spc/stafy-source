@@ -22,7 +22,7 @@
 <:se><line>
 <rname><diamond>Moe<line>
 Somethin' feels...off... Somethin's in this<line>
-room, Starf!<line>
+room, Starf'!<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>

@@ -19,7 +19,7 @@
 <:se><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-Hold your horses, Starf! It's dangerous<line>
+Hold your horses, Starf'! It's dangerous<line>
 past here unless you can fly somehow!<line>
 <redname><diamond>Moe<line>
 You're gonna have to look for something<line>

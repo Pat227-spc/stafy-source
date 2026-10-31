@@ -21,17 +21,17 @@
 <:se><line>
 <rname><diamond>Lovelove<line>
 Starfy, honey, there's nothing strange<line>
-about my face, right? Are those horrid<line>
-whiskers truly gone?<line>
+about my face, right? Is that horrid<line>
+mustache truly gone?<line>
 <redname><diamond>Lovelove<line>
 Since then, I've had nightmares where all I<line>
-see is whiskers...<line>
+see is mustaches...<line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Lovelove<line>
 But I must say, I think that Loverin's<line>
-whiskers suit her perfectly.<line>
+mustache suits her perfectly.<line>
 <redname><diamond>Lovelove<line>
 Perfect for a crude face like hers. Oh,<line>
 pardon me, that was rude.<line>
