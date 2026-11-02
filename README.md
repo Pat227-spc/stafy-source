@@ -1,5 +1,7 @@
 # Starfy (Densetsu no Stafy) GBA trilogy - English patch sources
 
+> **Note:** AI tools were used in the making of this project.
+
 Source handover for the English fan-translation patches of the three Densetsu no Stafy games on GBA, so the
 translation can be rebuilt and continued. Each folder is a standalone git repo that rebuilds its patch from a
 user-supplied base ROM. No ROMs are included.
