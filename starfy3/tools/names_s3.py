@@ -5,6 +5,8 @@ usage: names_s3.py IN.gba OUT.gba [--log names.tsv]
   name tags (tag length byte rebuilt; tagfix() from build_s3 keeps the name-plate redraw working).
 - Moe's "yours truly" / selected オレさま lines become "the Great Moe" (decisions 2026-11-03 and 2026-11-09).
 - Hirara becomes Snarley (decision 2026-11-09).
+- File 0xF68898 (slot 17: world names, costume descriptions) is in the pass now: its 149 leftover Japanese lines are
+  replaced from tools/f68898_s3.py and the renames reach the costume descriptions (decision 2026-11-09).
 - Changed BMG files are rebuilt with build_append (original DAT1 bytes kept, edited messages appended), placed in
   free space from FREE and both message-table entries repointed. The JP dev test file (slot 13) is not touched."""
 import sys,os,re,struct,zlib
@@ -12,6 +14,7 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from bmg import BMG,build_append
 from s3text import dec,enc
 import build_s3 as B
+import f68898_s3
 IN_CRC=0x4F31E799
 TABLES=B.TABLES
 # free space: 0xE80108-0xEFFFFF is 0xFF filler in both the JP Rev 1 ROM and Dimedime v1.0 (nothing in the JP game can
@@ -55,6 +58,9 @@ MOE={(0xF44BF8,5):[("as cool/and dependable as yours truly","as cool/and dependa
      (0xFDC9E0,485):[("Good thing I stepped in to save/the day! Starfy couldn't've/beaten it without my help!",
                       "Good thing the Great Moe/stepped in! Starfy couldn't've/beaten it without me!")],
      (0xFDC9E0,517):[("It'll take more than that to/scare me!","It'll take more than that to/scare the Great Moe!")]}
+# raw-byte rewraps after a rename made a line longer (ASCII-byte costume text in F68898)
+REWRAP={(0xF68898,63):(b"Oden made by Jawbreaker\nhimself. \x81\x99 It's really\ndelicious!",
+                       b"Oden made by\nJawbreaker himself. \x81\x99\nIt's really delicious!")}
 def tokens(run):
     """split a text run into characters (1 or 2 bytes); norm = one char per token: Latin letters (fullwidth or
     ASCII) as ASCII, the three separators (ASCII space, fullwidth space, newline) as ' ', anything else as '#'"""
@@ -130,15 +136,22 @@ def main(src,dst,logf=None):
     d=bytearray(open(src,'rb').read()); assert zlib.crc32(d)==IN_CRC, 'input must be Starfy 3 v1.0.4 (4F31E799)'
     cnt={}; log=[]; used=0
     for a,e in REGIONS: assert all(x==0xFF for x in d[a:e])
-    for f in files(d):
-        if f in (0x5A6B34,0xF68898): continue    # JP developer test file; debug message file (out of scope since v1.0, see RELEASE_NOTES)
+    # F68898 last (joined the pass in v1.0.5 xi), so the files relocated before keep their xh addresses
+    for f in sorted(files(d),key=lambda f:f==0xF68898):
+        if f==0x5A6B34: continue    # JP developer test file
         b=BMG(d,f); ch={}
         for i,m in enumerate(b.msgs):
-            nm=rename_msg(m,cnt,log,'%X#%d'%(f,i))
+            if f==0xF68898 and i in f68898_s3.TR:
+                c32,en=f68898_s3.TR[i]; assert zlib.crc32(m)==c32, ('F68898 source',i)
+                m2=enc(en); cnt['F68898 JP']=cnt.get('F68898 JP',0)+1; log.append(('jp','F68898#%d'%i,dec(m),en))
+            else: m2=m
+            nm=rename_msg(m2,cnt,log,'%X#%d'%(f,i))
             for a,c in MOE.get((f,i),[]):
                 ea,ec=enc(a.replace(' ','~')),enc(c.replace(' ','~'))
                 assert nm.count(ea)==1, ('MOE target',hex(f),i,a); nm=nm.replace(ea,ec); cnt['yours truly']=cnt.get('yours truly',0)+1
                 log.append(('moe','%X#%d'%(f,i),a,c))
+            if (f,i) in REWRAP:
+                a,c=REWRAP[(f,i)]; assert nm==a, ('REWRAP target',hex(f),i,nm); nm=c; log.append(('rewrap','%X#%d'%(f,i)))
             if nm!=m:
                 nm2,c=B.tagfix(nm)
                 if c: log.append(('tagfix','%X#%d'%(f,i),c))

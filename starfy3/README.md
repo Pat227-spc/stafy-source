@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy 3 (Japan) (Rev 1), clean, 16 MiB - CRC32 `2D6E4C3B`, SHA1 `dae5354bfe4ccafc92d22b1389265dbf1f79b636`
 
-Expected result: CRC32 `D9906201`, SHA1 `57da9abd33423a9d7b5f270369210d5b0ed8897d` (v1.0.5 test build xh, 2026-11-09; includes Snarley + 15 Great Moe Tier A lines on top of the xg names pass). No ROMs are included.
+Expected result: CRC32 `FDFE99CA`, SHA1 `8f22b9bfbbb1b82a6f6d09eaf5715a692589dfc6` (v1.0.5 test build xi, 2026-11-09; xh (Snarley + 15 Great Moe Tier A lines on top of the xg names pass) plus the last 149 Japanese lines in file 0xF68898 translated and the cross-game names applied to its costume descriptions). No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)
@@ -36,7 +36,7 @@ tools\bin\flips.exe --create --bps-delta base\alt_base.gba out.gba patch.bps
 ```
 
 ## Edit the text and rebuild
-All edits are data tables in the builder: edits(), edits_v101(), TYPOS, chuta() and the v103 block in tools/build_s3.py; the cross-game names (decided 2026-11-03, same as Starfy 2) are the NAMES table in tools/names_s3.py (BMG message files: tools/bmg.py, text encoder: tools/s3text.py, width check: tools/s3width.py).
+All edits are data tables in the builder: edits(), edits_v101(), TYPOS, chuta() and the v103 block in tools/build_s3.py; the cross-game names (decided 2026-11-03, same as Starfy 2) are the NAMES table in tools/names_s3.py, the F68898 translations are the TR table in tools/f68898_s3.py (BMG message files: tools/bmg.py, text encoder: tools/s3text.py, width check: tools/s3width.py).
 Add a (old, new) pair or a message entry, rerun `./build.sh`, and test in an emulator. The builders assert the base CRC and
 fail loudly if an edit target is not found. The CRC will differ from the release once you change anything (expected).
 

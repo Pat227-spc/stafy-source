@@ -1,5 +1,5 @@
-"""Leftover-Japanese scan over every live EN BMG file reached through the message table (skips the debug file
-F68898 and the JP dev test file). Prints file#msg and a snippet for every message containing kana/kanji."""
+"""Leftover-Japanese scan over every live EN BMG file reached through the message table (skips only the JP dev
+test file in slot 13; F68898 is scanned since v1.0.5). Prints file#msg and a snippet for every message containing kana/kanji."""
 import sys,os,re,struct
 sys.path.insert(0,os.path.dirname(__file__))
 from bmg import BMG
@@ -11,7 +11,7 @@ def files(d):
         f=struct.unpack('<I',d[0x192978+4*k:0x192978+4*k+4])[0]-0x08000000
         if f not in fs: fs.append(f)
     return fs
-def scan(d,skip=(0xF68898,0x5A6B34)):
+def scan(d,skip=(0x5A6B34,)):
     out=[]
     for k,f in enumerate(files(d)):
         if f in skip: continue
