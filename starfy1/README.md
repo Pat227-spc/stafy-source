@@ -1,4 +1,4 @@
-# Starfy 1 Eng v1.0.3 - source
+# Starfy 1 Eng v1.0.4 (test) - source
 
 Cleanup patch for the Starfy Translation Team v1.1 translation of Densetsu no Stafy (GBA): typo fixes, re-wrapped overflowing lines, leftover Japanese translated,
 consistency renames. The builder is a Python script that edits the English base ROM's text in place or relocates edited
@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy (Japan), clean, 8 MiB - CRC32 `FAE94C8B`, SHA1 `75f6297f42c41e2a6d108de9a372308ad2df6a9c`
 
-Expected result: CRC32 `44C2017A`, SHA1 `1c7ad3cd80e1ba146c88a315d22f6fb6bc17edfd`. No ROMs are included.
+Expected result: CRC32 `A78A3D9C`, SHA1 `9c15719d20c06722679170cbd46c05b074add576` (v1.0.4 test build, 2026-11-09; the v1.0.3 release stage is CRC32 `44C2017A`). No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)
@@ -23,19 +23,20 @@ Expected result: CRC32 `44C2017A`, SHA1 `1c7ad3cd80e1ba146c88a315d22f6fb6bc17edf
 ./build.sh                      # uses base/alt_base.gba and (if present) base/jp_base.gba
 ./build.sh ALT.gba [JP.gba]     # or pass paths
 ```
-Outputs `out/Starfy 1 Eng v1.0.3.gba` (patched ROM; CRC printed and checked), `out/Starfy 1 Eng v1.0.3 (alt base).bps` and, with the JP base,
-`out/Starfy 1 Eng v1.0.3.bps`. Manual equivalent: `python3 tools/build_s1.py base/alt_base.gba out.gba --v103`.
+Outputs `out/Starfy 1 Eng v1.0.4.gba` (patched ROM; CRC printed and checked), `out/Starfy 1 Eng v1.0.4 (alt base).bps` and, with the JP base,
+`out/Starfy 1 Eng v1.0.4.bps`. Manual equivalent: `python3 tools/build_s1.py base/alt_base.gba stage.gba --v103` then `python3 tools/names_s1.py stage.gba out.gba`.
 
 ## Build (Windows)
 Install Python 3 and download a Windows flips.exe from https://github.com/Alcaro/Flips/releases into `tools\bin\`.
 Run `build.sh` from Git Bash, or by hand in cmd:
 ```
-py tools\build_s1.py base\alt_base.gba out.gba --v103
+py tools\build_s1.py base\alt_base.gba stage.gba --v103
+py tools\names_s1.py stage.gba out.gba
 tools\bin\flips.exe --create --bps-delta base\alt_base.gba out.gba patch.bps
 ```
 
 ## Edit the text and rebuild
-All edits are data tables in the builder: TYPOS, RENAMES, FIXES_V102 and NAME_SETS in tools/build_s1.py (text codec: tools/s1text.py, width model: tools/s1width.py, Ogura/Doppel case conversion: tools/ogcase.py).
+All edits are data tables in the builder: TYPOS, RENAMES, FIXES_V102 and NAME_SETS in tools/build_s1.py; the cross-game names (decided 2026-11-03, same as Starfy 2) are the NAMES table in tools/names_s1.py (text codec: tools/s1text.py, width model: tools/s1width.py, Ogura/Doppel case conversion: tools/ogcase.py).
 Add a (old, new) pair or a message entry, rerun `./build.sh`, and test in an emulator. The builders assert the base CRC and
 fail loudly if an edit target is not found. The CRC will differ from the release once you change anything (expected).
 
