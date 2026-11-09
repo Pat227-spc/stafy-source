@@ -8,10 +8,11 @@ Place your base ROM at `base/stafy2_jp.gba` (any path works; pass it to build.sh
 - Densetsu no Stafy 2 (Japan), clean, 16 MiB (16,777,216 bytes)
 - CRC32 `EA73EB54`, SHA1 `8322867cc4369307048deb20a8bb16c3dd0910df`, MD5 `0635251b85657f9c1de295546da09aeb`
 
-Expected result (expanded to 32 MiB): CRC32 `4F018FF0`, SHA1 `3f6bb3a001070e184d82736ac88cbd448dd095ca`.
-Optional 16 MiB build (`--rom16`, for flash carts that can't load 32 MiB ROMs, e.g. the Supercard SD): CRC32 `2535B598`,
-SHA1 `c5b2cd3a6e8b9ac3ee30e90cfbfad790522fe796`. Same content; the blocks the 32 MiB build puts above 16 MiB are moved into
-the original image's free space (`tools/rom16.py`; `tools/rom16_audit.py` compares the two builds).
+Release build (16 MiB, `./build.sh --rom16`): CRC32 `EC61D726`, SHA1 `bd3fbaf52e37bef3b58d3ba03437b337e69f4bf8`
+(patch SHA1 `b3655af73d7e363c974c06d0346a8884c704bfd1`). The blocks that earlier versions put above 16 MiB are moved into
+the original image's free space (`tools/rom16.py`; `tools/rom16_audit.py` compares the two layouts).
+Old 32 MiB layout (`./build.sh` without `--rom16`, same content, not released): CRC32 `EE1ED052`,
+SHA1 `f7b60e1a3de57f259a5b2f5a3c3e40b2686b7541`.
 No ROMs are included.
 
 ## Layout
@@ -43,7 +44,7 @@ cp /path/to/Atlas.exe /path/to/lzss.exe tools/bin/
 ```
 The build works in `build/` (scratch copy) and prints the patched ROM CRC32; `build/stafy2_en.gba` is the patched ROM and
 `out/stafy2_en.bps` the patch. Any Atlas error fails the build by default (`STRICT_ATLAS=0` warns and continues like
-assemble.bat); `--no-logo` keeps the Japanese title logo; `--rom16` makes the 16 MiB variant
+assemble.bat); `--no-logo` keeps the Japanese title logo; `--rom16` makes the 16 MiB release layout
 (`./build.sh --rom16 base/stafy2_jp.gba out/stafy2_en_16.bps`). New scenes are built in parallel (`OVERLAY_JOBS=N`, default: all cores).
 The first wine run creates a wine prefix in `tools/wineprefix` (set `WINEPREFIX` to use another). If wine is not on your
 PATH, set `WINE_BIN` to its `bin/` folder (read by `tools/env.sh`).
@@ -90,6 +91,8 @@ All credit goes to the translators and hackers who came before us. This is simpl
 - RayCarrot - VWF (variable-width font) code used in Stafy 2
 - RayCarrot, Normmatt - font graphics, tools and technical help
   (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
+- Title logo based on EASTWOOD2002's English 'The Legendary Starfy 2' logo concept (LaunchBox forums, 2023)
+  (`tools/gfx/title_logo_en.png`; thanks to u/ComicGamerDragon for suggesting it)
 
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 

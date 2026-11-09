@@ -7,8 +7,11 @@ https://github.com/Pat227-spc/stafy-patches). Hashes for every base, patch and r
 - BPS checks the base CRC, so a wrong base is refused.
 - Starfy 1: our primary patch uses the clean Japanese base; the Starfy Translation Team v1.1 base patch is kept as an alternate.
 - Starfy 3: our primary patch uses the clean Japanese (Rev 1) base; the Dimedime v1.0 base patch is kept as an alternate.
-- Starfy 2 output is expanded to 32 MiB. Some flash carts (the Supercard SD) freeze on 32 MiB ROMs; `build.sh --rom16`
-  makes a 16 MiB build with the same content (test build, CRC32 2535B598).
+- Starfy 2 v0.9.9 is released as a 16 MiB ROM, the same size as the Japanese cartridge (`build.sh --rom16`, CRC32 EC61D726).
+  Earlier versions were expanded to 32 MiB, which some flash carts (the Supercard SD) can't load. `build.sh` without
+  `--rom16` still makes the old 32 MiB layout with the same content (CRC32 EE1ED052); it isn't released.
+- Starfy 2 save data: the 16 MiB layout is a bigger change than earlier updates and could break saves from earlier
+  versions; players should back up their .sav before updating.
 - Save type: SRAM 32 KB (SRAM_V112 / SRAM_V113) for all three.
 - Emulator users: don't load savestates made with an older version; use the in-game save.
 

@@ -2,14 +2,19 @@
 ; Title logo '伝説のスタフィー2' -> "The Legendary Starfy 2" (skip with ./build.sh --no-logo).
 ; tools/gfx/title_logo.py (build time, ROM-derived -> patches/gen/, never committed) appends the new logo tiles to title
 ; BG block 1 and rewrites the BG1 map; the title loader (0x080DC7A6) reads both as offsets from archive 0x088F6B3C, so the
-; two offset literals are pointed at the copies here. Same palette, 161 tiles (JP logo: 162).
+; two offset literals are pointed at the copies here.
 ; The staff roll's small OBJ logo (LZ 0x086A1B70, 3 pointers) is replaced by tools/gfx/staff_logo.py's scaled-down English logo
 ; (same 106 tiles, OBJ palettes 3/4 and sprite layout).
+; English logo (v0.9.9): the title BG palette is rewritten too (44 free entries get the logo's new
+; colours, see tools/gfx/title_logo.py C2_SLOTS) and the loader's palette offset literal 0x080DC940 (was 0x5F9DC) is repointed.
+; Up to 224 logo tiles. The staff-roll logo is unchanged.
 .open "rom/output.gba",0x08000000
 .org 0x080DC91C
 	.word TitleLogoTiles - 0x088F6B3C
 .org 0x080DC92C
 	.word TitleLogoMap - 0x088F6B3C
+.org 0x080DC940
+	.word TitleLogoPal - 0x088F6B3C
 .org 0x08114838
 	.word StaffLogo
 .org 0x082C7EB4
@@ -27,5 +32,8 @@ TitleLogoMap:
 .align 4
 StaffLogo:
 	.incbin "patches/gen/staff_logo.lz"
+.align 4
+TitleLogoPal:
+	.incbin "patches/gen/title_logo_pal.lz"
 .endarea
 .close

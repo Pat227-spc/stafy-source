@@ -29,7 +29,9 @@ All credit goes to the translators and hackers who came before us. This is simpl
 - RayCarrot, Normmatt - font graphics, tools and technical help
   (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
 
-Thanks: Giantbomb64 (reporting the World 2-1 crash).
+- Starfy 2 title logo based on EASTWOOD2002's English 'The Legendary Starfy 2' logo concept (LaunchBox forums, 2023)
+
+Thanks: Giantbomb64 (reporting the World 2-1 crash), u/ComicGamerDragon (suggesting the English title logo).
 
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 
@@ -47,11 +49,9 @@ Starfy 1 Eng v1.0.4
               Starfy.1.Eng.v1.0.4.STT.v1.1.base.bps     f7788a3c7cdeca007cd29a71d46888f8b1bd31d9
 Starfy 2 Eng v0.9.9
   Base:  Densetsu no Stafy 2 (Japan) CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df
-  Result (32 MiB):                   CRC32 4F018FF0  SHA1 3f6bb3a001070e184d82736ac88cbd448dd095ca
-  Patch SHA1: Starfy.2.Eng.v0.9.9.bps                   6d24a1c863a5a5c4ec02bc74dee6ef64b6f63330
-  16 MiB test build (--rom16, Supercard):
-  Result (16 MiB):                   CRC32 2535B598  SHA1 c5b2cd3a6e8b9ac3ee30e90cfbfad790522fe796
-  Patch SHA1: Starfy.2.Eng.v0.9.9.16MB.TEST.bps         fb7627cb7b090efb29115f795c3f74736cb14d14
+  Result (16 MiB, build.sh --rom16): CRC32 EC61D726  SHA1 bd3fbaf52e37bef3b58d3ba03437b337e69f4bf8
+  Patch SHA1: Starfy.2.Eng.v0.9.9.bps                   b3655af73d7e363c974c06d0346a8884c704bfd1
+  (Optional 32 MiB layout, build.sh without --rom16, not released: CRC32 EE1ED052  SHA1 f7b60e1a3de57f259a5b2f5a3c3e40b2686b7541)
 Starfy 3 Eng v1.0.5
   Base:  Densetsu no Stafy 3 (Japan) (Rev 1)  CRC32 2D6E4C3B  SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636
   Alt base: Dimedime v1.0 English ROM         CRC32 850B4137  SHA1 179920be4a0ae5ed60137103deca4a760811517b
@@ -100,7 +100,7 @@ Everyone who built a tool we used:
 | folder | release | base ROM to supply | result CRC32 |
 |---|---|---|---|
 | `starfy1/` | Starfy 1 Eng v1.0.4 | Starfy Translation Team v1.1 English ROM, CRC32 F7CB8EE3 (SHA1 79c4f1847dace4efceecff0a211cf341ad372808); optional clean Densetsu no Stafy (Japan), CRC32 FAE94C8B (SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c) | A78A3D9C |
-| `starfy2/` | Starfy 2 Eng v0.9.9 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | 4F018FF0 (16 MiB `--rom16` build: 2535B598) |
+| `starfy2/` | Starfy 2 Eng v0.9.9 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | EC61D726 (`--rom16`, 16 MiB; the release patch) |
 | `starfy3/` | Starfy 3 Eng v1.0.5 | Dimedime v1.0 English ROM, CRC32 850B4137 (SHA1 179920be4a0ae5ed60137103deca4a760811517b); optional clean Densetsu no Stafy 3 (Japan) (Rev 1), CRC32 2D6E4C3B (SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636) | 7D5EC993 |
 
 ## Tools
