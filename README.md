@@ -29,7 +29,7 @@ All credit goes to the translators and hackers who came before us. This is simpl
 - RayCarrot, Normmatt - font graphics, tools and technical help
   (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
 
-Thanks: Giantbomb64 (reporting the World 2-1 crash) and EpicSignal (spotting the World 5-3 puzzle issue).
+Thanks: Giantbomb64 (reporting the World 2-1 crash).
 
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 

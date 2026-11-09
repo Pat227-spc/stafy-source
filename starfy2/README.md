@@ -91,8 +91,6 @@ All credit goes to the translators and hackers who came before us. This is simpl
 - RayCarrot, Normmatt - font graphics, tools and technical help
   (Normmatt's VWF/text insertion tool: starfywiki.org/wiki/Fan_translation)
 
-Thanks: EpicSignal (spotting the World 5-3 puzzle issue).
-
 All translation credit belongs to the original translators. Starfy is (c) Nintendo / TOSE. Not affiliated with Nintendo.
 
 An in-game translator credits page is planned for a future update.
