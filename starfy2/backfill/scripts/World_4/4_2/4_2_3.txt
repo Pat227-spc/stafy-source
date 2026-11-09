@@ -21,17 +21,17 @@
 <:flagon> <4><2><0><2><line>
 <:func> <1> <1><line>
 <:se><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 'Sup. I see you've come to have some fun.<line>
 Guessing you're on another adventure,<line>
 right?<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 I've been hooked on my <textcolor_d>Sea Skater<textcolor_0> for a<line>
 while now. It's super fun.<line>
 <wait><:sd><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 How about it?<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Wanna take it for a spin?<line>
 　　Yes<line>
 　　No<line>
@@ -39,16 +39,16 @@ Wanna take it for a spin?<line>
 <:c><line>
 <:se><line>
 <wait><:sel> <1> <go> <1><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Well the Sea Skater's right there. Go ahead<line>
 and practice with it.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 The directions on how to use it are on<line>
 that signpost. Give it a read if you want.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Just be careful. You'll get hurt if you try<line>
 to keep goin' without a Sea Skater.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Well, I'll be waitin' for ya by the goal.<line>
 <:c><line>
 <wait><:sd><line>
@@ -60,7 +60,7 @@ Well, I'll be waitin' for ya by the goal.<line>
 <:func> <3> <2><line>
 <:exit><line>
 <wait>:<1><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Ah, that's a bummer. Well, what can ya do?<line>
 <:c><line>
 <wait><:sd><line>
@@ -72,7 +72,7 @@ Ah, that's a bummer. Well, what can ya do?<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <:sd><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 You wanna ride the <textcolor_d>Sea Skater<textcolor_0>?<line>
 　　Yes<line>
 　　No<line>
@@ -80,16 +80,16 @@ You wanna ride the <textcolor_d>Sea Skater<textcolor_0>?<line>
 <:c><line>
 <:se><line>
 <wait><:sel> <1> <go> <2><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Well the Sea Skater's right there. Go ahead<line>
 and practice with it.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 The directions on how to use it are on<line>
 that signpost. Give it a read if you want.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Just be careful. You'll get hurt if you try<line>
 to keep goin' without a Sea Skater.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Well, I'll be waitin' for ya by the goal.<line>
 <:c><line>
 <wait><:sd><line>
@@ -101,7 +101,7 @@ Well, I'll be waitin' for ya by the goal.<line>
 <:func> <3> <2><line>
 <:exit><line>
 <wait>:<2><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Whenever you feel like taking it for a ride,<line>
 just say the word.<line>
 <:c><line>
@@ -113,7 +113,7 @@ just say the word.<line>
 <:exit><line>
 <wait>:<2><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Be sure to make use of the <textcolor_d>Sea Skater<textcolor_0>.<line>
 It'll be useful in a lotta places.<line>
 <:c><line>

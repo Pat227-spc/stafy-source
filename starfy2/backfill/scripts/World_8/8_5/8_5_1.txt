@@ -34,7 +34,7 @@ Kids got locked up in this cell!<line>
 <:obj> <4> <4><line>
 <:obj> <5> <4><line>
 <:obj> <3> <4><line>
-<rname><diamond>Pufftop Kids<line>
+<rname><diamond>Pufftop Children<line>
 Waaaaah! I wanna go hooome! I want my<line>
 Mommy~!<line>
 <:c><line>
@@ -124,7 +124,7 @@ cell...<line>
 <:obj> <3> <1><0> <0> <2><line>
 <:obj> <4> <1><0> <0> <3><line>
 <:obj> <5> <1><0> <0> <4><line>
-<rname><diamond>Pufftop Kids<line>
+<rname><diamond>Pufftop Children<line>
 Yaaaaaay! Thanks, old guy! That was<line>
 scary!<line>
 <:c><line>

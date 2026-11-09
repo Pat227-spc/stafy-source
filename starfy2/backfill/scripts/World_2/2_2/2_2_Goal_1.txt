@@ -23,7 +23,7 @@ Inside the treasure chest was...<line>
 some <textcolor_d>Swirly Glasses<textcolor_1>!<line>
 <:c><line>
 <wait>There seems to be an old man that lives<line>
-here that studies Blimps! I wonder what<line>
+here that studies Balloons! I wonder what<line>
 kind of person he is...<line>
 <:c><line>
 <wait><:sd><line>

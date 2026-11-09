@@ -89,7 +89,7 @@ ain't it?<line>
 <:func> <4><line>
 <:c><line>
 <redname><diamond>Papa Star<line>
-About that...<$5E>Due to Starfy<line>
+About that... Due to Starfy<line>
 accidentally losing the treasure before...<line>
 <:func> <4><line>
 <:c><line>

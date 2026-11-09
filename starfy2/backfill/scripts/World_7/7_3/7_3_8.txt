@@ -19,7 +19,7 @@
 <:func> <2><2> <-><1><line>
 <rname><diamond>Taiblond<line>
 Please, I must ask you to wait a little<line>
-longer! Have you any idea where Sir Moe<line>
+longer! Have you any idea where Mr. Moe<line>
 has taken off to?<line>
 <:c><line>
 <wait><:sd><line>

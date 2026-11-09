@@ -41,7 +41,7 @@ able to get across!<line>
 <:func> <6> <1> <0><line>
 <:se><line>
 <rname><diamond>Moe<line>
-So Torito showed ya how to ride the <textcolor_d>Sea<line>
+So Tweeto showed ya how to ride the <textcolor_d>Sea<line>
 Skater<textcolor_0>, huh? Then you'll be just fine!<line>
 <:end><line>
 <end>

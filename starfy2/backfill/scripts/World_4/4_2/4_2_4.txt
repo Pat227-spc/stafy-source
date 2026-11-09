@@ -20,10 +20,10 @@
 <:flagon> <4><2><0><3><line>
 <:flagon> <1><5><7><0><1><line>
 <:se><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 You got some skill there. The <textcolor_d>Sea Skater<textcolor_0>'s<line>
 useful in a lot of places you know.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 You can use it as much as you want. It<line>
 should help you out on your adventure.<line>
 <:func> <1><8> <1> <5><2><line>

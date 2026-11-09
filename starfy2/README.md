@@ -1,6 +1,6 @@
 # Starfy 2 English patch (Densetsu no Stafy 2, GBA) - source
 
-Source for "Starfy 2 Eng v0.9.8": the English fan translation of Densetsu no Stafy 2, built on Megahog2014's
+Source for "Starfy 2 Eng v0.9.9": the English fan translation of Densetsu no Stafy 2, built on Megahog2014's
 Starfy 2 translation project (GPL-3.0) with art from Luckylodeon98's fork. Licence: GPL-3.0 (see LICENSE).
 
 ## Base ROM
@@ -8,7 +8,10 @@ Place your base ROM at `base/stafy2_jp.gba` (any path works; pass it to build.sh
 - Densetsu no Stafy 2 (Japan), clean, 16 MiB (16,777,216 bytes)
 - CRC32 `EA73EB54`, SHA1 `8322867cc4369307048deb20a8bb16c3dd0910df`, MD5 `0635251b85657f9c1de295546da09aeb`
 
-Expected result (expanded to 32 MiB): CRC32 `8C2D9266`, SHA1 `bd28fcd15cd7aebf9fb22cd77964e05d65a57d3d`.
+Expected result (expanded to 32 MiB): CRC32 `4F018FF0`, SHA1 `3f6bb3a001070e184d82736ac88cbd448dd095ca`.
+Optional 16 MiB build (`--rom16`, for flash carts that can't load 32 MiB ROMs, e.g. the Supercard SD): CRC32 `2535B598`,
+SHA1 `c5b2cd3a6e8b9ac3ee30e90cfbfad790522fe796`. Same content; the blocks the 32 MiB build puts above 16 MiB are moved into
+the original image's free space (`tools/rom16.py`; `tools/rom16_audit.py` compares the two builds).
 No ROMs are included.
 
 ## Layout
@@ -17,7 +20,7 @@ No ROMs are included.
   armips sources (`asm/*.asm`) and `assemble.bat`. Never edited by the build; ROMs, .exe files and scratch archives removed.
 - `backfill/scripts/` - additional/updated translated scripts (mirrors `upstream/asm/bin/text/`).
 - `overlay/` - fixes layered over the upstream tree (see `overlay/README.md`): graphics, glyph overrides, armips patches.
-- `tools/` - build helpers (`batsteps.py` parses assemble.bat, `overlay.py`, `glyphs.py`, `gfx_prep.py`, `gfx/*.py`).
+- `tools/` - build helpers (`batsteps.py` parses assemble.bat, `overlay.py`, `glyphs.py`, `gfx_prep.py`, `rom16.py`, `check_script_sizes.py`, `gfx/*.py`; optional `env.sh`).
 - `build.sh` - full build: base ROM -> patched ROM -> .bps.
 
 ## Tools
@@ -39,8 +42,11 @@ cp /path/to/Atlas.exe /path/to/lzss.exe tools/bin/
 ./build.sh base/stafy2_jp.gba out/stafy2_en.bps
 ```
 The build works in `build/` (scratch copy) and prints the patched ROM CRC32; `build/stafy2_en.gba` is the patched ROM and
-`out/stafy2_en.bps` the patch. `STRICT_ATLAS=1` fails on any Atlas error; `--no-logo` keeps the Japanese title logo.
-The first wine run creates a wine prefix in `tools/wineprefix` (set `WINEPREFIX` to use another).
+`out/stafy2_en.bps` the patch. Any Atlas error fails the build by default (`STRICT_ATLAS=0` warns and continues like
+assemble.bat); `--no-logo` keeps the Japanese title logo; `--rom16` makes the 16 MiB variant
+(`./build.sh --rom16 base/stafy2_jp.gba out/stafy2_en_16.bps`). New scenes are built in parallel (`OVERLAY_JOBS=N`, default: all cores).
+The first wine run creates a wine prefix in `tools/wineprefix` (set `WINEPREFIX` to use another). If wine is not on your
+PATH, set `WINE_BIN` to its `bin/` folder (read by `tools/env.sh`).
 
 ## Build (Windows)
 Easiest: use WSL2 (Ubuntu) and follow the Linux steps. Native alternative (Git Bash or MSYS2): install Python 3 with numpy,

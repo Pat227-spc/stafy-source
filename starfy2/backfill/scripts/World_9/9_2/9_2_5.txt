@@ -16,19 +16,19 @@
 
 <:if> <9><2><0><9> <go> <1><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Jawjiro<line>
+<rname><diamond>Jawbreaker<line>
 Hm? You're Starfy, ain'tcha? What do ya<line>
 want from me?<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Ressie's kid? Oh, the prodigal daughter of<line>
 his...<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 *grumble* That good for nothing,<line>
 delinquent girl...<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 What's that? She was kidnapped!? Hm,<line>
 sounds good to me.<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Well, that's about all I know about this.<line>
 <:c><line>
 <wait><:sd><line>
@@ -41,16 +41,16 @@ Well, that's about all I know about this.<line>
 <:exit><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Jawjiro<line>
+<rname><diamond>Jawbreaker<line>
 Huh, what's that? Lovelove and Loverin are<line>
 calling me their Papa!?<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Sheesh... Somehow these two weirdos got<line>
 all attached to me...<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Just today they were like, 'Come shoppin'<line>
 with us, Pa-pa <textcolor_d><heart><textcolor_0>'...<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 ...I hope someone does something about<line>
 this...<line>
 <:end><line>

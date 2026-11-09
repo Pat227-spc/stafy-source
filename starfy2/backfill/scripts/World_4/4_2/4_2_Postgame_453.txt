@@ -21,14 +21,14 @@
 <:flagon> <1><0><0><0><line>
 <:func> <1> <1><line>
 <:se><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Oh hey. A new <textcolor_d>Sea Skater<textcolor_0> model got<line>
 released the other day.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Bought it as soon as I saw it. It's called<line>
 the Super <textcolor_d>Sea Skater<textcolor_0>! It's super cool.<line>
 <wait><:sd><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 You could take it for a spin if you want.<line>
 　　Yes<line>
 　　No<line>
@@ -36,13 +36,13 @@ You could take it for a spin if you want.<line>
 <:c><line>
 <:se><line>
 <wait><:sel> <1> <go> <1><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 That's the spirit! I will say though, it might<line>
 be a little hard to use.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 But you should get the hang of it quickly<line>
 if you read the <textcolor_d>sign<textcolor_0>.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Well, you know the drill. I'll be waiting for<line>
 you just past here.<line>
 <:c><line>
@@ -55,10 +55,10 @@ you just past here.<line>
 <:func> <3> <2><line>
 <:exit><line>
 <wait>:<1><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Really? With the new feature they added,<line>
 it's way more fun than before.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Eh, suit yourself. But, if you ever change<line>
 your mind, you know who to call.<line>
 <:c><line>
@@ -71,9 +71,9 @@ your mind, you know who to call.<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <:sd><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Did you want to ride the Super <textcolor_d>Sea<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Skater<textcolor_0>?<line>
 　　Yes<line>
 　　No<line>
@@ -81,13 +81,13 @@ Skater<textcolor_0>?<line>
 <:c><line>
 <:se><line>
 <wait><:sel> <1> <go> <2><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 That's the spirit! I will say though, it might<line>
 be a little hard to use.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 But you should get the hang of it quickly<line>
 if you read the <textcolor_d>sign<textcolor_0>.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Well, you know the drill. I'll be waiting for<line>
 you just past here.<line>
 <:c><line>
@@ -100,7 +100,7 @@ you just past here.<line>
 <:func> <3> <2><line>
 <:exit><line>
 <wait>:<2><0><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 You know who to call if you ever change<line>
 your mind.<line>
 <:c><line>
@@ -112,9 +112,9 @@ your mind.<line>
 <:exit><line>
 <wait>:<2><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 How's that treasure hunt of yours going?<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 The Super <textcolor_d>Sea Skater<textcolor_0> should help with<line>
 that here and there.<line>
 <:c><line>

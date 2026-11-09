@@ -100,7 +100,7 @@ lame~' or something like that...<line>
 <:obj> <3> <0> <8><line>
 That's the Stache-ccine, right Detective?<line>
 Think it'll really work?<line>
-Å@<:obj> <3> <0> <7><line>
+<:obj> <3> <0> <7><line>
 <wait><:sd><line>
 <:func> <4><line>
 <:func> <2> <2><line>

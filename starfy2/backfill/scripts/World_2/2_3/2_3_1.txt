@@ -48,7 +48,7 @@ days! How disappointing!<line>
 <:func> <2><2> <-><1><line>
 <:sd><line>
 <rname><diamond>Old Man Mechani<line>
-Do you want to ride a <textcolor_d>Blimp<textcolor_0>?<line>
+Do you want to ride a <textcolor_d>Balloon<textcolor_0>?<line>
 　　Yes<line>
 　　No<line>
 <:decide> <2> <0> <2> <2> <1><line>
@@ -57,9 +57,9 @@ Do you want to ride a <textcolor_d>Blimp<textcolor_0>?<line>
 :<2><0><line>
 <rname><diamond>Old Man Mechani<line>
 Fuhahaha, you truly understand the<line>
-beauty of Blimps!<line>
+beauty of Balloons!<line>
 <redname><diamond>Old Man Mechani<line>
-You remember how to use the Blimp,<line>
+You remember how to use the Balloon,<line>
 yes?...Huh? You forgot?<line>
 <redname><diamond>Old Man Mechani<line>
 I suppose it can't be helped. Just make<line>
@@ -85,7 +85,7 @@ of an old man!<line>
 <rname><diamond>Old Man Mechani<line>
 Oh, Starfy! I have to thank you!<line>
 <redname><diamond>Old Man Mechani<line>
-Because of you, my passion for <textcolor_d>Blimps<textcolor_0> is<line>
+Because of you, my passion for <textcolor_d>Balloons<textcolor_0> is<line>
 only growing!<line>
 <redname><diamond>Old Man Mechani<line>
 Right now I'm researching a brand-new<line>

@@ -15,17 +15,17 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-<rname><diamond>Hirao<line>
+<rname><diamond>Halo<line>
 I'm so sorry, honey... I lost... But please,<line>
 don't worry.<line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 Because nobody's love can beat my love<line>
 for my honey!!<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 You were still amazing, darling!<line>
 <:c><line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 You're lovely too, honey!! *Lovey-dovey*<line>
 *lovey-dovey*...<line>
 <:end><line>

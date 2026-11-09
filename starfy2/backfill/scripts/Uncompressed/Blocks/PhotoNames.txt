@@ -72,7 +72,7 @@ Gaganmo<end>
 
 
 //POINTER #11 @ $2C77A0 - STRING #11 @ $2C7564
-//The Jellato Siblings
+//The Jellato Sisters
 #WRITE(GBA,$2C77A0)
 <8349><834A><834B><834C><834D><834E><834F><8350><end>
 
@@ -80,7 +80,7 @@ Gaganmo<end>
 //POINTER #12 @ $2C77A4 - STRING #12 @ $2C7574
 
 #WRITE(GBA,$2C77A4)
-Torito<end>
+Tweeto<end>
 
 
 //POINTER #13 @ $2C77A8 - STRING #13 @ $2C7580
@@ -90,7 +90,7 @@ Savako<end>
 
 
 //POINTER #14 @ $2C77AC - STRING #14 @ $2C758C
-//Hirao and Hirarin
+//Halo and Haley
 #WRITE(GBA,$2C77AC)
 <8351><8352><8353><8354><8355><8356><8357><8358><end>
 
@@ -174,7 +174,7 @@ Guidonna<end>
 
 
 //POINTER #28 @ $2C77E4 - STRING #28 @ $2C7644
-//The Crab Family
+//Crawfamily
 #WRITE(GBA,$2C77E4)
 <8370><8371><8372><8373><8374><8375><8376><8377><end>
 
@@ -210,7 +210,7 @@ Horun<end>
 
 
 //POINTER #34 @ $2C77FC - STRING #34 @ $2C7698
-//Pufftop Soldier
+//Pufftop Guard
 #WRITE(GBA,$2C77FC)
 <8388><8389><838A><838B><838C><838D><838F><8392><end>
 
@@ -228,7 +228,7 @@ Horun<end>
 
 
 //POINTER #37 @ $2C7808 - STRING #37 @ $2C76C4
-//Pufftop Kids
+//Pufftop Children
 #WRITE(GBA,$2C7808)
 <8A43><8A4F><8B43><8B9F><8BC8><8BDF><8CB3><end>
 
@@ -254,7 +254,7 @@ Funazou<end>
 //POINTER #41 @ $2C7818 - STRING #41 @ $2C76F8
 
 #WRITE(GBA,$2C7818)
-Jawjiro<end>
+Jawbreaker<end>
 
 
 //POINTER #42 @ $2C781C - STRING #42 @ $2C7708

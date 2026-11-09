@@ -38,13 +38,13 @@ Clippercrab<end>
 //POINTER #5 @ $2CB254 - STRING #5 @ $2CA6B0
 
 #WRITE(GBA,$2CB254)
-Drifturtle<end>
+Chubturtle<end>
 
 
 //POINTER #6 @ $2CB260 - STRING #6 @ $2CA6BC
 
 #WRITE(GBA,$2CB260)
-Barbed Fludge<end>
+CLANGshell<end>
 
 
 //POINTER #7 @ $2CB26C - STRING #7 @ $2CA6C4
@@ -122,7 +122,7 @@ Jellysquish<end>
 //POINTER #19 @ $2CB2FC - STRING #19 @ $2CA764
 
 #WRITE(GBA,$2CB2FC)
-Adwaito<end>
+Mockturtle<end>
 
 
 //POINTER #20 @ $2CB308 - STRING #20 @ $2CA770
@@ -134,7 +134,7 @@ Frizzizzle<end>
 //POINTER #21 @ $2CB314 - STRING #21 @ $2CA77C
 
 #WRITE(GBA,$2CB314)
-Thereball<end>
+Mophead<end>
 
 
 //POINTER #22 @ $2CB320 - STRING #22 @ $2CA788
@@ -218,7 +218,7 @@ Spinnit<end>
 //POINTER #35 @ $2CB3BC - STRING #35 @ $2CA83C
 
 #WRITE(GBA,$2CB3BC)
-Al G.<end>
+Fuzzeak<end>
 
 
 //POINTER #36 @ $2CB3C8 - STRING #36 @ $2CA84C
@@ -230,7 +230,7 @@ Hushbrush<end>
 //POINTER #37 @ $2CB3D4 - STRING #37 @ $2CA854
 
 #WRITE(GBA,$2CB3D4)
-Flightseer<end>
+Traveler<end>
 
 
 //POINTER #38 @ $2CB3E0 - STRING #38 @ $2CA860
@@ -302,7 +302,7 @@ Choby<end>
 //POINTER #49 @ $2CB464 - STRING #49 @ $2CA904
 
 #WRITE(GBA,$2CB464)
-Miimii<end>
+Mi Mi<end>
 
 
 //POINTER #50 @ $2CB470 - STRING #50 @ $2CA910
@@ -314,7 +314,7 @@ Ice Guy<end>
 //POINTER #51 @ $2CB47C - STRING #51 @ $2CA91C
 
 #WRITE(GBA,$2CB47C)
-Deadeye<end>
+Skullshark<end>
 
 
 //POINTER #52 @ $2CB488 - STRING #52 @ $2CA928
@@ -338,7 +338,7 @@ Bobfin<end>
 //POINTER #55 @ $2CB4AC - STRING #55 @ $2CA94C
 
 #WRITE(GBA,$2CB4AC)
-Voyajerk<end>
+Jetsetfish<end>
 
 
 //POINTER #56 @ $2CB4B8 - STRING #56 @ $2CA958
@@ -362,13 +362,13 @@ Togerino<end>
 //POINTER #59 @ $2CB4DC - STRING #59 @ $2CA97C
 
 #WRITE(GBA,$2CB4DC)
-The Jellato Siblings<end>
+The Jellato Sisters<end>
 
 
 //POINTER #60 @ $2CB4E8 - STRING #60 @ $2CA98C
 
 #WRITE(GBA,$2CB4E8)
-Torito<end>
+Tweeto<end>
 
 
 //POINTER #61 @ $2CB4F4 - STRING #61 @ $2CA998
@@ -380,13 +380,13 @@ Savako<end>
 //POINTER #62 @ $2CB500 - STRING #62 @ $2CA9A4
 
 #WRITE(GBA,$2CB500)
-Hirao<end>
+Halo<end>
 
 
 //POINTER #63 @ $2CB50C - STRING #63 @ $2CA9AC
 
 #WRITE(GBA,$2CB50C)
-Hirarin<end>
+Haley<end>
 
 
 //POINTER #64 @ $2CB518 - STRING #64 @ $2CA9B8
@@ -428,7 +428,7 @@ Battack<end>
 //POINTER #70 @ $2CB560 - STRING #70 @ $2CAA00
 
 #WRITE(GBA,$2CB560)
-Nast E.<end>
+Fuzzack<end>
 
 
 //POINTER #71 @ $2CB56C - STRING #71 @ $2CAA10
@@ -578,19 +578,19 @@ Octopult<end>
 //POINTER #95 @ $2CB68C - STRING #95 @ $2CAB24
 
 #WRITE(GBA,$2CB68C)
-Swineflew<end>
+Flappy Oink<end>
 
 
 //POINTER #96 @ $2CB698 - STRING #96 @ $2CAB2C
 
 #WRITE(GBA,$2CB698)
-Badboon<end>
+Mean Monkey<end>
 
 
 //POINTER #97 @ $2CB6A4 - STRING #97 @ $2CAB38
 
 #WRITE(GBA,$2CB6A4)
-Eelarmed<end>
+Lungeeel<end>
 
 
 //POINTER #98 @ $2CB6B0 - STRING #98 @ $2CAB44
@@ -686,7 +686,7 @@ Ooga<end>
 //POINTER #113 @ $2CB764 - STRING #113 @ $2CABFC
 
 #WRITE(GBA,$2CB764)
-Kasakasa<end>
+Russell<end>
 
 
 //POINTER #114 @ $2CB770 - STRING #114 @ $2CAC08
@@ -716,7 +716,7 @@ Boflyne<end>
 //POINTER #118 @ $2CB7A0 - STRING #118 @ $2CAC30
 
 #WRITE(GBA,$2CB7A0)
-Ridogulous<end>
+Dumbark<end>
 
 
 //POINTER #119 @ $2CB7AC - STRING #119 @ $2CAC3C
@@ -752,7 +752,7 @@ Guidonna<end>
 //POINTER #124 @ $2CB7E8 - STRING #124 @ $2CAC74
 
 #WRITE(GBA,$2CB7E8)
-The Craw Family<end>
+Crawfamily<end>
 
 
 //POINTER #125 @ $2CB7F4 - STRING #125 @ $2CAC84
@@ -824,7 +824,7 @@ Sea-Mii<end>
 //POINTER #136 @ $2CB878 - STRING #136 @ $2CAD18
 
 #WRITE(GBA,$2CB878)
-Flutterlie<end>
+Butterfly<end>
 
 
 //POINTER #137 @ $2CB884 - STRING #137 @ $2CAD28
@@ -872,13 +872,13 @@ Every Eye<end>
 //POINTER #144 @ $2CB8D8 - STRING #144 @ $2CAD84
 
 #WRITE(GBA,$2CB8D8)
-Pufftop Soldier<end>
+Pufftop Guard<end>
 
 
 //POINTER #145 @ $2CB8E4 - STRING #145 @ $2CAD94
 
 #WRITE(GBA,$2CB8E4)
-Pufftop Kids<end>
+Pufftop Children<end>
 
 
 //POINTER #146 @ $2CB8F0 - STRING #146 @ $2CADA4
@@ -956,7 +956,7 @@ Patrol Crab<end>
 //POINTER #158 @ $2CB980 - STRING #158 @ $2CAE60
 
 #WRITE(GBA,$2CB980)
-Akkou<end>
+Angloom<end>
 
 
 //POINTER #159 @ $2CB98C - STRING #159 @ $2CAE6C
@@ -998,7 +998,7 @@ Longwon<end>
 //POINTER #165 @ $2CB9D4 - STRING #165 @ $2CAEB4
 
 #WRITE(GBA,$2CB9D4)
-Chuckkow<end>
+Moohawk<end>
 
 
 //POINTER #166 @ $2CB9E0 - STRING #166 @ $2CAEC0
@@ -1040,7 +1040,7 @@ Loverin<end>
 //POINTER #172 @ $2CBA28 - STRING #172 @ $2CAF04
 
 #WRITE(GBA,$2CBA28)
-Jawjiro<end>
+Jawbreaker<end>
 
 
 //POINTER #173 @ $2CBA34 - STRING #173 @ $2CAF14
@@ -1316,25 +1316,25 @@ Comelt<end>
 //POINTER #218 @ $2CBC50 - STRING #218 @ $2CB148
 
 #WRITE(GBA,$2CBC50)
-Dynamorb<end>
+Sparkball<end>
 
 
 //POINTER #219 @ $2CBC5C - STRING #219 @ $2CB154
 
 #WRITE(GBA,$2CBC5C)
-Depewty<end>
+Cannonfin<end>
 
 
 //POINTER #220 @ $2CBC68 - STRING #220 @ $2CB160
 
 #WRITE(GBA,$2CBC68)
-Sherrifle<end>
+Pistolfin<end>
 
 
 //POINTER #221 @ $2CBC74 - STRING #221 @ $2CB168
 
 #WRITE(GBA,$2CBC74)
-Flatzo<end>
+Phlatzo<end>
 
 
 //POINTER #222 @ $2CBC80 - STRING #222 @ $2CB174
@@ -1346,7 +1346,7 @@ Angel<end>
 //POINTER #223 @ $2CBC8C - STRING #223 @ $2CB180
 
 #WRITE(GBA,$2CBC8C)
-Zostereye<end>
+White Eye<end>
 
 
 //POINTER #224 @ $2CBC98 - STRING #224 @ $2CB188
@@ -1364,7 +1364,7 @@ Mock<end>
 //POINTER #226 @ $2CBCB0 - STRING #226 @ $2CB19C
 
 #WRITE(GBA,$2CBCB0)
-Blokka<end>
+Blocker<end>
 
 
 //POINTER #227 @ $2CBCBC - STRING #227 @ $2CB1A8
@@ -1400,7 +1400,7 @@ Jelibari<end>
 //POINTER #232 @ $2CBCF8 - STRING #232 @ $2CB1E8
 
 #WRITE(GBA,$2CBCF8)
-Buhrick<end>
+Barick<end>
 
 
 //POINTER #233 @ $2CBD04 - STRING #233 @ $2CB1F4
@@ -1418,5 +1418,5 @@ Jelectric<end>
 //POINTER #234 @ $2CBD1C - STRING #234 @ $2CB20C
 
 #WRITE(GBA,$2CBD1C)
-Lithpwithp<end>
+Liftwhisp<end>
 

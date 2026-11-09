@@ -19,13 +19,13 @@
 <:func> <1> <1> <0><line>
 <:flagon> <1><5><7><0><5><line>
 <:se><line>
-<rname><diamond>Torito<line>
+<rname><diamond>Tweeto<line>
 Not bad. Looks like you've already<line>
 mastered the Super Sea Skater.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 I'll put it in the same places you've been<line>
 using the <textcolor_d>Sea Skater<textcolor_0> up til now.<line>
-<redname><diamond>Torito<line>
+<redname><diamond>Tweeto<line>
 Use it as much as you'd like.<line>
 <:func> <1><8> <1> <5><2><line>
 [<wait_time> <3><0>]<line>

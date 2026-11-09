@@ -36,14 +36,14 @@ get married!<line>
 Nobody'd marry ya at all like this! Help us,<line>
 Papa~!<line>
 <:c><line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 <:obj> <3> <4><line>
 Who're you callin' Papa, huh!?...I'm sure you<line>
 can see the situation, Starfy.<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 I don't mind my beard, but these two keep<line>
 screaming about theirs.<line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 So could ya find that Stache-ccine and<line>
 get rid of these mustaches?<line>
 <:c><line>
@@ -63,20 +63,20 @@ angelic face!<line>
 <redname><diamond>Lovelove<line>
 I can't show my face outside like this!!!<line>
 <:c><line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 ...There ya have it. Sorry, but could ya<line>
 find that Stache-ccine?<line>
 <:end><line>
 <wait>:<2><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Jawjiro<line>
+<rname><diamond>Jawbreaker<line>
 Alright, hand it over. Here you two, say<line>
 goodbye to those mustaches of yours.<line>
 <:c><line>
 <redname><diamond>Loverin<line>
 *gasp* It's a shot!? No, I hate pain!<line>
 <:c><line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Oh, don't give me that, you'll be fine! This'll<line>
 make sure that mustache comes off your<line>
 face.<line>
@@ -107,13 +107,13 @@ Ouchie...That hurt a lot...<line>
 <redname><diamond>Lovelove<line>
 But look! Our beauty has returned!<line>
 <:c><line>
-<redname><diamond>Jawjiro<line>
+<redname><diamond>Jawbreaker<line>
 Sorry for the trouble, Starfy. But thanks<line>
 to you, it's quiet again.<line>
 <:end><line>
 <wait>:<3><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Jawjiro<line>
+<rname><diamond>Jawbreaker<line>
 But, y'know, I didn't mind the beard at all...<line>
 <:c><line>
 <redname><diamond>Loverin<line>

@@ -16,7 +16,7 @@
 
 <:func> <2><2> <-><1><line>
 Have you met Old Man Mechani yet? He's<line>
-researching a vehicle called a <textcolor_d>Blimp<textcolor_0>!<line>
+researching a vehicle called a <textcolor_d>Balloon<textcolor_0>!<line>
 <:end><line>
 <end>
 

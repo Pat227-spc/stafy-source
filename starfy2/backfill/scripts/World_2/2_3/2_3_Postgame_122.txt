@@ -31,7 +31,7 @@ By the way, I believe I saw a treasure<line>
 chest up ahead.<line>
 <redname><diamond>Old Man Mechani<line>
 To celebrate the success of the Super<line>
-<textcolor_d>Blimp<textcolor_0>, you can take it with you.<line>
+<textcolor_d>Balloon<textcolor_0>, you can take it with you.<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <2> <2><line>

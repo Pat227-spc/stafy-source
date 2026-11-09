@@ -1,5 +1,5 @@
 //GAME NAME:		Densetsu no Starfy 2
-//Backfill override (tools/gen_overrides.py): upstream file + "collecting 5<pearl>pearls" -> "collecting 5 <pearl> pearls" (icon-adjacent spacing (test worker on-screen report))
+//Backfill override (tools/gen_overrides.py): upstream file + "collecting 5<pearl>pearls" -> "collecting 5 <pearl> pearls" (icon-adjacent spacing (on-screen test on-screen report))
 
 //BLOCK #000 NAME:		PreGame Intro
 //Block Range: $0 - $586

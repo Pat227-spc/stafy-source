@@ -15,7 +15,7 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-The new vehicle <textcolor_d>Torito<textcolor_0> has is the best! If<line>
+The new vehicle <textcolor_d>Tweeto<textcolor_0> has is the best! If<line>
 you don't have it yet, be sure to get it!<line>
 <:end><line>
 <end>

@@ -22,9 +22,9 @@
 <:se><line>
 <:obj> <2> <4><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Ah, My Prince! I have been waiting for you.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 In light of Ogura's return, I have come up<line>
 with a new technique for you.<line>
 <:c><line>
@@ -35,10 +35,10 @@ waitin' for, teach ol' Starfy the move<line>
 already!<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Well, the technique is very dangerous and<line>
 isn't very easy to teach...<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 So in order to see if you can safely learn<line>
 this technique, I have prepared a test to<line>
 measure your true power.<line>
@@ -49,7 +49,7 @@ measure your true power.<line>
 'test' of yours?<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 I shall open 3 doors within this room.<line>
 <:c><line>
 <wait><:func> <4><line>
@@ -66,10 +66,10 @@ I shall open 3 doors within this room.<line>
 <:func> <1><8> <1> <7><4><line>
 [<wait_time> <1><0>]<line>
 <:func> <1><1> <1><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Clear the 3 <textcolor_d>Vehicle<textcolor_0> Areas beyond those<line>
 doors, then come see me.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 I shall be waiting behind this door.<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
@@ -80,7 +80,7 @@ Well, you heard the guy, Starf'. Finish those<line>
 trials of his.<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 It is a very dangerous technique, so I wish<line>
 you luck, My Prince.<line>
 <:c><line>

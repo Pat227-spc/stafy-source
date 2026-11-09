@@ -257,7 +257,7 @@ I'm amazed at how quickly you found them.<line>
 <:obj> <5> <1><0> <0><line>
 <rname><diamond>Ruby<line>
 There are still 2 things missing.<line>
-I'm counting on you.
+I'm counting on you.<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
 <rname><diamond>Moe<line>

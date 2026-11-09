@@ -26,38 +26,38 @@ obvious?<line>
 <redname><diamond>Moe<line>
 I'm scoutin' the competition.<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 <:obj> <3> <4><line>
-Hirao, are you really going to enter that<line>
-Blimp Race? Please don't, it's too<line>
+Halo, are you really going to enter that<line>
+Balloon Race? Please don't, it's too<line>
 dangerous!<line>
 <:c><line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 <:obj> <2> <4><line>
 I'll be fine! After all, after I win the race,<line>
 I'll use the prize to make our honeymoon<line>
 even better!<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 <:obj> <3> <4><line>
 You're wonderful, darling!! Oh, and the door<line>
 just below here leads to the practice<line>
 corner.<line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 You're confident in your skill, but shouldn't<line>
 you still practice, just in case?<line>
 <:c><line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 <:obj> <2> <4><line>
 That's a great idea! Well then, I'll head over<line>
 to practice immediately!<line>
 <:c><line>
 <wait><:obj> <3> <4><line>
-<rname><diamond>Hirarin<line>
+<rname><diamond>Haley<line>
 Do your best, darling!<line>
 <:c><line>
 <wait><:obj> <2> <4><line>
-<rname><diamond>Hirao<line>
+<rname><diamond>Halo<line>
 Of course, honey! *Lovey-dovey*<line>
 *lovey-dovey*...<line>
 <:c><line>
@@ -84,7 +84,7 @@ Got it!? I don't care how ya do it, just make<line>
 sure you win!<line>
 <redname><diamond>Moe<line>
 What I'm sayin' is...Don't you DARE lose to<line>
-Hirao! Got it!?<line>
+Halo! Got it!?<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>

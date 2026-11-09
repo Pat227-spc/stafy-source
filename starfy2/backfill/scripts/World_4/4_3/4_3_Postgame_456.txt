@@ -19,19 +19,19 @@
 <:sd><line>
 <:flagon> <1><0><0><1><line>
 <:se><line>
-<rname><diamond>Hirarin<line>
+<rname><diamond>Haley<line>
 Starfy, why didn't you come to our<line>
 marriage ceremony?<line>
 <:c><line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 Hey now, don't say things like that. Starfy<line>
 has his fair share of troubles.<line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 As for me, even if the world went under, as<line>
 long as you're with me, everything'll turn<line>
 out ok!<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 Oh you~ <textcolor_d><heart><textcolor_0><line>
 <:c><line>
 <wait>*Lovey-dovey* *lovey-dovey*<line>
@@ -39,16 +39,16 @@ Oh you~ <textcolor_d><heart><textcolor_0><line>
 <:end><line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Hirarin<line>
+<rname><diamond>Haley<line>
 Loch Ress, where we went on our<line>
 honeymoon, was so beautiful, wasn't it,<line>
 darling?<line>
 <:c><line>
-<redname><diamond>Hirao<line>
+<redname><diamond>Halo<line>
 Sure, but you're even more beautiful than<line>
 Loch Ress, honey.<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 Oh you~ <textcolor_d><heart><textcolor_0><line>
 <:c><line>
 <wait>*Lovey-dovey* *lovey-dovey*<line>

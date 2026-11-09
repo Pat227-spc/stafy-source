@@ -22,7 +22,7 @@
 <:se><line>
 <rname><diamond>Moe<line>
 Huh... Guess what I found Starf'. It's a<line>
-letter from that '<textcolor_d>Torito<textcolor_0>' guy.<line>
+letter from that '<textcolor_d>Tweeto<textcolor_0>' guy.<line>
 <redname><diamond>Moe<line>
 'I moved to the Slippery Glacier. If you're<line>
 ever nearby, come visit!' it says.<line>
@@ -41,7 +41,7 @@ fine.<line>
 <:func> <6> <1> <1><line>
 <:se><line>
 <rname><diamond>Moe<line>
-I heard that <textcolor_d>Torito<textcolor_0> guy moved somewhere<line>
+I heard that <textcolor_d>Tweeto<textcolor_0> guy moved somewhere<line>
 around here! Maybe we oughta go say hi.<line>
 <:end><line>
 <end>

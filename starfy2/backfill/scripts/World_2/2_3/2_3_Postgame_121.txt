@@ -23,7 +23,7 @@
 <:flagon> <1><0><0><1><line>
 <rname><diamond>Old Man Mechani<line>
 Oh, Starfy! You're just in time! I just<line>
-completed a new kind of <textcolor_d>Blimp<textcolor_0>!<line>
+completed a new kind of <textcolor_d>Balloon<textcolor_0>!<line>
 <wait><:sd><line>
 <rname><diamond>Old Man Mechani<line>
 Of course, you want to test it out, right?<line>
@@ -36,7 +36,7 @@ Of course, you want to test it out, right?<line>
 <wait>:<3><0><line>
 <rname><diamond>Old Man Mechani<line>
 Wh-what...? So you don't want to ride the<line>
-Blimp...? I-I see...<line>
+Balloon...? I-I see...<line>
 <:c><line>
 <wait><:sd><line>
 <:func> <4><line>
@@ -76,8 +76,8 @@ Wh-wh-what!!! Stop messing with an old man!<line>
 <:func> <4><line>
 <:exit><line>
 <redname><diamond>Old Man Mechani<line>
-Hmm...Not only was the <textcolor_d>Blimp<textcolor_0> a success, but<line>
-the Super Blimp as well...<line>
+Hmm...Not only was the <textcolor_d>Balloon<textcolor_0> a<line>
+success, but the Super Balloon as well...<line>
 <redname><diamond>Old Man Mechani<line>
 My talent is truly terrifying...<line>
 <:end><line>
@@ -89,13 +89,13 @@ By the way, I believe I saw a treasure<line>
 chest up ahead.<line>
 <redname><diamond>Old Man Mechani<line>
 To celebrate the success of the Super<line>
-<textcolor_d>Blimp<textcolor_0>, you can take it with you.<line>
+<textcolor_d>Balloon<textcolor_0>, you can take it with you.<line>
 <:end><line>
 <wait>:<5><0><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Old Man Mechani<line>
-Hmm...Not only was the <textcolor_d>Blimp<textcolor_0> a success, but<line>
-the Super Blimp as well...<line>
+Hmm...Not only was the <textcolor_d>Balloon<textcolor_0> a<line>
+success, but the Super Balloon as well...<line>
 <redname><diamond>Old Man Mechani<line>
 My talent is truly terrifying...<line>
 <:end><line>

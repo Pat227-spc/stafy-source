@@ -169,7 +169,7 @@ Photos to Remember<end>
 //POINTER #27 @ $2D4E80 - STRING #27 @ $2D4CA0
 
 #WRITE(GBA,$2D4E80)
-Blimp<end>
+Balloon<end>
 
 
 //POINTER #28 @ $2D4E84 - STRING #28 @ $2D4CAC

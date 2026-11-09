@@ -9,7 +9,7 @@
 
 #WRITE(GBA,$2C6E90)
 Part 1 of the Pufftop Outfit.<line>
-Pufftop Soldiers usually<line>
+Pufftop Guard usually<line>
 wear this hat on duty.<line>
 <:end><line>
 <end>
@@ -36,7 +36,7 @@ get smarter... I think.<line>
 //POINTER #3 @ $2C6E9C - STRING #3 @ $63B608
 
 #WRITE(GBA,$2C6E9C)
-A Torito recommended<line>
+A Tweeto recommended<line>
 helmet that'll keep you safe<line>
 while riding the Sea Skater.<line>
 <:end><line>

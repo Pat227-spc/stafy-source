@@ -21,7 +21,7 @@
 <rname><diamond>Moe<line>
 Oh yeah, an old man named Mechani lives<line>
 near here. He's been doin' research on<line>
-<textcolor_d>Blimps<textcolor_0>.<line>
+<textcolor_d>Balloons<textcolor_0>.<line>
 <redname><diamond>Moe<line>
 Why don't ya go over and say hi?<line>
 <:c><line>

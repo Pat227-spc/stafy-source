@@ -157,7 +157,7 @@ you couldn't before.<line>
 //POINTER #0 @ $2C6258 - STRING #0 @ $6411A4
 
 #WRITE(GBA,$2C6258)
-Join the <textcolor_d>Blimp Race<textcolor_1><line>
+Join the <textcolor_d>Balloon Race<textcolor_1><line>
 and win the first place prize!<line>
 Sounds like it'll be well worth the effort!<line>
 <:end><line>
@@ -755,7 +755,7 @@ a hint if you get confused!<line>
 
 #WRITE(GBA,$2C66D0)
 <line>
-Let's go meet the <textcolor_d>Blimp<textcolor_1> researcher,<line>
+Let's go meet the <textcolor_d>Balloon<textcolor_1> researcher,<line>
 Old Man Mechani!<line>
 <:end><line>
 <end>
@@ -768,7 +768,7 @@ Old Man Mechani!<line>
 #WRITE(GBA,$2C66D8)
 <line>
 Let's help out Old Man Mechani<line>
-by trying out his Blimp!<line>
+by trying out his Balloon!<line>
 <:end><line>
 <end>
 
@@ -1017,7 +1017,7 @@ Chase after her and settle things!<line>
 #WRITE(GBA,$2C6898)
 Gather the <textcolor_d>4 fragments<textcolor_1> of<line>
 the destroyed statue and<line>
-bring them back to the Pufftop Soldier.<line>
+bring them back to the Pufftop Guard.<line>
 <:end><line>
 <end>
 
@@ -1029,7 +1029,7 @@ bring them back to the Pufftop Soldier.<line>
 #WRITE(GBA,$2C68B8)
 <line>
 Clear the <textcolor_d>three Ride trials<textcolor_1> and<line>
-meet back up with the Pufftop Soldier!<line>
+meet back up with the Pufftop Guard!<line>
 <:end><line>
 <end>
 

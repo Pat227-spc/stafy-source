@@ -18,35 +18,35 @@
 <:flagon> <8><2><0><8><line>
 <:obj> <2> <4><line>
 <:func> <2><2> <-><2><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Amazing, My Prince!<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 You have proved your strength by<line>
 overcoming those three trials.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 Meaning you can safely learn and use this<line>
 technique of mine.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 Without further ado, let us begin! I call it,<line>
 The '<textcolor_d>Shooting Star<textcolor_0>'!!!<line>
 <:flagon> <1><5><0><0><5><line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 You can perform this technique after an<line>
 <textcolor_d>Air Jump<textcolor_0>.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 You can destroy extremely hard blocks<line>
 with this technique.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 You can even use the <textcolor_d>Shooting Star<textcolor_0> to<line>
 bounce off enemies...<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 After bouncing off an enemy, you can<line>
 execute yet another Air Jump, and so<line>
 forth and so on.<line>
 <wait><:flagon> <8><2><1><0><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 I have made a <textcolor_d>sign<textcolor_0> in the next room...<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 Try all sorts of things while you practice. I<line>
 am sure it will come in handy...<line>
 <:end><line>
@@ -56,13 +56,13 @@ am sure it will come in handy...<line>
 <:se><line>
 <:obj> <2> <4><line>
 <:func> <2><2> <-><1><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Surely you saw plenty of shooting stars<line>
 on your way here?<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 They are actually the inspiration of the<line>
 Shooting Star technique.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 Oh, and one more thing. You can't use the<line>
 <textcolor_d>Shooting Star<textcolor_0> without Air Jumping first.<line>
 Well, take care, My Prince.<line>

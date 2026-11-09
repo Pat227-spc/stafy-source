@@ -23,7 +23,7 @@ Inside the treasure chest was...<line>
 a <textcolor_d>Warm Fur Coat<textcolor_1>!<line>
 <:c><line>
 [<y_pos> <1><8>]<line>
-<wait>I wonder how Torito the racer is doing?<line>
+<wait>I wonder how Tweeto the racer is doing?<line>
 Let's go pay him a visit.<line>
 <:c><line>
 <wait><:sd><line>

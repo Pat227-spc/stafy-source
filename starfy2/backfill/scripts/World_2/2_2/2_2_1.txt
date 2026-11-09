@@ -110,7 +110,7 @@ You're STILL wanderin' around here!?<line>
 <redname><diamond>Moe<line>
 Well, I get it. Who wouldn't wanna hang out<line>
 with someone as cool, awesome, dreamy and<line>
-kind as The Great Moe?<line>
+kind as the Great Moe?<line>
 <:end><line>
 <end>
 

@@ -1,3 +1,4 @@
+// SPEAKER: every comment in this file is Moe talking (2026-11-03). Use Moe's voice ("the Great Moe").
 //GAME NAME:		Densetsu no Starfy 2
 //Backfill override (tools/qa2_textfix.py): upstream file + QA round 2 typo fixes
 
@@ -223,7 +224,7 @@ Please... No more kisses...<end>
 
 #WRITE(GBA,$2D2A70)
 This is the brat<linealt>
-who made fun of me!<end>
+who made fun of the Great Moe!<end>
 
 
 //POINTER #31 @ $2D2A74 - STRING #31 @ $2CC460
@@ -772,7 +773,7 @@ What a coward!<end>
 #WRITE(GBA,$2D2B9C)
 If you're gonna fight someone,<linealt>
 use your fists!<linealt>
-Like yours truly!<end>
+Like the Great Moe!<end>
 
 
 //POINTER #106 @ $2D2BA0 - STRING #106 @ $2CD5F0
@@ -923,13 +924,13 @@ Congratulations!<end>
 #WRITE(GBA,$2D2BEC)
 But I gotta ask...<linealt>
 How the heck did this guy<linealt>
-pilot a Blimp?<end>
+pilot a Balloon?<end>
 
 
 //POINTER #126 @ $2D2BF0 - STRING #126 @ $2CDAA8
 
 #WRITE(GBA,$2D2BF0)
-*sigh* Hirarin, won't you tell me<linealt>
+*sigh* Haley, won't you tell me<linealt>
 what's so great about that<linealt>
 husband of yours?...<end>
 
@@ -1091,7 +1092,7 @@ to put these annoying guys away.<end>
 #WRITE(GBA,$2D2C44)
 I bet they wear that helmet<linealt>
 cause they don't look as good as<linealt>
-yours truly.<end>
+the Great Moe.<end>
 
 
 //POINTER #148 @ $2D2C48 - STRING #148 @ $2CE02C
@@ -1129,8 +1130,8 @@ runnin' low on pearls.<end>
 
 #WRITE(GBA,$2D2C58)
 This guy clearly doesn't know his<linealt>
-place, cause he started chasin'<linealt>
-me the second he saw me!<end>
+place. He started chasin' the<linealt>
+Great Moe the second he saw me!<end>
 
 
 //POINTER #153 @ $2D2C5C - STRING #153 @ $2CE160
@@ -1138,7 +1139,7 @@ me the second he saw me!<end>
 #WRITE(GBA,$2D2C5C)
 Apparently it's a cat,<linealt>
 but it looks way more<linealt>
-like a dog to me!<end>
+like a dog to the Great Moe!<end>
 
 
 //POINTER #154 @ $2D2C60 - STRING #154 @ $2CE194
@@ -1160,7 +1161,7 @@ Jack-in-the-box or something?<end>
 
 #WRITE(GBA,$2D2C68)
 Just when I thought I've had<linealt>
-enough of guys like Hirao,<linealt>
+enough of guys like Halo,<linealt>
 this guy shows up!<end>
 
 
@@ -1168,7 +1169,7 @@ this guy shows up!<end>
 
 #WRITE(GBA,$2D2C6C)
 How dare he act all lovey-dovey<linealt>
-in front of me!<angry><end>
+in front of the Great Moe!<angry><end>
 
 
 //POINTER #158 @ $2D2C70 - STRING #158 @ $2CE288
@@ -1369,7 +1370,7 @@ on your tail.<end>
 #WRITE(GBA,$2D2CD4)
 Heh, but I completely understand<linealt>
 why they'd follow someone as cool<linealt>
-as me around.<end>
+as the Great Moe around.<end>
 
 
 //POINTER #184 @ $2D2CD8 - STRING #184 @ $2CE908
@@ -1534,7 +1535,7 @@ puzzles in the "Indoor Cave".<end>
 
 #WRITE(GBA,$2D2D2C)
 Well, it was still a piece of cake<linealt>
-for someone like me though.<end>
+for the Great Moe, though.<end>
 
 
 //POINTER #206 @ $2D2D30 - STRING #206 @ $2CED40
@@ -1910,8 +1911,8 @@ She's like a cameraman!<end>
 
 #WRITE(GBA,$2D2DF4)
 If you took a bunch of pics of<linealt>
-yours truly and sold 'em, you'd<linealt>
-definitely sell out!<end>
+the Great Moe and sold 'em,<linealt>
+you'd definitely sell out!<end>
 
 
 //POINTER #256 @ $2D2DF8 - STRING #256 @ $2CF89C
@@ -1945,17 +1946,17 @@ of my exploits at school right now.<end>
 //POINTER #260 @ $2D2E08 - STRING #260 @ $2CF9A0
 
 #WRITE(GBA,$2D2E08)
-That reminds me...<linealt>
-The first time we've met this guy,<linealt>
-he didn't listen to me at all.<end>
+That reminds me... The first time<linealt>
+we met this guy, he didn't listen<linealt>
+to the Great Moe at all.<end>
 
 
 //POINTER #261 @ $2D2E0C - STRING #261 @ $2CF9F0
 
 #WRITE(GBA,$2D2E0C)
 And then he had the nerve to<linealt>
-attack me! He didn't listen to me<linealt>
-this time either!<end>
+attack me! He didn't listen to the<linealt>
+Great Moe this time either!<end>
 
 
 //POINTER #262 @ $2D2E10 - STRING #262 @ $2CFA38
@@ -2033,9 +2034,8 @@ would these guys need?...<end>
 //POINTER #272 @ $2D2E38 - STRING #272 @ $2CFC40
 
 #WRITE(GBA,$2D2E38)
-For a bug,
-it's actin' real cheeky flyin'<linealt>
-through the sky like that.<end>
+For a bug, it's actin' real cheeky<linealt>
+flyin' through the sky like that.<end>
 
 
 //POINTER #273 @ $2D2E3C - STRING #273 @ $2CFC70
@@ -2440,7 +2440,7 @@ That's disgusting...<end>
 
 #WRITE(GBA,$2D2F10)
 These huge, strong guys<linealt>
-are Jawjiro's underlings.<end>
+are Jawbreaker's underlings.<end>
 
 
 //POINTER #327 @ $2D2F14 - STRING #327 @ $2D08BC
@@ -2484,8 +2484,8 @@ to ask...<end>
 
 #WRITE(GBA,$2D2F28)
 He may look scary,<linealt>
-but he's been real helpful lettin' us<linealt>
-warp around.<end>
+but he's been real helpful<linealt>
+lettin' us warp around.<end>
 
 
 //POINTER #333 @ $2D2F2C - STRING #333 @ $2D0A30
@@ -2849,7 +2849,7 @@ Old Man Croak's distant relative.<end>
 
 #WRITE(GBA,$2D2FEC)
 Well when you're as strong as<linealt>
-yours truly, you don't need<linealt>
+the Great Moe, you don't need<linealt>
 kung-fu.<end>
 
 
@@ -2871,15 +2871,15 @@ bars in no time flat.<end>
 //POINTER #384 @ $2D2FF8 - STRING #384 @ $2D16B0
 
 #WRITE(GBA,$2D2FF8)
-You sayin' this guy looks like me!?<linealt>
-Get real!<end>
+You sayin' this guy looks like<linealt>
+the Great Moe!? Get real!<end>
 
 
 //POINTER #385 @ $2D2FFC - STRING #385 @ $2D16E4
 
 #WRITE(GBA,$2D2FFC)
-I'm ten-thousand times more<linealt>
-charming than him!<end>
+The Great Moe is ten-thousand<linealt>
+times more charming than him!<end>
 
 
 //POINTER #386 @ $2D3000 - STRING #386 @ $2D1720
@@ -2966,7 +2966,8 @@ if you get too close.<end>
 //POINTER #397 @ $2D302C - STRING #397 @ $2D19C0
 
 #WRITE(GBA,$2D302C)
-Do they like me that much<end>
+Do they like the Great Moe<linealt>
+that much?<end>
 
 
 //POINTER #398 @ $2D3030 - STRING #398 @ $2D19E0
@@ -3062,7 +3063,7 @@ to be that strong...<end>
 
 #WRITE(GBA,$2D3060)
 This thing'll fly super fast at you<linealt>
-when you ride the Blimp.<end>
+when you ride the Balloon.<end>
 
 
 //POINTER #411 @ $2D3064 - STRING #411 @ $2D1CDC
@@ -3092,7 +3093,7 @@ It'll forever be a mystery.<end>
 
 #WRITE(GBA,$2D3070)
 These guys come outta nowhere<linealt>
-and fly towards the Blimp.<end>
+and fly towards the Balloon.<end>
 
 
 //POINTER #415 @ $2D3074 - STRING #415 @ $2D1DC4
@@ -3121,7 +3122,7 @@ Looks kinda tasty...<end>
 #WRITE(GBA,$2D3080)
 This thing lights itself on fire,<linealt>
 then charges straight<linealt>
-for the blimp.<end>
+for the balloon.<end>
 
 
 //POINTER #419 @ $2D3084 - STRING #419 @ $2D1E90
@@ -3137,7 +3138,7 @@ Did ya learn something new?<end>
 #WRITE(GBA,$2D3088)
 This see-through guy'll appear<linealt>
 from outta the blue and float<linealt>
-towards the Blimp.<end>
+towards the Balloon.<end>
 
 
 //POINTER #421 @ $2D308C - STRING #421 @ $2D1F0C

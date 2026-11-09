@@ -15,11 +15,11 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-<rname><diamond>Hirarin<line>
+<rname><diamond>Haley<line>
 Oh, if it isn't Starfy. You're also entering<line>
 this race? I'm sorry to say that you're out<line>
 of luck.<line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 Why? Well because no one's beating my<line>
 darling, of course!<line>
 <:end><line>

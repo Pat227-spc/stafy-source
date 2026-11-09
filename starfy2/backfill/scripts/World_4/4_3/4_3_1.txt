@@ -29,20 +29,20 @@ tomorrow!!!<line>
 <:c><line>
 <redname><diamond>Savako<line>
 <:obj> <2> <4><line>
-Please come down to the First <textcolor_d>Blimp<textcolor_0> Race~<line>
-Everyone's welcome to join and it's already<line>
-underway~!<line>
+Please come down to the First<line>
+<textcolor_d>Balloon<textcolor_0> Race~ Everyone's welcome to join<line>
+and it's already underway~!<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
-Blimp Race...? The heck is that- Wait no...<line>
+Balloon Race...? The heck is that- Wait no...<line>
 Excuse me, fair lady, what are you<line>
 referring to?<line>
 <:c><line>
 <redname><diamond>Savako<line>
 <:obj> <2> <4><line>
 What, you haven't heard of a race~? The<line>
-fastest Blimp wins you know~.<line>
+fastest Balloon wins you know~.<line>
 <redname><diamond>Savako<line>
 I've got a part-time job as, like, the race<line>
 queen~? I'm <textcolor_d>Savako<textcolor_0>~.<line>
@@ -81,7 +81,7 @@ GAHAAAAH!!!<line>
 [<wait_time> <6><0>]<line>
 <:c><line>
 <redname><diamond>Moe<line>
-Blimp Race huh...? Heh heh heh...<line>
+Balloon Race huh...? Heh heh heh...<line>
 <redname><diamond>Moe<line>
 You're joinin' that race, Starf'! Maybe you'll<line>
 get somethin' good for winning.<line>

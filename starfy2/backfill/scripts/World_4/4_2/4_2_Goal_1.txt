@@ -23,7 +23,7 @@ Inside the treasure chest was...<line>
 some <textcolor_d>Sunglasses<textcolor_1>!<line>
 <:c><line>
 <wait>Have you mastered steering Old Man<line>
-Mechani's Blimp? It's the key to the next<line>
+Mechani's Balloon? It's the key to the next<line>
 stage!<line>
 <:c><line>
 <wait><:sd><line>

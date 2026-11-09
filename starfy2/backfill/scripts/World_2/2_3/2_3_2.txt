@@ -28,7 +28,7 @@
 Looks like you've gotten the hang of it<line>
 completely!<line>
 <redname><diamond>Old Man Mechani<line>
-I'll leave <textcolor_d>Blimps<textcolor_0> here and there, so feel<line>
+I'll leave <textcolor_d>Balloons<textcolor_0> here and there, so feel<line>
 free to use them!<line>
 <:c><line>
 <wait><:obj> <1> <4><line>
@@ -90,7 +90,7 @@ from down below, I'm pretty sure there's a<line>
 shortcut.<line>
 <redname><diamond>Moe<line>
 But be careful, ya can't go through doors<line>
-with that giant Blimp strapped to your<line>
+with that giant Balloon strapped to your<line>
 back.<line>
 <end>
 

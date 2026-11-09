@@ -20,7 +20,7 @@
 <:se><line>
 [<y_pos> <1><8>]<line>
 Inside the treasure chest was...<line>
-the <textcolor_d>Blimp<textcolor_1> sheet music!<line>
+the <textcolor_d>Balloon<textcolor_1> sheet music!<line>
 <:c><line>
 [<y_pos> <1><8>]<line>
 <wait>Listen to it on the <textcolor_d>Sea Jams<textcolor_1> screen in<line>

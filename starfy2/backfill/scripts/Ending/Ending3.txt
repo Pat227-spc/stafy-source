@@ -67,7 +67,7 @@ It all deserves our utmost praise!<line>
 Now, let us have a grand celebration!<line>
 <:func> <4><line>
 <:c><line>
-<redname><diamond>Pufftop Soldiers<line>
+<redname><diamond>Pufftop Guard<line>
 HOORAAAAAAAAAAAAAAAAAAY!!!<line>
 <:func> <4><line>
 <:c><line>

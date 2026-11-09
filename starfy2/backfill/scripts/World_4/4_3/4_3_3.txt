@@ -28,10 +28,10 @@ without you!<line>
 <:c><line>
 <redname><diamond>Savako<line>
 <:obj> <3> <4><line>
-We have a new world record~! Hirao<line>
+We have a new world record~! Halo<line>
 finishes in 60 seconds~!<line>
 <:c><line>
-<redname><diamond>Hirarin<line>
+<redname><diamond>Haley<line>
 <:obj> <4> <4><line>
 Ahhh! Darling, you were amazing!!!<line>
 <:c><line>
@@ -52,10 +52,10 @@ enter through the door on the left~.<line>
 <:c><line>
 <redname><diamond>Moe<line>
 <:obj> <1> <4><line>
-You ready, Starf'? You gotta beat Hirao's<line>
+You ready, Starf'? You gotta beat Halo's<line>
 60 second time to win!<line>
 <redname><diamond>Moe<line>
-If ya lose to Hirao, I'll clobber ya, so keep<line>
+If ya lose to Halo, I'll clobber ya, so keep<line>
 that in mind!<line>
 <:c><line>
 <wait><:sd><line>
@@ -73,7 +73,7 @@ that in mind!<line>
 <wait>:<1><line>
 <:func> <2><2> <-><1><line>
 <rname><diamond>Moe<line>
-You ready, Starf'? You gotta beat Hirao's<line>
+You ready, Starf'? You gotta beat Halo's<line>
 60 second time to win!<line>
 <redname><diamond>Moe<line>
 Do your best for the sake of me and<line>

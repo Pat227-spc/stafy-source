@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """Prepare upstream asm/graphics.asm for merging into the main build (scratch copy only).
-usage: gfx_prep.py TREE GFX_BASE
+usage: gfx_prep.py TREE GFX_BASE [AREA]   (AREA default 0x200000; the 16 MiB build uses 0x80000)
 - writes TREE/asm/graphics_merged.asm: .open rom/output.gba (not outputGFX.gba), the 0x09000000 block moved to
   GFX_BASE (0x09000000 is where Atlas puts the uncompressed text), incbin paths case-resolved and quoted.
 - checks for overlapping writes between VWF.asm, script.asm and the merged graphics (exit 1 on overlap)."""
 import sys, os, re
-tree, base = sys.argv[1], int(sys.argv[2], 16)
+tree, base = sys.argv[1], int(sys.argv[2], 16); area = int(sys.argv[3], 16) if len(sys.argv) > 3 else 0x200000
 def ci(rel):
     cur = tree
     for p in rel.replace('\\', '/').split('/'):
@@ -17,7 +17,7 @@ def ci(rel):
     return os.path.relpath(cur, tree)
 src = open(os.path.join(tree, 'asm/graphics.asm'), encoding='latin-1').read()
 src = src.replace('"rom/outputGFX.gba"', '"rom/output.gba"')
-src = re.sub(r'(?im)^\.org 0x09000000\s*\n\.area 0x09000004', '.org 0x%08X\n.area 0x00200000' % base, src)
+src = re.sub(r'(?im)^\.org 0x09000000\s*\n\.area 0x09000004', '.org 0x%08X\n.area 0x%08X' % (base, area), src)
 missing = []
 def fix(m):
     p = ci(m.group(2).strip('"'))

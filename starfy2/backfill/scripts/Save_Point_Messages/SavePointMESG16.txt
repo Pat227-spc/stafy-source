@@ -15,7 +15,7 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-The <textcolor_d>Blimp Race<textcolor_0> is on! Winning first place<line>
+The <textcolor_d>Balloon Race<textcolor_0> is on! Winning first place<line>
 would be so cool!<line>
 <:end><line>
 <end>

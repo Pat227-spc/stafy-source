@@ -59,12 +59,12 @@ Lantata~ Lantata~<line>
 <:func> <4><line>
 <:c><line>
 <wait><:func> <0> <4><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 Waaaaaah! The King's glorious statueeeee!!!<line>
 [<wait_time> <1><8><0>]<line>
 <:func> <4><line>
 <wait><:func> <0> <6><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 What'll I do... What'll I do...<line>
 [<wait_time> <1><8><0>]<line>
 <:sd><line>

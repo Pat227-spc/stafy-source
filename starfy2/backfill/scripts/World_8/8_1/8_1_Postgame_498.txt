@@ -15,16 +15,16 @@
 #JMP(000000)
 
 <:func> <2><2> <-><1><line>
-<rname><diamond>Pufftop Soldier<line>
+<rname><diamond>Pufftop Guard<line>
 My Prince! Are you filling out the <textcolor_d>Picture<line>
 Book<textcolor_0>?<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 I hear some new stages only appear once<line>
 you've filled in lots of entries...<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 ...and you'll need those to find every<line>
 treasure, too.<line>
-<redname><diamond>Pufftop Soldier<line>
+<redname><diamond>Pufftop Guard<line>
 I wish you the best of luck in collecting<line>
 entries, My Prince!<line>
 <:end><line>

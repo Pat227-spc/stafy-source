@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Generate overlay/asm/bin/graphics/minigamemenu/1minigamemenuOBJ.bin: upstream's minigame-menu OBJ sheet with the
 temp title 'FureFureBomber' (tile rows 6-7, 4bpp, 32 tiles/row) redrawn as 'Bomb Shower' (backfill/glossary.csv).
-Letters B o m b e r are upstream's own pixels from 'FureFureBomber', h from 'Chu-Chu'; S and w are hand-drawn in the same
+Letters B o m b e r are upstream's own pixels from 'FureFureBomber', h from upstream's 'Chu-Chu' title (since 2026-11-02 redrawn as 'Squeak Squeak Panic' by minigame_titles.py); S and w are hand-drawn in the same
 2 px stroke style. The outline (colour 2) is regenerated as a radius-2 square dilation of the white (colour 1) mask; this
 reproduces upstream's outline of 'FureFureBomber' to within 2 pixels. Brackets 「 」 are kept as upstream drew them."""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import lz10
 HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..')
-SRC = os.path.join(HERE, 'repo/asm/bin/graphics/minigamemenu/1minigamemenuOBJ.bin')
+SRC = os.path.join(HERE, 'upstream/asm/bin/graphics/minigamemenu/1minigamemenuOBJ.bin')
 DST = os.path.join(HERE, 'overlay/asm/bin/graphics/minigamemenu/1minigamemenuOBJ.bin')
 raw = bytearray(lz10.decompress(open(SRC, 'rb').read()))
 def rowpix(r0):
