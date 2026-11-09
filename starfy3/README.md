@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy 3 (Japan) (Rev 1), clean, 16 MiB - CRC32 `2D6E4C3B`, SHA1 `dae5354bfe4ccafc92d22b1389265dbf1f79b636`
 
-Expected result: CRC32 `852F70EE`, SHA1 `032baf37cce5779178548ed06e2f1214bf24d0f9` (v1.0.5 test build, 2026-11-09; the v1.0.4 release stage is CRC32 `4F31E799`). No ROMs are included.
+Expected result: CRC32 `D9906201`, SHA1 `57da9abd33423a9d7b5f270369210d5b0ed8897d` (v1.0.5 test build xh, 2026-11-09; includes Snarley + 15 Great Moe Tier A lines on top of the xg names pass). No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)

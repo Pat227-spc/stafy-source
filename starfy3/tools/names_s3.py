@@ -3,7 +3,8 @@ Runs on the v1.0.4 ROM (CRC32 4F31E799, the output of build_s3.py --v104) and wr
 usage: names_s3.py IN.gba OUT.gba [--log names.tsv]
 - Renames are word-bounded, in dialogue text, Picture Book / item files (fullwidth or ASCII-byte style) and in speaker
   name tags (tag length byte rebuilt; tagfix() from build_s3 keeps the name-plate redraw working).
-- Moe's "yours truly" (JP オレさま, checked per line) becomes "the Great Moe" (decision 2026-11-03).
+- Moe's "yours truly" / selected オレさま lines become "the Great Moe" (decisions 2026-11-03 and 2026-11-09).
+- Hirara becomes Snarley (decision 2026-11-09).
 - Changed BMG files are rebuilt with build_append (original DAT1 bytes kept, edited messages appended), placed in
   free space from FREE and both message-table entries repointed. The JP dev test file (slot 13) is not touched."""
 import sys,os,re,struct,zlib
@@ -20,7 +21,7 @@ NAMES=[
  # series names decided 2026-11-03 and official TLS (The Legendary Starfy, DS) names
  ('Pufftop Soldiers','Pufftop Guards'),('Pufftop Soldier','Pufftop Guard'),   # テンカイヘイシ (TLS)
  ('Jellato Siblings','Jellato Sisters'),                                   # クリオレたち (TLS)
- ('Jawjiro','Jawbreaker'),('Hirao','Halo'),('Hirarin','Haley'),('Torito','Tweeto'),('Coelagramps','Papacool'),
+ ('Jawjiro','Jawbreaker'),('Hirao','Halo'),('Hirarin','Haley'),('Hirara','Snarley'),('Torito','Tweeto'),('Coelagramps','Papacool'),
  ('Resturtle','Chubturtle'),('Gain','CLANGshell'),('Buu','Flappy Oink'),('Modoki','Mockturtle'),('Rarity','Rarescale'),
  ('Gufu','Druul'),('Tobeifish','Jetsetfish'),('Eelastic','Serprise'),('Bogyo','Jumpyre'),('Hirapa','Mophead'),
  ('Sharmin','Skullshark'),('Blade','Wakazashi'),('Samett','Sharkapult'),('Jiappo','Liftwhisp'),('Ridox','Dumbark'),
@@ -33,7 +34,27 @@ NAMES=[
 MOE={(0xF44BF8,5):[("as cool/and dependable as yours truly","as cool/and dependable as the Great Moe")],
      (0xFD11A0,4):[("as cool as/yours truly!","as cool as/the Great Moe!")],
      (0xFD11A0,49):[("then yours truly'll","then the Great Moe'll")],
-     (0xFDC9E0,322):[("Like yours truly!","Like the Great Moe!")]}
+     (0xFDC9E0,322):[("Like yours truly!","Like the Great Moe!")],
+     # Tier A (decision 2026-11-09): 15 more オレさま lines -> the Great Moe
+     (0xFC6C80,21):[("Yours truly is on drums!","The Great Moe's on drums!")],
+     (0xFDC9E0,407):[("They have fine and cute eyes for/sure. Not as pretty as your's/truly's eyes, though!",
+                      "They have pretty cute eyes, I'll/give 'em that. Not as cute as/the Great Moe's, though!")],
+     (0xF003B8,1):[("That's my, the cool and reliable Moe's,/job!","That's a job for the cool and reliable/Great Moe!")],
+     (0xF003B8,22):[("Looks like you/want me to clobber you again!","Looks like you want/the Great Moe to clobber you again!")],
+     (0xF003B8,30):[("You're lucky I rushed down here/to save you...","You're lucky the Great Moe/rushed down here to save you...")],
+     (0xF54E78,24):[("Those two really can't do a/thing without me!","Those two really can't/do a thing without the Great Moe!")],
+     (0xFDC9E0,313):[("Ya wanna be like me?/Don't think so!","Ya wanna be like the Great Moe?/Don't think so!")],
+     (0xFDC9E0,329):[("But I'm certain that my own/shell is far superior!","But the Great Moe's shell/is way cooler, obviously!")],
+     (0xFDC9E0,349):[("He's all cool and stern./Not as cool as me, of course!","He's all cool and stern./Not as cool as the Great Moe,/of course!")],
+     (0xFDC9E0,355):[("It's an interesting strategy,/but it's not really my style, if/ya catch my drift.",
+                      "Not that it matters. They're/still no match for the/Great Moe!")],
+     (0xFDC9E0,379):[("By the way, aren't I a cool clam?/Ya know that, right?","By the way, the Great Moe is/one cool clam. Ya knew that,/right?")],
+     (0xFDC9E0,458):[("But he sure doesn't have the looks!/I'm handsome, but he's ugly,/right?",
+                      "But he sure doesn't have the looks!/The Great Moe is handsome. This/guy? Ugly!")],
+     (0xFDC9E0,473):[("They should learn from me about/bein' reliable!","They oughta learn a thing or/two from the Great Moe!")],
+     (0xFDC9E0,485):[("Good thing I stepped in to save/the day! Starfy couldn't've/beaten it without my help!",
+                      "Good thing the Great Moe/stepped in! Starfy couldn't've/beaten it without me!")],
+     (0xFDC9E0,517):[("It'll take more than that to/scare me!","It'll take more than that to/scare the Great Moe!")]}
 def tokens(run):
     """split a text run into characters (1 or 2 bytes); norm = one char per token: Latin letters (fullwidth or
     ASCII) as ASCII, the three separators (ASCII space, fullwidth space, newline) as ' ', anything else as '#'"""
