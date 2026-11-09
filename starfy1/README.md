@@ -1,4 +1,4 @@
-# Starfy 1 Eng v1.0.4 (test) - source
+# Starfy 1 Eng v1.0.4 - source
 
 Cleanup patch for the Starfy Translation Team v1.1 translation of Densetsu no Stafy (GBA): typo fixes, re-wrapped overflowing lines, leftover Japanese translated,
 consistency renames. The builder is a Python script that edits the English base ROM's text in place or relocates edited
@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy (Japan), clean, 8 MiB - CRC32 `FAE94C8B`, SHA1 `75f6297f42c41e2a6d108de9a372308ad2df6a9c`
 
-Expected result: CRC32 `A78A3D9C`, SHA1 `9c15719d20c06722679170cbd46c05b074add576` (v1.0.4 test build, 2026-11-09; the v1.0.3 release stage is CRC32 `44C2017A`). No ROMs are included.
+Expected result: CRC32 `A78A3D9C`, SHA1 `9c15719d20c06722679170cbd46c05b074add576` (v1.0.4: the cross-game names pass and "the Great Moe"; the v1.0.3 release stage is CRC32 `44C2017A`). No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)

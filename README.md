@@ -39,22 +39,25 @@ An in-game translator credits page is planned for a future update.
 Please don't just take our word for it. These are the hashes to check against (also in SHA1SUMS.txt):
 
 ```
-Starfy 1 Eng v1.0.3
+Starfy 1 Eng v1.0.4
   Base:  Densetsu no Stafy (Japan)   CRC32 FAE94C8B  SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c
   Alt base: STT v1.1 English ROM     CRC32 F7CB8EE3  SHA1 79c4f1847dace4efceecff0a211cf341ad372808
-  Result:                            CRC32 44C2017A  SHA1 1c7ad3cd80e1ba146c88a315d22f6fb6bc17edfd
-  Patch SHA1: Starfy 1 Eng v1.0.3.bps                   1c91ee398cc4de3fced52857f37fdf03d0321b02
-              Starfy 1 Eng v1.0.3 (STT v1.1 base).bps   2d4d9f12b9e14218d762e02f1e20e70dfb5bf161
-Starfy 2 Eng v0.9.8
+  Result:                            CRC32 A78A3D9C  SHA1 9c15719d20c06722679170cbd46c05b074add576
+  Patch SHA1: Starfy.1.Eng.v1.0.4.bps                   3ed5334d3952ef700de43a23f1b3f9c1f571aae9
+              Starfy.1.Eng.v1.0.4.STT.v1.1.base.bps     f7788a3c7cdeca007cd29a71d46888f8b1bd31d9
+Starfy 2 Eng v0.9.9
   Base:  Densetsu no Stafy 2 (Japan) CRC32 EA73EB54  SHA1 8322867cc4369307048deb20a8bb16c3dd0910df
-  Result (32 MiB):                   CRC32 8C2D9266  SHA1 bd28fcd15cd7aebf9fb22cd77964e05d65a57d3d
-  Patch SHA1: Starfy 2 Eng v0.9.8.bps                   1ed3784568471f83d406a24f06aada6b76e96764
-Starfy 3 Eng v1.0.4
+  Result (32 MiB):                   CRC32 4F018FF0  SHA1 3f6bb3a001070e184d82736ac88cbd448dd095ca
+  Patch SHA1: Starfy.2.Eng.v0.9.9.bps                   6d24a1c863a5a5c4ec02bc74dee6ef64b6f63330
+  16 MiB test build (--rom16, Supercard):
+  Result (16 MiB):                   CRC32 2535B598  SHA1 c5b2cd3a6e8b9ac3ee30e90cfbfad790522fe796
+  Patch SHA1: Starfy.2.Eng.v0.9.9.16MB.TEST.bps         fb7627cb7b090efb29115f795c3f74736cb14d14
+Starfy 3 Eng v1.0.5
   Base:  Densetsu no Stafy 3 (Japan) (Rev 1)  CRC32 2D6E4C3B  SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636
   Alt base: Dimedime v1.0 English ROM         CRC32 850B4137  SHA1 179920be4a0ae5ed60137103deca4a760811517b
-  Result:                                     CRC32 4F31E799  SHA1 3d46521999d1bfea130b476a877013863b02b1c5
-  Patch SHA1: Starfy 3 Eng v1.0.4.bps                   59036c1955c57fb78e72fff27fdf7fe4d7d89c69
-              Starfy 3 Eng v1.0.4 (Dimedime v1.0 base).bps   7f20979a9cfa581cd0348c359f5ab813acb951ac
+  Result:                                     CRC32 7D5EC993  SHA1 9fc07309de116572191518b1c791607497c0cab6
+  Patch SHA1: Starfy.3.Eng.v1.0.5.bps                   d60f87f7c1ab0258fd72d5733c43cf15a43f8002
+              Starfy.3.Eng.v1.0.5.Dimedime.v1.0.base.bps   805a4c58eb4553d668b11936118e507ed314c339
 ```
 
 To check a file: `sha1sum <file>` (Linux/macOS) or `certutil -hashfile <file> SHA1` (Windows).
@@ -96,9 +99,9 @@ Everyone who built a tool we used:
 
 | folder | release | base ROM to supply | result CRC32 |
 |---|---|---|---|
-| `starfy1/` | Starfy 1 Eng v1.0.3 | Starfy Translation Team v1.1 English ROM, CRC32 F7CB8EE3 (SHA1 79c4f1847dace4efceecff0a211cf341ad372808); optional clean Densetsu no Stafy (Japan), CRC32 FAE94C8B (SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c) | 44C2017A |
-| `starfy2/` | Starfy 2 Eng v0.9.8 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | 8C2D9266 |
-| `starfy3/` | Starfy 3 Eng v1.0.4 | Dimedime v1.0 English ROM, CRC32 850B4137 (SHA1 179920be4a0ae5ed60137103deca4a760811517b); optional clean Densetsu no Stafy 3 (Japan) (Rev 1), CRC32 2D6E4C3B (SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636) | 4F31E799 |
+| `starfy1/` | Starfy 1 Eng v1.0.4 | Starfy Translation Team v1.1 English ROM, CRC32 F7CB8EE3 (SHA1 79c4f1847dace4efceecff0a211cf341ad372808); optional clean Densetsu no Stafy (Japan), CRC32 FAE94C8B (SHA1 75f6297f42c41e2a6d108de9a372308ad2df6a9c) | A78A3D9C |
+| `starfy2/` | Starfy 2 Eng v0.9.9 | Densetsu no Stafy 2 (Japan), CRC32 EA73EB54 (SHA1 8322867cc4369307048deb20a8bb16c3dd0910df) | 4F018FF0 (16 MiB `--rom16` build: 2535B598) |
+| `starfy3/` | Starfy 3 Eng v1.0.5 | Dimedime v1.0 English ROM, CRC32 850B4137 (SHA1 179920be4a0ae5ed60137103deca4a760811517b); optional clean Densetsu no Stafy 3 (Japan) (Rev 1), CRC32 2D6E4C3B (SHA1 dae5354bfe4ccafc92d22b1389265dbf1f79b636) | 7D5EC993 |
 
 ## Tools
 - Starfy 1 / 3: Python 3 and flips (bundled Linux build).

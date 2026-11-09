@@ -19,8 +19,8 @@ C=$(crc "out/v104.gba"); echo "v1.0.4 stage: CRC32 $C (expected 4F31E799)"
 [[ $C == 4F31E799 ]] || { echo "v1.0.4 stage differs from the release; names_s3.py needs the exact v1.0.4 ROM" >&2; exit 1; }
 "$PY" tools/names_s3.py "out/v104.gba" "out/Starfy 3 Eng v1.0.5.gba" --log out/names.tsv >> out/build.log
 rm -f out/v104.gba
-C=$(crc "out/Starfy 3 Eng v1.0.5.gba"); echo "patched ROM: out/Starfy 3 Eng v1.0.5.gba CRC32 $C (expected 7D5EC993 (xj))"
-[[ $C == FDFE99CA ]] || echo "NOTE: CRC differs from the test build (expected if you edited the text)"
+C=$(crc "out/Starfy 3 Eng v1.0.5.gba"); echo "patched ROM: out/Starfy 3 Eng v1.0.5.gba CRC32 $C (expected 7D5EC993)"
+[[ $C == 7D5EC993 ]] || echo "NOTE: CRC differs from the release (expected if you edited the text)"
 rm -f "out/Starfy 3 Eng v1.0.5 (alt base).bps" "out/Starfy 3 Eng v1.0.5.bps"
 "$FLIPS" --create --bps-delta "$ALT" "out/Starfy 3 Eng v1.0.5.gba" "out/Starfy 3 Eng v1.0.5 (alt base).bps"
 if [[ -f "$JP" ]]; then

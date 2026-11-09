@@ -20,7 +20,7 @@ C=$(crc "out/v103.gba"); echo "v1.0.3 stage: CRC32 $C (expected 44C2017A)"
 "$PY" tools/names_s1.py "out/v103.gba" "out/Starfy 1 Eng v1.0.4.gba" --log out/names.tsv >> out/build.log
 rm -f out/v103.gba
 C=$(crc "out/Starfy 1 Eng v1.0.4.gba"); echo "patched ROM: out/Starfy 1 Eng v1.0.4.gba CRC32 $C (expected A78A3D9C)"
-[[ $C == A78A3D9C ]] || echo "NOTE: CRC differs from the test build (expected if you edited the text)"
+[[ $C == A78A3D9C ]] || echo "NOTE: CRC differs from the release (expected if you edited the text)"
 rm -f "out/Starfy 1 Eng v1.0.4 (alt base).bps" "out/Starfy 1 Eng v1.0.4.bps"
 "$FLIPS" --create --bps-delta "$ALT" "out/Starfy 1 Eng v1.0.4.gba" "out/Starfy 1 Eng v1.0.4 (alt base).bps"
 if [[ -f "$JP" ]]; then

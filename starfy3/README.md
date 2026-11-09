@@ -1,4 +1,4 @@
-# Starfy 3 Eng v1.0.5 (test) - source
+# Starfy 3 Eng v1.0.5 - source
 
 Cleanup patch for Dimedime's v1.0 translation of Densetsu no Stafy 3 (GBA): typo fixes, re-wrapped overflowing lines, leftover Japanese translated,
 consistency renames. The builder is a Python script that edits the English base ROM's text in place or relocates edited
@@ -11,7 +11,7 @@ Place your base ROM at `base/alt_base.gba`:
 Optional, to also make the primary patch for the clean Japanese ROM, place it at `base/jp_base.gba`:
 - Densetsu no Stafy 3 (Japan) (Rev 1), clean, 16 MiB - CRC32 `2D6E4C3B`, SHA1 `dae5354bfe4ccafc92d22b1389265dbf1f79b636`
 
-Expected result: CRC32 `FDFE99CA`, SHA1 `8f22b9bfbbb1b82a6f6d09eaf5715a692589dfc6` (v1.0.5 test build xi, 2026-11-09; xh (Snarley + 15 Great Moe Tier A lines on top of the xg names pass) plus the last 149 Japanese lines in file 0xF68898 translated and the cross-game names applied to its costume descriptions). No ROMs are included.
+Expected result: CRC32 `7D5EC993`, SHA1 `9fc07309de116572191518b1c791607497c0cab6` (v1.0.5: the cross-game names pass, Snarley, 15 more "the Great Moe" lines, the last 149 Japanese lines in file 0xF68898 translated, and the costume #82 typo fix; the v1.0.4 release stage is CRC32 `4F31E799`). No ROMs are included.
 
 ## Tools
 - Python 3 (tested 3.13; standard library only)
