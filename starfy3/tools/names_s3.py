@@ -60,7 +60,10 @@ MOE={(0xF44BF8,5):[("as cool/and dependable as yours truly","as cool/and dependa
      (0xFDC9E0,517):[("It'll take more than that to/scare me!","It'll take more than that to/scare the Great Moe!")]}
 # raw-byte rewraps after a rename made a line longer (ASCII-byte costume text in F68898)
 REWRAP={(0xF68898,63):(b"Oden made by Jawbreaker\nhimself. \x81\x99 It's really\ndelicious!",
-                       b"Oden made by\nJawbreaker himself. \x81\x99\nIt's really delicious!")}
+                       b"Oden made by\nJawbreaker himself. \x81\x99\nIt's really delicious!"),
+        # Dimedime typo in costume #82: JP トリートに もらった = "received from / given by" Tweeto (not つくった/made)
+        (0xF68898,82):(b"This cowboy hat\nwas give by Tweeto.",
+                       b"This cowboy hat\nwas given by Tweeto.")}
 def tokens(run):
     """split a text run into characters (1 or 2 bytes); norm = one char per token: Latin letters (fullwidth or
     ASCII) as ASCII, the three separators (ASCII space, fullwidth space, newline) as ' ', anything else as '#'"""
